@@ -127,7 +127,7 @@ def load_topics() -> list[dict]:
                 "title": meta.get("title") or d.name,
                 "subtitle": meta.get("subtitle") or "",
                 "level": meta.get("level") or "",
-                "href": quote(d.name) + "/",
+                "href": "study/" + quote(d.name) + "/",
                 "counts": {
                     "vocab": len(data.get("vocab") or []),
                     "phrases": len(data.get("phrases") or []),
