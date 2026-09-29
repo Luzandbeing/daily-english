@@ -1,0 +1,1143 @@
+{
+ "source": {
+  "path": "2026.09.21 - 化石牙齿研究：霸王龙是温血动物.pdf",
+  "name": "2026.09.21 - 化石牙齿研究：霸王龙是温血动物.pdf",
+  "stem": "2026.09.21 - 化石牙齿研究：霸王龙是温血动物",
+  "pages": 8
+ },
+ "stats": {
+  "pages": 8,
+  "items": 187,
+  "englishWords": 1609,
+  "itemsWithChinese": 186,
+  "bilingual": true,
+  "extractedAt": "2026-09-29T22:20:59+0800",
+  "extractor": "extract_pdf.py (PyMuPDF)",
+  "seconds": 0.38
+ },
+ "warnings": [],
+ "items": [
+  {
+   "n": 1,
+   "page": 1,
+   "en": "Hello, everybody.",
+   "zh": "大家好"
+  },
+  {
+   "n": 2,
+   "page": 1,
+   "en": "I'm Allison Chinchar in for Koi Wire, and you're watching CNN 10.",
+   "zh": "我是艾莉森·钦查尔，代班主持科伊·怀尔的节目，您正在收看CNN 10"
+  },
+  {
+   "n": 3,
+   "page": 1,
+   "en": "Now, today is Monday, September 21st.",
+   "zh": "今天是9月21日，星期一"
+  },
+  {
+   "n": 4,
+   "page": 1,
+   "en": "Let's get to your news.",
+   "zh": "我们来看看今天的新闻"
+  },
+  {
+   "n": 5,
+   "page": 1,
+   "en": "We begin in South Africa, where officials are trying to address a problem",
+   "zh": "我们从南非开始，当地官员试图解决一个问题，"
+  },
+  {
+   "n": 6,
+   "page": 1,
+   "en": "at the intersection of public safety and nature conservation.",
+   "zh": "这个问题涉及公共安全与自然保护的交叉点"
+  },
+  {
+   "n": 7,
+   "page": 1,
+   "en": "Troops of baboons are roaming neighborhoods in Cape Town, damaging property",
+   "zh": "成群的狒狒在开普敦的社区里游荡，破坏财物，"
+  },
+  {
+   "n": 8,
+   "page": 1,
+   "en": "and causing residents to fear for their safety.",
+   "zh": "让居民为自己的安全感到担忧"
+  },
+  {
+   "n": 9,
+   "page": 1,
+   "en": "CNN's Larry Madowo explains a controversial plan to address the problem. CNN",
+   "zh": "的拉里· 马多沃来解释一项有争议的解决方案"
+  },
+  {
+   "n": 10,
+   "page": 1,
+   "en": "Cape Town residents are taking notice of a growing controversy",
+   "zh": "开普敦居民注意到一场日益加剧的争议，"
+  },
+  {
+   "n": 11,
+   "page": 1,
+   "en": "over baboons and what to do about them.",
+   "zh": "围绕着狒狒以及该如何处理它们"
+  },
+  {
+   "n": 12,
+   "page": 1,
+   "en": "Troops of baboons are roaming the streets, raiding homes and riling up residents.",
+   "zh": "成群的狒狒在街上游荡，闯入住宅，惹恼居民"
+  },
+  {
+   "n": 13,
+   "page": 2,
+   "en": "These chakma baboons are Southern Africa's largest monkey species.",
+   "zh": "这些查克马狒狒是南部非洲体型最大的猴类"
+  },
+  {
+   "n": 14,
+   "page": 2,
+   "en": "And as the city expands, conflict between baboons and residents has grown.",
+   "zh": "随着城市扩张，狒狒与居民之间的冲突也在增加"
+  },
+  {
+   "n": 15,
+   "page": 2,
+   "en": "And now the city has a plan to solve their primate problem,",
+   "zh": "现在这座城市有了一个解决灵长类动物问题的计划，"
+  },
+  {
+   "n": 16,
+   "page": 2,
+   "en": "permanently cage around 60 of the animals as an alternative to culling.",
+   "zh": "永久圈养大约60只狒狒，以此替代扑杀"
+  },
+  {
+   "n": 17,
+   "page": 2,
+   "en": "And then we're left with two very difficult decisions.",
+   "zh": "这样一来，我们就面临两个非常艰难的选择"
+  },
+  {
+   "n": 18,
+   "page": 2,
+   "en": "We could either cull the troops, which is arguably the ecological solution,",
+   "zh": "我们可以选择扑杀这些狒狒群，这可以说是生态上的解决办法，"
+  },
+  {
+   "n": 19,
+   "page": 2,
+   "en": "or we could find a space that we could set up an urban wildlife center",
+   "zh": "或者我们可以找一个地方，建一个城市野生动物中心，"
+  },
+  {
+   "n": 20,
+   "page": 2,
+   "en": "and allow those animals in those troops to live out their lives",
+   "zh": "让那些狒狒群里的动物在那里安然度过余生，"
+  },
+  {
+   "n": 21,
+   "page": 2,
+   "en": "in a high standard of care with a quality of environment.",
+   "zh": "享有高标准的照护和优质的环境"
+  },
+  {
+   "n": 22,
+   "page": 2,
+   "en": "But that plan has sparked an outcry and fierce debate.",
+   "zh": "但这项计划引发了强烈抗议和激烈辩论"
+  },
+  {
+   "n": 23,
+   "page": 2,
+   "en": "Should baboons that have adapted to city life be confined,",
+   "zh": "已经适应城市生活的狒狒，究竟应该被圈禁，"
+  },
+  {
+   "n": 24,
+   "page": 2,
+   "en": "or should people find a way to coexist with them?",
+   "zh": "还是人们应该找到与它们共存的方式？"
+  },
+  {
+   "n": 25,
+   "page": 2,
+   "en": "Sue Ann Norton says she regularly feeds fruit to baboons that visit her home.",
+   "zh": "苏·安·诺顿说，她定期给来家里的狒狒喂水果"
+  },
+  {
+   "n": 26,
+   "page": 2,
+   "en": "They're not dangerous.",
+   "zh": "它们并不危险"
+  },
+  {
+   "n": 27,
+   "page": 2,
+   "en": "They treat you as you treat them.",
+   "zh": "你怎么对它们，它们就怎么对你"
+  },
+  {
+   "n": 28,
+   "page": 2,
+   "en": "If you treat them with anger and force, they come back at you with force.",
+   "zh": "如果你带着愤怒和暴力对待它们，它们也会用暴力回击"
+  },
+  {
+   "n": 29,
+   "page": 2,
+   "en": "If you treat them like a pet, like a cat or a dog,",
+   "zh": "如果你像对待宠物一样对待它们，像对待猫或狗一样，"
+  },
+  {
+   "n": 30,
+   "page": 2,
+   "en": "like I treat them,",
+   "zh": "就像我这样对待它们，"
+  },
+  {
+   "n": 31,
+   "page": 2,
+   "en": "then we live together in harmony.",
+   "zh": "那么我们就能和谐地生活在一起"
+  },
+  {
+   "n": 32,
+   "page": 2,
+   "en": "City officials say the baboons will be better off if they're confined.",
+   "zh": "市政官员表示，把狒狒圈养起来对它们更好"
+  },
+  {
+   "n": 33,
+   "page": 2,
+   "en": "These are not wild baboons anymore.",
+   "zh": "它们已经不再是野生狒狒了"
+  },
+  {
+   "n": 34,
+   "page": 2,
+   "en": "They live in an urban area.",
+   "zh": "它们生活在城市环境中"
+  },
+  {
+   "n": 35,
+   "page": 3,
+   "en": "And what they are getting, whether we agree or disagree,",
+   "zh": "而它们得到的⸺不管我们同意还是不同意⸺"
+  },
+  {
+   "n": 36,
+   "page": 3,
+   "en": "they are going to live their lives better for 30 years.",
+   "zh": "它们会过得更好，能活30年"
+  },
+  {
+   "n": 37,
+   "page": 3,
+   "en": "Animal welfare groups say the root of the problem isn't the baboons.",
+   "zh": "动物福利组织表示，问题的根源并不在狒狒，"
+  },
+  {
+   "n": 38,
+   "page": 3,
+   "en": "It's urban encroachment.",
+   "zh": "而在于城市扩张侵占自然"
+  },
+  {
+   "n": 39,
+   "page": 3,
+   "en": "They argue residents need to do more to secure their homes,",
+   "zh": "他们认为，居民需要做更多来加固住宅、"
+  },
+  {
+   "n": 40,
+   "page": 3,
+   "en": "protect trash, and eliminate easy access to food.",
+   "zh": "保管好垃圾，并消除容易获取食物的途径"
+  },
+  {
+   "n": 41,
+   "page": 3,
+   "en": "If you are living in an area where there is wildlife,",
+   "zh": "如果你居住在有野生动物的地区，"
+  },
+  {
+   "n": 42,
+   "page": 3,
+   "en": "then you need to live and coexist with the wildlife.",
+   "zh": "那么你就需要与野生动物共同生活、和平共处"
+  },
+  {
+   "n": 43,
+   "page": 3,
+   "en": "With the residents now taking to the streets in protest,",
+   "zh": "如今居民走上街头抗议，"
+  },
+  {
+   "n": 44,
+   "page": 3,
+   "en": "the battle over Cape Town's baboons comes down to one question.",
+   "zh": "围绕开普敦狒狒的争端归结为一个问题"
+  },
+  {
+   "n": 45,
+   "page": 3,
+   "en": "Can people and wildlife learn to share the city,",
+   "zh": "人类和野生动物能否学会共享这座城市，"
+  },
+  {
+   "n": 46,
+   "page": 3,
+   "en": "or will one have to make way for the other?",
+   "zh": "还是一方必须为另一方让路？"
+  },
+  {
+   "n": 47,
+   "page": 3,
+   "en": "Activists in Kathmandu, Nepal, held a silent protest and candle vigil",
+   "zh": "在尼泊尔加德满都，活动人士在周末举行了静默抗议和烛光守夜，"
+  },
+  {
+   "n": 48,
+   "page": 3,
+   "en": "over the weekend, demanding more action from the world on climate change.",
+   "zh": "要求世界各国在气候变化问题上采取更多行动"
+  },
+  {
+   "n": 49,
+   "page": 3,
+   "en": "The nation is still reeling from a collapse of a glacier in late August",
+   "zh": "这个国家仍在承受8月底冰川崩塌带来的冲击，"
+  },
+  {
+   "n": 50,
+   "page": 3,
+   "en": "that triggered catastrophic flooding.",
+   "zh": "那次崩塌引发了灾难性的洪水"
+  },
+  {
+   "n": 51,
+   "page": 3,
+   "en": "It killed more than 1,300 people and left thousands missing.",
+   "zh": "洪水造成1300多人死亡，数千人失踪"
+  },
+  {
+   "n": 52,
+   "page": 3,
+   "en": "Activists honored those victims during the event.",
+   "zh": "活动人士在活动中悼念了这些遇难者"
+  },
+  {
+   "n": 53,
+   "page": 3,
+   "en": "One demonstrator talked about the reason he decided to participate.",
+   "zh": "一名示威者谈到他决定参加的原因"
+  },
+  {
+   "n": 54,
+   "page": 3,
+   "en": "This is not a protest.",
+   "zh": "这不是一场抗议"
+  },
+  {
+   "n": 55,
+   "page": 3,
+   "en": "We are silently just making all the crowd, all the public to recognize",
+   "zh": "我们只是静静地让所有人群、所有公众认识到"
+  },
+  {
+   "n": 56,
+   "page": 3,
+   "en": "the climate change and how it is affecting Nepal,",
+   "zh": "气候变化以及它对尼泊尔造成的影响，"
+  },
+  {
+   "n": 57,
+   "page": 3,
+   "en": "despite its contribution is very low,",
+   "zh": "尽管尼泊尔的排放贡献非常低，"
+  },
+  {
+   "n": 58,
+   "page": 3,
+   "en": "like Nepal is contributing 0.027% in the carbon emission,",
+   "zh": "比如尼泊尔的碳排放只占全球碳排放的"
+  },
+  {
+   "n": 59,
+   "page": 4,
+   "en": "global carbon emission. 0.027%",
+   "zh": ""
+  },
+  {
+   "n": 60,
+   "page": 4,
+   "en": "And we are getting all the, you know, climate-related hazards.",
+   "zh": "而我们却在承受所有与气候相关的灾害"
+  },
+  {
+   "n": 61,
+   "page": 4,
+   "en": "And we are, the youth are here to show the solidarity",
+   "zh": "而我们在这里，年轻人们在此展示团结"
+  },
+  {
+   "n": 62,
+   "page": 4,
+   "en": "to the people who lost their life in the Roswa Borticoci flood.",
+   "zh": "与在罗斯瓦·博尔蒂科奇洪水中失去生命的人们同在"
+  },
+  {
+   "n": 63,
+   "page": 4,
+   "en": "Time for 10-second trivia.",
+   "zh": "又到了十秒冷知识时间"
+  },
+  {
+   "n": 64,
+   "page": 4,
+   "en": "The first T-Rex fossil was discovered in which U.S. state?",
+   "zh": "第一具霸王鼠化石是在美国哪个州发现的？"
+  },
+  {
+   "n": 65,
+   "page": 4,
+   "en": "Montana, Wyoming, South Dakota, or New Mexico?",
+   "zh": "蒙大拿、怀俄明、南达科他，还是新墨西哥？"
+  },
+  {
+   "n": 66,
+   "page": 4,
+   "en": "If you said Montana, put your hands up.",
+   "zh": "如果你答的是蒙大拿，请举手"
+  },
+  {
+   "n": 67,
+   "page": 4,
+   "en": "The first T-Rex fossil was discovered in 1902 in Montana.",
+   "zh": "第一具霸王鼠化石于1902年在蒙大拿被发现"
+  },
+  {
+   "n": 68,
+   "page": 4,
+   "en": "In 1905, the dinosaur was officially named Tyrannosaurus rex, 1905",
+   "zh": "年，这种恐鼠被正式命名为 Tyrannosaurus rex,"
+  },
+  {
+   "n": 69,
+   "page": 4,
+   "en": "meaning tyrant lizard king.",
+   "zh": "意思是“暴君蜥蜴王”"
+  },
+  {
+   "n": 70,
+   "page": 4,
+   "en": "For decades, scientists have debated whether the T-Rex was more like",
+   "zh": "几十年来，科学家们一直在争论霸王鼠更像"
+  },
+  {
+   "n": 71,
+   "page": 4,
+   "en": "a cold-blooded lizard or a warm-blooded bird.",
+   "zh": "冷血蜥蜴还是温血鳥类"
+  },
+  {
+   "n": 72,
+   "page": 4,
+   "en": "Now, they may finally have their answer.",
+   "zh": "现在，他们可能终于有了答案"
+  },
+  {
+   "n": 73,
+   "page": 4,
+   "en": "Researchers at the University of California studied the chemical makeup",
+   "zh": "加州大学的研究人员研究了三颗霸王鼠牙鼎化石的化学成分，"
+  },
+  {
+   "n": 74,
+   "page": 4,
+   "en": "of three fossilized T-Rex teeth and found that the dinosaur had",
+   "zh": "发现这种恐鼠的"
+  },
+  {
+   "n": 75,
+   "page": 4,
+   "en": "a body temperature of about 97 degrees Fahrenheit,",
+   "zh": "体温大约为华氏97度，"
+  },
+  {
+   "n": 76,
+   "page": 4,
+   "en": "surprisingly close to ours.",
+   "zh": "惊人地接近我们的体温"
+  },
+  {
+   "n": 77,
+   "page": 4,
+   "en": "That warmer body temperature suggests T-Rex could generate",
+   "zh": "这种较高的体温表明霸王鼠能够产生"
+  },
+  {
+   "n": 78,
+   "page": 4,
+   "en": "and maintain its own body heat.",
+   "zh": "并维持自身的体温"
+  },
+  {
+   "n": 79,
+   "page": 4,
+   "en": "And that could help explain how this massive predator was able to live",
+   "zh": "这可能有助于解释这种庞大的捕食者为何能生活在"
+  },
+  {
+   "n": 80,
+   "page": 4,
+   "en": "across a huge range of climates,",
+   "zh": "跨度巨大的各种气候环境中，"
+  },
+  {
+   "n": 81,
+   "page": 4,
+   "en": "including places as far north as what is now Alaska.",
+   "zh": "包括北至如今阿拉斯加的地区"
+  },
+  {
+   "n": 82,
+   "page": 4,
+   "en": "So, while T-Rex disappeared about 66 million years ago,",
+   "zh": "所以，虽然霸王鼠约在6600万年前就已消失，"
+  },
+  {
+   "n": 83,
+   "page": 5,
+   "en": "scientists are still finding new clues about how it lived.",
+   "zh": "科学家们仍在不断发现关于它如何生活的新线索"
+  },
+  {
+   "n": 84,
+   "page": 5,
+   "en": "Tomorrow marks the autumnal equinox in the Northern Hemisphere,",
+   "zh": "明天就是北半球的秋分，"
+  },
+  {
+   "n": 85,
+   "page": 5,
+   "en": "and many of us may be noticing that Mother Nature is starting to show off.",
+   "zh": "我们很多人可能会注意到大自然母亲开始展现风采了"
+  },
+  {
+   "n": 86,
+   "page": 5,
+   "en": "Fall foliage colors are popping, with trees starting to turn",
+   "zh": "秋叶色彩正在绽放，树木开始变成"
+  },
+  {
+   "n": 87,
+   "page": 5,
+   "en": "brilliant shades of yellow, red, and orange.",
+   "zh": "灿烂的黄、红、橙色调"
+  },
+  {
+   "n": 88,
+   "page": 5,
+   "en": "But have you ever wondered why and how we get this colorful show",
+   "zh": "但你可曾想过，我们为什么以及如何能看到这场色彩盛宴，"
+  },
+  {
+   "n": 89,
+   "page": 5,
+   "en": "each and every year?",
+   "zh": "而且年复一年？"
+  },
+  {
+   "n": 90,
+   "page": 5,
+   "en": "Fall foliage colors are popping, with trees starting to turn",
+   "zh": "秋叶色彩正在绽放，树木开始变成"
+  },
+  {
+   "n": 91,
+   "page": 5,
+   "en": "brilliant shades of yellow, red, and orange.",
+   "zh": "灿烂的黄、红、橙色调"
+  },
+  {
+   "n": 92,
+   "page": 5,
+   "en": "Have you ever wondered why and how the leaves change colors?",
+   "zh": "你可曾想过，树叶为什么会变色、又是如何变色的？"
+  },
+  {
+   "n": 93,
+   "page": 5,
+   "en": "Who better to ask than our CNN meteorologist, our weather wizard,",
+   "zh": "还有谁比我们的CNN 气象学家、天气魔法师"
+  },
+  {
+   "n": 94,
+   "page": 5,
+   "en": "Allison Chinchar.",
+   "zh": "艾莉森·钦查尔更适合来回答呢"
+  },
+  {
+   "n": 95,
+   "page": 5,
+   "en": "So great to see you, looking fall-tastic today with your display.",
+   "zh": "见到你太好了，今天你这身造型很有秋日气息"
+  },
+  {
+   "n": 96,
+   "page": 5,
+   "en": "Speaking of display, how do these leaves change color?",
+   "zh": "说到展示，这些树叶是怎么变色的？"
+  },
+  {
+   "n": 97,
+   "page": 5,
+   "en": "Why do they change color?",
+   "zh": "它们为什么会变色？"
+  },
+  {
+   "n": 98,
+   "page": 5,
+   "en": "And how do they know when to start?",
+   "zh": "它们又是怎么知道什么时候该开始？"
+  },
+  {
+   "n": 99,
+   "page": 5,
+   "en": "Right, because sometimes they change a little bit later in the year",
+   "zh": "对，因为有时候它们变色会比"
+  },
+  {
+   "n": 100,
+   "page": 5,
+   "en": "versus others.",
+   "zh": "其他年份稍晚一些"
+  },
+  {
+   "n": 101,
+   "page": 5,
+   "en": "So, yeah, there's a lot of factors here, Koi.",
+   "zh": "是的，这里有很多因素，科伊"
+  },
+  {
+   "n": 102,
+   "page": 5,
+   "en": "But the biggest one is daylight hours.",
+   "zh": "但最大的一个是日照时长"
+  },
+  {
+   "n": 103,
+   "page": 5,
+   "en": "As the days start to get shorter and we have less and less daylight",
+   "zh": "随着白昼开始变短，我们获得的日照越来越少，"
+  },
+  {
+   "n": 104,
+   "page": 5,
+   "en": "as we head into winter, it's essentially kind of a cue to them",
+   "zh": "在进入冬季的过程中，这基本上是给它们一个信号，"
+  },
+  {
+   "n": 105,
+   "page": 5,
+   "en": "to stop photosynthesizing.",
+   "zh": "让它们停止光合作用"
+  },
+  {
+   "n": 106,
+   "page": 5,
+   "en": "Now, photosynthesis is basically using the sunlight",
+   "zh": "光合作用基本上是利用阳光"
+  },
+  {
+   "n": 107,
+   "page": 5,
+   "en": "to give them food and energy.",
+   "zh": "为它们提供养分和能量"
+  },
+  {
+   "n": 108,
+   "page": 6,
+   "en": "But this process slows incredibly in the winter months,",
+   "zh": "但这个过程在冬季会大幅减缓，"
+  },
+  {
+   "n": 109,
+   "page": 6,
+   "en": "so the trees aren't dying, they're just going dormant.",
+   "zh": "所以树木并不是在死去，它们只是进入休眠状态"
+  },
+  {
+   "n": 110,
+   "page": 6,
+   "en": "Why do some leaves turn red, like this one?",
+   "zh": "为什么有些树叶会变红，就像这片一样？"
+  },
+  {
+   "n": 111,
+   "page": 6,
+   "en": "Right, so not all trees have this special gift",
+   "zh": "对，并不是所有树木都有这种特殊天赋，"
+  },
+  {
+   "n": 112,
+   "page": 6,
+   "en": "that allows them to be this beautiful color.",
+   "zh": "能让它们呈现这么美的颜色"
+  },
+  {
+   "n": 113,
+   "page": 6,
+   "en": "Basically, what they have inside of them is something called anthocyanin,",
+   "zh": "基本上，它们体内含有一种叫花青素的物质，"
+  },
+  {
+   "n": 114,
+   "page": 6,
+   "en": "and it allows these trees, when they start to go through",
+   "zh": "当这些树木在冬季经历"
+  },
+  {
+   "n": 115,
+   "page": 6,
+   "en": "that photosynthesis process in the winter, when they slow down,",
+   "zh": "光合作用过程、速度放慢时，"
+  },
+  {
+   "n": 116,
+   "page": 6,
+   "en": "they're changing into this beautiful red or sometimes even that pretty purple color,",
+   "zh": "它们就会变成这种美丽的红色，有时甚至是漂亮的紫色，"
+  },
+  {
+   "n": 117,
+   "page": 6,
+   "en": "all because they have this special ingredient.",
+   "zh": "全都因为它们拥有这种特殊成分"
+  },
+  {
+   "n": 118,
+   "page": 6,
+   "en": "But you also have to have the right weather conditions.",
+   "zh": "但你还需要合适的天气条件"
+  },
+  {
+   "n": 119,
+   "page": 6,
+   "en": "You have to make sure you've had enough water leading up to the fall season",
+   "zh": "你必须确保在进入秋季之前有足够的水分，"
+  },
+  {
+   "n": 120,
+   "page": 6,
+   "en": "and also plenty of sunlight.",
+   "zh": "还要有充足的日照"
+  },
+  {
+   "n": 121,
+   "page": 6,
+   "en": "Now, why is it that some trees don't change colors and nothing falls?",
+   "zh": "那么，为什么有些树不变色，叶子也不掉落呢？"
+  },
+  {
+   "n": 122,
+   "page": 6,
+   "en": "Right, so these are what we refer to as evergreen, hence the color, trees.",
+   "zh": "对，这些就是我们所说的常绿树，因此才叫常绿"
+  },
+  {
+   "n": 123,
+   "page": 6,
+   "en": "Basically, these trees have evolved so that they never stop",
+   "zh": "基本上，这些树已经进化到从不停止"
+  },
+  {
+   "n": 124,
+   "page": 6,
+   "en": "going through the photosynthesis process.",
+   "zh": "进行光合作用"
+  },
+  {
+   "n": 125,
+   "page": 6,
+   "en": "Now, it slows considerably in the winter, but it never actually stops,",
+   "zh": "虽然冬天光合作用会大幅减缓，但从未真正停止，"
+  },
+  {
+   "n": 126,
+   "page": 6,
+   "en": "meaning they don't have to lose their leaves or change their color.",
+   "zh": "这意味着它们不必落叶或变色"
+  },
+  {
+   "n": 127,
+   "page": 6,
+   "en": "In this warming climate environment",
+   "zh": "在我们如今生活并经历着的"
+  },
+  {
+   "n": 128,
+   "page": 6,
+   "en": "that we're living and we're experiencing nowadays,",
+   "zh": "日益变暖的气候环境中，"
+  },
+  {
+   "n": 129,
+   "page": 6,
+   "en": "how might warming temperatures around the world",
+   "zh": "全球气温升高会如何"
+  },
+  {
+   "n": 130,
+   "page": 6,
+   "en": "affect the changing colors of the leaves?",
+   "zh": "影响叶子的颜色变化？"
+  },
+  {
+   "n": 131,
+   "page": 6,
+   "en": "Right, so the most obvious answer to that is",
+   "zh": "对，最明显的答案是，"
+  },
+  {
+   "n": 132,
+   "page": 6,
+   "en": "the leaves will be falling off much later into the season",
+   "zh": "叶子掉落的时间会推迟到季节很晚的时候，"
+  },
+  {
+   "n": 133,
+   "page": 7,
+   "en": "because we're staying warmer longer.",
+   "zh": "因为我们保持温暖的时间更长了"
+  },
+  {
+   "n": 134,
+   "page": 7,
+   "en": "If trees could actually pick their ideal conditions,",
+   "zh": "如果树木真的能选择理想条件，"
+  },
+  {
+   "n": 135,
+   "page": 7,
+   "en": "it would be for the temperatures to cool down gradually,",
+   "zh": "那会是气温逐渐下降，"
+  },
+  {
+   "n": 136,
+   "page": 7,
+   "en": "like you and I would probably pick.",
+   "zh": "就像你我可能也会选的那样"
+  },
+  {
+   "n": 137,
+   "page": 7,
+   "en": "But if temperatures drop too quick,",
+   "zh": "但如果气温降得太快，"
+  },
+  {
+   "n": 138,
+   "page": 7,
+   "en": "let's say 30 to 50 degrees in just a couple of days,",
+   "zh": "比如短短几天内骤降30到50华氏度，"
+  },
+  {
+   "n": 139,
+   "page": 7,
+   "en": "trees can go through what's called shock,",
+   "zh": "树木就会经历所谓的“休克”,"
+  },
+  {
+   "n": 140,
+   "page": 7,
+   "en": "which causes them to just drop their leaves,",
+   "zh": "导致它们直接落叶，"
+  },
+  {
+   "n": 141,
+   "page": 7,
+   "en": "even if they never ended up fully changing colors.",
+   "zh": "即使叶子还没来得及完全变色"
+  },
+  {
+   "n": 142,
+   "page": 7,
+   "en": "So why do trees decide to let their leaves go?",
+   "zh": "那么，树木为什么会决定让叶子脱落呢？"
+  },
+  {
+   "n": 143,
+   "page": 7,
+   "en": "Is this like a preservation thing",
+   "zh": "这是不是一种保存自身的机制，"
+  },
+  {
+   "n": 144,
+   "page": 7,
+   "en": "that some of they have to do?",
+   "zh": "是有些树必须做的？"
+  },
+  {
+   "n": 145,
+   "page": 7,
+   "en": "It's to really save a lot of the energy",
+   "zh": "这其实是为了大量保存"
+  },
+  {
+   "n": 146,
+   "page": 7,
+   "en": "that the tree would use up during the winter.",
+   "zh": "树木在冬天会消耗的能量"
+  },
+  {
+   "n": 147,
+   "page": 7,
+   "en": "Many people don't know this,",
+   "zh": "很多人不知道，"
+  },
+  {
+   "n": 148,
+   "page": 7,
+   "en": "but leaves take up the vast majority",
+   "zh": "叶子消耗了树木所吸收的"
+  },
+  {
+   "n": 149,
+   "page": 7,
+   "en": "of the water source that a tree takes in.",
+   "zh": "绝大部分水源"
+  },
+  {
+   "n": 150,
+   "page": 7,
+   "en": "So if it doesn't have its leaves anymore,",
+   "zh": "所以，如果不再有叶子，"
+  },
+  {
+   "n": 151,
+   "page": 7,
+   "en": "it can consolidate a lot of that energy",
+   "zh": "它就能集中大量能量，"
+  },
+  {
+   "n": 152,
+   "page": 7,
+   "en": "to get through a rough winter.",
+   "zh": "来度过一个艰难的冬天"
+  },
+  {
+   "n": 153,
+   "page": 7,
+   "en": "Thank you for helping us branch out today",
+   "zh": "谢谢你今天帮我们拓展了知识，"
+  },
+  {
+   "n": 154,
+   "page": 7,
+   "en": "and get to the root of this very interesting topic.",
+   "zh": "也让我们深入到这个有趣话题的根本"
+  },
+  {
+   "n": 155,
+   "page": 7,
+   "en": "Today's story getting a 10 out of 10,",
+   "zh": "今天的故事获得满分10分，"
+  },
+  {
+   "n": 156,
+   "page": 7,
+   "en": "a Minneapolis training program",
+   "zh": "明尼阿波利斯的一个培训项目"
+  },
+  {
+   "n": 157,
+   "page": 7,
+   "en": "that aims to help more women become firefighters.",
+   "zh": "旨在帮助更多女性成为消防员"
+  },
+  {
+   "n": 158,
+   "page": 7,
+   "en": "We want to push the women to not just reach the bar.",
+   "zh": "我们想推动女性不只是达到标准"
+  },
+  {
+   "n": 159,
+   "page": 7,
+   "en": "We want them to crush glass ceilings.",
+   "zh": "我们想让她们打破玻璃天花板"
+  },
+  {
+   "n": 160,
+   "page": 7,
+   "en": "We want them to show up and be undeniable",
+   "zh": "我们想让她们站出来，让人无法否认"
+  },
+  {
+   "n": 161,
+   "page": 7,
+   "en": "that they deserve to be there because we do.",
+   "zh": "她们有资格站在那里，因为我们确实有资格"
+  },
+  {
+   "n": 162,
+   "page": 7,
+   "en": "According to the National Fire Protection Association,",
+   "zh": "根据美国国家消防协会的数据，"
+  },
+  {
+   "n": 163,
+   "page": 7,
+   "en": "only 9% of the nation's firefighters are women.",
+   "zh": "全美消防员中只有9%是女性"
+  },
+  {
+   "n": 164,
+   "page": 8,
+   "en": "And the trainers in this program are trying to fight the stigma",
+   "zh": "这个项目的训练员们正在努力打破"
+  },
+  {
+   "n": 165,
+   "page": 8,
+   "en": "that women can't meet the physical demands.",
+   "zh": "女性无法满足体能要求的偏见"
+  },
+  {
+   "n": 166,
+   "page": 8,
+   "en": "When they call 911,",
+   "zh": "当人们拨打911时，"
+  },
+  {
+   "n": 167,
+   "page": 8,
+   "en": "they're calling you on their worst day",
+   "zh": "他们是在最糟糕的一天向你求助，"
+  },
+  {
+   "n": 168,
+   "page": 8,
+   "en": "and they need you to come and save them.",
+   "zh": "他们需要你去救他们"
+  },
+  {
+   "n": 169,
+   "page": 8,
+   "en": "And you have to be physically ready for that.",
+   "zh": "你必须为此做好身体上的准备"
+  },
+  {
+   "n": 170,
+   "page": 8,
+   "en": "Firefighting is an extremely physical job",
+   "zh": "消防是一份对体能要求极高的工作，"
+  },
+  {
+   "n": 171,
+   "page": 8,
+   "en": "and we must be prepared for that.",
+   "zh": "我们必须为此做好准备"
+  },
+  {
+   "n": 172,
+   "page": 8,
+   "en": "You're literally doing this to save a life.",
+   "zh": "你做这些真的就是为了救人一命"
+  },
+  {
+   "n": 173,
+   "page": 8,
+   "en": "You being in shape and physically prepared",
+   "zh": "你保持良好的体能状态，"
+  },
+  {
+   "n": 174,
+   "page": 8,
+   "en": "can determine if someone lives or dies.",
+   "zh": "可能决定一个人的生死"
+  },
+  {
+   "n": 175,
+   "page": 8,
+   "en": "One workout at a time,",
+   "zh": "每一次训练，"
+  },
+  {
+   "n": 176,
+   "page": 8,
+   "en": "those women are proving that the desire to help people",
+   "zh": "这些女性都在证明，想要帮助他人的意愿"
+  },
+  {
+   "n": 177,
+   "page": 8,
+   "en": "is one of the most heroic actions of all.",
+   "zh": "是所有行动中最英勇的一种"
+  },
+  {
+   "n": 178,
+   "page": 8,
+   "en": "All right, superstars,",
+   "zh": "好了，超级明星们，"
+  },
+  {
+   "n": 179,
+   "page": 8,
+   "en": "I've got time for one shout out today.",
+   "zh": "今天我还有时间喊一次话"
+  },
+  {
+   "n": 180,
+   "page": 8,
+   "en": "This goes to Miss Little",
+   "zh": "这要送给利特尔老师，"
+  },
+  {
+   "n": 181,
+   "page": 8,
+   "en": "at the Bonaire Juvenile Correctional Center",
+   "zh": "她在博内尔青少年惩教中心，"
+  },
+  {
+   "n": 182,
+   "page": 8,
+   "en": "in Bonaire, Virginia.",
+   "zh": "位于弗吉尼亚州博内尔"
+  },
+  {
+   "n": 183,
+   "page": 8,
+   "en": "Thank you so much for subscribing to our YouTube channel",
+   "zh": "非常感谢你们订阅我们的 YouTube频道，"
+  },
+  {
+   "n": 184,
+   "page": 8,
+   "en": "and keep up the good work.",
+   "zh": "请继续保持这份努力"
+  },
+  {
+   "n": 185,
+   "page": 8,
+   "en": "I hope you all have a fantastic day.",
+   "zh": "希望大家今天都过得愉快"
+  },
+  {
+   "n": 186,
+   "page": 8,
+   "en": "Coy will be back with you again tomorrow.",
+   "zh": "明天Coy会回来继续陪伴大家"
+  },
+  {
+   "n": 187,
+   "page": 8,
+   "en": "I'm Alison Chajar and this is CNN 10.",
+   "zh": "我是Alison Chajar，这里是CNN 10"
+  }
+ ]
+}

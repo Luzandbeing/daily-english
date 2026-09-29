@@ -1,0 +1,1137 @@
+{
+ "source": {
+  "path": "2026.09.03 - 纽约市禁止60万PreK-8学生用生成式AI.pdf",
+  "name": "2026.09.03 - 纽约市禁止60万PreK-8学生用生成式AI.pdf",
+  "stem": "2026.09.03 - 纽约市禁止60万PreK-8学生用生成式AI",
+  "pages": 8
+ },
+ "stats": {
+  "pages": 8,
+  "items": 186,
+  "englishWords": 1545,
+  "itemsWithChinese": 186,
+  "bilingual": true,
+  "extractedAt": "2026-09-29T21:56:43+0800",
+  "extractor": "extract_pdf.py (PyMuPDF)",
+  "seconds": 0.26
+ },
+ "warnings": [],
+ "items": [
+  {
+   "n": 1,
+   "page": 1,
+   "en": "The 2026 World Nomad Games are underway. 2026",
+   "zh": "年世界游牧民族运动会正在举行"
+  },
+  {
+   "n": 2,
+   "page": 1,
+   "en": "They include what Reuters News describes as traditional events in nomadic Central Asian cultures.",
+   "zh": "据路透社报道，赛事包括中亚游牧文化中的传统项目"
+  },
+  {
+   "n": 3,
+   "page": 1,
+   "en": "But some of the features of this week's opening ceremonies in Bishkek,",
+   "zh": "但本周在吉尔吉斯斯坦首都比什凯克举行的开幕式上，"
+  },
+  {
+   "n": 4,
+   "page": 1,
+   "en": "the capital of Kyrgyzstan, were spectacles in themselves.",
+   "zh": "有些环节本身就是一场视觉盛宴"
+  },
+  {
+   "n": 5,
+   "page": 1,
+   "en": "Animated creatures that thankfully aren't that big in real life took the stage,",
+   "zh": "幸好现实中没那么巨大的动画生物登上了舞台，"
+  },
+  {
+   "n": 6,
+   "page": 1,
+   "en": "along with horse-drawn chariots and scenes over an animated floor that were choreographed to traditional music.",
+   "zh": "伴随着马拉战车，以及动画地板上配合传统音乐编排的场景"
+  },
+  {
+   "n": 7,
+   "page": 1,
+   "en": "There was also a misted waterfall that streamed down and set a surreal backdrop to an extraordinary equestrian exhibition.",
+   "zh": "还有一道雾气蒙蒙的瀑布倾泻而下，为一场非凡的马术表演营造出超现实的背景"
+  },
+  {
+   "n": 8,
+   "page": 1,
+   "en": "And the effects aimed to give the crowd,",
+   "zh": "这些效果旨在给观众、"
+  },
+  {
+   "n": 9,
+   "page": 1,
+   "en": "the athletes and the performers something to remember.",
+   "zh": "运动员和表演者留下难忘的回忆"
+  },
+  {
+   "n": 10,
+   "page": 1,
+   "en": "Organizers say participants from 104 countries registered for the sixth edition of the World Nomad Games.",
+   "zh": "主办方表示，有来自104个国家的选手报名参加第六届世界游牧民族运动会"
+  },
+  {
+   "n": 11,
+   "page": 1,
+   "en": "They'll be competing in everything from archery and wrestling to board games and hunting with eagles.",
+   "zh": "他们将参与从射箭、摔跤到棋类游戏和猎鹰等各类比赛"
+  },
+  {
+   "n": 12,
+   "page": 2,
+   "en": "And the 2026 events are a homecoming of sorts,",
+   "zh": "而2026年的赛事某种程度上是一次回归，"
+  },
+  {
+   "n": 13,
+   "page": 2,
+   "en": "as Kyrgyzstan was the first nation to host them.",
+   "zh": "因为吉尔吉斯斯坦是第一个举办该运动会的国家"
+  },
+  {
+   "n": 14,
+   "page": 2,
+   "en": "This is the world from A to Z.",
+   "zh": "这就是《从A到Z看世界》"
+  },
+  {
+   "n": 15,
+   "page": 2,
+   "en": "Welcome to everyone watching worldwide.",
+   "zh": "欢迎世界各地收看节目的各位"
+  },
+  {
+   "n": 16,
+   "page": 2,
+   "en": "I'm Carl Azuz.",
+   "zh": "我是卡尔·阿祖兹"
+  },
+  {
+   "n": 17,
+   "page": 2,
+   "en": "Does artificial intelligence have a place in the classroom?",
+   "zh": "人工智能在课堂上该有一席之地吗？"
+  },
+  {
+   "n": 18,
+   "page": 2,
+   "en": "Big topic right now.",
+   "zh": "这是当下的一大话题"
+  },
+  {
+   "n": 19,
+   "page": 2,
+   "en": "And New York City says no,",
+   "zh": "而纽约市给出的答案是不行，"
+  },
+  {
+   "n": 20,
+   "page": 2,
+   "en": "at least not for students in pre-kindergarten through 8th grade.",
+   "zh": "至少在学前班到八年级的学生中不允许"
+  },
+  {
+   "n": 21,
+   "page": 2,
+   "en": "When they resume school there in exactly one week,",
+   "zh": "他们再过整整一周就要返校，"
+  },
+  {
+   "n": 22,
+   "page": 2,
+   "en": "600,000 of them will not be allowed to use generative AI,",
+   "zh": "届时60万名学生将不得使用生成式人工智能，"
+  },
+  {
+   "n": 23,
+   "page": 2,
+   "en": "the kind that allows people to give instructions and have the technology produce text, pictures,",
+   "zh": "也就是那种可以让人们下达指令、由技术生成文字、图片、"
+  },
+  {
+   "n": 24,
+   "page": 2,
+   "en": "videos or other data that reportedly includes chatbots.",
+   "zh": "视频或其他数据的人工智能，据报道其中包括聊天机器人"
+  },
+  {
+   "n": 25,
+   "page": 2,
+   "en": "They're out.",
+   "zh": "聊天机器人被排除在外"
+  },
+  {
+   "n": 26,
+   "page": 2,
+   "en": "New York City is also recommending reduced screen time for kids in an effort to encourage more social interaction.",
+   "zh": "纽约市还建议减少孩子们的屏幕时间，以鼓励更多社交互动"
+  },
+  {
+   "n": 27,
+   "page": 2,
+   "en": "There will be exceptions to these rules on remote learning days or for students with disabilities, for example.",
+   "zh": "这些规定也会有例外，比如在远程学习日或针对残障学生"
+  },
+  {
+   "n": 28,
+   "page": 2,
+   "en": "Teachers will still be allowed to use AI for lesson plans and other educational work.",
+   "zh": "教师仍可使用人工智能来制定教案和完成其他教学工作"
+  },
+  {
+   "n": 29,
+   "page": 2,
+   "en": "And the ban does not apply to high school students.",
+   "zh": "而这项禁令不适用于高中生"
+  },
+  {
+   "n": 30,
+   "page": 2,
+   "en": "They'll get new lessons concerning AI literacy and its potential shortcomings.",
+   "zh": "他们将接受有关人工智能素养及其潜在缺陷的新课程"
+  },
+  {
+   "n": 31,
+   "page": 2,
+   "en": "But the district says they'll still have access to AI as part of their preparation for a world that uses it.",
+   "zh": "但学区表示，高中生仍可接触人工智能，作为他们为使用人工智能的世界做准备的一部分"
+  },
+  {
+   "n": 32,
+   "page": 2,
+   "en": "So why the ban in pre-k through 8th grade?",
+   "zh": "那么为什么要在学前班到八年级实施禁令呢？"
+  },
+  {
+   "n": 33,
+   "page": 2,
+   "en": "Critics of AI, including many parents who've spoken out against it,",
+   "zh": "人工智能的批评者，包括许多公开反对的家长，"
+  },
+  {
+   "n": 34,
+   "page": 2,
+   "en": "say kids increasingly rely on that instead of learning to think critically.",
+   "zh": "认为孩子们越来越依赖它，而不是学会批判性思考"
+  },
+  {
+   "n": 35,
+   "page": 3,
+   "en": "And New York's mayor says they need to interact with other humans to sharpen their social and problem solving skills.",
+   "zh": "而纽约市长表示，孩子们需要与他人互动，以磨炼社交和解决问题的能力"
+  },
+  {
+   "n": 36,
+   "page": 3,
+   "en": "Supporters of AI in the classroom say if used properly, it can help students learn,",
+   "zh": "支持人工智能进课堂的人表示，如果使用得当，它可以帮助学生学习，"
+  },
+  {
+   "n": 37,
+   "page": 3,
+   "en": "guiding them to think through different scenarios and also custom tailoring lessons to individual students' needs.",
+   "zh": "引导他们思考不同情境，还能根据个别学生的需求定制课程"
+  },
+  {
+   "n": 38,
+   "page": 3,
+   "en": "The educational impact of all this,",
+   "zh": "这一切对教育的影响，"
+  },
+  {
+   "n": 39,
+   "page": 3,
+   "en": "along with whether other school systems will follow New York's lead, remains to be seen.",
+   "zh": "以及其他学校系统是否会效仿纽约的做法，还有待观察"
+  },
+  {
+   "n": 40,
+   "page": 3,
+   "en": "New York City is the largest school district in America.",
+   "zh": "纽约市是美国最大的学区"
+  },
+  {
+   "n": 41,
+   "page": 3,
+   "en": "Where in the world?",
+   "zh": "这是哪里？"
+  },
+  {
+   "n": 42,
+   "page": 3,
+   "en": "This is a nation that was established in 1768.",
+   "zh": "这是一个建立于1768年的国家"
+  },
+  {
+   "n": 43,
+   "page": 3,
+   "en": "It's landlocked in southern Asia between India and China.",
+   "zh": "它位于南亚内陆，夹在印度和中国之间"
+  },
+  {
+   "n": 44,
+   "page": 3,
+   "en": "It's home to 8 of the world's 10 highest mountain peaks in its capital is Kathmandu.",
+   "zh": "它拥有世界十大最高山峰中的八座，首都是加德满都"
+  },
+  {
+   "n": 45,
+   "page": 3,
+   "en": "This is Nepal, a country of more than 29 million people.",
+   "zh": "这就是尼泊尔，一个拥有超过2900 万人口的国家"
+  },
+  {
+   "n": 46,
+   "page": 3,
+   "en": "Along Nepal's border with Tibet, an autonomous region of China,",
+   "zh": "在尼泊尔与中国西藏自治区接壤的边境一带，"
+  },
+  {
+   "n": 47,
+   "page": 3,
+   "en": "rescuers are doing all they can to find anyone who may still be alive after catastrophic flash floods struck on August 26.",
+   "zh": "救援人员正尽一切努力搜寻8月26日灾难性山洪暴发后可能仍活着的人"
+  },
+  {
+   "n": 48,
+   "page": 3,
+   "en": "Officials believe the disaster was triggered when part of a glacier collapsed.",
+   "zh": "官员们认为，这场灾难是由部分冰川崩塌引发的"
+  },
+  {
+   "n": 49,
+   "page": 3,
+   "en": "That caused towering floodwaters in rivers and valleys below, washing away bridges and villages.",
+   "zh": "这导致下方河流和山谷中洪水滔天，冲毁了桥梁和村庄"
+  },
+  {
+   "n": 50,
+   "page": 3,
+   "en": "Most of the deaths were in Nepal.",
+   "zh": "大多数遇难者位于尼泊尔"
+  },
+  {
+   "n": 51,
+   "page": 3,
+   "en": "At least 1,200 lives were lost there, according to the nation's government.",
+   "zh": "据该国政府称，那里至少有1200人丧生"
+  },
+  {
+   "n": 52,
+   "page": 3,
+   "en": "More than 4,000 people are still missing.",
+   "zh": "仍有4000多人失踪"
+  },
+  {
+   "n": 53,
+   "page": 3,
+   "en": "And Chinese officials say there are more than 500 missing and 21 dead in Tibet.",
+   "zh": "而中国官员表示，西藏有500多人失踪、21人死亡"
+  },
+  {
+   "n": 54,
+   "page": 3,
+   "en": "Assistance is coming in from all over the world.",
+   "zh": "援助正从世界各地涌来"
+  },
+  {
+   "n": 55,
+   "page": 3,
+   "en": "And rescue officials say roughly 12,000 people have been saved.",
+   "zh": "救援官员表示，大约有 1.2万人获救"
+  },
+  {
+   "n": 56,
+   "page": 4,
+   "en": "It's been one week since disaster struck, and in Tresuli,",
+   "zh": "灾难发生至今已有一周，在德里苏利，"
+  },
+  {
+   "n": 57,
+   "page": 4,
+   "en": "this is the end of the road.",
+   "zh": "这条路到了尽头"
+  },
+  {
+   "n": 58,
+   "page": 4,
+   "en": "Once a bustling market, now soggy and cement-soaked, it looks like a wasteland.",
+   "zh": "这里曾是繁华的市场，如今湿漉漉地浸满水泥，看上去像一片废墟"
+  },
+  {
+   "n": 59,
+   "page": 4,
+   "en": "The river is running fast.",
+   "zh": "河水湍急"
+  },
+  {
+   "n": 60,
+   "page": 4,
+   "en": "The water is still high.",
+   "zh": "水位仍然很高"
+  },
+  {
+   "n": 61,
+   "page": 4,
+   "en": "Residents and visitors stand and stare.",
+   "zh": "居民和游客驻足凝视"
+  },
+  {
+   "n": 62,
+   "page": 4,
+   "en": "Traffic snarls on broken roads.",
+   "zh": "破损的道路上交通拥堵"
+  },
+  {
+   "n": 63,
+   "page": 4,
+   "en": "The jackknife truck is hardly noticed.",
+   "zh": "那辆折成V字形的卡车几乎无人注意"
+  },
+  {
+   "n": 64,
+   "page": 4,
+   "en": "A local school bus driver, Chiring Tamang, saved the lives of some 50 children,",
+   "zh": "当地校车司机奇林·塔芒救了大约50名孩子的命，"
+  },
+  {
+   "n": 65,
+   "page": 4,
+   "en": "picking them up just before their school was destroyed and crossing a bridge before it was washed away.",
+   "zh": "他在学校被毁前接上他们，又在一座桥被冲走前过了桥"
+  },
+  {
+   "n": 66,
+   "page": 4,
+   "en": "After two minutes of me crossing the bridge, the flood came on my side.",
+   "zh": "我过桥两分钟后，洪水冲到了我这边"
+  },
+  {
+   "n": 67,
+   "page": 4,
+   "en": "Kids started screaming after seeing the flood.",
+   "zh": "看到洪水，孩子们开始尖叫"
+  },
+  {
+   "n": 68,
+   "page": 4,
+   "en": "They were shouting.",
+   "zh": "他们在大喊"
+  },
+  {
+   "n": 69,
+   "page": 4,
+   "en": "One kid fainted inside the bus.",
+   "zh": "一个孩子在车里晕了过去"
+  },
+  {
+   "n": 70,
+   "page": 4,
+   "en": "They were asking me to drive faster.",
+   "zh": "他们让我开快一点"
+  },
+  {
+   "n": 71,
+   "page": 4,
+   "en": "On the road, there were people running like ants to save their lives.",
+   "zh": "路上人们像蚂蚁一样狂奔逃命"
+  },
+  {
+   "n": 72,
+   "page": 4,
+   "en": "After I drove near the uphill,",
+   "zh": "等我开到上坡附近时，"
+  },
+  {
+   "n": 73,
+   "page": 4,
+   "en": "I could see the flood is already ahead of me.",
+   "zh": "我看到洪水已经在我前面了"
+  },
+  {
+   "n": 74,
+   "page": 4,
+   "en": "I reached a higher location, and I felt safe with the kids.",
+   "zh": "我到了地势更高的地方，和孩子们在一起才觉得安全了"
+  },
+  {
+   "n": 75,
+   "page": 4,
+   "en": "I took a long breath, and then I continued my duty of dropping the kids,",
+   "zh": "我长长地舒了一口气，然后继续送孩子们回家，"
+  },
+  {
+   "n": 76,
+   "page": 4,
+   "en": "came back, and parked the bus at the police station.",
+   "zh": "回来把校车停在警察局"
+  },
+  {
+   "n": 77,
+   "page": 4,
+   "en": "I asked him what it feels like to be a hero.",
+   "zh": "我问他，当英雄是什么感觉"
+  },
+  {
+   "n": 78,
+   "page": 4,
+   "en": "It's a sad time for me.",
+   "zh": "对我来说，这是悲伤的时刻"
+  },
+  {
+   "n": 79,
+   "page": 4,
+   "en": "I have lost my nephew.",
+   "zh": "我失去了我的侄子"
+  },
+  {
+   "n": 80,
+   "page": 4,
+   "en": "She was working in the same school.",
+   "zh": "她也在同一所学校工作"
+  },
+  {
+   "n": 81,
+   "page": 4,
+   "en": "I'm very sad that my nephew is dead.",
+   "zh": "侄子去世了，我非常难过"
+  },
+  {
+   "n": 82,
+   "page": 4,
+   "en": "My nephew called me before I crossed the bridge.",
+   "zh": "我侄子在我过桥前给我打了电话"
+  },
+  {
+   "n": 83,
+   "page": 5,
+   "en": "This was right after I informed the principal regarding the flood.",
+   "zh": "那是我刚把洪水的情况报告给校长之后"
+  },
+  {
+   "n": 84,
+   "page": 5,
+   "en": "He told me, Uncle, where are you?",
+   "zh": "他问我，叔叔，你在哪里？"
+  },
+  {
+   "n": 85,
+   "page": 5,
+   "en": "There's a flood coming in the river.",
+   "zh": "河水要涨上来了"
+  },
+  {
+   "n": 86,
+   "page": 5,
+   "en": "He has a daughter, and his wife is disabled.",
+   "zh": "他有一个女儿，妻子是残疾人"
+  },
+  {
+   "n": 87,
+   "page": 5,
+   "en": "They are safe now.",
+   "zh": "他们现在安全了"
+  },
+  {
+   "n": 88,
+   "page": 5,
+   "en": "They have nothing left, as my nephew was my only breadwinner of the family.",
+   "zh": "他们一无所有了，因为侄子是我家唯一的经济支柱"
+  },
+  {
+   "n": 89,
+   "page": 5,
+   "en": "Later, he showed us a photo of his nephew.",
+   "zh": "后来，他给我们看了他侄子的照片"
+  },
+  {
+   "n": 90,
+   "page": 5,
+   "en": "His name was Tridham Lama.",
+   "zh": "他的名字叫特里德哈姆·拉马"
+  },
+  {
+   "n": 91,
+   "page": 5,
+   "en": "There are many heroes here, but even they have heavy hearts.",
+   "zh": "这里有很多英雄，但即便是他们，内心也很沉重"
+  },
+  {
+   "n": 92,
+   "page": 5,
+   "en": "When we reach 100,000 subscribers on YouTube,",
+   "zh": "当我们在YouTube上达到10万订阅时，"
+  },
+  {
+   "n": 93,
+   "page": 5,
+   "en": "we'll reward a teacher who helps us get there,",
+   "zh": "我们会奖励一位帮助我们达成目标的老师，"
+  },
+  {
+   "n": 94,
+   "page": 5,
+   "en": "so please subscribe and comment on our channel.",
+   "zh": "所以请订阅并评论我们的频道"
+  },
+  {
+   "n": 95,
+   "page": 5,
+   "en": "The schools we're calling on today include Pulaski Community Middle,",
+   "zh": "今天我们邀请的学校包括普拉斯基社区中学，"
+  },
+  {
+   "n": 96,
+   "page": 5,
+   "en": "where the Raiders and Mrs. Birch's class are awesome in Pulaski, Wisconsin.",
+   "zh": "威斯康星州普拉斯基的突袭者队和伯奇老师的班级非常棒"
+  },
+  {
+   "n": 97,
+   "page": 5,
+   "en": "Wobben Junior High is next, the home of the Thunderbirds.",
+   "zh": "接下来是沃本初中，雷鳥队的主场"
+  },
+  {
+   "n": 98,
+   "page": 5,
+   "en": "Great to see Mrs. Ortner's students in Wobben, Minnesota.",
+   "zh": "很高兴见到明尼苏达州沃本奥特纳老师的学生们"
+  },
+  {
+   "n": 99,
+   "page": 5,
+   "en": "And from Hagerstown, Maryland, the Old Line State,",
+   "zh": "来自马里兰州黑格斯敦，“老线之州”,"
+  },
+  {
+   "n": 100,
+   "page": 5,
+   "en": "we welcome Mr. Stuttlemeyer's class at Boyd J. Michael III Technical High.",
+   "zh": "欢迎博伊德·J· 迈克尔三世技术高中斯图特勒迈耶老师的班级"
+  },
+  {
+   "n": 101,
+   "page": 5,
+   "en": "Word of knowledge.",
+   "zh": "知识小课堂"
+  },
+  {
+   "n": 102,
+   "page": 5,
+   "en": "What nation is said to be the oldest continuous republic on Earth?",
+   "zh": "哪个国家被认为是地球上最古老的持续存在的共和国？"
+  },
+  {
+   "n": 103,
+   "page": 5,
+   "en": "Monaco, Egypt, San Marino, Liberia.",
+   "zh": "摩纳哥、埃及、圣马力诺、利比里亚"
+  },
+  {
+   "n": 104,
+   "page": 5,
+   "en": "Also one of the smallest countries on Earth,",
+   "zh": "它也是地球上最小的国家之一，"
+  },
+  {
+   "n": 105,
+   "page": 5,
+   "en": "the one that dates back more than 1,700 years is San Marino.",
+   "zh": "历史可追溯到1700多年前的那个国家就是圣马力诺"
+  },
+  {
+   "n": 106,
+   "page": 5,
+   "en": "It was on September 3rd in the year 301 that historians believe San Marino was founded.",
+   "zh": "历史学家认为，圣马力诺建于公元301年的9月3日"
+  },
+  {
+   "n": 107,
+   "page": 5,
+   "en": "Purportedly the oldest republic on Earth,",
+   "zh": "据称是地球上最古老的共和国，"
+  },
+  {
+   "n": 108,
+   "page": 6,
+   "en": "it remains an independent country completely surrounded by Italy and home to around 34,000 people known as Samaranese.",
+   "zh": "它至今仍是一个被意大利完全包围的独立国家，居住着约34000名被称为“圣马力诺人”的居民"
+  },
+  {
+   "n": 109,
+   "page": 6,
+   "en": "And the American Revolutionary War formally came to a close on September 3rd?",
+   "zh": "美国独立战争是在9月3日正式结束的吗？"
+  },
+  {
+   "n": 110,
+   "page": 6,
+   "en": "That was in the year 1783 when the Treaty of Paris was signed by representatives of Great Britain and the American colonies.",
+   "zh": "那是在1783年，英国和美洲殖民地代表签署了《巴黎条约》"
+  },
+  {
+   "n": 111,
+   "page": 6,
+   "en": "It officially recognized the United States as independent and ended the conflict that had lasted for more than eight years.",
+   "zh": "该条约正式承认美国独立，结束了这场持续八年多的冲突"
+  },
+  {
+   "n": 112,
+   "page": 6,
+   "en": "Meet Sunny.",
+   "zh": "来认识一下桑尼"
+  },
+  {
+   "n": 113,
+   "page": 6,
+   "en": "This baby koala is receiving a little TLC after his mother was injured in the wild.",
+   "zh": "这只考拉宝宝在妈妈野外受伤后，正在接受悉心照料"
+  },
+  {
+   "n": 114,
+   "page": 6,
+   "en": "Wildlife carer Sue Moore sees roughly 80 koalas come and go in a year,",
+   "zh": "野生动物看护人苏·摩尔一年里要照料大约80只考拉来来去去，"
+  },
+  {
+   "n": 115,
+   "page": 6,
+   "en": "some in need of round-the-clock care.",
+   "zh": "有些需要全天候护理"
+  },
+  {
+   "n": 116,
+   "page": 6,
+   "en": "But this wildlife center, like many nonprofits,",
+   "zh": "但这个野生动物中心，和许多非营利组织一样，"
+  },
+  {
+   "n": 117,
+   "page": 6,
+   "en": "often has to get creative",
+   "zh": "常常得想办法，"
+  },
+  {
+   "n": 118,
+   "page": 6,
+   "en": "to make a little bit stretch a long way",
+   "zh": "让一点点资源能撑得久一些，"
+  },
+  {
+   "n": 119,
+   "page": 6,
+   "en": "for their patients.",
+   "zh": "用来照顾这些动物"
+  },
+  {
+   "n": 120,
+   "page": 6,
+   "en": "When you open it up",
+   "zh": "当你打开笼門，"
+  },
+  {
+   "n": 121,
+   "page": 6,
+   "en": "and then climbing up the trees,",
+   "zh": "看着它们爬上树，"
+  },
+  {
+   "n": 122,
+   "page": 6,
+   "en": "it's a reward really,",
+   "zh": "那真的是一种回报，"
+  },
+  {
+   "n": 123,
+   "page": 6,
+   "en": "because that's what you've done.",
+   "zh": "因为这就是你付出的意义"
+  },
+  {
+   "n": 124,
+   "page": 6,
+   "en": "You've saved it.",
+   "zh": "你把它救下来了"
+  },
+  {
+   "n": 125,
+   "page": 6,
+   "en": "The wildlife care center found some help",
+   "zh": "野生动物护理中心通过一家名为"
+  },
+  {
+   "n": 126,
+   "page": 6,
+   "en": "through a charity called Medical Pantry, “",
+   "zh": "医疗补给站”的慈善机构找到了帮助，"
+  },
+  {
+   "n": 127,
+   "page": 6,
+   "en": "which connects it",
+   "zh": "该机构为它对接了"
+  },
+  {
+   "n": 128,
+   "page": 6,
+   "en": "with much-needed medical supplies.",
+   "zh": "急需的医疗物资"
+  },
+  {
+   "n": 129,
+   "page": 6,
+   "en": "Australia's healthcare sector",
+   "zh": "澳大利亚的医疗行业"
+  },
+  {
+   "n": 130,
+   "page": 6,
+   "en": "is the nation's second-largest source",
+   "zh": "是该国第二大"
+  },
+  {
+   "n": 131,
+   "page": 6,
+   "en": "of landfill waste.",
+   "zh": "垃圾填埋废物的来源"
+  },
+  {
+   "n": 132,
+   "page": 6,
+   "en": "But some of what is deemed waste",
+   "zh": "但有些在医院里"
+  },
+  {
+   "n": 133,
+   "page": 6,
+   "en": "in a hospital",
+   "zh": "被视为废物的东西"
+  },
+  {
+   "n": 134,
+   "page": 6,
+   "en": "could still be useful elsewhere.",
+   "zh": "在其他地方可能仍然有用"
+  },
+  {
+   "n": 135,
+   "page": 7,
+   "en": "Medical Pantry says it saves about 5 “",
+   "zh": "医疗补给站”表示，它从垃圾填埋场"
+  },
+  {
+   "n": 136,
+   "page": 7,
+   "en": "% of medical equipment from landfills.",
+   "zh": "拯救了大约5%的医疗设备"
+  },
+  {
+   "n": 137,
+   "page": 7,
+   "en": "Thanks to donations of surplus",
+   "zh": "多亏了捐赠的剩余"
+  },
+  {
+   "n": 138,
+   "page": 7,
+   "en": "medical materials like swabs, bandages,",
+   "zh": "医疗物资，如拭子、绷带，"
+  },
+  {
+   "n": 139,
+   "page": 7,
+   "en": "or this Humidicrib,",
+   "zh": "或者这个婴儿保温箱，"
+  },
+  {
+   "n": 140,
+   "page": 7,
+   "en": "the koalas are receiving care.",
+   "zh": "考拉们正在得到护理"
+  },
+  {
+   "n": 141,
+   "page": 7,
+   "en": "Hospitals in Australia use Humidicrib",
+   "zh": "澳大利亚的医院使用婴儿保温箱"
+  },
+  {
+   "n": 142,
+   "page": 7,
+   "en": "to create a warm and controlled environment",
+   "zh": "为早产或患病的婴儿"
+  },
+  {
+   "n": 143,
+   "page": 7,
+   "en": "for premature or sick babies.",
+   "zh": "创造一个温暖且可控的环境"
+  },
+  {
+   "n": 144,
+   "page": 7,
+   "en": "I had a big koala",
+   "zh": "我有一只大考拉"
+  },
+  {
+   "n": 145,
+   "page": 7,
+   "en": "that lost its temperature,",
+   "zh": "体温过低，"
+  },
+  {
+   "n": 146,
+   "page": 7,
+   "en": "so we were able to put it",
+   "zh": "所以我们可以把它"
+  },
+  {
+   "n": 147,
+   "page": 7,
+   "en": "into the Humidicrib",
+   "zh": "放进婴儿保温箱里，"
+  },
+  {
+   "n": 148,
+   "page": 7,
+   "en": "and brought back that temperature back up.",
+   "zh": "把体温重新升了回来"
+  },
+  {
+   "n": 149,
+   "page": 7,
+   "en": "And then if I have young babies,",
+   "zh": "然后如果我有小宝宝，"
+  },
+  {
+   "n": 150,
+   "page": 7,
+   "en": "like furless babies,",
+   "zh": "比如还没长毛的宝宝，"
+  },
+  {
+   "n": 151,
+   "page": 7,
+   "en": "I can put them in there",
+   "zh": "我可以把它们放进去，"
+  },
+  {
+   "n": 152,
+   "page": 7,
+   "en": "and it keeps that temperature.",
+   "zh": "它就能保持那个温度"
+  },
+  {
+   "n": 153,
+   "page": 7,
+   "en": "There's a faith-based charity",
+   "zh": "在美国中西部"
+  },
+  {
+   "n": 154,
+   "page": 7,
+   "en": "in the U.S. Midwest",
+   "zh": "有一个基于信仰的慈善机构，"
+  },
+  {
+   "n": 155,
+   "page": 7,
+   "en": "that provides reliable transportation",
+   "zh": "为有需要的人提供"
+  },
+  {
+   "n": 156,
+   "page": 7,
+   "en": "for people in need.",
+   "zh": "可靠的交通工具"
+  },
+  {
+   "n": 157,
+   "page": 7,
+   "en": "And Chariots for Hope “",
+   "zh": "希望战车”"
+  },
+  {
+   "n": 158,
+   "page": 7,
+   "en": "has a unique way of fundraising.",
+   "zh": "有一种独特的筹款方式"
+  },
+  {
+   "n": 159,
+   "page": 7,
+   "en": "It says not all of the cars donated",
+   "zh": "该机构表示，并非所有捐赠的汽车"
+  },
+  {
+   "n": 160,
+   "page": 7,
+   "en": "can be used.",
+   "zh": "都能使用"
+  },
+  {
+   "n": 161,
+   "page": 7,
+   "en": "So after some were drained",
+   "zh": "所以，在一些车排干了"
+  },
+  {
+   "n": 162,
+   "page": 7,
+   "en": "of flammable fluids,",
+   "zh": "易燃液体之后，"
+  },
+  {
+   "n": 163,
+   "page": 7,
+   "en": "they were sent to the quarry jump,",
+   "zh": "它们被送去采石场跳跃，"
+  },
+  {
+   "n": 164,
+   "page": 7,
+   "en": "which is more like a quarry drop",
+   "zh": "这更像是采石场坠落，"
+  },
+  {
+   "n": 165,
+   "page": 7,
+   "en": "for the amusement of hundreds of spectators",
+   "zh": "供数百名观众娱乐，"
+  },
+  {
+   "n": 166,
+   "page": 7,
+   "en": "and a successful fundraiser.",
+   "zh": "同时也是一次成功的筹款活动"
+  },
+  {
+   "n": 167,
+   "page": 8,
+   "en": "It's amazing how many folks will gather",
+   "zh": "有这么多人聚在一起"
+  },
+  {
+   "n": 168,
+   "page": 8,
+   "en": "to watch someone smash stuff.",
+   "zh": "看别人砸东西，真是令人惊叹"
+  },
+  {
+   "n": 169,
+   "page": 8,
+   "en": "And it brings a whole new meaning to,",
+   "zh": "这给这些话带来了全新的含义："
+  },
+  {
+   "n": 170,
+   "page": 8,
+   "en": "it's got good brakes,",
+   "zh": "它的刹车很好，"
+  },
+  {
+   "n": 171,
+   "page": 8,
+   "en": "it can take a beating,",
+   "zh": "它很耐撞，"
+  },
+  {
+   "n": 172,
+   "page": 8,
+   "en": "it can catch some air,",
+   "zh": "它能飞起来，"
+  },
+  {
+   "n": 173,
+   "page": 8,
+   "en": "it stops on a dime,",
+   "zh": "它说停就停，"
+  },
+  {
+   "n": 174,
+   "page": 8,
+   "en": "it really took off,",
+   "zh": "它真的起飞了，"
+  },
+  {
+   "n": 175,
+   "page": 8,
+   "en": "I ran it into the ground,",
+   "zh": "我把它开到报废了，"
+  },
+  {
+   "n": 176,
+   "page": 8,
+   "en": "I'll drive it down to you,",
+   "zh": "我把它开下来给你，"
+  },
+  {
+   "n": 177,
+   "page": 8,
+   "en": "we were riding on there,",
+   "zh": "我们当时就坐在上面，"
+  },
+  {
+   "n": 178,
+   "page": 8,
+   "en": "that car was flying",
+   "zh": "那车简直在飞，"
+  },
+  {
+   "n": 179,
+   "page": 8,
+   "en": "and if all else fails,",
+   "zh": "如果这些都不行，"
+  },
+  {
+   "n": 180,
+   "page": 8,
+   "en": "I'll just drop it off.",
+   "zh": "我就直接把它丢下来"
+  },
+  {
+   "n": 181,
+   "page": 8,
+   "en": "After all, nothing else quite goes",
+   "zh": "毕竟，没有什么能像那样"
+  },
+  {
+   "n": 182,
+   "page": 8,
+   "en": "from zero to 60 to zero like that.",
+   "zh": "从零加速到60再瞬间归零"
+  },
+  {
+   "n": 183,
+   "page": 8,
+   "en": "I'm Carl Azuz dropping news and puns",
+   "zh": "我是卡尔·阿祖兹，在《从A到Z看世界》"
+  },
+  {
+   "n": 184,
+   "page": 8,
+   "en": "on the world from A to Z,",
+   "zh": "为大家带来新闻和双关语，"
+  },
+  {
+   "n": 185,
+   "page": 8,
+   "en": "and we hope you'll ride with us again tomorrow.",
+   "zh": "希望明天你还能与我们一起同行"
+  },
+  {
+   "n": 186,
+   "page": 8,
+   "en": "You mean the world to me.",
+   "zh": "你对我来说就是全世界"
+  }
+ ]
+}

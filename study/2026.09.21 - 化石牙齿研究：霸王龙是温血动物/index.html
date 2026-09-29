@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CNN 10 新闻 2026.09.21 · 霸王龙体温研究与本周要闻 · 英语学习</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --fg:#191b1f; --muted:#6b7280; --line:#e4e7ec;
+    --accent:#4d6bfe; --accent-soft:#eef1ff; --ok:#15803d; --ok-soft:#e8f7ee;
+    --warn:#b45309; --warn-soft:#fef3e2; --bad:#b91c1c; --bad-soft:#fdecec;
+    --serif:"Iowan Old Style",Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+           "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    --radius:12px; --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.1);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#15171c; --card:#1d2027; --fg:#e8eaed; --muted:#9aa3af; --line:#2c313b;
+      --accent:#8ba2ff; --accent-soft:#242a3f; --ok:#6ee7a0; --ok-soft:#1b2f24;
+      --warn:#f5c173; --warn-soft:#332717; --bad:#f8a3a3; --bad-soft:#3a1f1f;
+      --shadow:none;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);
+       font-size:16px;line-height:1.65;-webkit-text-size-adjust:100%}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;
+       background:var(--accent-soft);border-radius:6px;padding:.1em .35em}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+
+  header.top{padding:28px 0 16px;border-bottom:1px solid var(--line);margin-bottom:22px}
+  h1{margin:0 0 6px;font-size:26px;line-height:1.3}
+  .sub{color:var(--muted);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .badge{background:var(--card);border:1px solid var(--line);border-radius:999px;
+         padding:3px 11px;font-size:12.5px;color:var(--muted)}
+  .badge strong{color:var(--fg);font-weight:600}
+  .badge.lv{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
+
+  nav.tabs{display:flex;gap:4px;flex-wrap:wrap;position:sticky;top:0;z-index:20;
+           background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);
+           padding:10px 0;margin-bottom:14px;border-bottom:1px solid var(--line)}
+  nav.tabs button{appearance:none;border:1px solid transparent;background:transparent;color:var(--muted);
+       font:inherit;font-size:14.5px;padding:6px 13px;border-radius:999px;cursor:pointer}
+  nav.tabs button:hover{background:var(--card);color:var(--fg)}
+  nav.tabs button[aria-selected="true"]{background:var(--accent);color:#fff;font-weight:600}
+  nav.tabs .count{opacity:.7;font-size:12px;margin-left:5px}
+
+  section[hidden]{display:none}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+        padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+  h2{font-size:19px;margin:26px 0 12px}
+  h2:first-child{margin-top:4px}
+  h3{font-size:16.5px;margin:0 0 8px}
+  .muted{color:var(--muted)}
+  .small{font-size:13.5px}
+  .grid{display:grid;gap:12px}
+  .grid.stats{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+  .stat b{display:block;font-size:22px;line-height:1.2}
+  .stat span{color:var(--muted);font-size:13px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+  .chip{background:var(--accent-soft);color:var(--accent);border-radius:999px;
+        padding:2px 10px;font-size:13px}
+  ol.plan{margin:6px 0 0;padding-left:22px}
+  ol.plan li{margin:5px 0}
+
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+           background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+           padding:10px 14px;margin-bottom:14px;position:sticky;top:52px;z-index:15}
+  .toolbar label{font-size:13.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  select,input[type=search],input[type=text],textarea{
+      font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);
+      border-radius:8px;padding:5px 9px}
+  textarea{width:100%;min-height:64px;resize:vertical}
+  .btn{appearance:none;font:inherit;font-size:13.5px;cursor:pointer;background:var(--card);
+       color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:5px 11px}
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  .btn.primary:hover{opacity:.9;color:#fff}
+  .btn.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+
+  /* sentences */
+  .sent{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+        padding:12px 16px;margin-bottom:10px;scroll-margin-top:120px}
+  .sent:target{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .sent .row1{display:flex;gap:12px;align-items:baseline}
+  .sent .no{flex:0 0 38px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;
+            padding-top:4px;text-align:right}
+  .sent .body{flex:1;min-width:0}
+  .en{font-family:var(--serif);font-size:17.5px;line-height:1.6}
+  .zh{color:var(--muted);font-size:14.5px;margin-top:4px}
+  .zh.hide{display:none}
+  .sent .acts{flex:0 0 auto;display:flex;gap:4px;opacity:.35;transition:opacity .15s}
+  .sent:hover .acts,.sent .acts:focus-within{opacity:1}
+  .icon{appearance:none;background:transparent;border:none;cursor:pointer;font-size:15px;
+        padding:4px 5px;border-radius:6px;color:var(--muted);line-height:1}
+  .icon:hover{background:var(--accent-soft);color:var(--accent)}
+  .icon.on{color:var(--warn)}
+  .pg{color:var(--muted);font-size:11.5px;flex:0 0 34px;text-align:right;padding-top:6px}
+  mark.v{background:transparent;color:inherit;border-bottom:2px solid var(--accent);cursor:help;font-weight:600}
+  mark.v.tagged{background:var(--accent-soft);border-radius:4px;padding:0 2px}
+
+  /* starred sentences */
+  .md-preview{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+      padding:14px 16px;margin:12px 0 0;white-space:pre-wrap;word-break:break-word;
+      font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.7;
+      max-height:440px;overflow:auto}
+  .md-preview::before{content:"Markdown 预览（可直接全选复制）";display:block;margin-bottom:8px;
+      color:var(--muted);font-family:var(--sans);font-size:12.5px}
+
+  /* vocab */
+  .vgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  .vcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+         padding:14px 16px;position:relative;min-height:150px}
+  .vcard.mastered{opacity:.55}
+  .vcard .term{font-family:var(--serif);font-size:20px;font-weight:600;display:flex;
+               align-items:center;gap:8px;flex-wrap:wrap}
+  .vcard .pos{font-size:12.5px;color:var(--muted);font-style:italic}
+  .vcard .ipa{color:var(--muted);font-size:13.5px;margin:2px 0 8px}
+  .vcard .zh{color:var(--fg);font-size:15px;margin-bottom:6px}
+  .vcard .note{font-size:13px;color:var(--muted)}
+  .vcard .ex{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px;font-size:13.5px}
+  .vcard .ex .e{font-family:var(--serif)}
+  .vcard .ex .z{color:var(--muted)}
+  .vcard .tools{position:absolute;top:10px;right:10px;display:flex;gap:4px}
+  .lvl{font-size:11.5px;border-radius:5px;padding:1px 6px;background:var(--accent-soft);color:var(--accent)}
+  .lvl.hi{background:var(--warn-soft);color:var(--warn)}
+  .lvl.core{background:var(--ok-soft);color:var(--ok)}
+  .ref{font-size:12.5px;color:var(--muted)}
+  .ref a{color:var(--muted);text-decoration:underline dotted}
+  .progress{height:8px;background:var(--line);border-radius:999px;overflow:hidden;margin:6px 0 0}
+  .progress i{display:block;height:100%;background:var(--ok)}
+
+  /* lists */
+  table{width:100%;border-collapse:collapse;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  .ph{font-family:var(--serif);font-size:16.5px;font-weight:600}
+
+  /* grammar */
+  details.g{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+            margin-bottom:10px;overflow:hidden}
+  details.g>summary{cursor:pointer;padding:13px 18px;font-weight:600;font-size:16px;list-style:none;
+        display:flex;gap:10px;align-items:center}
+  details.g>summary::-webkit-details-marker{display:none}
+  details.g>summary::before{content:"▸";color:var(--accent);transition:transform .15s}
+  details.g[open]>summary::before{transform:rotate(90deg)}
+  details.g .inner{padding:0 18px 16px;border-top:1px solid var(--line)}
+  .struct{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
+          padding:10px 14px;margin:12px 0;font-family:var(--serif);font-size:16px}
+  .caution{background:var(--warn-soft);border-radius:8px;padding:9px 13px;font-size:13.5px;
+           color:var(--warn);margin-top:10px}
+
+  /* exercises */
+  .ex{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+      padding:14px 18px;margin-bottom:12px}
+  .ex .q{font-family:var(--serif);font-size:16.5px;margin-bottom:10px}
+  .ex .q .idx{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-right:6px}
+  .opts{display:flex;flex-direction:column;gap:7px}
+  .opt{text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:9px;
+       padding:8px 12px;font:inherit;font-size:15px;cursor:pointer;color:var(--fg)}
+  .opt:hover{border-color:var(--accent)}
+  .opt.right{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:600}
+  .opt.wrong{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .fb{margin-top:9px;font-size:14px;display:none}
+  .fb.show{display:block}
+  .fb.ok{color:var(--ok)} .fb.no{color:var(--bad)}
+  .ans{display:none;margin-top:9px;background:var(--ok-soft);border-radius:8px;padding:9px 13px;font-size:14px}
+  .ans.show{display:block}
+  footer{color:var(--muted);font-size:13px;text-align:center;margin-top:36px;
+         border-top:1px solid var(--line);padding-top:16px}
+  .empty{color:var(--muted);font-size:14px;padding:10px 2px}
+  @media print{
+    nav.tabs,.toolbar,.acts,.tools{display:none!important}
+    body{background:#fff}
+    .zh.hide{display:block!important}
+    section[hidden]{display:block!important}
+    .sent,.card,.vcard{break-inside:avoid;box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 id="title">英语学习页</h1>
+    <div class="sub" id="subtitle"></div>
+    <div class="badges" id="badges"></div>
+  </header>
+
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+
+  <main>
+    <section id="tab-overview" role="tabpanel">
+      <div class="card" id="summary-card"></div>
+      <div class="grid stats" id="stat-grid"></div>
+      <div class="card" id="plan-card"></div>
+    </section>
+
+    <section id="tab-sentences" role="tabpanel" hidden>
+      <div class="toolbar">
+        <button class="btn on" id="toggle-zh">中文翻译：显示</button>
+        <label>语速
+          <select id="rate">
+            <option value="0.7">0.7×</option>
+            <option value="0.85" selected>0.85×</option>
+            <option value="1">1.0×</option>
+          </select>
+        </label>
+        <button class="btn" id="star-toggle" title="只看我收藏的重点句">★ 收藏句 <span id="star-count">0</span></button>
+        <label>范围
+          <select id="sent-filter">
+            <option value="all">全部句子</option>
+            <option value="star">只看收藏</option>
+            <option value="vocab">只看含生词的句子</option>
+          </select>
+        </label>
+        <span class="small muted" id="sent-count"></span>
+      </div>
+      <div id="sentences"></div>
+    </section>
+
+    <section id="tab-starred" role="tabpanel" hidden>
+      <div class="toolbar">
+        <span class="small muted" id="starred-count"></span>
+        <button class="btn primary" id="star-export">导出 Markdown</button>
+        <button class="btn" id="star-clear">清空收藏</button>
+      </div>
+      <div id="starred"></div>
+      <pre class="md-preview" id="star-preview" hidden></pre>
+    </section>
+
+    <section id="tab-vocab" role="tabpanel" hidden>
+      <div class="toolbar">
+        <label>显示
+          <select id="vocab-filter">
+            <option value="all">全部</option>
+            <option value="todo">未掌握</option>
+            <option value="done">已掌握</option>
+          </select>
+        </label>
+        <input type="search" id="vocab-search" placeholder="筛选单词…">
+        <span class="small muted" id="vocab-count"></span>
+      </div>
+      <div class="vgrid" id="vocab"></div>
+    </section>
+
+    <section id="tab-phrases" role="tabpanel" hidden><div id="phrases"></div></section>
+    <section id="tab-grammar" role="tabpanel" hidden><div id="grammar"></div></section>
+    <section id="tab-patterns" role="tabpanel" hidden><div id="patterns"></div></section>
+    <section id="tab-exercises" role="tabpanel" hidden>
+      <div class="toolbar">
+        <button class="btn" id="show-all">显示全部答案</button>
+        <button class="btn" id="reset-ex">重做</button>
+        <span class="small muted" id="ex-count"></span>
+      </div>
+      <div id="exercises"></div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+</div>
+
+<noscript><p style="padding:20px">这个学习页需要 JavaScript 才能渲染（数据已内嵌在文件里）。</p></noscript>
+
+<script id="study-data" type="application/json">{"meta":{"title":"CNN 10 新闻 2026.09.21 · 霸王龙体温研究与本周要闻","subtitle":"CNN 10（主播 Allison Chinchar 代班）· 中英对照逐句台词本（187 句 / 1609 词）","level":"B1–B2","summary":"本期共六个板块。第一条来自南非：成群的狒狒在开普敦社区游荡、闯入住宅，市政府计划把约 60 只永久圈养，以替代\"扑杀\"，这一方案引发激烈争议——动物福利组织认为问题根源不是狒狒，而是城市向自然扩张。第二条是尼泊尔加德满都的静默抗议与烛光守夜：8 月底冰川崩塌引发灾难性洪水，1300 多人遇难、数千人失踪，而尼泊尔碳排放仅占全球 0.027%。第三条是十秒冷知识加科学新闻：第一具霸王龙化石 1902 年发现于蒙大拿，1905 年被命名为 Tyrannosaurus rex（暴君蜥蜴王）；加州大学研究者分析三颗霸王龙牙齿化石，测得体温约华氏 97 度，接近人类，说明它可能是温血动物，这解释了它为何能生活在从阿拉斯加到南方的广阔气候带。第四条是秋叶变色科普：日照变短是主要信号，树叶停止光合作用、进入休眠；花青素让叶子变红变紫，常绿树则从不停下光合作用；气候变暖会让落叶推迟，而气温骤降会让树木\"休克\"直接落叶。第五条是明尼阿波利斯的女性消防员培训项目：全美消防员中只有 9% 是女性，项目要打破\"女性体能不够\"的偏见。最后是订阅致谢与一句 shout out。\n\n提醒：这份台词本的中文列把\"霸王龙\"误译成\"霸王鼠\"、\"恐龙\"误译成\"恐鼠\"（英文原文是 T-Rex / dinosaur），个别地方还混入繁体字（如\"温血鳥类\"）。学习时以英文列为准，中文只作参考——这也是机器翻译需要人工校对的典型例子。","topics":["野生动物与城市冲突","气候行动与灾害","古生物学研究","物候与季节变化","女性职业发展","英语双关与习语"],"learningFocus":["争议话题词汇：controversy, outcry, cull, confine, coexist, encroachment","气候与灾害词汇：emission, hazard, vigil, solidarity, be reeling from","科学研究表述：suggests (that)…, help explain how…, researchers found that…","物候与气象词汇：foliage, photosynthesis, dormant, anthocyanin, daylight hours","使役与条件结构：cause sb to do / allow sb to do / If + 过去式, it would be…","结尾的树木双关：branch out, get to the root of, fall-tastic"],"studyPlan":["第 1 步（12 分钟）：通读「逐句精读」第 1–46 句（开普敦狒狒之争），注意双方各用什么词为自己辩护。","第 2 步（15 分钟）：过「生词」卡片并跟读例句；把灾害类和科学类词汇分开记。","第 3 步（12 分钟）：读「语法点」，重点掌握使役结构（cause/allow/help sb to do）和被动语态。","第 4 步（10 分钟）：用「句型模板」练习科学结论句式：suggests (that)… / could help explain how…。","第 5 步（15 分钟）：做「练习」，翻译题先写再看答案；错题回到对应句子重读。","第 6 步（8 分钟）：回到第 84–154 句的秋叶科普，用 0.85× 跟读，模仿一问一答的访谈节奏。"],"estimatedMinutes":75},"vocab":[{"term":"troop","ipa":"/truːp/","pos":"n.","zh":"（狒狒、猴子等的）一群；（troops）部队","level":"B2","note":"动物群体量词各有专名：a troop of baboons（狒狒）、a herd of cattle（牛）、a flock of birds（鸟）、a pack of wolves（狼）。","examples":[{"en":"Troops of baboons are roaming neighborhoods in Cape Town, damaging property","zh":"成群的狒狒在开普敦的社区里游荡，破坏财物，","ref":7},{"en":"We could either cull the troops, which is arguably the ecological solution,","zh":"我们可以选择扑杀这些狒狒群，这可以说是生态上的解决办法，","ref":18}]},{"term":"baboon","ipa":"/bəˈbuːn/","pos":"n.","zh":"狒狒","level":"B2","note":"＝ 一种大型猴类。注意文中 \"chakma baboons\"（查克马狒狒）是当地对开普敦狒狒亚种的称呼。","examples":[{"en":"These chakma baboons are Southern Africa's largest monkey species.","zh":"这些查克马狒狒是南部非洲体型最大的猴类。","ref":13}]},{"term":"roam","ipa":"/rəʊm/","pos":"v.","zh":"漫游，四处游荡","level":"B2","note":"roam the streets/neighborhoods 在街上/社区里游荡。与 wander 近义，但 roam 更强调\"大范围自由移动\"。","examples":[{"en":"Troops of baboons are roaming the streets, raiding homes and riling up residents.","zh":"成群的狒狒在街上游荡，闯入住宅，惹恼居民。","ref":12}]},{"term":"raid","ipa":"/reɪd/","pos":"v./n.","zh":"突袭，闯入（抢夺）","level":"B2","note":"raiding homes 指狒狒闯进民宅翻找食物。名词用法：a police raid（警方突袭）。","examples":[{"en":"Troops of baboons are roaming the streets, raiding homes and riling up residents.","zh":"成群的狒狒在街上游荡，闯入住宅，惹恼居民。","ref":12}]},{"term":"primate","ipa":"/ˈpraɪmeɪt/","pos":"n.","zh":"灵长类动物（含人、猿、猴）","level":"C1","note":"注意发音重音在第一音节；形容词用法作\"首要的\"时读 /ˈpraɪmət/。文中 their primate problem 指\"狒狒问题\"。","examples":[{"en":"And now the city has a plan to solve their primate problem,","zh":"现在这座城市有了一个解决灵长类动物问题的计划，","ref":15}]},{"term":"cull","ipa":"/kʌl/","pos":"v./n.","zh":"（为控制数量而）选择性扑杀；挑选淘汰","level":"C1","note":"野生动物管理中的敏感词：culling 指有选择地捕杀一部分个体。文中 as an alternative to culling（作为扑杀的替代方案）。","examples":[{"en":"permanently cage around 60 of the animals as an alternative to culling.","zh":"永久圈养大约 60 只狒狒，以此替代扑杀。","ref":16},{"en":"We could either cull the troops, which is arguably the ecological solution,","zh":"我们可以选择扑杀这些狒狒群，这可以说是生态上的解决办法，","ref":18}]},{"term":"confine","ipa":"/kənˈfaɪn/","pos":"v.","zh":"把……限制在（某范围），圈禁","level":"B2","note":"be confined to 被限制在……；confine oneself to 仅限于谈某话题。名词 confinement。","examples":[{"en":"Should baboons that have adapted to city life be confined,","zh":"已经适应城市生活的狒狒，究竟应该被圈禁，","ref":23},{"en":"City officials say the baboons will be better off if they're confined.","zh":"市政官员表示，把狒狒圈养起来对它们更好。","ref":32}]},{"term":"coexist","ipa":"/ˌkəʊɪɡˈzɪst/","pos":"v.","zh":"共存，共处","level":"B2","note":"co-（共同）+ exist（存在）。常用 coexist with sb/sth；名词 coexistence，形容词 coexisting。环保与人际话题高频词。","examples":[{"en":"or should people find a way to coexist with them?","zh":"还是人们应该找到与它们共存的方式？","ref":24},{"en":"then you need to live and coexist with the wildlife.","zh":"那么你就需要与野生动物共同生活、和平共处。","ref":42}]},{"term":"controversy","ipa":"/ˈkɒntrəvɜːsi/","pos":"n.","zh":"争议，争论","level":"B2","note":"spark/cause controversy（引发争议）；形容词 controversial（有争议的），见第 9 句 a controversial plan。","examples":[{"en":"Cape Town residents are taking notice of a growing controversy","zh":"开普敦居民注意到一场日益加剧的争议，","ref":10},{"en":"CNN's Larry Madowo explains a controversial plan to address the problem.","zh":"CNN 的拉里·马多沃来解释一项有争议的解决方案。","ref":9}]},{"term":"outcry","ipa":"/ˈaʊtkraɪ/","pos":"n.","zh":"（公众的）强烈抗议，哗然","level":"C1","note":"常搭配 spark/provoke an outcry（引发抗议）、public outcry（公愤）。由 out + cry 构成，口语色彩强于 protest。","examples":[{"en":"But that plan has sparked an outcry and fierce debate.","zh":"但这项计划引发了强烈抗议和激烈辩论。","ref":22}]},{"term":"encroachment","ipa":"/ɪnˈkrəʊtʃmənt/","pos":"n.","zh":"侵占，蚕食（土地、权利）","level":"C1","note":"动词 encroach on/upon sth（侵占）；urban encroachment 城市扩张侵占自然。环保争议中的核心概念词。","examples":[{"en":"It's urban encroachment.","zh":"而在于城市扩张侵占自然。","ref":38}]},{"term":"welfare","ipa":"/ˈwelfeə(r)/","pos":"n.","zh":"福祉，福利；动物福利","level":"B2","note":"animal welfare 动物福利（关注动物是否被善待）；social welfare 社会福利。注意与 farewell（告别）拼写区分。","examples":[{"en":"Animal welfare groups say the root of the problem isn't the baboons.","zh":"动物福利组织表示，问题的根源并不在狒狒，","ref":37}]},{"term":"harmony","ipa":"/ˈhɑːməni/","pos":"n.","zh":"和谐，融洽","level":"B1","note":"in harmony (with) 与……和谐相处；live together in harmony。形容词 harmonious。","examples":[{"en":"then we live together in harmony.","zh":"那么我们就能和谐地生活在一起。","ref":31}]},{"term":"secure","ipa":"/sɪˈkjʊə(r)/","pos":"v.","zh":"把……固定/关好，使安全","level":"B2","note":"secure their homes 加固住宅（防止动物闯入）。形容词 secure（安全的），名词 security。文中是动词用法，容易被误读为\"获得\"。","examples":[{"en":"They argue residents need to do more to secure their homes,","zh":"他们认为，居民需要做更多来加固住宅、","ref":39}]},{"term":"vigil","ipa":"/ˈvɪdʒl/","pos":"n.","zh":"守夜（祈祷、悼念或抗议活动）","level":"C1","note":"hold/stage a candlelight vigil 举行烛光守夜；keep vigil 守夜看护。与 vigil 同源的 vigilant 意为\"警惕的\"。","examples":[{"en":"Activists in Kathmandu, Nepal, held a silent protest and candle vigil","zh":"在尼泊尔加德满都，活动人士在周末举行了静默抗议和烛光守夜，","ref":47}]},{"term":"activist","ipa":"/ˈæktɪvɪst/","pos":"n.","zh":"活动人士，行动主义者","level":"B2","note":"climate activist 气候活动人士；动词/名词 act，名词 activism（行动主义）。","examples":[{"en":"Activists honored those victims during the event.","zh":"活动人士在活动中悼念了这些遇难者。","ref":52}]},{"term":"reel","ipa":"/riːl/","pos":"v.","zh":"因受打击而眩晕、踉跄；be reeling from 因……而震惊未定","level":"C1","note":"原义是\"被重击后踉跄\"。新闻常用 be still reeling from（仍在从……中恢复），比 be shocked by 更形象。","examples":[{"en":"The nation is still reeling from a collapse of a glacier in late August","zh":"这个国家仍在承受 8 月底冰川崩塌带来的冲击，","ref":49}]},{"term":"emission","ipa":"/ɪˈmɪʃn/","pos":"n.","zh":"排放；排放物（常复数）","level":"B2","note":"carbon emissions 碳排放；cut/reduce emissions 减排。动词 emit（排放）。气候报道核心词。","examples":[{"en":"like Nepal is contributing 0.027% in the carbon emission,","zh":"比如尼泊尔的碳排放只占全球碳排放的 0.027%，","ref":58}]},{"term":"hazard","ipa":"/ˈhæzəd/","pos":"n.","zh":"危害，隐患；危险","level":"B2","note":"climate-related hazards 与气候相关的灾害；health/fire hazard 健康/火灾隐患。形容词 hazardous（危险的）。","examples":[{"en":"And we are getting all the, you know, climate-related hazards.","zh":"而我们却在承受所有与气候相关的灾害。","ref":60}]},{"term":"solidarity","ipa":"/ˌsɒlɪˈdærəti/","pos":"n.","zh":"团结，声援","level":"B2","note":"show/express solidarity with sb 向某人表示声援。国际新闻与工运报道高频词。","examples":[{"en":"And we are, the youth are here to show the solidarity","zh":"而我们在这里，年轻人们在此展示团结","ref":61}]},{"term":"fossil","ipa":"/ˈfɒsl/","pos":"n.","zh":"化石","level":"B1","note":"形容词 fossilized（已成化石的，见第 74 句 fossilized teeth）；fossil fuels 化石燃料。","examples":[{"en":"The first T-Rex fossil was discovered in which U.S. state?","zh":"第一具霸王龙化石是在美国哪个州发现的？","ref":64}]},{"term":"dinosaur","ipa":"/ˈdaɪnəsɔː(r)/","pos":"n.","zh":"恐龙","level":"B1","note":"台词本中文列把 dinosaur 误译成\"恐鼠\"、T-Rex 误译成\"霸王鼠\"，正确是\"恐龙\"\"霸王龙\"；英文列没有问题。","examples":[{"en":"In 1905, the dinosaur was officially named Tyrannosaurus rex,","zh":"1905 年，这种恐龙被正式命名为 Tyrannosaurus rex，","ref":68}]},{"term":"tyrant","ipa":"/ˈtaɪrənt/","pos":"n.","zh":"暴君，专制统治者","level":"C1","note":"Tyrannosaurus rex 字面就是\"暴君蜥蜴王\"（tyrant + lizard + king，见第 69 句）。形容词 tyrannical（暴虐的）。","examples":[{"en":"meaning tyrant lizard king.","zh":"意思是\"暴君蜥蜴王\"。","ref":69}]},{"term":"Fahrenheit","ipa":"/ˈfærənhaɪt/","pos":"n.","zh":"华氏度","level":"B2","note":"美国日常使用；换算公式 ℃ = (℉ − 32) × 5/9，所以 97℉ ≈ 36.1℃，接近人体体温。国际科学文献多用 Celsius（摄氏）。","examples":[{"en":"a body temperature of about 97 degrees Fahrenheit,","zh":"体温大约为华氏 97 度，","ref":75}]},{"term":"predator","ipa":"/ˈpredətə(r)/","pos":"n.","zh":"捕食者，掠食动物","level":"B2","note":"a massive predator 庞大的捕食者。反义 prey（猎物）；动词 prey on（捕食）。","examples":[{"en":"And that could help explain how this massive predator was able to live","zh":"这可能有助于解释这种庞大的捕食者为何能生活在","ref":79}]},{"term":"massive","ipa":"/ˈmæsɪv/","pos":"adj.","zh":"巨大的，庞大的","level":"B1","note":"名词 mass（质量；大量）。可用于体积、数量、影响：a massive increase。","examples":[{"en":"how this massive predator was able to live","zh":"这种庞大的捕食者为何能生活在","ref":79}]},{"term":"generate","ipa":"/ˈdʒenəreɪt/","pos":"v.","zh":"产生，生成（热、电、收入、兴趣）","level":"B2","note":"generate body heat 产生体热；generate electricity/income。名词 generation，形容词 generative（生成式的）。","examples":[{"en":"That warmer body temperature suggests T-Rex could generate","zh":"这种较高的体温表明霸王龙能够产生","ref":77}]},{"term":"maintain","ipa":"/meɪnˈteɪn/","pos":"v.","zh":"维持，保持；保养","level":"B2","note":"maintain its own body heat 维持自身体温；maintain a balance 保持平衡。名词 maintenance。","examples":[{"en":"and maintain its own body heat.","zh":"并维持自身的体温。","ref":78}]},{"term":"autumnal equinox","ipa":"/ɔːˈtʌmnəl ˈiːkwɪnɒks/","pos":"n.","zh":"秋分","level":"C1","note":"春分是 vernal (spring) equinox。equinox 意为\"昼夜平分点\"；autumn 的形容词是 autumnal（秋天的）。","examples":[{"en":"Tomorrow marks the autumnal equinox in the Northern Hemisphere,","zh":"明天就是北半球的秋分，","ref":84}]},{"term":"foliage","ipa":"/ˈfəʊliɪdʒ/","pos":"n.","zh":"（树的）叶子，枝叶","level":"C1","note":"不可数名词。fall foliage 秋叶（美式说法，fall＝秋天）；foliage colors 叶色。与 flower（花）拼写相近但无关。","examples":[{"en":"Fall foliage colors are popping, with trees starting to turn","zh":"秋叶色彩正在绽放，树木开始变成","ref":86}]},{"term":"brilliant","ipa":"/ˈbrɪliənt/","pos":"adj.","zh":"（颜色）鲜艳明亮的；（人）才华横溢的","level":"B1","note":"brilliant shades of yellow 明艳的黄色调。同义形容秋色：vivid、vibrant。","examples":[{"en":"brilliant shades of yellow, red, and orange.","zh":"灿烂的黄、红、橙色调。","ref":87}]},{"term":"photosynthesis","ipa":"/ˌfəʊtəʊˈsɪnθəsɪs/","pos":"n.","zh":"光合作用","level":"C1","note":"photo-（光）+ synthesis（合成）。动词 photosynthesize（进行光合作用，见第 105 句）。科普文核心词。","examples":[{"en":"Now, photosynthesis is basically using the sunlight","zh":"光合作用基本上是利用阳光","ref":106},{"en":"to stop photosynthesizing.","zh":"让它们停止光合作用。","ref":105}]},{"term":"dormant","ipa":"/ˈdɔːmənt/","pos":"adj.","zh":"休眠的，蛰伏的","level":"C1","note":"go dormant 进入休眠状态（第 109 句）。主语常是植物、火山、细菌：a dormant volcano 休眠火山。","examples":[{"en":"so the trees aren't dying, they're just going dormant.","zh":"所以树木并不是在死去，它们只是进入休眠状态。","ref":109}]},{"term":"anthocyanin","ipa":"/ˌænθəˈsaɪənɪn/","pos":"n.","zh":"花青素（使叶子变红、变紫的色素）","level":"C1","note":"植物学术语，专有名词可只求听懂。相对地，叶绿素是 chlorophyll，类胡萝卜素是 carotenoid。","examples":[{"en":"Basically, what they have inside of them is something called anthocyanin,","zh":"基本上，它们体内含有一种叫花青素的物质，","ref":113}]},{"term":"evergreen","ipa":"/ˈevəɡriːn/","pos":"adj./n.","zh":"常绿的；常绿树","level":"B2","note":"ever（始终）+ green（绿）。反义 deciduous（落叶的）。文中 hence the color 是\"所以叫常绿\"的意思。","examples":[{"en":"Right, so these are what we refer to as evergreen, hence the color, trees.","zh":"对，这些就是我们所说的常绿树，因此才叫常绿。","ref":122}]},{"term":"consolidate","ipa":"/kənˈsɒlɪdeɪt/","pos":"v.","zh":"整合，集中，巩固","level":"C1","note":"consolidate energy 集中能量；consolidate one's position 巩固地位。名词 consolidation。","examples":[{"en":"it can consolidate a lot of that energy","zh":"它就能集中大量能量","ref":151}]},{"term":"cue","ipa":"/kjuː/","pos":"n./v.","zh":"提示，信号；暗示","level":"B2","note":"a cue to do sth 做某事的信号（第 104 句）。舞台上的\"提示\"也叫 cue；注意与 queue（排队）同音异义。","examples":[{"en":"as we head into winter, it's essentially kind of a cue to them","zh":"在进入冬季的过程中，这基本上是给它们一个信号，","ref":104}]},{"term":"stigma","ipa":"/ˈstɪɡmə/","pos":"n.","zh":"（社会的）污名，偏见","level":"C1","note":"fight/break the stigma that…（打破……的偏见），见第 164 句。动词 stigmatize（污名化）。","examples":[{"en":"And the trainers in this program are trying to fight the stigma","zh":"这个项目的训练员们正在努力打破","ref":164}]},{"term":"undeniable","ipa":"/ˌʌndɪˈnaɪəbl/","pos":"adj.","zh":"不可否认的，无可争辩的","level":"C1","note":"un-（不）+ deny（否认）+ -able（可……的）。副词 undeniably。文中 be undeniable that…（让人无法否认）。","examples":[{"en":"We want them to show up and be undeniable","zh":"我们想让她们站出来，让人无法否认","ref":160}]},{"term":"heroic","ipa":"/hɪˈrəʊɪk/","pos":"adj.","zh":"英勇的，英雄般的","level":"B2","note":"名词 hero/heroine，名词 heroism（英雄气概）。注意重音在第二音节。","examples":[{"en":"is one of the most heroic actions of all.","zh":"是所有行动中最英勇的一种。","ref":177}]}],"phrases":[{"term":"at the intersection of A and B","pos":"prep. phrase","zh":"在 A 与 B 的交叉点上，涉及 A 与 B 两个方面","note":"既可指真实路口，也可指议题的交汇。文中用它点出\"公共安全\"与\"自然保护\"这对矛盾。","example":{"en":"at the intersection of public safety and nature conservation.","zh":"这个问题涉及公共安全与自然保护的交叉点。"},"ref":6},{"term":"take notice of","pos":"v. phrase","zh":"注意到，开始关注","note":"比 notice 更有\"开始重视\"的意味。被动式 be noticed 则只表示被看到。","example":{"en":"Cape Town residents are taking notice of a growing controversy","zh":"开普敦居民注意到一场日益加剧的争议，"},"ref":10},{"term":"rile sb up","pos":"phrasal v.","zh":"激怒某人，惹恼某人","note":"口语化表达。文中 riling up residents 与前文 raiding homes 并列，都是分词短语。","example":{"en":"Troops of baboons are roaming the streets, raiding homes and riling up residents.","zh":"成群的狒狒在街上游荡，闯入住宅，惹恼居民。"},"ref":12},{"term":"live out one's life / live out their lives","pos":"v. phrase","zh":"（在某个地方）度过余生","note":"live out 有\"（把余生）过完\"的意思；live out one's dream 则是\"实现梦想\"。","example":{"en":"and allow those animals in those troops to live out their lives","zh":"让那些狒狒群里的动物在那里安然度过余生，"},"ref":20},{"term":"be better off","pos":"adj. phrase","zh":"（处境）会更好","note":"be better off doing sth / if…：You'd be better off taking the train.（你坐火车更好。）反义 be worse off。","example":{"en":"City officials say the baboons will be better off if they're confined.","zh":"市政官员表示，把狒狒圈养起来对它们更好。"},"ref":32},{"term":"the root of the problem","pos":"n. phrase","zh":"问题的根源","note":"get to the root of sth 追根究底（第 154 句用它做了树的双关）。同义：the heart of the matter。","example":{"en":"Animal welfare groups say the root of the problem isn't the baboons.","zh":"动物福利组织表示，问题的根源并不在狒狒，"},"ref":37},{"term":"make way for","pos":"v. phrase","zh":"给……让路，为……腾出空间","note":"也可说 make way（让开）。文中是反问：一方是否必须为另一方让路。","example":{"en":"or will one have to make way for the other?","zh":"还是一方必须为另一方让路？"},"ref":46},{"term":"cold-blooded / warm-blooded","pos":"adj. phrase","zh":"冷血的 / 温血的","note":"生物学上指体温是否由自身代谢维持；日常英语中 cold-blooded 还表示\"冷酷无情的\"（a cold-blooded murder）。","example":{"en":"a cold-blooded lizard or a warm-blooded bird.","zh":"冷血蜥蜴还是温血鸟类。"},"ref":71},{"term":"as far north as","pos":"prep. phrase","zh":"向北远至……","note":"as + 形容词/副词 + as 结构表示\"达到某种程度\"，加方位词可描述分布范围：as far south as Chile。","example":{"en":"including places as far north as what is now Alaska.","zh":"包括北至如今阿拉斯加的地区。"},"ref":81},{"term":"show off","pos":"phrasal v.","zh":"炫耀，展示（本领、美景）","note":"文中把大自然拟人化：Mother Nature is starting to show off. 名词形式 show-off 指\"爱炫耀的人\"。","example":{"en":"and many of us may be noticing that Mother Nature is starting to show off.","zh":"我们很多人可能会注意到大自然母亲开始展现风采了。"},"ref":85},{"term":"lead up to","pos":"phrasal v.","zh":"（时间上）临近……之前，为……做准备","note":"the weeks leading up to the exam 考试前的那几周。文中 leading up to the fall season 指进入秋季之前。","example":{"en":"You have to make sure you've had enough water leading up to the fall season","zh":"你必须确保在进入秋季之前有足够的水分，"},"ref":119},{"term":"branch out","pos":"phrasal v.","zh":"拓展新领域，扩大业务范围","note":"本是\"长出枝杈\"，引申为\"拓展\"。文中主播用它做了树的双关：Thank you for helping us branch out today.","example":{"en":"Thank you for helping us branch out today","zh":"谢谢你今天帮我们拓展了知识，"},"ref":153},{"term":"get to the root of","pos":"v. phrase","zh":"追根究底，弄清根本原因","note":"与 root（树根／根源）双关，和上一句 branch out（枝）连用，构成一段完整的树木比喻。","example":{"en":"and get to the root of this very interesting topic.","zh":"也让我们深入到这个有趣话题的根本。"},"ref":154},{"term":"glass ceiling","pos":"n. phrase","zh":"玻璃天花板（阻碍女性或少数群体晋升的无形障碍）","note":"crush/break/shatter the glass ceiling 打破玻璃天花板。与 glass cliff（女性被推上高风险职位）常一起出现在职场报道中。","example":{"en":"We want them to crush glass ceilings.","zh":"我们想让她们打破玻璃天花板。"},"ref":159},{"term":"on their worst day","pos":"prep. phrase","zh":"在他们最糟糕的一天，最需要帮助的时刻","note":"文中用来强调急救工作的意义：人们拨打 911 时正是处境最糟的时候。写作中可用 on one's worst day 表\"最艰难时刻\"。","example":{"en":"they're calling you on their worst day","zh":"他们是在最糟糕的一天向你求助，"},"ref":167},{"term":"10 out of 10","pos":"phrase","zh":"满分十分，非常出色","note":"CNN 10 里 \"Today's story getting a 10 out of 10\" 是节目的固定环节名，表示这则故事值得满分。评价打分通用表达。","example":{"en":"Today's story getting a 10 out of 10,","zh":"今天的故事获得满分 10 分，"},"ref":155},{"term":"shout out","pos":"n. phrase","zh":"（公开的）致意、点名表扬","note":"give sb a shout out / a shout out to sb。美式口语常见；节目里用来向订阅的班级问好。","example":{"en":"I've got time for one shout out today.","zh":"今天我还有时间喊一次话。"},"ref":179}],"grammar":[{"title":"现在分词作伴随与结果状语","structure":"主句 + , + v-ing（逻辑主语＝主句主语）","explain":"放在句末的分词短语交代同时发生的动作或由此导致的结果，比 and… 更紧凑。现场报道描述一连串动作时几乎必用。","examples":[{"en":"Troops of baboons are roaming neighborhoods in Cape Town, damaging property","zh":"成群的狒狒在开普敦的社区里游荡，破坏财物，","ref":7},{"en":"and causing residents to fear for their safety.","zh":"让居民为自己的安全感到担忧。","ref":8},{"en":"Troops of baboons are roaming the streets, raiding homes and riling up residents.","zh":"成群的狒狒在街上游荡，闯入住宅，惹恼居民。","ref":12}],"caution":"分词的主语必须与主句主语一致。第 12 句三个 -ing 的主语都是 troops of baboons，不能换成别的施事。"},{"title":"使役结构：cause / allow / help sb to do","structure":"cause sb/sth to do；allow sb to do；help sb (to) do","explain":"英语表示\"让某人做某事\"不用 make sb do（强迫）一个词打天下：cause 表导致、allow 表允许、help 表帮助，三者后面都接 to do（help 后的 to 可省略）。这是本期的隐性主线——狒狒\"导致\"居民害怕，色素\"允许\"树叶变美。","examples":[{"en":"and causing residents to fear for their safety.","zh":"让居民为自己的安全感到担忧。","ref":8},{"en":"that allows them to be this beautiful color.","zh":"能让它们呈现这么美的颜色。","ref":111},{"en":"which causes them to just drop their leaves,","zh":"导致它们直接落叶，","ref":140},{"en":"And that could help explain how this massive predator was able to live","zh":"这可能有助于解释这种庞大的捕食者为何能生活在","ref":79}],"caution":"区别三兄弟：cause sb to do（导致，客观）、make sb do（强迫，无 to）、let sb do（允许，无 to）、allow sb to do（允许，有 to）。"},{"title":"被动语态：把焦点放在事实与研究对象上","structure":"be + 过去分词（+ by 施事）","explain":"科学新闻与政策报道大量使用被动：化石\"被发现\"、恐龙\"被命名\"、狒狒\"将被圈养\"。当施事是\"研究者、官员\"这类泛化主体时，英语常直接省略。","examples":[{"en":"The first T-Rex fossil was discovered in 1902 in Montana.","zh":"第一具霸王龙化石于 1902 年在蒙大拿被发现。","ref":67},{"en":"In 1905, the dinosaur was officially named Tyrannosaurus rex,","zh":"1905 年，这种恐龙被正式命名为 Tyrannosaurus rex，","ref":68},{"en":"It killed more than 1,300 people and left thousands missing.","zh":"洪水造成 1300 多人死亡，数千人失踪。","ref":51}],"caution":"第 51 句 left thousands missing 是\"leave + 宾语 + 形容词/分词\"结构，表示\"使……处于某状态\"，不必写成被动。"},{"title":"过去分词作前置与后置定语","structure":"过去分词 + 名词；名词 + 过去分词短语","explain":"过去分词表被动或已完成，可放在名词前（fossilized teeth），也可作为短语放在名词后（a plan to address… 里的不定式同理）。它让句子在有限长度里塞进更多信息，是科普写作的关键压缩手段。","examples":[{"en":"of three fossilized T-Rex teeth and found that the dinosaur had","zh":"研究了三颗霸王龙牙齿化石的化学成分，发现这种恐龙","ref":74},{"en":"CNN's Larry Madowo explains a controversial plan to address the problem.","zh":"CNN 的拉里·马多沃来解释一项有争议的解决方案。","ref":9},{"en":"And we are getting all the, you know, climate-related hazards.","zh":"而我们却在承受所有与气候相关的灾害。","ref":60}],"caution":"climate-related 是\"名词 + -related\"构成的复合形容词，必须带连字符：climate-related hazards，不能写成 climate related hazards 作前置定语。"},{"title":"不定式作目的状语","structure":"主句 + to do / in order to do","explain":"表\"为了……\"最常用不定式。本期里它出现在每一段：官员\"为了\"解决问题、城市\"为了\"安置狒狒、树木\"为了\"保存能量。","examples":[{"en":"We begin in South Africa, where officials are trying to address a problem","zh":"我们从南非开始，当地官员试图解决一个问题，","ref":5},{"en":"And now the city has a plan to solve their primate problem,","zh":"现在这座城市有了一个解决灵长类动物问题的计划，","ref":15},{"en":"It's to really save a lot of the energy","zh":"这其实是为了大量保存","ref":145}],"caution":"判断是否为目的状语：把它译成\"为了……\"后句意通顺，就是目的；若表结果（没想到的结果），英语更常用 so…that 或分词。"},{"title":"关系从句：where / that / which 的补充说明","structure":"名词 + where/that/which + 从句","explain":"地点名词后用 where，物后用 that/which。关系从句让\"地点—人物—后果\"一次交代清楚，是新闻句子的常见骨架。","examples":[{"en":"We begin in South Africa, where officials are trying to address a problem","zh":"我们从南非开始，当地官员试图解决问题，","ref":5},{"en":"that aims to help more women become firefighters.","zh":"旨在帮助更多女性成为消防员。","ref":157},{"en":"which causes them to just drop their leaves,","zh":"导致它们直接落叶，","ref":140}],"caution":"第 140 句的 which 指代整个前句（气温骤降这件事），这种\"which 指代句子\"的用法必须用逗号隔开，叫非限定性定语从句。"},{"title":"让步与转折：whether / despite / while","structure":"whether + 从句（让步）；despite + 名词；while + 从句（对比）","explain":"表达\"无论如何／尽管／而另一方面\"的三种常用手段。它们让论证显得周全：先承认对方立场，再给出自己的判断。","examples":[{"en":"And what they are getting, whether we agree or disagree,","zh":"而它们得到的——不管我们同意还是不同意——","ref":35},{"en":"despite its contribution is very low,","zh":"尽管尼泊尔的排放贡献非常低，","ref":57},{"en":"So, while T-Rex disappeared about 66 million years ago,","zh":"所以，虽然霸王龙约在 6600 万年前就已消失，","ref":82}],"caution":"despite 是介词，后面只能跟名词或动名词；如果要跟句子，得用 although/though。第 57 句是受访者口语中接从句的不规范说法，规范写法是 despite its very low contribution。"},{"title":"条件句：真实条件与虚拟条件","structure":"If + 一般现在时, 主句；If + 一般过去时, 主句 + would do","explain":"真实条件谈可能发生的情况（居民如何对待狒狒）；虚拟条件谈与事实相反的设想（树木若能挑条件）。两者对比着记最有效。","examples":[{"en":"If you treat them with anger and force, they come back at you with force.","zh":"如果你带着愤怒和暴力对待它们，它们也会用暴力回击。","ref":28},{"en":"If trees could actually pick their ideal conditions, it would be for the temperatures to cool down gradually,","zh":"如果树木真的能选择理想条件，那会是气温逐渐下降，","ref":134},{"en":"So if it doesn't have its leaves anymore, it can consolidate a lot of that energy","zh":"所以，如果不再有叶子，它就能集中大量能量，","ref":150}],"caution":"虚拟句的主句里，第 135 句用 it would be for…to do 是一种委婉表达\"理想情况\"的句式，不必逐字对应中文。"},{"title":"动名词复合结构作主语：You being in shape…","structure":"名词/代词 + v-ing 作主语或宾语","explain":"动名词可以带自己的逻辑主语，用名词或宾格代词表示，整体充当句子成分。文中消防教官用它强调\"你的体能\"本身就是决定因素。","examples":[{"en":"You being in shape and physically prepared can determine if someone lives or dies.","zh":"你保持良好的体能状态，可能决定一个人的生死。","ref":173},{"en":"You're literally doing this to save a life.","zh":"你做这些真的就是为了救人一命。","ref":172}],"caution":"这种结构作主语时谓语用单数：You being prepared can determine…（不是 can determines）。"},{"title":"比较与程度：more like… / as far north as… / close to…","structure":"be more like A than B；as + adj./adv. + as；close to","explain":"科学新闻要给读者定位：研究对象\"更像哪一种\"、分布\"能到多远\"、数值\"和什么接近\"。这三类表达几乎出现在每一则研究报道里。","examples":[{"en":"For decades, scientists have debated whether the T-Rex was more like","zh":"几十年来，科学家们一直在争论霸王龙更像","ref":70},{"en":"surprisingly close to ours.","zh":"惊人地接近我们的体温。","ref":76},{"en":"including places as far north as what is now Alaska.","zh":"包括北至如今阿拉斯加的地区。","ref":81}],"caution":"what is now Alaska 中的 what 相当于\"如今的（那片土地）\"，这是一种常见的名词性从句用法：what is now + 地名。"},{"title":"数量与数据的表达：1,300 / thousands / 9% / 0.027%","structure":"more than + 数字；thousands of；百分比 + of","explain":"新闻靠数字建立可信度，但数字前的模糊限定词同样重要：more than（超过）、nearly（近）、only（仅）、roughly（大约）。第 58–59 句那种极小百分比与巨大灾害的对比，是气候报道常用的修辞。","examples":[{"en":"It killed more than 1,300 people and left thousands missing.","zh":"洪水造成 1300 多人死亡，数千人失踪。","ref":51},{"en":"only 9% of the nation's firefighters are women.","zh":"全美消防员中只有 9% 是女性。","ref":163},{"en":"like Nepal is contributing 0.027% in the carbon emission,","zh":"比如尼泊尔的碳排放只占全球碳排放的 0.027%，","ref":58}],"caution":"thousands missing 前省略了 people，这是新闻体的压缩写法；日常英语要说 thousands of people are missing。"},{"title":"as 引导的时间状语从句","structure":"As + 从句（随着……／当……时）, 主句","explain":"as 表示\"随着\"时，主从句的动作同步推进，特别适合描述渐变过程：城市扩张与冲突增加、白昼变短与光合作用减慢。","examples":[{"en":"And as the city expands, conflict between baboons and residents has grown.","zh":"随着城市扩张，狒狒与居民之间的冲突也在增加。","ref":14},{"en":"As the days start to get shorter and we have less and less daylight","zh":"随着白昼开始变短，我们获得的日照越来越少，","ref":103}],"caution":"表\"随着\"时 as 从句常用一般现在时，主句用现在完成时或一般现在时，如第 14 句 has grown。"}],"patterns":[{"en":"We begin in South Africa, where officials are trying to address a problem at the intersection of public safety and nature conservation.","zh":"我们从南非开始，当地官员试图解决一个涉及公共安全与自然保护交叉点的问题。","usage":"新闻开场模板：We begin in + 地点, where + 关系从句 + 一句话点题。自己讲新闻时可直接套用。","rewrite":"Our first story comes from South Africa, where officials face a problem that pits public safety against nature conservation.","ref":5},{"en":"CNN's Larry Madowo explains a controversial plan to address the problem.","zh":"CNN 的拉里·马多沃来解释一项有争议的解决方案。","usage":"引出记者报道的过渡句：媒体名 + 记者名 + explains/reports on + 名词短语。简洁且交代了信息来源。","rewrite":"Let's hear from CNN's Larry Madowo, who explains the controversial plan.","ref":9},{"en":"the battle over Cape Town's baboons comes down to one question.","zh":"围绕开普敦狒狒的争端归结为一个问题。","usage":"come down to + 名词：把复杂争论收敛到一个核心点，然后自然引出问句。写议论文很好用。","rewrite":"The whole debate over Cape Town's baboons really boils down to a single question.","ref":44},{"en":"Can people and wildlife learn to share the city, or will one have to make way for the other?","zh":"人类和野生动物能否学会共享这座城市，还是一方必须为另一方让路？","usage":"二选一设问收束：Can A…, or will B…? 两个选项并列，把判断留给观众，是新闻结尾的常见手法。","rewrite":"Will people and wildlife manage to share the city, or must one give way to the other?","ref":45},{"en":"That warmer body temperature suggests T-Rex could generate and maintain its own body heat.","zh":"这种较高的体温表明霸王龙能够产生并维持自身的体温。","usage":"科研结论句式：X suggests (that) + 主语 + could do。用 suggests 而不用 proves，保留学术上的审慎。","rewrite":"The findings indicate that T-Rex was able to produce and regulate its own body heat.","ref":77},{"en":"That could help explain how this massive predator was able to live across a huge range of climates.","zh":"这可能有助于解释这种庞大的捕食者为何能生活在跨度巨大的各种气候环境中。","usage":"help explain how/why + 从句：把\"解释某个现象\"作为研究成果的价值，比直接说 This is why… 更严谨。","rewrite":"This may explain how such a large predator survived in so many different climates.","ref":79},{"en":"If trees could actually pick their ideal conditions, it would be for the temperatures to cool down gradually.","zh":"如果树木真的能选择理想条件，那会是气温逐渐下降。","usage":"虚拟条件 + it would be for + 名词 + to do：委婉说出\"理想情况应该是什么样\"，适合科学解释与建议。","rewrite":"Trees would do best if temperatures cooled down gradually.","ref":134},{"en":"It killed more than 1,300 people and left thousands missing.","zh":"洪水造成 1300 多人死亡，数千人失踪。","usage":"灾害数据句：It killed + 数字 + and left + 数字 + 形容词/分词。用 leave sb/sth + 补语表示\"使处于某状态\"。","rewrite":"More than 1,300 people died and thousands are still unaccounted for.","ref":51}],"exercises":[{"type":"choice","question":"\"permanently cage around 60 of the animals as an alternative to culling\"（第 16 句）中 culling 的意思是：","options":["（为控制数量而）选择性扑杀","集中饲养","放归野外","麻醉转移"],"answer":"A","explain":"cull 指在野生动物管理中\"有选择地捕杀一部分个体\"以控制种群数量。文中城市想用\"永久圈养\"替代扑杀，因此引发争议。"},{"type":"choice","question":"动物福利组织说 \"It's urban encroachment.\"（第 38 句），encroachment 指：","options":["城市扩张对自然的侵占","动物数量激增","垃圾处理不当","财政投入不足"],"answer":"A","explain":"encroachment 意为\"侵占、蚕食\"，动词是 encroach on sth。这句是双方争论的焦点：问题根源究竟是狒狒，还是人类不断侵占它们的栖息地。"},{"type":"fill","question":"And now the city has a plan ______ (cage) around 60 of the animals.（第 15–16 句，用正确形式填空）","answer":["to cage"],"explain":"a plan to do sth（做某事的计划），不定式作后置定语说明计划内容；cage 在此作动词，意为\"把……关进笼子\"。"},{"type":"choice","question":"\"or should people find a way to coexist with them?\"（第 24 句）中 coexist 的意思是：","options":["共存、共处","驱逐","驯化","隔离"],"answer":"A","explain":"co-（共同）+ exist（存在）＝共存。文中争论的核心就是\"圈禁\"还是\"共存\"。"},{"type":"fill","question":"The first T-Rex fossil ______ (discover) in 1902 in Montana.（第 67 句）","answer":["was discovered"],"explain":"化石是\"被发现\"的，用被动语态；时间是 1902 年，用一般过去时的被动 was discovered。"},{"type":"choice","question":"\"a cold-blooded lizard or a warm-blooded bird\"（第 71 句）中 warm-blooded 指：","options":["温血的（体温由自身代谢维持）","热带生活的","热血沸腾的","血液温度高的昆虫"],"answer":"A","explain":"warm-blooded 指动物能靠自身代谢维持体温（如鸟类、哺乳类）；cold-blooded 指体温随环境变化（如蜥蜴）。文中研究结论支持霸王龙偏温血。"},{"type":"fill","question":"Researchers found that the dinosaur ______ (have) a body temperature of about 97 degrees Fahrenheit.（第 74–75 句）","answer":["had"],"explain":"主句 found 是过去式，宾语从句时态呼应，用 had；这里表示\"研究发现它（当时）体温约为华氏 97 度\"。"},{"type":"choice","question":"\"so the trees aren't dying, they're just going dormant.\"（第 109 句）中 dormant 的意思是：","options":["休眠的","枯萎的","腐烂的","开花的"],"answer":"A","explain":"go dormant 意为\"进入休眠状态\"；树木冬天停止生长但并没有死。同源搭配还有 a dormant volcano（休眠火山）。"},{"type":"fill","question":"the leaves ______ (fall) off much later into the season because we're staying warmer longer.（第 132–133 句，用将来时填空）","answer":["will be falling","will fall"],"explain":"主句谈未来趋势，用一般将来时 will fall 或将来进行时 will be falling 都可以；后者更强调\"会一直持续到很晚\"这个渐变过程。"},{"type":"choice","question":"\"what they have inside of them is something called anthocyanin\"（第 113 句）中 anthocyanin 是：","options":["花青素（让叶子变红变紫的色素）","叶绿素","类胡萝卜素","树脂"],"answer":"A","explain":"anthocyanin 花青素，负责红、紫色调；使叶子呈绿色的色素是 chlorophyll（叶绿素），黄色橙色多来自 carotenoid（类胡萝卜素）。"},{"type":"fill","question":"only 9% of the nation's firefighters ______ (be) women.（第 163 句）","answer":["are"],"explain":"主语是复数 firefighters，且陈述当前状况，用一般现在时 are。注意百分数作主语时，谓语与 of 后面的名词一致。"},{"type":"choice","question":"\"We want them to crush glass ceilings.\"（第 159 句）这句话的意思是：","options":["打破阻碍女性晋升的无形障碍","清理玻璃碎片","更换训练场地","提高体能标准"],"answer":"A","explain":"glass ceiling（玻璃天花板）指女性或少数群体在晋升中遇到的无形障碍；crush/break/shatter 都与它搭配表示\"打破\"。"},{"type":"fill","question":"Animal welfare groups say the root of the problem ______ (be) not the baboons.（第 37 句）","answer":["isn't","is not"],"explain":"这是动物福利组织的当前观点，用一般现在时；主语 the root 是单数，所以是 is not（口语缩写 isn't）。"},{"type":"translate","question":"翻译成英文：人类和野生动物能否学会共享这座城市，还是一方必须为另一方让路？（提示：learn to share / make way for）","answer":["Can people and wildlife learn to share the city, or will one have to make way for the other?"],"explain":"参考原文第 45–46 句。Can…, or will…? 是二选一设问句式；make way for 意为\"给……让路\"。"},{"type":"translate","question":"翻译成英文：这种较高的体温表明霸王龙能够产生并维持自身的体温。（提示：suggests / generate / maintain）","answer":["That warmer body temperature suggests T-Rex could generate and maintain its own body heat."],"explain":"参考原文第 77–78 句。suggests (that) + 主语 + could do 是科研结论的审慎表述；generate body heat 产生体热，maintain 维持。"},{"type":"translate","question":"翻译成英文：这其实是为了大量保存树木在冬天会消耗的能量。（提示：save energy / use up）","answer":["It's to really save a lot of the energy that the tree would use up during the winter."],"explain":"参考原文第 145–146 句。不定式 to save 表目的；use up 意为\"耗尽、用完\"，这里用 would use up 表示\"原本会消耗掉的\"。"}]}</script>
+<script id="transcript-data" type="application/json">{"source":{"path":"2026.09.21 - 化石牙齿研究：霸王龙是温血动物.pdf","name":"2026.09.21 - 化石牙齿研究：霸王龙是温血动物.pdf","stem":"2026.09.21 - 化石牙齿研究：霸王龙是温血动物","pages":8},"stats":{"pages":8,"items":187,"englishWords":1609,"itemsWithChinese":186,"bilingual":true,"extractedAt":"2026-09-29T22:20:59+0800","extractor":"extract_pdf.py (PyMuPDF)","seconds":0.38},"warnings":[],"items":[{"n":1,"page":1,"en":"Hello, everybody.","zh":"大家好"},{"n":2,"page":1,"en":"I'm Allison Chinchar in for Koi Wire, and you're watching CNN 10.","zh":"我是艾莉森·钦查尔，代班主持科伊·怀尔的节目，您正在收看CNN 10"},{"n":3,"page":1,"en":"Now, today is Monday, September 21st.","zh":"今天是9月21日，星期一"},{"n":4,"page":1,"en":"Let's get to your news.","zh":"我们来看看今天的新闻"},{"n":5,"page":1,"en":"We begin in South Africa, where officials are trying to address a problem","zh":"我们从南非开始，当地官员试图解决一个问题，"},{"n":6,"page":1,"en":"at the intersection of public safety and nature conservation.","zh":"这个问题涉及公共安全与自然保护的交叉点"},{"n":7,"page":1,"en":"Troops of baboons are roaming neighborhoods in Cape Town, damaging property","zh":"成群的狒狒在开普敦的社区里游荡，破坏财物，"},{"n":8,"page":1,"en":"and causing residents to fear for their safety.","zh":"让居民为自己的安全感到担忧"},{"n":9,"page":1,"en":"CNN's Larry Madowo explains a controversial plan to address the problem. CNN","zh":"的拉里· 马多沃来解释一项有争议的解决方案"},{"n":10,"page":1,"en":"Cape Town residents are taking notice of a growing controversy","zh":"开普敦居民注意到一场日益加剧的争议，"},{"n":11,"page":1,"en":"over baboons and what to do about them.","zh":"围绕着狒狒以及该如何处理它们"},{"n":12,"page":1,"en":"Troops of baboons are roaming the streets, raiding homes and riling up residents.","zh":"成群的狒狒在街上游荡，闯入住宅，惹恼居民"},{"n":13,"page":2,"en":"These chakma baboons are Southern Africa's largest monkey species.","zh":"这些查克马狒狒是南部非洲体型最大的猴类"},{"n":14,"page":2,"en":"And as the city expands, conflict between baboons and residents has grown.","zh":"随着城市扩张，狒狒与居民之间的冲突也在增加"},{"n":15,"page":2,"en":"And now the city has a plan to solve their primate problem,","zh":"现在这座城市有了一个解决灵长类动物问题的计划，"},{"n":16,"page":2,"en":"permanently cage around 60 of the animals as an alternative to culling.","zh":"永久圈养大约60只狒狒，以此替代扑杀"},{"n":17,"page":2,"en":"And then we're left with two very difficult decisions.","zh":"这样一来，我们就面临两个非常艰难的选择"},{"n":18,"page":2,"en":"We could either cull the troops, which is arguably the ecological solution,","zh":"我们可以选择扑杀这些狒狒群，这可以说是生态上的解决办法，"},{"n":19,"page":2,"en":"or we could find a space that we could set up an urban wildlife center","zh":"或者我们可以找一个地方，建一个城市野生动物中心，"},{"n":20,"page":2,"en":"and allow those animals in those troops to live out their lives","zh":"让那些狒狒群里的动物在那里安然度过余生，"},{"n":21,"page":2,"en":"in a high standard of care with a quality of environment.","zh":"享有高标准的照护和优质的环境"},{"n":22,"page":2,"en":"But that plan has sparked an outcry and fierce debate.","zh":"但这项计划引发了强烈抗议和激烈辩论"},{"n":23,"page":2,"en":"Should baboons that have adapted to city life be confined,","zh":"已经适应城市生活的狒狒，究竟应该被圈禁，"},{"n":24,"page":2,"en":"or should people find a way to coexist with them?","zh":"还是人们应该找到与它们共存的方式？"},{"n":25,"page":2,"en":"Sue Ann Norton says she regularly feeds fruit to baboons that visit her home.","zh":"苏·安·诺顿说，她定期给来家里的狒狒喂水果"},{"n":26,"page":2,"en":"They're not dangerous.","zh":"它们并不危险"},{"n":27,"page":2,"en":"They treat you as you treat them.","zh":"你怎么对它们，它们就怎么对你"},{"n":28,"page":2,"en":"If you treat them with anger and force, they come back at you with force.","zh":"如果你带着愤怒和暴力对待它们，它们也会用暴力回击"},{"n":29,"page":2,"en":"If you treat them like a pet, like a cat or a dog,","zh":"如果你像对待宠物一样对待它们，像对待猫或狗一样，"},{"n":30,"page":2,"en":"like I treat them,","zh":"就像我这样对待它们，"},{"n":31,"page":2,"en":"then we live together in harmony.","zh":"那么我们就能和谐地生活在一起"},{"n":32,"page":2,"en":"City officials say the baboons will be better off if they're confined.","zh":"市政官员表示，把狒狒圈养起来对它们更好"},{"n":33,"page":2,"en":"These are not wild baboons anymore.","zh":"它们已经不再是野生狒狒了"},{"n":34,"page":2,"en":"They live in an urban area.","zh":"它们生活在城市环境中"},{"n":35,"page":3,"en":"And what they are getting, whether we agree or disagree,","zh":"而它们得到的⸺不管我们同意还是不同意⸺"},{"n":36,"page":3,"en":"they are going to live their lives better for 30 years.","zh":"它们会过得更好，能活30年"},{"n":37,"page":3,"en":"Animal welfare groups say the root of the problem isn't the baboons.","zh":"动物福利组织表示，问题的根源并不在狒狒，"},{"n":38,"page":3,"en":"It's urban encroachment.","zh":"而在于城市扩张侵占自然"},{"n":39,"page":3,"en":"They argue residents need to do more to secure their homes,","zh":"他们认为，居民需要做更多来加固住宅、"},{"n":40,"page":3,"en":"protect trash, and eliminate easy access to food.","zh":"保管好垃圾，并消除容易获取食物的途径"},{"n":41,"page":3,"en":"If you are living in an area where there is wildlife,","zh":"如果你居住在有野生动物的地区，"},{"n":42,"page":3,"en":"then you need to live and coexist with the wildlife.","zh":"那么你就需要与野生动物共同生活、和平共处"},{"n":43,"page":3,"en":"With the residents now taking to the streets in protest,","zh":"如今居民走上街头抗议，"},{"n":44,"page":3,"en":"the battle over Cape Town's baboons comes down to one question.","zh":"围绕开普敦狒狒的争端归结为一个问题"},{"n":45,"page":3,"en":"Can people and wildlife learn to share the city,","zh":"人类和野生动物能否学会共享这座城市，"},{"n":46,"page":3,"en":"or will one have to make way for the other?","zh":"还是一方必须为另一方让路？"},{"n":47,"page":3,"en":"Activists in Kathmandu, Nepal, held a silent protest and candle vigil","zh":"在尼泊尔加德满都，活动人士在周末举行了静默抗议和烛光守夜，"},{"n":48,"page":3,"en":"over the weekend, demanding more action from the world on climate change.","zh":"要求世界各国在气候变化问题上采取更多行动"},{"n":49,"page":3,"en":"The nation is still reeling from a collapse of a glacier in late August","zh":"这个国家仍在承受8月底冰川崩塌带来的冲击，"},{"n":50,"page":3,"en":"that triggered catastrophic flooding.","zh":"那次崩塌引发了灾难性的洪水"},{"n":51,"page":3,"en":"It killed more than 1,300 people and left thousands missing.","zh":"洪水造成1300多人死亡，数千人失踪"},{"n":52,"page":3,"en":"Activists honored those victims during the event.","zh":"活动人士在活动中悼念了这些遇难者"},{"n":53,"page":3,"en":"One demonstrator talked about the reason he decided to participate.","zh":"一名示威者谈到他决定参加的原因"},{"n":54,"page":3,"en":"This is not a protest.","zh":"这不是一场抗议"},{"n":55,"page":3,"en":"We are silently just making all the crowd, all the public to recognize","zh":"我们只是静静地让所有人群、所有公众认识到"},{"n":56,"page":3,"en":"the climate change and how it is affecting Nepal,","zh":"气候变化以及它对尼泊尔造成的影响，"},{"n":57,"page":3,"en":"despite its contribution is very low,","zh":"尽管尼泊尔的排放贡献非常低，"},{"n":58,"page":3,"en":"like Nepal is contributing 0.027% in the carbon emission,","zh":"比如尼泊尔的碳排放只占全球碳排放的"},{"n":59,"page":4,"en":"global carbon emission. 0.027%","zh":""},{"n":60,"page":4,"en":"And we are getting all the, you know, climate-related hazards.","zh":"而我们却在承受所有与气候相关的灾害"},{"n":61,"page":4,"en":"And we are, the youth are here to show the solidarity","zh":"而我们在这里，年轻人们在此展示团结"},{"n":62,"page":4,"en":"to the people who lost their life in the Roswa Borticoci flood.","zh":"与在罗斯瓦·博尔蒂科奇洪水中失去生命的人们同在"},{"n":63,"page":4,"en":"Time for 10-second trivia.","zh":"又到了十秒冷知识时间"},{"n":64,"page":4,"en":"The first T-Rex fossil was discovered in which U.S. state?","zh":"第一具霸王鼠化石是在美国哪个州发现的？"},{"n":65,"page":4,"en":"Montana, Wyoming, South Dakota, or New Mexico?","zh":"蒙大拿、怀俄明、南达科他，还是新墨西哥？"},{"n":66,"page":4,"en":"If you said Montana, put your hands up.","zh":"如果你答的是蒙大拿，请举手"},{"n":67,"page":4,"en":"The first T-Rex fossil was discovered in 1902 in Montana.","zh":"第一具霸王鼠化石于1902年在蒙大拿被发现"},{"n":68,"page":4,"en":"In 1905, the dinosaur was officially named Tyrannosaurus rex, 1905","zh":"年，这种恐鼠被正式命名为 Tyrannosaurus rex,"},{"n":69,"page":4,"en":"meaning tyrant lizard king.","zh":"意思是“暴君蜥蜴王”"},{"n":70,"page":4,"en":"For decades, scientists have debated whether the T-Rex was more like","zh":"几十年来，科学家们一直在争论霸王鼠更像"},{"n":71,"page":4,"en":"a cold-blooded lizard or a warm-blooded bird.","zh":"冷血蜥蜴还是温血鳥类"},{"n":72,"page":4,"en":"Now, they may finally have their answer.","zh":"现在，他们可能终于有了答案"},{"n":73,"page":4,"en":"Researchers at the University of California studied the chemical makeup","zh":"加州大学的研究人员研究了三颗霸王鼠牙鼎化石的化学成分，"},{"n":74,"page":4,"en":"of three fossilized T-Rex teeth and found that the dinosaur had","zh":"发现这种恐鼠的"},{"n":75,"page":4,"en":"a body temperature of about 97 degrees Fahrenheit,","zh":"体温大约为华氏97度，"},{"n":76,"page":4,"en":"surprisingly close to ours.","zh":"惊人地接近我们的体温"},{"n":77,"page":4,"en":"That warmer body temperature suggests T-Rex could generate","zh":"这种较高的体温表明霸王鼠能够产生"},{"n":78,"page":4,"en":"and maintain its own body heat.","zh":"并维持自身的体温"},{"n":79,"page":4,"en":"And that could help explain how this massive predator was able to live","zh":"这可能有助于解释这种庞大的捕食者为何能生活在"},{"n":80,"page":4,"en":"across a huge range of climates,","zh":"跨度巨大的各种气候环境中，"},{"n":81,"page":4,"en":"including places as far north as what is now Alaska.","zh":"包括北至如今阿拉斯加的地区"},{"n":82,"page":4,"en":"So, while T-Rex disappeared about 66 million years ago,","zh":"所以，虽然霸王鼠约在6600万年前就已消失，"},{"n":83,"page":5,"en":"scientists are still finding new clues about how it lived.","zh":"科学家们仍在不断发现关于它如何生活的新线索"},{"n":84,"page":5,"en":"Tomorrow marks the autumnal equinox in the Northern Hemisphere,","zh":"明天就是北半球的秋分，"},{"n":85,"page":5,"en":"and many of us may be noticing that Mother Nature is starting to show off.","zh":"我们很多人可能会注意到大自然母亲开始展现风采了"},{"n":86,"page":5,"en":"Fall foliage colors are popping, with trees starting to turn","zh":"秋叶色彩正在绽放，树木开始变成"},{"n":87,"page":5,"en":"brilliant shades of yellow, red, and orange.","zh":"灿烂的黄、红、橙色调"},{"n":88,"page":5,"en":"But have you ever wondered why and how we get this colorful show","zh":"但你可曾想过，我们为什么以及如何能看到这场色彩盛宴，"},{"n":89,"page":5,"en":"each and every year?","zh":"而且年复一年？"},{"n":90,"page":5,"en":"Fall foliage colors are popping, with trees starting to turn","zh":"秋叶色彩正在绽放，树木开始变成"},{"n":91,"page":5,"en":"brilliant shades of yellow, red, and orange.","zh":"灿烂的黄、红、橙色调"},{"n":92,"page":5,"en":"Have you ever wondered why and how the leaves change colors?","zh":"你可曾想过，树叶为什么会变色、又是如何变色的？"},{"n":93,"page":5,"en":"Who better to ask than our CNN meteorologist, our weather wizard,","zh":"还有谁比我们的CNN 气象学家、天气魔法师"},{"n":94,"page":5,"en":"Allison Chinchar.","zh":"艾莉森·钦查尔更适合来回答呢"},{"n":95,"page":5,"en":"So great to see you, looking fall-tastic today with your display.","zh":"见到你太好了，今天你这身造型很有秋日气息"},{"n":96,"page":5,"en":"Speaking of display, how do these leaves change color?","zh":"说到展示，这些树叶是怎么变色的？"},{"n":97,"page":5,"en":"Why do they change color?","zh":"它们为什么会变色？"},{"n":98,"page":5,"en":"And how do they know when to start?","zh":"它们又是怎么知道什么时候该开始？"},{"n":99,"page":5,"en":"Right, because sometimes they change a little bit later in the year","zh":"对，因为有时候它们变色会比"},{"n":100,"page":5,"en":"versus others.","zh":"其他年份稍晚一些"},{"n":101,"page":5,"en":"So, yeah, there's a lot of factors here, Koi.","zh":"是的，这里有很多因素，科伊"},{"n":102,"page":5,"en":"But the biggest one is daylight hours.","zh":"但最大的一个是日照时长"},{"n":103,"page":5,"en":"As the days start to get shorter and we have less and less daylight","zh":"随着白昼开始变短，我们获得的日照越来越少，"},{"n":104,"page":5,"en":"as we head into winter, it's essentially kind of a cue to them","zh":"在进入冬季的过程中，这基本上是给它们一个信号，"},{"n":105,"page":5,"en":"to stop photosynthesizing.","zh":"让它们停止光合作用"},{"n":106,"page":5,"en":"Now, photosynthesis is basically using the sunlight","zh":"光合作用基本上是利用阳光"},{"n":107,"page":5,"en":"to give them food and energy.","zh":"为它们提供养分和能量"},{"n":108,"page":6,"en":"But this process slows incredibly in the winter months,","zh":"但这个过程在冬季会大幅减缓，"},{"n":109,"page":6,"en":"so the trees aren't dying, they're just going dormant.","zh":"所以树木并不是在死去，它们只是进入休眠状态"},{"n":110,"page":6,"en":"Why do some leaves turn red, like this one?","zh":"为什么有些树叶会变红，就像这片一样？"},{"n":111,"page":6,"en":"Right, so not all trees have this special gift","zh":"对，并不是所有树木都有这种特殊天赋，"},{"n":112,"page":6,"en":"that allows them to be this beautiful color.","zh":"能让它们呈现这么美的颜色"},{"n":113,"page":6,"en":"Basically, what they have inside of them is something called anthocyanin,","zh":"基本上，它们体内含有一种叫花青素的物质，"},{"n":114,"page":6,"en":"and it allows these trees, when they start to go through","zh":"当这些树木在冬季经历"},{"n":115,"page":6,"en":"that photosynthesis process in the winter, when they slow down,","zh":"光合作用过程、速度放慢时，"},{"n":116,"page":6,"en":"they're changing into this beautiful red or sometimes even that pretty purple color,","zh":"它们就会变成这种美丽的红色，有时甚至是漂亮的紫色，"},{"n":117,"page":6,"en":"all because they have this special ingredient.","zh":"全都因为它们拥有这种特殊成分"},{"n":118,"page":6,"en":"But you also have to have the right weather conditions.","zh":"但你还需要合适的天气条件"},{"n":119,"page":6,"en":"You have to make sure you've had enough water leading up to the fall season","zh":"你必须确保在进入秋季之前有足够的水分，"},{"n":120,"page":6,"en":"and also plenty of sunlight.","zh":"还要有充足的日照"},{"n":121,"page":6,"en":"Now, why is it that some trees don't change colors and nothing falls?","zh":"那么，为什么有些树不变色，叶子也不掉落呢？"},{"n":122,"page":6,"en":"Right, so these are what we refer to as evergreen, hence the color, trees.","zh":"对，这些就是我们所说的常绿树，因此才叫常绿"},{"n":123,"page":6,"en":"Basically, these trees have evolved so that they never stop","zh":"基本上，这些树已经进化到从不停止"},{"n":124,"page":6,"en":"going through the photosynthesis process.","zh":"进行光合作用"},{"n":125,"page":6,"en":"Now, it slows considerably in the winter, but it never actually stops,","zh":"虽然冬天光合作用会大幅减缓，但从未真正停止，"},{"n":126,"page":6,"en":"meaning they don't have to lose their leaves or change their color.","zh":"这意味着它们不必落叶或变色"},{"n":127,"page":6,"en":"In this warming climate environment","zh":"在我们如今生活并经历着的"},{"n":128,"page":6,"en":"that we're living and we're experiencing nowadays,","zh":"日益变暖的气候环境中，"},{"n":129,"page":6,"en":"how might warming temperatures around the world","zh":"全球气温升高会如何"},{"n":130,"page":6,"en":"affect the changing colors of the leaves?","zh":"影响叶子的颜色变化？"},{"n":131,"page":6,"en":"Right, so the most obvious answer to that is","zh":"对，最明显的答案是，"},{"n":132,"page":6,"en":"the leaves will be falling off much later into the season","zh":"叶子掉落的时间会推迟到季节很晚的时候，"},{"n":133,"page":7,"en":"because we're staying warmer longer.","zh":"因为我们保持温暖的时间更长了"},{"n":134,"page":7,"en":"If trees could actually pick their ideal conditions,","zh":"如果树木真的能选择理想条件，"},{"n":135,"page":7,"en":"it would be for the temperatures to cool down gradually,","zh":"那会是气温逐渐下降，"},{"n":136,"page":7,"en":"like you and I would probably pick.","zh":"就像你我可能也会选的那样"},{"n":137,"page":7,"en":"But if temperatures drop too quick,","zh":"但如果气温降得太快，"},{"n":138,"page":7,"en":"let's say 30 to 50 degrees in just a couple of days,","zh":"比如短短几天内骤降30到50华氏度，"},{"n":139,"page":7,"en":"trees can go through what's called shock,","zh":"树木就会经历所谓的“休克”,"},{"n":140,"page":7,"en":"which causes them to just drop their leaves,","zh":"导致它们直接落叶，"},{"n":141,"page":7,"en":"even if they never ended up fully changing colors.","zh":"即使叶子还没来得及完全变色"},{"n":142,"page":7,"en":"So why do trees decide to let their leaves go?","zh":"那么，树木为什么会决定让叶子脱落呢？"},{"n":143,"page":7,"en":"Is this like a preservation thing","zh":"这是不是一种保存自身的机制，"},{"n":144,"page":7,"en":"that some of they have to do?","zh":"是有些树必须做的？"},{"n":145,"page":7,"en":"It's to really save a lot of the energy","zh":"这其实是为了大量保存"},{"n":146,"page":7,"en":"that the tree would use up during the winter.","zh":"树木在冬天会消耗的能量"},{"n":147,"page":7,"en":"Many people don't know this,","zh":"很多人不知道，"},{"n":148,"page":7,"en":"but leaves take up the vast majority","zh":"叶子消耗了树木所吸收的"},{"n":149,"page":7,"en":"of the water source that a tree takes in.","zh":"绝大部分水源"},{"n":150,"page":7,"en":"So if it doesn't have its leaves anymore,","zh":"所以，如果不再有叶子，"},{"n":151,"page":7,"en":"it can consolidate a lot of that energy","zh":"它就能集中大量能量，"},{"n":152,"page":7,"en":"to get through a rough winter.","zh":"来度过一个艰难的冬天"},{"n":153,"page":7,"en":"Thank you for helping us branch out today","zh":"谢谢你今天帮我们拓展了知识，"},{"n":154,"page":7,"en":"and get to the root of this very interesting topic.","zh":"也让我们深入到这个有趣话题的根本"},{"n":155,"page":7,"en":"Today's story getting a 10 out of 10,","zh":"今天的故事获得满分10分，"},{"n":156,"page":7,"en":"a Minneapolis training program","zh":"明尼阿波利斯的一个培训项目"},{"n":157,"page":7,"en":"that aims to help more women become firefighters.","zh":"旨在帮助更多女性成为消防员"},{"n":158,"page":7,"en":"We want to push the women to not just reach the bar.","zh":"我们想推动女性不只是达到标准"},{"n":159,"page":7,"en":"We want them to crush glass ceilings.","zh":"我们想让她们打破玻璃天花板"},{"n":160,"page":7,"en":"We want them to show up and be undeniable","zh":"我们想让她们站出来，让人无法否认"},{"n":161,"page":7,"en":"that they deserve to be there because we do.","zh":"她们有资格站在那里，因为我们确实有资格"},{"n":162,"page":7,"en":"According to the National Fire Protection Association,","zh":"根据美国国家消防协会的数据，"},{"n":163,"page":7,"en":"only 9% of the nation's firefighters are women.","zh":"全美消防员中只有9%是女性"},{"n":164,"page":8,"en":"And the trainers in this program are trying to fight the stigma","zh":"这个项目的训练员们正在努力打破"},{"n":165,"page":8,"en":"that women can't meet the physical demands.","zh":"女性无法满足体能要求的偏见"},{"n":166,"page":8,"en":"When they call 911,","zh":"当人们拨打911时，"},{"n":167,"page":8,"en":"they're calling you on their worst day","zh":"他们是在最糟糕的一天向你求助，"},{"n":168,"page":8,"en":"and they need you to come and save them.","zh":"他们需要你去救他们"},{"n":169,"page":8,"en":"And you have to be physically ready for that.","zh":"你必须为此做好身体上的准备"},{"n":170,"page":8,"en":"Firefighting is an extremely physical job","zh":"消防是一份对体能要求极高的工作，"},{"n":171,"page":8,"en":"and we must be prepared for that.","zh":"我们必须为此做好准备"},{"n":172,"page":8,"en":"You're literally doing this to save a life.","zh":"你做这些真的就是为了救人一命"},{"n":173,"page":8,"en":"You being in shape and physically prepared","zh":"你保持良好的体能状态，"},{"n":174,"page":8,"en":"can determine if someone lives or dies.","zh":"可能决定一个人的生死"},{"n":175,"page":8,"en":"One workout at a time,","zh":"每一次训练，"},{"n":176,"page":8,"en":"those women are proving that the desire to help people","zh":"这些女性都在证明，想要帮助他人的意愿"},{"n":177,"page":8,"en":"is one of the most heroic actions of all.","zh":"是所有行动中最英勇的一种"},{"n":178,"page":8,"en":"All right, superstars,","zh":"好了，超级明星们，"},{"n":179,"page":8,"en":"I've got time for one shout out today.","zh":"今天我还有时间喊一次话"},{"n":180,"page":8,"en":"This goes to Miss Little","zh":"这要送给利特尔老师，"},{"n":181,"page":8,"en":"at the Bonaire Juvenile Correctional Center","zh":"她在博内尔青少年惩教中心，"},{"n":182,"page":8,"en":"in Bonaire, Virginia.","zh":"位于弗吉尼亚州博内尔"},{"n":183,"page":8,"en":"Thank you so much for subscribing to our YouTube channel","zh":"非常感谢你们订阅我们的 YouTube频道，"},{"n":184,"page":8,"en":"and keep up the good work.","zh":"请继续保持这份努力"},{"n":185,"page":8,"en":"I hope you all have a fantastic day.","zh":"希望大家今天都过得愉快"},{"n":186,"page":8,"en":"Coy will be back with you again tomorrow.","zh":"明天Coy会回来继续陪伴大家"},{"n":187,"page":8,"en":"I'm Alison Chajar and this is CNN 10.","zh":"我是Alison Chajar，这里是CNN 10"}]}</script>
+<script>
+(function(){
+  "use strict";
+  var study = JSON.parse(document.getElementById("study-data").textContent || "{}");
+  var transcript = JSON.parse(document.getElementById("transcript-data").textContent || "{}");
+  var meta = study.meta || {};
+  var vocab = study.vocab || [];
+  var phrases = study.phrases || [];
+  var grammar = study.grammar || [];
+  var patterns = study.patterns || [];
+  var exercises = study.exercises || [];
+  var items = transcript.items || [];
+  var stem = (transcript.source && (transcript.source.stem || transcript.source.name)) || "study";
+  var STORE = "englishStudy:" + stem;
+
+  /* ---------- state ---------- */
+  var state = { mastered: {}, starred: {}, zh: true, rate: 0.85 };
+  try {
+    var saved = JSON.parse(localStorage.getItem(STORE) || "{}");
+    if (saved.mastered) state.mastered = saved.mastered;
+    if (saved.starred) state.starred = saved.starred;
+    if (typeof saved.zh === "boolean") state.zh = saved.zh;
+    if (saved.rate) state.rate = saved.rate;
+  } catch (e) { /* private mode: keep in-memory state */ }
+  function persist(){
+    try { localStorage.setItem(STORE, JSON.stringify(
+      { mastered: state.mastered, starred: state.starred, zh: state.zh, rate: state.rate })); } catch (e) {}
+  }
+
+  /* ---------- helpers ---------- */
+  function el(tag, cls, text){
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+  function esc(s){ return String(s == null ? "" : s); }
+  function talk(text){
+    if (!("speechSynthesis" in window) || !text) return;
+    try {
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(String(text));
+      u.lang = "en-US"; u.rate = state.rate;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+  function speakBtn(text, label){
+    var b = el("button", "icon", label || "🔊");
+    b.title = "朗读";
+    b.addEventListener("click", function(){ talk(text); });
+    return b;
+  }
+  function refLink(n){
+    var a = el("a", "ref", "#" + n);
+    a.href = "#s" + n;
+    a.textContent = "第 " + n + " 句";
+    return a;
+  }
+  function refs(list){
+    var wrap = el("span", "ref");
+    wrap.appendChild(document.createTextNode(" 例句："));
+    (list || []).forEach(function(ref, i){
+      if (i) wrap.appendChild(document.createTextNode("、"));
+      var a = el("a", null, "#" + ref);
+      a.href = "#s" + ref;
+      wrap.appendChild(a);
+    });
+    return wrap;
+  }
+  function levelClass(level){
+    var s = String(level || "").toLowerCase();
+    if (s.indexOf("c1") >= 0 || s.indexOf("c2") >= 0 || s.indexOf("难") >= 0) return "lvl hi";
+    if (s.indexOf("a1") >= 0 || s.indexOf("a2") >= 0) return "lvl core";
+    return "lvl";
+  }
+
+  /* ---------- header ---------- */
+  var stats = transcript.stats || {};
+  document.title = (meta.title || stem) + " · 英语学习";
+  document.getElementById("title").textContent = meta.title || stem;
+  document.getElementById("subtitle").textContent =
+    (meta.subtitle || transcript.source && transcript.source.name || "") +
+    (meta.estimatedMinutes ? " · 建议 " + meta.estimatedMinutes + " 分钟" : "");
+  var badges = document.getElementById("badges");
+  function addBadge(html){ var b = el("div", "badge"); b.innerHTML = html; badges.appendChild(b); }
+  if (meta.level) addBadge('<span class="lv">' + esc(meta.level) + "</span>");
+  addBadge("句子 <strong>" + items.length + "</strong>");
+  if (vocab.length) addBadge("生词 <strong>" + vocab.length + "</strong>");
+  if (grammar.length) addBadge("语法 <strong>" + grammar.length + "</strong>");
+  if (patterns.length) addBadge("句型 <strong>" + patterns.length + "</strong>");
+  if (stats.englishWords) addBadge("英文 <strong>" + stats.englishWords + "</strong> 词");
+  (meta.topics || []).forEach(function(t){ var c = el("span", "chip", t); badges.appendChild(c); });
+
+  /* ---------- overview ---------- */
+  var sc = document.getElementById("summary-card");
+  if (meta.summary) {
+    sc.appendChild(el("h3", null, "内容概览"));
+    sc.appendChild(el("p", null, meta.summary));
+  }
+  if (meta.learningFocus && meta.learningFocus.length) {
+    sc.appendChild(el("h3", null, "本篇学习重点"));
+    var ul = el("ul");
+    meta.learningFocus.forEach(function(x){ ul.appendChild(el("li", null, x)); });
+    sc.appendChild(ul);
+  }
+  if (!sc.childNodes.length) sc.appendChild(el("p", "empty", "（study.json 里没有 meta.summary）"));
+
+  var sg = document.getElementById("stat-grid");
+  [["句子总数", items.length], ["生词", vocab.length], ["短语搭配", phrases.length],
+   ["语法点", grammar.length], ["练习", exercises.length]].forEach(function(pair){
+    var d = el("div", "stat");
+    d.appendChild(el("b", null, String(pair[1])));
+    d.appendChild(el("span", null, pair[0]));
+    sg.appendChild(d);
+  });
+
+  var pc = document.getElementById("plan-card");
+  if (meta.studyPlan && meta.studyPlan.length) {
+    pc.appendChild(el("h3", null, "建议学习路径"));
+    var ol = el("ol", "plan");
+    meta.studyPlan.forEach(function(step){ ol.appendChild(el("li", null, step)); });
+    pc.appendChild(ol);
+  } else { pc.hidden = true; }
+
+  /* ---------- vocab highlight index ---------- */
+  var vindex = [];
+  vocab.forEach(function(v){
+    var term = String(v.term || "").trim();
+    if (term.length < 3) return;
+    var variants = [term].concat(v.forms || []);
+    variants.forEach(function(t){
+      var key = String(t).trim();
+      if (key.length < 3) return;
+      vindex.push({ re: new RegExp("\\b" + key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i"), v: v });
+    });
+  });
+  vindex.sort(function(a, b){ return b.re.source.length - a.re.source.length; });
+
+  function highlight(text, withClass){
+    var frag = document.createDocumentFragment();
+    var rest = text, guard = 0;
+    while (rest && guard++ < 60) {
+      var best = null, bestEntry = null, bestIdx = -1;
+      for (var i = 0; i < vindex.length; i++) {
+        var m = vindex[i].re.exec(rest);
+        if (m && (bestIdx === -1 || m.index < bestIdx)) {
+          best = m; bestEntry = vindex[i].v; bestIdx = m.index;
+        }
+        if (bestIdx === 0) break;
+      }
+      if (!best) break;
+      if (best.index > 0) frag.appendChild(document.createTextNode(rest.slice(0, best.index)));
+      var mark = el("mark", withClass ? "v tagged" : "v", best[0]);
+      mark.title = ((bestEntry && bestEntry.zh) || "") +
+                   (bestEntry && bestEntry.pos ? "  " + bestEntry.pos : "");
+      frag.appendChild(mark);
+      rest = rest.slice(best.index + best[0].length);
+    }
+    if (rest) frag.appendChild(document.createTextNode(rest));
+    return frag;
+  }
+
+  /* ---------- starred sentences (重点句收藏) ---------- */
+  function starredItems(){
+    return items.filter(function(it){ return !!state.starred[it.n]; });
+  }
+  function starToggleSync(){
+    var btn = document.getElementById("star-toggle");
+    if (!btn) return;
+    btn.classList.toggle("on", document.getElementById("sent-filter").value === "star");
+  }
+  function syncStarUI(){
+    var list = starredItems();
+    var label = document.getElementById("star-count");
+    if (label) label.textContent = String(list.length);
+    var badge = document.getElementById("badge-starred");
+    if (badge) badge.textContent = String(list.length);
+    var head = document.getElementById("starred-count");
+    if (head) head.textContent = list.length
+      ? "已收藏 " + list.length + " 句（全篇 " + items.length + " 句）" : "";
+    var preview = document.getElementById("star-preview");
+    if (preview && !preview.hidden) {
+      preview.textContent = list.length
+        ? starredMarkdown()
+        : "还没有收藏任何句子。先去「逐句精读」点句子右侧的 ☆，再回来导出。";
+    }
+    starToggleSync();
+    if (document.getElementById("sent-filter").value === "star") renderSentences();
+    var panel = document.getElementById("tab-starred");
+    if (panel && !panel.hidden) renderStarred();
+  }
+  function toggleStar(n, btn){
+    if (state.starred[n]) {
+      delete state.starred[n];
+      if (btn) {
+        btn.textContent = "☆"; btn.classList.remove("on");
+        btn.title = "收藏这句，之后可在「收藏句」里集中复习";
+      }
+    } else {
+      state.starred[n] = 1;
+      if (btn) { btn.textContent = "★"; btn.classList.add("on"); btn.title = "取消收藏"; }
+    }
+    persist();
+    syncStarUI();
+  }
+  var starWrap = document.getElementById("starred");
+  function renderStarred(){
+    var list = starredItems();
+    starWrap.textContent = "";
+    if (!list.length) {
+      starWrap.appendChild(el("p", "empty",
+        "还没有收藏句子。切到「逐句精读」，点句子右侧的 ☆ 就能把重点句收进来，之后在这里集中复习或导出。"));
+      return;
+    }
+    list.forEach(function(it){
+      var box = el("div", "sent");
+      box.id = "star-s" + it.n;
+      var r1 = el("div", "row1");
+      r1.appendChild(el("div", "no", String(it.n)));
+      var body = el("div", "body");
+      var en = el("div", "en");
+      en.appendChild(highlight(it.en || "", true));
+      body.appendChild(en);
+      if (it.zh) body.appendChild(el("div", "zh", it.zh));
+      r1.appendChild(body);
+      var acts = el("div", "acts");
+      acts.appendChild(speakBtn(it.en));
+      var jump = el("button", "icon", "↗");
+      jump.title = "在「逐句精读」中定位这句";
+      jump.addEventListener("click", function(){ location.hash = "s" + it.n; });
+      acts.appendChild(jump);
+      var off = el("button", "icon on", "★");
+      off.title = "取消收藏";
+      off.addEventListener("click", function(){ toggleStar(it.n, off); });
+      acts.appendChild(off);
+      r1.appendChild(acts);
+      r1.appendChild(el("div", "pg", "p" + (it.page || "")));
+      box.appendChild(r1);
+      starWrap.appendChild(box);
+    });
+  }
+  function starredMarkdown(){
+    var list = starredItems();
+    var source = (transcript.source && transcript.source.name) || "";
+    var lines = ["# " + (meta.title || stem) + " · 收藏句子", "",
+                 "- 来源：" + source,
+                 "- 收藏句数：" + list.length + " / " + items.length,
+                 "", "---", ""];
+    list.forEach(function(it){
+      lines.push("### " + it.n + ". " + (it.en || ""));
+      if (it.zh) lines.push("", "> " + it.zh);
+      if (it.page) lines.push("", "（原文第 " + it.page + " 页）");
+      lines.push("");
+    });
+    return lines.join("\n");
+  }
+  var exportBtn = document.getElementById("star-export");
+  if (exportBtn) exportBtn.addEventListener("click", function(){
+    var list = starredItems();
+    var preview = document.getElementById("star-preview");
+    preview.hidden = false;
+    if (!list.length) {
+      preview.textContent = "还没有收藏任何句子。先去「逐句精读」点句子右侧的 ☆，再回来导出。";
+      return;
+    }
+    var md = starredMarkdown();
+    preview.textContent = md;
+    try {
+      var range = document.createRange();
+      range.selectNodeContents(preview);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    } catch (e) {}
+    try {
+      var blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
+      var link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = (meta.title || stem) + "-收藏句.md";
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(function(){ URL.revokeObjectURL(link.href); link.remove(); }, 1500);
+    } catch (e) {}
+  });
+  var clearBtn = document.getElementById("star-clear");
+  if (clearBtn) clearBtn.addEventListener("click", function(){
+    var count = starredItems().length;
+    if (!count) return;
+    if (!window.confirm("确定清空全部 " + count + " 句收藏？此操作不可撤销。")) return;
+    state.starred = {};
+    persist();
+    var preview = document.getElementById("star-preview");
+    if (preview) { preview.hidden = true; preview.textContent = ""; }
+    syncStarUI();
+  });
+
+  /* ---------- sentences ---------- */
+  var sentWrap = document.getElementById("sentences");
+  var sentCount = document.getElementById("sent-count");
+  function renderSentences(){
+    var filter = document.getElementById("sent-filter").value;
+    sentWrap.textContent = "";
+    var shown = 0;
+    items.forEach(function(it){
+      var hasVocab = vindex.some(function(e){ return e.re.test(it.en || ""); });
+      if (filter === "star" && !state.starred[it.n]) return;
+      if (filter === "vocab" && !hasVocab) return;
+      shown++;
+      var box = el("div", "sent");
+      box.id = "s" + it.n;
+      var r1 = el("div", "row1");
+      r1.appendChild(el("div", "no", String(it.n)));
+      var body = el("div", "body");
+      var en = el("div", "en");
+      en.appendChild(highlight(it.en || "", true));
+      body.appendChild(en);
+      var zh = el("div", "zh" + (state.zh ? "" : " hide"), it.zh || "");
+      body.appendChild(zh);
+      r1.appendChild(body);
+      var acts = el("div", "acts");
+      acts.appendChild(speakBtn(it.en));
+      var star = el("button", "icon" + (state.starred[it.n] ? " on" : ""), state.starred[it.n] ? "★" : "☆");
+      star.title = state.starred[it.n] ? "取消收藏" : "收藏这句，之后可在「收藏句」里集中复习";
+      star.addEventListener("click", function(){ toggleStar(it.n, star); });
+      acts.appendChild(star);
+      r1.appendChild(acts);
+      r1.appendChild(el("div", "pg", "p" + (it.page || "")));
+      box.appendChild(r1);
+      sentWrap.appendChild(box);
+    });
+    sentCount.textContent = shown + " / " + items.length + " 句";
+    if (!shown) {
+      sentWrap.appendChild(el("p", "empty", filter === "star"
+        ? "还没有收藏任何句子：点句中右侧的 ☆ 或工具栏的「★ 收藏句」开始标记重点句。"
+        : "没有符合筛选条件的句子。"));
+    }
+  }
+  var zhBtn = document.getElementById("toggle-zh");
+  function syncZh(){
+    zhBtn.textContent = "中文翻译：" + (state.zh ? "显示" : "隐藏");
+    zhBtn.classList.toggle("on", state.zh);
+    Array.prototype.forEach.call(document.querySelectorAll("#sentences .zh"), function(z){
+      z.classList.toggle("hide", !state.zh);
+    });
+  }
+  zhBtn.addEventListener("click", function(){ state.zh = !state.zh; syncZh(); persist(); });
+  var rateSel = document.getElementById("rate");
+  rateSel.value = String(state.rate);
+  rateSel.addEventListener("change", function(){ state.rate = parseFloat(rateSel.value); persist(); });
+  document.getElementById("sent-filter").addEventListener("change", function(){
+    renderSentences();
+    starToggleSync();
+  });
+  var starToggle = document.getElementById("star-toggle");
+  if (starToggle) starToggle.addEventListener("click", function(){
+    var sel = document.getElementById("sent-filter");
+    sel.value = sel.value === "star" ? "all" : "star";
+    renderSentences();
+    starToggleSync();
+  });
+
+  /* ---------- vocab ---------- */
+  var vwrap = document.getElementById("vocab");
+  var vcount = document.getElementById("vocab-count");
+  function renderVocab(){
+    var filter = document.getElementById("vocab-filter").value;
+    var q = document.getElementById("vocab-search").value.trim().toLowerCase();
+    vwrap.textContent = "";
+    var done = 0, shown = 0;
+    vocab.forEach(function(v){
+      var isDone = !!state.mastered[v.term];
+      if (isDone) done++;
+      if (filter === "todo" && isDone) return;
+      if (filter === "done" && !isDone) return;
+      if (q && (String(v.term).toLowerCase().indexOf(q) < 0 &&
+                String(v.zh || "").indexOf(q) < 0)) return;
+      shown++;
+      var card = el("div", "vcard" + (isDone ? " mastered" : ""));
+      var tools = el("div", "tools");
+      tools.appendChild(speakBtn(v.term));
+      var mk = el("button", "icon" + (isDone ? " on" : ""), isDone ? "✓" : "○");
+      mk.title = "标记为已掌握";
+      mk.addEventListener("click", function(){
+        if (state.mastered[v.term]) delete state.mastered[v.term];
+        else state.mastered[v.term] = 1;
+        persist(); renderVocab();
+      });
+      tools.appendChild(mk);
+      card.appendChild(tools);
+      var term = el("div", "term");
+      term.appendChild(document.createTextNode(v.term || ""));
+      if (v.level) term.appendChild(el("span", levelClass(v.level), v.level));
+      card.appendChild(term);
+      if (v.ipa) card.appendChild(el("div", "ipa", v.ipa));
+      var line = el("div", "zh");
+      line.appendChild(el("span", "pos", v.pos ? v.pos + " " : ""));
+      line.appendChild(document.createTextNode(v.zh || ""));
+      card.appendChild(line);
+      if (v.note) card.appendChild(el("div", "note", v.note));
+      if (v.examples && v.examples.length) {
+        var ex = el("div", "ex");
+        v.examples.slice(0, 1).forEach(function(e){
+          ex.appendChild(el("div", "e", e.en || ""));
+          if (e.zh) ex.appendChild(el("div", "z", e.zh));
+          if (e.ref) ex.appendChild(refLink(e.ref));
+        });
+        card.appendChild(ex);
+      }
+      vwrap.appendChild(card);
+    });
+    var pct = vocab.length ? Math.round(done / vocab.length * 100) : 0;
+    vcount.textContent = "已掌握 " + done + " / " + vocab.length + "（" + pct + "%）" +
+                         (shown !== vocab.length ? "，显示 " + shown : "");
+    if (!shown) vwrap.appendChild(el("p", "empty", "没有符合条件的生词。"));
+  }
+  document.getElementById("vocab-filter").addEventListener("change", renderVocab);
+  document.getElementById("vocab-search").addEventListener("input", renderVocab);
+
+  /* ---------- phrases ---------- */
+  var pw = document.getElementById("phrases");
+  if (phrases.length) {
+    var table = el("table");
+    var thead = el("thead");
+    var hr = el("tr");
+    ["搭配 / 短语", "释义", "用法提示", "出处"].forEach(function(h){ hr.appendChild(el("th", null, h)); });
+    thead.appendChild(hr); table.appendChild(thead);
+    var tb = el("tbody");
+    phrases.forEach(function(p){
+      var tr = el("tr");
+      var c1 = el("td");
+      c1.appendChild(el("div", "ph", p.term || ""));
+      if (p.pos) c1.appendChild(el("div", "small muted", p.pos));
+      tr.appendChild(c1);
+      tr.appendChild(el("td", null, p.zh || ""));
+      tr.appendChild(el("td", "small muted", p.note || ""));
+      var c4 = el("td", "small");
+      if (p.example && p.example.en) c4.appendChild(el("div", "e", p.example.en));
+      if (p.example && p.example.zh) c4.appendChild(el("div", "muted", p.example.zh));
+      if (p.ref) c4.appendChild(refLink(p.ref));
+      tr.appendChild(c4);
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb); pw.appendChild(table);
+  } else { pw.appendChild(el("p", "empty", "没有短语数据。")); }
+
+  /* ---------- grammar ---------- */
+  var gw = document.getElementById("grammar");
+  if (grammar.length) {
+    grammar.forEach(function(g, i){
+      var d = el("details", "g");
+      if (i === 0) d.open = true;
+      var s = el("summary");
+      s.appendChild(document.createTextNode(g.title || ("语法点 " + (i + 1))));
+      d.appendChild(s);
+      var inner = el("div", "inner");
+      if (g.structure) inner.appendChild(el("div", "struct", g.structure));
+      if (g.explain) inner.appendChild(el("p", null, g.explain));
+      (g.examples || []).forEach(function(e){
+        var box = el("div", "sent");
+        var en = el("div", "en"); en.appendChild(highlight(e.en || ""));
+        box.appendChild(en);
+        if (e.zh) box.appendChild(el("div", "zh", e.zh));
+        var meta2 = el("div", "small");
+        if (e.ref) meta2.appendChild(refLink(e.ref));
+        if (e.note) meta2.appendChild(el("span", "muted", "  " + e.note));
+        box.appendChild(meta2);
+        inner.appendChild(box);
+      });
+      if (g.caution) inner.appendChild(el("div", "caution", "注意：" + g.caution));
+      d.appendChild(inner);
+      gw.appendChild(d);
+    });
+  } else { gw.appendChild(el("p", "empty", "没有语法数据。")); }
+
+  /* ---------- patterns ---------- */
+  var patw = document.getElementById("patterns");
+  if (patterns.length) {
+    patterns.forEach(function(p){
+      var c = el("div", "card");
+      var en = el("div", "en");
+      en.style.fontSize = "17px";
+      en.appendChild(highlight(p.en || ""));
+      c.appendChild(en);
+      if (p.zh) c.appendChild(el("div", "zh", p.zh));
+      if (p.usage) c.appendChild(el("div", "small muted", "用法：" + p.usage));
+      if (p.rewrite) c.appendChild(el("div", "small", "换个说法：" + p.rewrite));
+      var m = el("div", "small");
+      if (p.ref) m.appendChild(refLink(p.ref));
+      c.appendChild(m);
+      patw.appendChild(c);
+    });
+  } else { patw.appendChild(el("p", "empty", "没有句型数据。")); }
+
+  /* ---------- exercises ---------- */
+  var ew = document.getElementById("exercises");
+  function norm(s){
+    return String(s == null ? "" : s).toLowerCase().replace(/[\s,.!?;:'"’“”]/g, "");
+  }
+  function accepted(ex){
+    if (Array.isArray(ex.answer)) return ex.answer;
+    return [ex.answer];
+  }
+  function trial(ex){
+    var ok = false;
+    accepted(ex).forEach(function(a){ if (norm(a) && norm(a) === norm(ex.__input || "")) ok = true; });
+    return ok;
+  }
+  if (exercises.length) {
+    exercises.forEach(function(ex, i){
+      var box = el("div", "ex");
+      var q = el("div", "q");
+      q.appendChild(el("span", "idx", "#" + (i + 1)));
+      q.appendChild(document.createTextNode(ex.question || ""));
+      box.appendChild(q);
+      var fb = el("div", "fb");
+      function feedback(ok, text){
+        fb.className = "fb show " + (ok ? "ok" : "no");
+        fb.textContent = text || "";
+      }
+      function showAnswer(){
+        fb.className = "fb show";
+        fb.textContent = "参考答案：" + accepted(ex).join(" / ") + (ex.explain ? "　—　" + ex.explain : "");
+      }
+      if (ex.type === "choice") {
+        var opts = el("div", "opts");
+        var buttons = [];
+        (ex.options || []).forEach(function(opt, oi){
+          var b = el("button", "opt", String.fromCharCode(65 + oi) + ". " + opt);
+          b.addEventListener("click", function(){
+            buttons.forEach(function(x){ x.classList.remove("right", "wrong"); });
+            var correct = String(ex.answer).toUpperCase().charCodeAt(0) - 65;
+            if (isNaN(correct)) correct = Number(ex.answer);
+            if (oi === correct) { b.classList.add("right"); feedback(true, "✓ 正确。" + (ex.explain || "")); }
+            else {
+              b.classList.add("wrong");
+              if (buttons[correct]) buttons[correct].classList.add("right");
+              feedback(false, "✗ 再想想，正确答案已标出。" + (ex.explain || ""));
+            }
+          });
+          buttons.push(b); opts.appendChild(b);
+        });
+        box.appendChild(opts);
+      } else if (ex.type === "translate") {
+        var ta = el("textarea");
+        ta.placeholder = "写出你的翻译（可留空，直接看参考答案）";
+        box.appendChild(ta);
+        var row = el("div"); row.style.marginTop = "8px";
+        var chk = el("button", "btn primary", "对照参考答案");
+        chk.addEventListener("click", showAnswer);
+        row.appendChild(chk); box.appendChild(row);
+      } else {
+        var inp = el("input");
+        inp.type = "text";
+        inp.className = "text";
+        inp.placeholder = "填入答案";
+        inp.style.minWidth = "240px";
+        box.appendChild(inp);
+        var row2 = el("div"); row2.style.marginTop = "8px";
+        var chk2 = el("button", "btn primary", "检查");
+        chk2.addEventListener("click", function(){
+          ex.__input = inp.value;
+          var ok = trial(ex);
+          inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
+          if (ok) feedback(true, "✓ 正确。" + (ex.explain || ""));
+          else { feedback(false, "✗ 再试一次（点「显示全部答案」看参考答案）。"); }
+        });
+        row2.appendChild(chk2); box.appendChild(row2);
+      }
+      box.appendChild(fb);
+      var ans = el("div", "ans");
+      ans.textContent = "参考答案：" + accepted(ex).join(" / ") + (ex.explain ? "　—　" + ex.explain : "");
+      box.appendChild(ans);
+      box._show = function(){ ans.classList.add("show"); };
+      box._reset = function(){
+        ans.classList.remove("show"); fb.className = "fb"; fb.textContent = "";
+        var t = box.querySelector("textarea"); if (t) t.value = "";
+        var n = box.querySelector("input[type=text]"); if (n) { n.value = ""; n.style.borderColor = ""; }
+        Array.prototype.forEach.call(box.querySelectorAll(".opt"), function(o){ o.classList.remove("right", "wrong"); });
+      };
+      ew.appendChild(box);
+    });
+    document.getElementById("ex-count").textContent = exercises.length + " 题";
+    document.getElementById("show-all").addEventListener("click", function(){
+      Array.prototype.forEach.call(ew.children, function(box){ if (box._show) box._show(); });
+    });
+    document.getElementById("reset-ex").addEventListener("click", function(){
+      Array.prototype.forEach.call(ew.children, function(box){ if (box._reset) box._reset(); });
+    });
+  } else {
+    ew.appendChild(el("p", "empty", "没有练习题数据。"));
+    document.querySelector('.toolbar #show-all').disabled = true;
+  }
+
+  /* ---------- tabs ---------- */
+  var tabDefs = [
+    ["overview", "概览", null],
+    ["sentences", "逐句精读", items.length],
+    ["starred", "收藏句", "dynamic"],
+    ["vocab", "生词", vocab.length],
+    ["phrases", "短语搭配", phrases.length],
+    ["grammar", "语法点", grammar.length],
+    ["patterns", "句型模板", patterns.length],
+    ["exercises", "练习", exercises.length]
+  ].filter(function(t){ return t[2] === null || t[2] === "dynamic" || t[2] > 0; });
+  var tabs = document.getElementById("tabs");
+  function showTab(name, doScroll){
+    Array.prototype.forEach.call(tabs.children, function(x){
+      x.setAttribute("aria-selected", String(x.getAttribute("data-tab") === name));
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("main > section"), function(s){
+      s.hidden = s.id !== "tab-" + name;
+    });
+    // the starred list is state-derived: refresh it whenever it becomes visible
+    if (name === "starred") renderStarred();
+    if (doScroll !== false) window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  tabDefs.forEach(function(t){
+    var b = el("button", null, t[1]);
+    b.setAttribute("role", "tab");
+    b.setAttribute("data-tab", t[0]);
+    b.setAttribute("aria-selected", "false");
+    if (t[2] === "dynamic") {
+      var dynamicBadge = el("span", "count", "0");
+      dynamicBadge.id = "badge-starred";
+      b.appendChild(dynamicBadge);
+    } else if (t[2] !== null) {
+      b.appendChild(el("span", "count", String(t[2])));
+    }
+    b.addEventListener("click", function(){
+      showTab(t[0]);
+      if (location.hash !== "#" + t[0]) history.replaceState(null, "", "#" + t[0]);
+    });
+    tabs.appendChild(b);
+  });
+  /* deep links: #sentences / #vocab … select a tab, #s123 jumps to a sentence */
+  var hash = (location.hash || "").replace(/^#/, "");
+  var jump = /^s(\d+)$/.exec(hash);
+  if (jump) {
+    showTab("sentences", false);
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  } else if (tabDefs.some(function(t){ return t[0] === hash; })) {
+    showTab(hash, false);
+  } else {
+    showTab(tabDefs[0] ? tabDefs[0][0] : "overview", false);
+  }
+  window.addEventListener("hashchange", function(){
+    var next = (location.hash || "").replace(/^#/, "");
+    var hit = /^s(\d+)$/.exec(next);
+    if (hit) { showTab("sentences", false); var t = document.getElementById(next); if (t) t.scrollIntoView(); }
+    else if (tabDefs.some(function(t){ return t[0] === next; })) showTab(next, false);
+  });
+
+  /* ---------- footer ---------- */
+  document.getElementById("footer").textContent =
+    "由 english-study-from-pdf skill 生成 · 源文件：" +
+    ((transcript.source && transcript.source.name) || "") +
+    (stats.extractedAt ? " · 提取时间 " + stats.extractedAt : "");
+
+  renderSentences();
+  syncZh();
+  renderVocab();
+  renderStarred();
+  syncStarUI();
+})();
+</script>
+</body>
+</html>

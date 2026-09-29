@@ -1,0 +1,935 @@
+{
+  "meta": {
+    "title": "CNN 10 风格新闻 2026.09.03 · 纽约市禁止 60 万 PreK-8 学生使用生成式 AI",
+    "subtitle": "The World from A to Z（主播 Carl Azuz）· 中英对照逐句台词本（186 句 / 1545 词）",
+    "level": "B1–B2",
+    "summary": "本期是一整档面向学生的国际新闻节目，共六个板块。开场是吉尔吉斯斯坦比什凯克举行的 2026 世界游牧民族运动会：104 国选手参加射箭、摔跤、猎鹰等项目，开幕式用动画生物、马拉战车和瀑布特效营造超现实舞台。第二条是本期主打：纽约市——全美最大学区——禁止 60 万学前班至八年级学生使用生成式 AI，同时建议减少屏幕时间，理由是孩子需要与人互动、学会批判性思考；高中生不受禁令限制，但会上 AI 素养课。第三条关注尼泊尔 8 月 26 日的灾难性山洪：部分冰川崩塌引发洪水，至少 1200 人遇难、4000 多人失踪，救援仍在继续。第四条是洪水中的英雄故事：校车司机 Chiring Tamang 在学校被毁前接走约 50 名学生，又在桥被冲走前过桥，但他自己的侄子在这场灾难中遇难。第五、六条较轻松：圣马力诺被认定为地球上最古老的共和国，《巴黎条约》则结束了美国独立战争；澳大利亚野生动物中心靠慈善机构捐赠的剩余医疗物资（含婴儿保温箱）救助考拉宝宝；最后是 Chariots for Hope 用\"汽车坠落采石场\"筹款，主播顺势抛出一连串汽车习语双关。",
+    "topics": ["人工智能与教育政策", "自然灾害与救援", "地理与历史小知识", "野生动物保护", "医疗物资再利用", "英语习语与双关"],
+    "learningFocus": [
+      "教育政策词汇：ban, exception, district, literacy, shortcoming, screen time",
+      "灾害报道词汇：flash flood, glacier, collapse, catastrophic, towering, missing, assistance",
+      "被动语态与分词结构：is deemed, were lost, was triggered, washing away, picking them up（新闻播报的两大骨架）",
+      "地理与历史描述句型：be landlocked / be home to / date back to / It was on September 3rd in 301 that…",
+      "汽车习语双关：take a beating, catch some air, stop on a dime, run sth into the ground, if all else fails"
+    ],
+    "studyPlan": [
+      "第 1 步（12 分钟）：通读「逐句精读」第 1–40 句（运动会 + 纽约 AI 禁令），先猜词义，再打开中文核对。",
+      "第 2 步（15 分钟）：过「生词」卡片，把不认识的标记出来，逐个跟读例句；重点是灾害类词汇。",
+      "第 3 步（12 分钟）：读「语法点」，吃透被动语态和分词结构——这两项在本期里出现了几十次。",
+      "第 4 步（10 分钟）：用「句型模板」练习地理/历史描述句式，口头说一遍尼泊尔和圣马力诺的介绍。",
+      "第 5 步（15 分钟）：做「练习」，翻译题先自己写再看答案；错题回到对应句子重读。",
+      "第 6 步（8 分钟）：回到第 112–186 句，专门体会结尾的汽车双关语——这是英式幽默与一词多义的典型练手材料。"
+    ],
+    "estimatedMinutes": 75
+  },
+  "vocab": [
+    {
+      "term": "underway",
+      "ipa": "/ˌʌndəˈweɪ/",
+      "pos": "adj.",
+      "zh": "正在进行中的，已开始的",
+      "level": "B2",
+      "note": "只作表语：be underway。赛事、工程、谈判开始后都用它，比 be happening 正式。",
+      "examples": [
+        {"en": "The 2026 World Nomad Games are underway.", "zh": "2026 年世界游牧民族运动会正在举行。", "ref": 1}
+      ]
+    },
+    {
+      "term": "spectacle",
+      "ipa": "/ˈspektəkl/",
+      "pos": "n.",
+      "zh": "壮观的场面，盛景；奇观",
+      "level": "B2",
+      "note": "a spectacle in itself 本身就是一大看点；make a spectacle of oneself 则指\"出洋相\"（贬义）。形容词 spectacular。",
+      "examples": [
+        {"en": "the capital of Kyrgyzstan, were spectacles in themselves.", "zh": "吉尔吉斯斯坦首都比什凯克，有些环节本身就是一场视觉盛宴。", "ref": 4}
+      ]
+    },
+    {
+      "term": "choreograph",
+      "ipa": "/ˈkɒriəɡrɑːf/",
+      "pos": "v.",
+      "zh": "为（舞蹈、表演）编排动作",
+      "level": "C1",
+      "note": "名词 choreography（编舞），choreographer（编舞者）。引申用法：choreograph a campaign（精心策划一场活动）。",
+      "examples": [
+        {"en": "along with horse-drawn chariots and scenes over an animated floor that were choreographed to traditional music.", "zh": "伴随着马拉战车，以及动画地板上配合传统音乐编排的场景。", "ref": 6}
+      ]
+    },
+    {
+      "term": "surreal",
+      "ipa": "/səˈrɪəl/",
+      "pos": "adj.",
+      "zh": "超现实的，梦幻般离奇的",
+      "level": "B2",
+      "note": "sur-（超过）+ real。常用于形容场面\"不真实得像梦\"。名词 surrealism（超现实主义）。",
+      "examples": [
+        {"en": "There was also a misted waterfall that streamed down and set a surreal backdrop to an extraordinary equestrian exhibition.", "zh": "还有一道雾气蒙蒙的瀑布倾泻而下，为一场非凡的马术表演营造出超现实的背景。", "ref": 7}
+      ]
+    },
+    {
+      "term": "equestrian",
+      "ipa": "/ɪˈkwestriən/",
+      "pos": "adj.",
+      "zh": "马术的，骑马的",
+      "level": "C1",
+      "note": "equestrian exhibition 马术表演；equestrian sports 马术运动。同源的 equine 意为\"马的\"。",
+      "examples": [
+        {"en": "set a surreal backdrop to an extraordinary equestrian exhibition.", "zh": "为一场非凡的马术表演营造出超现实的背景。", "ref": 7}
+      ]
+    },
+    {
+      "term": "generative",
+      "ipa": "/ˈdʒenərətɪv/",
+      "pos": "adj.",
+      "zh": "生成式的（能自动生成内容的）",
+      "level": "B2",
+      "note": "generative AI 生成式人工智能，是近年高频搭配。动词 generate（生成），名词 generation。",
+      "examples": [
+        {"en": "600,000 of them will not be allowed to use generative AI,", "zh": "届时 60 万名学生将不得使用生成式人工智能，", "ref": 22}
+      ]
+    },
+    {
+      "term": "resume",
+      "ipa": "/rɪˈzjuːm/",
+      "pos": "v.",
+      "zh": "重新开始，恢复",
+      "level": "B2",
+      "note": "商务与新闻高频词：resume school / resume talks。注意名词 résumé（简历）与之拼写相近、读音不同（/ˈrezjumeɪ/）。",
+      "examples": [
+        {"en": "When they resume school there in exactly one week,", "zh": "他们再过整整一周就要返校，", "ref": 21}
+      ]
+    },
+    {
+      "term": "exception",
+      "ipa": "/ɪkˈsepʃn/",
+      "pos": "n.",
+      "zh": "例外",
+      "level": "B1",
+      "note": "there will be exceptions to the rules（规定会有例外）；with the exception of（除……之外）；make an exception（破例）。",
+      "examples": [
+        {"en": "There will be exceptions to these rules on remote learning days or for students with disabilities, for example.", "zh": "这些规定也会有例外，比如在远程学习日或针对残障学生。", "ref": 27}
+      ]
+    },
+    {
+      "term": "ban",
+      "ipa": "/bæn/",
+      "pos": "n./v.",
+      "zh": "禁令；禁止",
+      "level": "B1",
+      "note": "the ban does not apply to…（禁令不适用于……）；ban sb from doing sth（禁止某人做某事）。",
+      "examples": [
+        {"en": "And the ban does not apply to high school students.", "zh": "而这项禁令不适用于高中生。", "ref": 29},
+        {"en": "So why the ban in pre-k through 8th grade?", "zh": "那么为什么要在学前班到八年级实施禁令呢？", "ref": 32}
+      ]
+    },
+    {
+      "term": "literacy",
+      "ipa": "/ˈlɪtərəsi/",
+      "pos": "n.",
+      "zh": "素养，读写能力",
+      "level": "B2",
+      "note": "AI literacy 人工智能素养；digital/financial literacy 数字/金融素养。形容词 literate（识字的）。",
+      "examples": [
+        {"en": "They'll get new lessons concerning AI literacy and its potential shortcomings.", "zh": "他们将接受有关人工智能素养及其潜在缺陷的新课程。", "ref": 30}
+      ]
+    },
+    {
+      "term": "shortcoming",
+      "ipa": "/ˈʃɔːtkʌmɪŋ/",
+      "pos": "n.",
+      "zh": "缺点，不足之处",
+      "level": "B2",
+      "note": "通常用复数 shortcomings。比 disadvantage 更强调\"不足之处\"，可用于人或技术。",
+      "examples": [
+        {"en": "They'll get new lessons concerning AI literacy and its potential shortcomings.", "zh": "他们将接受有关人工智能素养及其潜在缺陷的新课程。", "ref": 30}
+      ]
+    },
+    {
+      "term": "district",
+      "ipa": "/ˈdɪstrɪkt/",
+      "pos": "n.",
+      "zh": "（行政、教育）区；学区",
+      "level": "B1",
+      "note": "美国语境下 school district 指负责本地区公立学校的学区，是一个行政单位。",
+      "examples": [
+        {"en": "But the district says they'll still have access to AI", "zh": "但学区表示，高中生仍可接触人工智能", "ref": 31},
+        {"en": "New York City is the largest school district in America.", "zh": "纽约市是美国最大的学区。", "ref": 40}
+      ]
+    },
+    {
+      "term": "critic",
+      "ipa": "/ˈkrɪtɪk/",
+      "pos": "n.",
+      "zh": "批评者，评论家",
+      "level": "B2",
+      "note": "critic（批评者）— criticize（批评）— criticism（批评）— critical（关键的；批判性的）— critically（批判性地）一起记。",
+      "examples": [
+        {"en": "Critics of AI, including many parents who've spoken out against it,", "zh": "人工智能的批评者，包括许多公开反对的家长，", "ref": 33}
+      ]
+    },
+    {
+      "term": "sharpen",
+      "ipa": "/ˈʃɑːpn/",
+      "pos": "v.",
+      "zh": "磨快；使（技能、感觉）更敏锐",
+      "level": "B2",
+      "note": "sharpen one's skills 磨炼技能；sharpen a pencil 削铅笔。形容词 sharp，名词 sharpness。",
+      "examples": [
+        {"en": "And New York's mayor says they need to interact with other humans to sharpen their social and problem solving skills.", "zh": "而纽约市长表示，孩子们需要与他人互动，以磨炼社交和解决问题的能力。", "ref": 35}
+      ]
+    },
+    {
+      "term": "tailor",
+      "ipa": "/ˈteɪlə(r)/",
+      "pos": "v.",
+      "zh": "按需定制，量身打造",
+      "level": "B2",
+      "note": "tailor sth to sb/sth：tailor lessons to individual students' needs。名词义是\"裁缝\"，动词义正来自\"量体裁衣\"。",
+      "examples": [
+        {"en": "guiding them to think through different scenarios and also custom tailoring lessons to individual students' needs.", "zh": "引导他们思考不同情境，还能根据个别学生的需求定制课程。", "ref": 37}
+      ]
+    },
+    {
+      "term": "scenario",
+      "ipa": "/səˈnɑːriəʊ/",
+      "pos": "n.",
+      "zh": "设想的情况，情景",
+      "level": "B2",
+      "note": "复数 scenarios。worst-case scenario 最坏情况；think through different scenarios 推演不同情形。",
+      "examples": [
+        {"en": "guiding them to think through different scenarios", "zh": "引导他们思考不同情境", "ref": 37}
+      ]
+    },
+    {
+      "term": "landlocked",
+      "ipa": "/ˈlændlɒkt/",
+      "pos": "adj.",
+      "zh": "内陆的，被陆地包围的（无出海口）",
+      "level": "C1",
+      "note": "land + locked（被陆地锁住），地理报道专用词：a landlocked country 内陆国。",
+      "examples": [
+        {"en": "It's landlocked in southern Asia between India and China.", "zh": "它位于南亚内陆，夹在印度和中国之间。", "ref": 43}
+      ]
+    },
+    {
+      "term": "catastrophic",
+      "ipa": "/ˌkætəˈstrɒfɪk/",
+      "pos": "adj.",
+      "zh": "灾难性的，造成巨大破坏的",
+      "level": "B2",
+      "note": "名词 catastrophe（大灾难）。灾害报道常用：catastrophic floods/earthquake。比 serious 程度重得多。",
+      "examples": [
+        {"en": "rescuers are doing all they can to find anyone who may still be alive after catastrophic flash floods struck on August 26.", "zh": "救援人员正尽一切努力搜寻 8 月 26 日灾难性山洪暴发后可能仍活着的人。", "ref": 47}
+      ]
+    },
+    {
+      "term": "flash flood",
+      "ipa": "/ˌflæʃ ˈflʌd/",
+      "pos": "n.",
+      "zh": "山洪，突发性洪水",
+      "level": "B2",
+      "note": "flash 在这里是\"突如其来的\"（如 flash fire、a flash of lightning）。山洪的特点是来得快去得也快。",
+      "examples": [
+        {"en": "after catastrophic flash floods struck on August 26.", "zh": "8 月 26 日灾难性山洪暴发后", "ref": 47}
+      ]
+    },
+    {
+      "term": "glacier",
+      "ipa": "/ˈɡlæsiə(r)/",
+      "pos": "n.",
+      "zh": "冰川",
+      "level": "B2",
+      "note": "注意与 glazier（玻璃工）同音异义。形容词 glacial（冰川的；极冷的）。",
+      "examples": [
+        {"en": "Officials believe the disaster was triggered when part of a glacier collapsed.", "zh": "官员们认为，这场灾难是由部分冰川崩塌引发的。", "ref": 48}
+      ]
+    },
+    {
+      "term": "collapse",
+      "ipa": "/kəˈlæps/",
+      "pos": "v./n.",
+      "zh": "崩塌，倒塌；（体系、健康）崩溃",
+      "level": "B2",
+      "note": "既可指建筑物、冰川倒塌，也可指经济、谈判\"崩盘\"：Talks collapsed. 形容词 collapsible（可折叠的）。",
+      "examples": [
+        {"en": "when part of a glacier collapsed.", "zh": "由部分冰川崩塌引发的", "ref": 48}
+      ]
+    },
+    {
+      "term": "towering",
+      "ipa": "/ˈtaʊərɪŋ/",
+      "pos": "adj.",
+      "zh": "高耸的，巨大的",
+      "level": "B2",
+      "note": "towering floodwaters 滔天洪水；towering figure 杰出人物（引申义）。动词 tower（高耸）。",
+      "examples": [
+        {"en": "That caused towering floodwaters in rivers and valleys below, washing away bridges and villages.", "zh": "这导致下方河流和山谷中洪水滔天，冲毁了桥梁和村庄。", "ref": 49}
+      ]
+    },
+    {
+      "term": "missing",
+      "ipa": "/ˈmɪsɪŋ/",
+      "pos": "adj.",
+      "zh": "失踪的，下落不明的",
+      "level": "B1",
+      "note": "be still missing / be reported missing。注意 missing 与 lost（遇难/丢失）在灾害报道中的区别：missing 是\"还没找到\"。",
+      "examples": [
+        {"en": "More than 4,000 people are still missing.", "zh": "仍有 4000 多人失踪。", "ref": 52},
+        {"en": "And Chinese officials say there are more than 500 missing and 21 dead in Tibet.", "zh": "而中国官员表示，西藏有 500 多人失踪、21 人死亡。", "ref": 53}
+      ]
+    },
+    {
+      "term": "assistance",
+      "ipa": "/əˈsɪstəns/",
+      "pos": "n.",
+      "zh": "援助，帮助",
+      "level": "B2",
+      "note": "不可数名词：provide/offer assistance to sb。比 help 正式，多见于官方与救援报道。动词 assist。",
+      "examples": [
+        {"en": "Assistance is coming in from all over the world.", "zh": "援助正从世界各地涌来。", "ref": 54}
+      ]
+    },
+    {
+      "term": "bustling",
+      "ipa": "/ˈbʌslɪŋ/",
+      "pos": "adj.",
+      "zh": "熙熙攘攘的，繁忙的",
+      "level": "B2",
+      "note": "a bustling market/city/street。动词 bustle（忙碌地走动）。文中用它和\"一片废墟\"形成强烈今昔对比。",
+      "examples": [
+        {"en": "Once a bustling market, now soggy and cement-soaked, it looks like a wasteland.", "zh": "这里曾是繁华的市场，如今湿漉漉地浸满水泥，看上去像一片废墟。", "ref": 58}
+      ]
+    },
+    {
+      "term": "wasteland",
+      "ipa": "/ˈweɪstlænd/",
+      "pos": "n.",
+      "zh": "荒地，废墟；荒芜景象",
+      "level": "C1",
+      "note": "waste + land。既可指真正的荒地，也可指\"一片狼藉\"的灾后景象。",
+      "examples": [
+        {"en": "it looks like a wasteland.", "zh": "看上去像一片废墟。", "ref": 58}
+      ]
+    },
+    {
+      "term": "snarl",
+      "ipa": "/snɑːl/",
+      "pos": "v.",
+      "zh": "（交通）堵塞；咆哮",
+      "level": "C1",
+      "note": "Traffic snarls. 是交通报道的固定说法；名词 traffic snarl 指\"交通堵塞\"。原义是动物\"龇牙低吼\"。",
+      "examples": [
+        {"en": "Traffic snarls on broken roads.", "zh": "破损的道路上交通拥堵。", "ref": 62}
+      ]
+    },
+    {
+      "term": "jackknife",
+      "ipa": "/ˈdʒæknaɪf/",
+      "pos": "v./n.",
+      "zh": "（车辆）折成 V 形；折叠刀",
+      "level": "C1",
+      "note": "jackknife truck 指刹车失控后车头与挂车折成 V 形的卡车；名词本义是\"水手刀/折叠刀\"。",
+      "examples": [
+        {"en": "The jackknife truck is hardly noticed.", "zh": "那辆折成 V 字形的卡车几乎无人注意。", "ref": 63}
+      ]
+    },
+    {
+      "term": "faint",
+      "ipa": "/feɪnt/",
+      "pos": "v./adj.",
+      "zh": "晕倒；（adj.）微弱的、模糊的",
+      "level": "B2",
+      "note": "动词：One kid fainted. 形容词：a faint smell/sound 微弱的气味/声音。注意与 feint（佯攻）拼写区别。",
+      "examples": [
+        {"en": "One kid fainted inside the bus.", "zh": "一个孩子在车里晕了过去。", "ref": 69}
+      ]
+    },
+    {
+      "term": "breadwinner",
+      "ipa": "/ˈbredwɪnə(r)/",
+      "pos": "n.",
+      "zh": "养家糊口的人，家庭经济支柱",
+      "level": "B2",
+      "note": "the (only) breadwinner of the family。合成词：bread（面包）+ winner（赢得者）——\"挣面包的人\"。",
+      "examples": [
+        {"en": "They have nothing left, as my nephew was my only breadwinner of the family.", "zh": "他们一无所有了，因为侄子是我家唯一的经济支柱。", "ref": 88}
+      ]
+    },
+    {
+      "term": "republic",
+      "ipa": "/rɪˈpʌblɪk/",
+      "pos": "n.",
+      "zh": "共和国",
+      "level": "B1",
+      "note": "the oldest continuous republic 最古老的持续存在的共和国。形容词 republican（共和制的；美国共和党的）。",
+      "examples": [
+        {"en": "What nation is said to be the oldest continuous republic on Earth?", "zh": "哪个国家被认为是地球上最古老的持续存在的共和国？", "ref": 102}
+      ]
+    },
+    {
+      "term": "purportedly",
+      "ipa": "/pəˈpɔːtɪdli/",
+      "pos": "adv.",
+      "zh": "据称，据传闻",
+      "level": "C1",
+      "note": "表示\"外界这么说，但未完全证实\"，是新闻规避断言的手段。动词 purport to be（声称是），形容词 purported。",
+      "examples": [
+        {"en": "Purportedly the oldest republic on Earth,", "zh": "据称是地球上最古老的共和国，", "ref": 107}
+      ]
+    },
+    {
+      "term": "treaty",
+      "ipa": "/ˈtriːti/",
+      "pos": "n.",
+      "zh": "条约，协定",
+      "level": "B2",
+      "note": "sign a treaty 签署条约；the Treaty of Paris《巴黎条约》。复数 treaties。",
+      "examples": [
+        {"en": "That was in the year 1783 when the Treaty of Paris was signed by representatives of Great Britain and the American colonies.", "zh": "那是在 1783 年，英国和美洲殖民地代表签署了《巴黎条约》。", "ref": 110}
+      ]
+    },
+    {
+      "term": "recognize",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "pos": "v.",
+      "zh": "承认，认可；认出",
+      "level": "B1",
+      "note": "recognize sb/sth as…（承认……为……）。名词 recognition。拼写勿漏掉 z 前的 g。",
+      "examples": [
+        {"en": "It officially recognized the United States as independent and ended the conflict that had lasted for more than eight years.", "zh": "该条约正式承认美国独立，结束了这场持续八年多的冲突。", "ref": 111}
+      ]
+    },
+    {
+      "term": "carer",
+      "ipa": "/ˈkeərə(r)/",
+      "pos": "n.",
+      "zh": "看护人，照料者",
+      "level": "B2",
+      "note": "英式英语常用 carer（美式多说 caregiver）。Wildlife carer 野生动物看护人；动词 care for。",
+      "examples": [
+        {"en": "Wildlife carer Sue Moore sees roughly 80 koalas come and go in a year,", "zh": "野生动物看护人苏·摩尔一年里要照料大约 80 只考拉来来去去，", "ref": 114}
+      ]
+    },
+    {
+      "term": "round-the-clock",
+      "ipa": "/ˌraʊnd ðə ˈklɒk/",
+      "pos": "adj.",
+      "zh": "全天候的，24 小时的",
+      "level": "B2",
+      "note": "作前置定语要加连字符：round-the-clock care；作状语写 around the clock：work around the clock。",
+      "examples": [
+        {"en": "some in need of round-the-clock care.", "zh": "有些需要全天候护理。", "ref": 115}
+      ]
+    },
+    {
+      "term": "nonprofit",
+      "ipa": "/ˌnɒnˈprɒfɪt/",
+      "pos": "n./adj.",
+      "zh": "非营利组织；非营利的",
+      "level": "B2",
+      "note": "也可写 non-profit / not-for-profit。文中 like many nonprofits 是插入语，表示\"和许多非营利组织一样\"。",
+      "examples": [
+        {"en": "But this wildlife center, like many nonprofits,", "zh": "但这个野生动物中心，和许多非营利组织一样，", "ref": 116}
+      ]
+    },
+    {
+      "term": "landfill",
+      "ipa": "/ˈlændfɪl/",
+      "pos": "n.",
+      "zh": "垃圾填埋；垃圾填埋场",
+      "level": "C1",
+      "note": "landfill waste 填埋垃圾；be sent to landfill 被送去填埋。环保话题高频词。",
+      "examples": [
+        {"en": "of landfill waste.", "zh": "垃圾填埋废物的来源。", "ref": 131},
+        {"en": "Medical Pantry says it saves about 5 % of medical equipment from landfills.", "zh": "\"医疗补给站\"表示，它从垃圾填埋场拯救了大约 5% 的医疗设备。", "ref": 135}
+      ]
+    },
+    {
+      "term": "surplus",
+      "ipa": "/ˈsɜːpləs/",
+      "pos": "adj./n.",
+      "zh": "剩余的；剩余（物资）",
+      "level": "C1",
+      "note": "surplus medical materials 剩余医疗物资；trade surplus 贸易顺差。反义 shortage（短缺）。",
+      "examples": [
+        {"en": "Thanks to donations of surplus", "zh": "多亏了捐赠的剩余", "ref": 137}
+      ]
+    },
+    {
+      "term": "premature",
+      "ipa": "/ˌpreməˈtjʊə(r)/",
+      "pos": "adj.",
+      "zh": "早产的；过早的",
+      "level": "B2",
+      "note": "premature babies 早产儿；premature decision 仓促的决定。名词 prematurity。",
+      "examples": [
+        {"en": "for premature or sick babies.", "zh": "为早产或患病的婴儿。", "ref": 143}
+      ]
+    },
+    {
+      "term": "flammable",
+      "ipa": "/ˈflæməbl/",
+      "pos": "adj.",
+      "zh": "易燃的",
+      "level": "B2",
+      "note": "flammable 与 inflammable 意思相同（都指易燃），后者 in- 不是否定前缀，容易误读，所以安全标识多用 flammable。",
+      "examples": [
+        {"en": "of flammable fluids,", "zh": "易燃液体之后，", "ref": 162}
+      ]
+    },
+    {
+      "term": "quarry",
+      "ipa": "/ˈkwɒri/",
+      "pos": "n.",
+      "zh": "采石场",
+      "level": "C1",
+      "note": "文中 quarry jump / quarry drop 是把这个采石场当成\"汽车坠落表演场\"。注意与 quiver、query 拼写区分。",
+      "examples": [
+        {"en": "they were sent to the quarry jump,", "zh": "它们被送去采石场跳跃，", "ref": 163}
+      ]
+    },
+    {
+      "term": "spectator",
+      "ipa": "/spekˈteɪtə(r)/",
+      "pos": "n.",
+      "zh": "观众，旁观者",
+      "level": "B2",
+      "note": "体育与演出场合用 spectator；spectate 是动词\"观看\"；spectacular 同源，意为\"壮观的\"。",
+      "examples": [
+        {"en": "for the amusement of hundreds of spectators", "zh": "供数百名观众娱乐，", "ref": 165}
+      ]
+    },
+    {
+      "term": "fundraiser",
+      "ipa": "/ˈfʌndreɪzə(r)/",
+      "pos": "n.",
+      "zh": "筹款活动；筹款人",
+      "level": "B2",
+      "note": "a successful fundraiser 成功的筹款活动；动词 fundraise，名词 fundraising（筹款工作）。",
+      "examples": [
+        {"en": "and a successful fundraiser.", "zh": "同时也是一次成功的筹款活动。", "ref": 166}
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "term": "have a place in / have a place in the classroom",
+      "pos": "v. phrase",
+      "zh": "在……中占有一席之地，有存在的必要",
+      "note": "常用问句形式挑起讨论：Does X have a place in Y? 文中主播正是用这句话抛出本期主打话题。",
+      "example": {"en": "Does artificial intelligence have a place in the classroom?", "zh": "人工智能在课堂上该有一席之地吗？"},
+      "ref": 17
+    },
+    {
+      "term": "think critically",
+      "pos": "v. phrase",
+      "zh": "批判性地思考，独立思考",
+      "note": "教育话题固定搭配；critically 修饰 think。相关名词 critical thinking（批判性思维）。",
+      "example": {"en": "say kids increasingly rely on that instead of learning to think critically.", "zh": "认为孩子们越来越依赖它，而不是学会批判性思考。"},
+      "ref": 34
+    },
+    {
+      "term": "follow sb's lead",
+      "pos": "v. phrase",
+      "zh": "效仿某人的做法，跟着某人走",
+      "note": "follow New York's lead 效仿纽约的做法。也可说 take the lead（带头）。",
+      "example": {"en": "along with whether other school systems will follow New York's lead, remains to be seen.", "zh": "以及其他学校系统是否会效仿纽约的做法，还有待观察。"},
+      "ref": 39
+    },
+    {
+      "term": "remain to be seen",
+      "pos": "v. phrase",
+      "zh": "还有待观察，尚无定论",
+      "note": "新闻报道收尾的高频句式，主语通常是 whether/what 从句或 the impact。",
+      "example": {"en": "The educational impact of all this, along with whether other school systems will follow New York's lead, remains to be seen.", "zh": "这一切对教育的影响，以及其他学校系统是否会效仿纽约的做法，还有待观察。"},
+      "ref": 39
+    },
+    {
+      "term": "do all they can to do sth",
+      "pos": "v. phrase",
+      "zh": "竭尽全力做某事",
+      "note": "＝ do everything they can to do sth。can 后省略了 do，to 引出目的。",
+      "example": {"en": "rescuers are doing all they can to find anyone who may still be alive", "zh": "救援人员正尽一切努力搜寻……可能仍活着的人"},
+      "ref": 47
+    },
+    {
+      "term": "wash away",
+      "pos": "phrasal v.",
+      "zh": "（洪水）冲走、冲毁",
+      "note": "灾害报道常用被动式：be washed away。同段还有 wash away bridges and villages（冲毁桥梁和村庄）。",
+      "example": {"en": "washing away bridges and villages.", "zh": "冲毁了桥梁和村庄。"},
+      "ref": 49
+    },
+    {
+      "term": "a homecoming of sorts",
+      "pos": "n. phrase",
+      "zh": "某种意义上的回归（返乡）",
+      "note": "of sorts ＝ \"勉强算得上的\"，用于弱化或自嘲式限定。homecoming 本义是\"返乡、校友返校日\"。",
+      "example": {"en": "And the 2026 events are a homecoming of sorts,", "zh": "而 2026 年的赛事某种程度上是一次回归，"},
+      "ref": 12
+    },
+    {
+      "term": "be home to",
+      "pos": "v. phrase",
+      "zh": "是……的家园/所在地，拥有",
+      "note": "地理介绍万能句：It's home to 8 of the world's 10 highest peaks. 主语是地点。",
+      "example": {"en": "It's home to 8 of the world's 10 highest mountain peaks in its capital is Kathmandu.", "zh": "它拥有世界十大最高山峰中的八座，首都是加德满都。"},
+      "ref": 44
+    },
+    {
+      "term": "date back to",
+      "pos": "v. phrase",
+      "zh": "追溯到（某年代）",
+      "note": "也表示 date from。文中 the one that dates back more than 1,700 years（历史可追溯到 1700 多年前的那个国家）。",
+      "example": {"en": "the one that dates back more than 1,700 years is San Marino.", "zh": "历史可追溯到 1700 多年前的那个国家就是圣马力诺。"},
+      "ref": 105
+    },
+    {
+      "term": "in need of",
+      "pos": "prep. phrase",
+      "zh": "需要……的",
+      "note": "in need of care 需要照料；people in need 有需要的人（in need 单独用时指\"贫困、困难的人\"，见第 156 句）。",
+      "example": {"en": "some in need of round-the-clock care.", "zh": "有些需要全天候护理。"},
+      "ref": 115
+    },
+    {
+      "term": "make a little bit stretch a long way",
+      "pos": "v. phrase",
+      "zh": "让一点点资源发挥很大作用，把钱掰成两半花",
+      "note": "make sth stretch ＝ 让（钱、物资）够用、撑得住。慈善与预算话题很实用。",
+      "example": {"en": "to make a little bit stretch a long way", "zh": "让一点点资源能撑得久一些"},
+      "ref": 118
+    },
+    {
+      "term": "take a beating",
+      "pos": "v. phrase",
+      "zh": "挨打，遭受重创；（物品）经得起折腾",
+      "note": "文中是汽车广告式双关：字面\"能挨撞\"。引申义常见于商业报道：Sales took a beating.（销量大跌。）",
+      "example": {"en": "it can take a beating,", "zh": "它很耐撞，"},
+      "ref": 171
+    },
+    {
+      "term": "catch some air",
+      "pos": "v. phrase",
+      "zh": "（车、滑板）腾空飞起",
+      "note": "极限运动口语。文中与前一句的\"刹车好\"一起，把汽车性能话术逐条字面化，制造笑点。",
+      "example": {"en": "it can catch some air,", "zh": "它能飞起来，"},
+      "ref": 172
+    },
+    {
+      "term": "stop on a dime",
+      "pos": "v. phrase",
+      "zh": "说停就停（刹车极灵）",
+      "note": "dime 是美分硬币，\"能在硬币上停住\"形容刹车距离极短。也可比喻\"立刻停下\"。",
+      "example": {"en": "it stops on a dime,", "zh": "它说停就停，"},
+      "ref": 173
+    },
+    {
+      "term": "run sth into the ground",
+      "pos": "v. phrase",
+      "zh": "把（车）开到报废；把（事业、公司）搞垮",
+      "note": "一词两解，正是本期结尾的双关手法：卖车时指\"开到头了\"，职场里指\"彻底搞砸\"。",
+      "example": {"en": "I ran it into the ground,", "zh": "我把它开到报废了，"},
+      "ref": 175
+    },
+    {
+      "term": "if all else fails",
+      "pos": "clause",
+      "zh": "如果其他办法都不行，实在不行的话",
+      "note": "口语与写作都好用的让步收尾，常引出\"退而求其次\"的方案。",
+      "example": {"en": "and if all else fails,", "zh": "如果这些都不行，"},
+      "ref": 179
+    },
+    {
+      "term": "from zero to 60",
+      "pos": "phrase",
+      "zh": "从零加速到 60（英里/小时）；形容起步极快",
+      "note": "汽车性能话术，引申为\"瞬间进入状态\"。结尾主播用它收束整段双关：nothing else goes from zero to 60 to zero like that。",
+      "example": {"en": "from zero to 60 to zero like that.", "zh": "从零加速到 60 再瞬间归零。"},
+      "ref": 182
+    }
+  ],
+  "grammar": [
+    {
+      "title": "被动语态：新闻如何把焦点放在事件上",
+      "structure": "be + 过去分词（+ by 施事）",
+      "explain": "当\"谁做的\"不重要、不清楚或不必点名时，英语新闻用被动语态把动作的承受者放到句首。本期里它几乎是叙述骨架：国家被建立、人被夺去生命、灾难被引发、车辆被送去。注意时态变化都落在 be 上（is/was/have been/were being）。",
+      "examples": [
+        {"en": "This is a nation that was established in 1768.", "zh": "这是一个建立于 1768 年的国家。", "ref": 42},
+        {"en": "At least 1,200 lives were lost there, according to the nation's government.", "zh": "据该国政府称，那里至少有 1200 人丧生。", "ref": 51},
+        {"en": "Officials believe the disaster was triggered when part of a glacier collapsed.", "zh": "官员们认为，这场灾难是由部分冰川崩塌引发的。", "ref": 48},
+        {"en": "So after some were drained of flammable fluids, they were sent to the quarry jump,", "zh": "所以，在一些车排干了易燃液体之后，它们被送去采石场跳跃，", "ref": 161}
+      ],
+      "caution": "别把中文的\"被\"字机械对应进英文：lives were lost 译成\"有人丧生\"比\"生命被失去\"自然；it is said to be… 是\"据说是……\"。"
+    },
+    {
+      "title": "现在分词作结果与伴随状语",
+      "structure": "主句 + , + v-ing（逻辑主语＝主句主语）",
+      "explain": "分词短语放在句末，交代主句动作带来的结果或同时发生的动作，比 and then… 更紧凑。灾害叙述和人物故事里用得最多。",
+      "examples": [
+        {"en": "That caused towering floodwaters in rivers and valleys below, washing away bridges and villages.", "zh": "这导致下方河流和山谷中洪水滔天，冲毁了桥梁和村庄。", "ref": 49},
+        {"en": "A local school bus driver, Chiring Tamang, saved the lives of some 50 children, picking them up just before their school was destroyed and crossing a bridge before it was washed away.", "zh": "当地校车司机奇林·塔芒救了大约 50 名孩子的命，他在学校被毁前接上他们，又在一座桥被冲走前过了桥。", "ref": 65},
+        {"en": "guiding them to think through different scenarios and also custom tailoring lessons to individual students' needs.", "zh": "引导他们思考不同情境，还能根据个别学生的需求定制课程。", "ref": 37}
+      ],
+      "caution": "分词逻辑主语必须与主句主语一致（第 65 句里 picking、crossing 的主语都是司机）。不一致时要改用从句或独立主格。"
+    },
+    {
+      "title": "过去分词作后置定语与宾语补足语",
+      "structure": "名词 + 过去分词短语；动词 + 宾语 + 过去分词",
+      "explain": "过去分词表被动或已完成，可紧跟在名词后作定语（＝省略 which is/that is 的定语从句），也可补充说明宾语的状态。新闻用它压缩信息，避免长从句。",
+      "examples": [
+        {"en": "through a charity called Medical Pantry,", "zh": "通过一家名为\"医疗补给站\"的慈善机构", "ref": 126},
+        {"en": "But some of what is deemed waste in a hospital could still be useful elsewhere.", "zh": "但有些在医院里被视为废物的东西，在其他地方可能仍然有用。", "ref": 132},
+        {"en": "It says not all of the cars donated can be used.", "zh": "该机构表示，并非所有捐赠的汽车都能使用。", "ref": 159},
+        {"en": "This baby koala is receiving a little TLC after his mother was injured in the wild.", "zh": "这只考拉宝宝在妈妈野外受伤后，正在接受悉心照料。", "ref": 113}
+      ],
+      "caution": "主动关系用 -ing，被动关系用 -ed：the donated cars（被捐的车）vs. the growing number（不断增长的数量）。"
+    },
+    {
+      "title": "不定式作目的状语",
+      "structure": "主句 + to do；in order to / so as to do",
+      "explain": "英语里\"为了……\"最常直接用不定式，不必加 for。新闻中的政策目的、救援行动几乎全用它，也常出现在 do all they can to… 这类结构里。",
+      "examples": [
+        {"en": "rescuers are doing all they can to find anyone who may still be alive", "zh": "救援人员正尽一切努力搜寻可能仍活着的人", "ref": 47},
+        {"en": "New York City is also recommending reduced screen time for kids in an effort to encourage more social interaction.", "zh": "纽约市还建议减少孩子们的屏幕时间，以鼓励更多社交互动。", "ref": 26},
+        {"en": "to make a little bit stretch a long way", "zh": "让一点点资源能撑得久一些", "ref": 118}
+      ],
+      "caution": "in an effort to do（为了做……）与 in order to do 同义，是新闻书面语常见搭配。"
+    },
+    {
+      "title": "关系从句：who / which / that 连接补充信息",
+      "structure": "名词 + who/which/that + 从句；（, which 引导非限定从句）",
+      "explain": "新闻用关系从句给刚刚提到的名词追加说明。限定性从句紧跟名词、不加逗号；非限定性从句用逗号隔开，which 指代整个前句内容。",
+      "examples": [
+        {"en": "we'll reward a teacher who helps us get there,", "zh": "我们会奖励一位帮助我们达成目标的老师，", "ref": 93},
+        {"en": "through a charity called Medical Pantry, which connects it with much-needed medical supplies.", "zh": "通过一家名为\"医疗补给站\"的慈善机构找到了帮助，该机构为它对接了急需的医疗物资。", "ref": 126},
+        {"en": "rescuers are doing all they can to find anyone who may still be alive", "zh": "救援人员正尽一切努力搜寻可能仍活着的人", "ref": 47}
+      ],
+      "caution": "指人用 who/that，指物用 which/that；在 who may still be alive 这类从句中，who 不能换成 what。"
+    },
+    {
+      "title": "转述结构：say / believe / describe as",
+      "structure": "主语 + 转述动词 + (that) 从句；describe A as B",
+      "explain": "新闻报道大量依赖转述：主办方说、官员认为、路透社这样描述。that 通常省略；describe/see/regard 这类动词后接 as 引出评价。",
+      "examples": [
+        {"en": "Organizers say participants from 104 countries registered for the sixth edition of the World Nomad Games.", "zh": "主办方表示，有来自 104 个国家的选手报名参加第六届世界游牧民族运动会。", "ref": 10},
+        {"en": "Officials believe the disaster was triggered when part of a glacier collapsed.", "zh": "官员们认为，这场灾难是由部分冰川崩塌引发的。", "ref": 48},
+        {"en": "They include what Reuters News describes as traditional events in nomadic Central Asian cultures.", "zh": "据路透社报道，赛事包括中亚游牧文化中的传统项目。", "ref": 2}
+      ],
+      "caution": "注意第 2 句结构：what Reuters describes as… 是\"路透社所描述的……\"，what 引导的名词性从句在句中作 include 的宾语。"
+    },
+    {
+      "title": "It has been + 时间段 + since + 过去式",
+      "structure": "It has been + 时间 + since + 一般过去时",
+      "explain": "表示\"自某事发生以来已经过了多久\"。since 从句用一般过去时，主句用现在完成时，是灾害与纪念报道固定句式。",
+      "examples": [
+        {"en": "It's been one week since disaster struck, and in Tresuli,", "zh": "灾难发生至今已有一周，在德里苏利，", "ref": 56},
+        {"en": "More than 4,000 people are still missing.", "zh": "仍有 4000 多人失踪。", "ref": 52}
+      ],
+      "caution": "别写成 It is one week since…（口语偶见，但标准书面语用 It has been）。"
+    },
+    {
+      "title": "条件句：if + 过去分词（省略式）与真实条件",
+      "structure": "if (it is) + 过去分词, 主句；if + 一般现在时, 主句",
+      "explain": "第一种把 if it is 压缩成 if + 过去分词，常见于说明性文字；第二种是\"如果……就……\"的真实条件，用一般现在时代替将来时（if all else fails 而非 if all else will fail）。",
+      "examples": [
+        {"en": "Supporters of AI in the classroom say if used properly, it can help students learn,", "zh": "支持人工智能进课堂的人表示，如果使用得当，它可以帮助学生学习，", "ref": 36},
+        {"en": "and if all else fails, I'll just drop it off.", "zh": "如果这些都不行，我就直接把它丢下来。", "ref": 179}
+      ],
+      "caution": "主句用 will/can 时，if 从句必须用现在时：if used properly（＝if it is used properly）。"
+    },
+    {
+      "title": "动名词复合结构：me crossing the bridge",
+      "structure": "（介词/动词）+ 名词所有格或宾格 + v-ing",
+      "explain": "动名词可以自带逻辑主语，用物主代词或宾格表示：After two minutes of me crossing the bridge。这是被采访者口语中的真实结构，也常用于书面表达谁做了某个动作。",
+      "examples": [
+        {"en": "After two minutes of me crossing the bridge, the flood came on my side.", "zh": "我过桥两分钟后，洪水冲到了我这边。", "ref": 66}
+      ],
+      "caution": "正式书面语更倾向用 my crossing；口语中 me crossing 更常见。不可写成 After two minutes of I crossing。"
+    },
+    {
+      "title": "强调结构：It was on September 3rd in 301 that…",
+      "structure": "It + be + 被强调部分 + that/who + 其余部分",
+      "explain": "把时间、地点或人物提到 It is/was…that 之间加以突出，是英语唯一的\"强调句\"。去掉 It…that 后句子依然完整，这是判断依据。",
+      "examples": [
+        {"en": "It was on September 3rd in the year 301 that historians believe San Marino was founded.", "zh": "历史学家认为，圣马力诺建于公元 301 年的 9 月 3 日。", "ref": 106}
+      ],
+      "caution": "被强调部分若是人，可用 who：It was Sue Moore who saved the koala. 其余情况一律用 that。"
+    },
+    {
+      "title": "数量与范围表达：8 of the world's 10 highest…",
+      "structure": "数词 + of the world's + 最高级 + 复数名词；roughly/at least + 数字",
+      "explain": "报道数据时用 of 结构表示\"在……当中占几项\"，再配合 roughly（大约）、at least（至少）、more than（超过）等模糊限定词，既给出信息又留有余地。",
+      "examples": [
+        {"en": "It's home to 8 of the world's 10 highest mountain peaks in its capital is Kathmandu.", "zh": "它拥有世界十大最高山峰中的八座，首都是加德满都。", "ref": 44},
+        {"en": "And rescue officials say roughly 12,000 people have been saved.", "zh": "救援官员表示，大约有 1.2 万人获救。", "ref": 55},
+        {"en": "it remains an independent country completely surrounded by Italy and home to around 34,000 people known as Samaranese.", "zh": "它至今仍是一个被意大利完全包围的独立国家，居住着约 34000 名被称为\"圣马力诺人\"的居民。", "ref": 108}
+      ],
+      "caution": "台词本第 44 句听写时漏了句号，其实是两句：It's home to 8 of the world's 10 highest mountain peaks. Its capital is Kathmandu. 读到时按两句理解。"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The 2026 World Nomad Games are underway.",
+      "zh": "2026 年世界游牧民族运动会正在举行。",
+      "usage": "be underway 表示赛事、工程、谈判\"已经开始并正在进行\"，比 is happening 正式，适合开场第一条新闻。",
+      "rewrite": "The 2026 World Nomad Games have got under way / are now in progress.",
+      "ref": 1
+    },
+    {
+      "en": "They include what Reuters News describes as traditional events in nomadic Central Asian cultures.",
+      "zh": "据路透社报道，赛事包括中亚游牧文化中的传统项目。",
+      "usage": "include what X describes as Y：既转述了来源，又给名词加了定义，一举两得，新闻里非常常见。",
+      "rewrite": "They include events that Reuters describes as traditional in nomadic Central Asian cultures.",
+      "ref": 2
+    },
+    {
+      "en": "Does artificial intelligence have a place in the classroom?",
+      "zh": "人工智能在课堂上该有一席之地吗？",
+      "usage": "用一般疑问句抛出话题，再用 And New York City says no 给出答案——口语播报里引出争议话题的经典\"设问—回答\"法。",
+      "rewrite": "Is there a place for artificial intelligence in the classroom?",
+      "ref": 17
+    },
+    {
+      "en": "This is Nepal, a country of more than 29 million people.",
+      "zh": "这就是尼泊尔，一个拥有超过 2900 万人口的国家。",
+      "usage": "介绍国家/城市的三件套：This is X, a country of + 人口；It's landlocked in…；Its capital is…。可直接套用到任何地理介绍。",
+      "rewrite": "This is Nepal, which has a population of over 29 million.",
+      "ref": 45
+    },
+    {
+      "en": "Once a bustling market, now soggy and cement-soaked, it looks like a wasteland.",
+      "zh": "这里曾是繁华的市场，如今湿漉漉地浸满水泥，看上去像一片废墟。",
+      "usage": "Once A, now B, it looks like C：用两个省略结构做今昔对比，再补一句主观印象，是现场报道描写的模板。",
+      "rewrite": "It used to be a bustling market, but now it is soggy and covered in cement, looking like a wasteland.",
+      "ref": 58
+    },
+    {
+      "en": "There are many heroes here, but even they have heavy hearts.",
+      "zh": "这里有很多英雄，但即便是他们，内心也很沉重。",
+      "usage": "There are…, but even they…：先给普遍评价，再用 even they 转折，突出英雄背后的代价，适合人物报道的收束句。",
+      "rewrite": "Many people here are heroes, yet even they are grieving.",
+      "ref": 91
+    },
+    {
+      "en": "It's amazing how many folks will gather to watch someone smash stuff.",
+      "zh": "有这么多人聚在一起看别人砸东西，真是令人惊叹。",
+      "usage": "It's amazing how…：把\"令人惊叹的事\"放进 how 从句，比直接感叹 Amazing! 更完整、更适合旁白。",
+      "rewrite": "I'm amazed at how many people gather to watch someone smash things.",
+      "ref": 167
+    },
+    {
+      "en": "And it brings a whole new meaning to, it's got good brakes…",
+      "zh": "这给这些话带来了全新的含义：它的刹车很好……",
+      "usage": "bring a whole new meaning to + 引语：用来说明某句话被\"字面化\"后产生的幽默或反讽，是双关段落的标准引子。",
+      "rewrite": "And it makes you hear a familiar phrase in a completely different way.",
+      "ref": 169
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "question": "\"The 2026 World Nomad Games are underway.\"（第 1 句）其中 underway 的意思是：",
+      "options": ["正在进行中", "在地下举行", "被迫延期", "在筹备中"],
+      "answer": "A",
+      "explain": "underway 意为\"已经开始并正在进行\"，只作表语（be underway）。它和\"在筹备中\"（in preparation）正好相反。"
+    },
+    {
+      "type": "fill",
+      "question": "The 2026 World Nomad Games ______ (be) underway.（用正确形式填空）",
+      "answer": ["are"],
+      "explain": "主句主语是 The 2026 World Nomad Games，复数，且是当前正在进行的赛事，用一般现在时 are。"
+    },
+    {
+      "type": "choice",
+      "question": "根据第 43 句 \"It's landlocked in southern Asia between India and China\"，landlocked 的意思是：",
+      "options": ["内陆的，没有出海口的", "被海洋包围的", "地势低洼的", "跨界接壤的"],
+      "answer": "A",
+      "explain": "land + locked（被陆地锁住），指一个国家没有海岸线，如尼泊尔、蒙古。有海岸线的是 coastal。"
+    },
+    {
+      "type": "fill",
+      "question": "San Marino ______ (found) on September 3rd in the year 301.（用正确形式填空，第 106 句）",
+      "answer": ["was founded"],
+      "explain": "圣马力诺是\"被建立\"的，用被动语态；时间指向古代（301 年），用一般过去时的被动 was founded。注意 found－founded 意为\"建立\"，与 find－found（找到）不同。"
+    },
+    {
+      "type": "choice",
+      "question": "\"after catastrophic flash floods struck on August 26\"（第 47 句）中 flash flood 指的是：",
+      "options": ["山洪，突发性洪水", "闪电引发的火灾", "暴雨预警", "水库泄洪"],
+      "answer": "A",
+      "explain": "flash 在此表示\"突如其来的\"，flash flood 即山洪：来势极快、水位暴涨暴落，与缓慢的河流泛滥不同。"
+    },
+    {
+      "type": "fill",
+      "question": "Officials believe the disaster ______ (trigger) when part of a glacier collapsed.（第 48 句）",
+      "answer": ["was triggered"],
+      "explain": "灾难是\"被引发\"的，用被动语态；believe 后是宾语从句，从句时态与主句呼应，用一般过去时的被动 was triggered。"
+    },
+    {
+      "type": "choice",
+      "question": "rescuers are doing all they can ______ anyone who may still be alive.（第 47 句）",
+      "options": ["to find", "finding", "find", "found"],
+      "answer": "A",
+      "explain": "do all one can to do sth 表示\"竭尽全力做某事\"，can 后省略了 do，目的用不定式 to find。"
+    },
+    {
+      "type": "fill",
+      "question": "More than 4,000 people ______ still missing.（用 be 动词的正确形式填空，第 52 句）",
+      "answer": ["are"],
+      "explain": "people 是复数，且这是当前状况（失踪人数截至现在），用一般现在时 are missing。the missing 也可指\"失踪者\"这个群体。"
+    },
+    {
+      "type": "choice",
+      "question": "\"as my nephew was my only breadwinner of the family\"（第 88 句）中 breadwinner 的意思是：",
+      "options": ["养家糊口的人", "做面包的人", "获胜者", "遗产继承人"],
+      "answer": "A",
+      "explain": "breadwinner 字面是\"赢得面包的人\"，指家庭中挣钱养家的成员。这句里司机在说侄子是家里唯一的经济支柱。"
+    },
+    {
+      "type": "fill",
+      "question": "It ______ (be) one week since disaster struck.（第 56 句）",
+      "answer": ["has been", "has been one week"],
+      "explain": "It has been + 时间段 + since + 一般过去时，表示\"自灾难发生以来已有一周\"。since 从句用过去式 struck，主句用现在完成时。"
+    },
+    {
+      "type": "choice",
+      "question": "\"Purportedly the oldest republic on Earth\"（第 107 句）中 purportedly 的意思是：",
+      "options": ["据称，据传", "众所周知地", "毫无疑问地", "故意地"],
+      "answer": "A",
+      "explain": "purportedly 表示\"外界这么说，但未完全证实\"，是新闻避免把话说死的常用副词；动词为 purport to be。"
+    },
+    {
+      "type": "fill",
+      "question": "some of what is ______ (deem) waste in a hospital could still be useful elsewhere.（第 132 句）",
+      "answer": ["deemed"],
+      "explain": "what is deemed waste = \"被视为废物的东西\"，deem 与 be 构成被动语态，用过去分词 deemed。deem 是较正式的\"认为\"。"
+    },
+    {
+      "type": "choice",
+      "question": "\"it stops on a dime\"（第 173 句）这句话在卖车语境里的意思是：",
+      "options": ["说停就停，刹车极灵", "停在硬币上", "省油", "经常抛锚"],
+      "answer": "A",
+      "explain": "dime 是美分硬币，\"能在硬币上停住\"形容刹车距离极短。本期结尾把汽车广告话术逐条字面化，形成了一连串双关笑点。"
+    },
+    {
+      "type": "translate",
+      "question": "翻译成英文：他们再过整整一周就要返校，届时 60 万名学生将不得使用生成式人工智能。（提示：resume school / be allowed to）",
+      "answer": ["When they resume school there in exactly one week, 600,000 of them will not be allowed to use generative AI."],
+      "explain": "参考原文第 21–22 句。\"再过整整一周\"用 in exactly one week；\"将不得使用\"用 will not be allowed to use，注意 be allowed to 的被动结构。"
+    },
+    {
+      "type": "translate",
+      "question": "翻译成英文：其他学校系统是否会效仿纽约的做法，还有待观察。（提示：follow one's lead / remain to be seen）",
+      "answer": ["Whether other school systems will follow New York's lead remains to be seen."],
+      "explain": "参考原文第 39 句。whether 引导主语从句，谓语用单数 remains；remain to be seen 是新闻收尾的固定表达。"
+    },
+    {
+      "type": "translate",
+      "question": "翻译成英文：有些在医院里被视为废物的东西，在其他地方可能仍然有用。（提示：be deemed waste）",
+      "answer": ["Some of what is deemed waste in a hospital could still be useful elsewhere."],
+      "explain": "参考原文第 132–134 句。Some of what is deemed waste… 是\"……中被视为废物的一部分\"，what 引导名词性从句作 of 的宾语。"
+    }
+  ]
+}

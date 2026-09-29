@@ -1,0 +1,2499 @@
+{
+ "source": {
+  "path": "环球资讯2026.08.09-萨默兰山火3小时蔓延5000公顷.pdf",
+  "name": "环球资讯2026.08.09-萨默兰山火3小时蔓延5000公顷.pdf",
+  "stem": "环球资讯2026.08.09-萨默兰山火3小时蔓延5000公顷",
+  "pages": 17
+ },
+ "stats": {
+  "pages": 17,
+  "items": 413,
+  "englishWords": 3304,
+  "itemsWithChinese": 412,
+  "bilingual": true,
+  "extractedAt": "2026-09-29T07:06:05+0800",
+  "extractor": "extract_pdf.py (PyMuPDF)",
+  "seconds": 0.3
+ },
+ "warnings": [],
+ "items": [
+  {
+   "n": 1,
+   "page": 1,
+   "en": "On this Saturday night, fleeing an explosive wildfire.",
+   "zh": "在这个周六夜晚，人们逃离一场爆炸性野火"
+  },
+  {
+   "n": 2,
+   "page": 1,
+   "en": "More than 20,000 residents in B.C.'s interior, including our global news team, forced to evacuate",
+   "zh": "卑诗省内陆两万多居民，包括我们环球新闻的团队，被迫撤离"
+  },
+  {
+   "n": 3,
+   "page": 1,
+   "en": "from one of the fastest fires crews have ever seen.",
+   "zh": "这是消防队员见过蔓延最快的火灾之一"
+  },
+  {
+   "n": 4,
+   "page": 1,
+   "en": "Everything's gone.",
+   "zh": "什么都没了"
+  },
+  {
+   "n": 5,
+   "page": 1,
+   "en": "It's all gone.",
+   "zh": "一切都没了"
+  },
+  {
+   "n": 6,
+   "page": 1,
+   "en": "New details on the wildfire fight and the forecast.",
+   "zh": "关于山火扑救和天气预报的最新细节"
+  },
+  {
+   "n": 7,
+   "page": 1,
+   "en": "President Trump's former lawyer is named the new attorney general.",
+   "zh": "特朗普前律师被任命为新任司法部长"
+  },
+  {
+   "n": 8,
+   "page": 1,
+   "en": "The choice is not between perfection and Mr. Blanche.",
+   "zh": "选择不是在完美和布兰奇先生之间"
+  },
+  {
+   "n": 9,
+   "page": 1,
+   "en": "The implications for the independence of the U.S. Justice Department.",
+   "zh": "这对美国司法部独立性的影响"
+  },
+  {
+   "n": 10,
+   "page": 1,
+   "en": "Plus, fighting for fish.",
+   "zh": "另外，为鱼类而战"
+  },
+  {
+   "n": 11,
+   "page": 1,
+   "en": "I really wanted to get involved in helping to save the world.",
+   "zh": "我真的想参与拯救世界"
+  },
+  {
+   "n": 12,
+   "page": 1,
+   "en": "Why this B.C. conservationist just had a species of seahorse named in her honour.",
+   "zh": "为何这位卑诗省环保人士获以她的名字命名一种海马"
+  },
+  {
+   "n": 13,
+   "page": 1,
+   "en": "Global National.",
+   "zh": "环球新闻"
+  },
+  {
+   "n": 14,
+   "page": 1,
+   "en": "Reporting tonight, Jeff Semple.",
+   "zh": "今晚报道，杰夫·森普尔"
+  },
+  {
+   "n": 15,
+   "page": 2,
+   "en": "Take a look at this terrifying video",
+   "zh": "看看这段可怕的视频"
+  },
+  {
+   "n": 16,
+   "page": 2,
+   "en": "as 20,000 people in B.C.'s Okanagan region fled for their lives last night.",
+   "zh": "昨晚卑诗省欧肯那根地区两万人逃生时的情景"
+  },
+  {
+   "n": 17,
+   "page": 2,
+   "en": "A fire, first reported at 5.30 Friday afternoon near the community of Summerland,",
+   "zh": "周五下午5点30分，夏季兰社区附近首次报告的一场火灾，"
+  },
+  {
+   "n": 18,
+   "page": 2,
+   "en": "suddenly exploded in size, leaving little time to escape.",
+   "zh": "突然急剧扩大，几乎没有时间逃生"
+  },
+  {
+   "n": 19,
+   "page": 2,
+   "en": "Good evening and thank you for joining us.",
+   "zh": "晚上好，感谢收看我们的节目"
+  },
+  {
+   "n": 20,
+   "page": 2,
+   "en": "B.C. officials just held a news conference.",
+   "zh": "卑诗省官员刚刚举行了新闻发布会"
+  },
+  {
+   "n": 21,
+   "page": 2,
+   "en": "The premier declaring a province-wide state of emergency.",
+   "zh": "省长宣布全省进入紧急状态"
+  },
+  {
+   "n": 22,
+   "page": 2,
+   "en": "And B.C.'s wildfire service warned the conditions are explosive",
+   "zh": "卑诗省山火服务处警告称，情况极具爆炸性"
+  },
+  {
+   "n": 23,
+   "page": 2,
+   "en": "and unlike anything they've seen before.",
+   "zh": "且是他们前所未见的"
+  },
+  {
+   "n": 24,
+   "page": 2,
+   "en": "This is the evacuation zone, the largest so far this year,",
+   "zh": "这是今年迄今为止最大的疏散区，"
+  },
+  {
+   "n": 25,
+   "page": 2,
+   "en": "covering the entire municipality of Summerland, B.C.",
+   "zh": "覆盖卑诗省夏季兰整个市镇"
+  },
+  {
+   "n": 26,
+   "page": 2,
+   "en": "Surrounding areas are now on high alert.",
+   "zh": "周边地区现处于高度戒备状态"
+  },
+  {
+   "n": 27,
+   "page": 2,
+   "en": "Sarah MacDonald begins our coverage tonight.",
+   "zh": "萨拉·麦克唐纳开始我们今晚的报道"
+  },
+  {
+   "n": 28,
+   "page": 2,
+   "en": "It exploded with frightening speed and ferocity Friday evening.",
+   "zh": "周五晚上，火势以惊人的速度和凶猛程度爆发"
+  },
+  {
+   "n": 29,
+   "page": 2,
+   "en": "And just a few hours later, homes were burning.",
+   "zh": "仅仅几个小时后，房屋就开始燃烧"
+  },
+  {
+   "n": 30,
+   "page": 2,
+   "en": "As thousands of British Columbians fled the fast-moving flames,",
+   "zh": "成千上万的卑诗省民逃离迅速蔓延的火焰，"
+  },
+  {
+   "n": 31,
+   "page": 2,
+   "en": "closing in on the entire district of Summerland in the Okanagan.",
+   "zh": "火焰逼近欧肯那根的夏季兰整个地区"
+  },
+  {
+   "n": 32,
+   "page": 2,
+   "en": "Some 12,000 residents ordered to evacuate overnight.",
+   "zh": "约一万两千名居民被命令连夜撤离"
+  },
+  {
+   "n": 33,
+   "page": 2,
+   "en": "Everything's gone.",
+   "zh": "什么都没了"
+  },
+  {
+   "n": 34,
+   "page": 2,
+   "en": "It's all gone.",
+   "zh": "一切都没了"
+  },
+  {
+   "n": 35,
+   "page": 2,
+   "en": "Dozens flown out by helicopter with no way out by road.",
+   "zh": "数十人因道路不通由直升机接出"
+  },
+  {
+   "n": 36,
+   "page": 2,
+   "en": "Hope no one stuck it out as long as we did",
+   "zh": "希望没人像我们一样坚持那么久"
+  },
+  {
+   "n": 37,
+   "page": 2,
+   "en": "because they would have been burnt.",
+   "zh": "因为他们早就被烧到了"
+  },
+  {
+   "n": 38,
+   "page": 2,
+   "en": "We are preparing to leave this area.",
+   "zh": "我们准备离开这个区域"
+  },
+  {
+   "n": 39,
+   "page": 2,
+   "en": "The flames growing in real time on live TV.",
+   "zh": "火焰在电视直播中实时蔓延"
+  },
+  {
+   "n": 40,
+   "page": 2,
+   "en": "A global news crew packing up and pivoting fast",
+   "zh": "环球新闻摄制组迅速收拾设备，快速转移"
+  },
+  {
+   "n": 41,
+   "page": 2,
+   "en": "as the fire grew too close.",
+   "zh": "因为火势逼近得太近了"
+  },
+  {
+   "n": 42,
+   "page": 2,
+   "en": "You guys get out there.",
+   "zh": "你们先出去"
+  },
+  {
+   "n": 43,
+   "page": 3,
+   "en": "Your safety is paramount.",
+   "zh": "你们的安全最重要"
+  },
+  {
+   "n": 44,
+   "page": 3,
+   "en": "What the fire is going to do.",
+   "zh": "火势会如何发展"
+  },
+  {
+   "n": 45,
+   "page": 3,
+   "en": "One regional district official finding his own home was under evacuation order",
+   "zh": "一名地区官员在向公众通报情况时，"
+  },
+  {
+   "n": 46,
+   "page": 3,
+   "en": "while keeping the public informed.",
+   "zh": "发现自己的家也收到了疏散令"
+  },
+  {
+   "n": 47,
+   "page": 3,
+   "en": "I need to get home to my family and take care of that part of my life.",
+   "zh": "我需要回家和家人团聚，处理好我生活中的那部分"
+  },
+  {
+   "n": 48,
+   "page": 3,
+   "en": "The Bald Range fire, classified as a rank 5,",
+   "zh": "这场被归类为5级的秃山火，"
+  },
+  {
+   "n": 49,
+   "page": 3,
+   "en": "burning so aggressively, it consumed some 50 square kilometers, or 5,000 hectares, of land.",
+   "zh": "燃烧得极为猛烈，吞噬了约50平方公里，即5000公顷的土地"
+  },
+  {
+   "n": 50,
+   "page": 3,
+   "en": "In just three hours after it first ignited, it's since grown much larger.",
+   "zh": "在首次燃起后的短短三小时内，火势已扩大了很多"
+  },
+  {
+   "n": 51,
+   "page": 3,
+   "en": "You can feel the heat inside the house starting to rise.",
+   "zh": "你能感觉到屋内的温度开始升高"
+  },
+  {
+   "n": 52,
+   "page": 3,
+   "en": "It was pretty obvious it was time to get out.",
+   "zh": "很明显，是时候离开了"
+  },
+  {
+   "n": 53,
+   "page": 3,
+   "en": "Many evacuees leaving nearly all of their belongings",
+   "zh": "许多撤离者几乎将所有财物"
+  },
+  {
+   "n": 54,
+   "page": 3,
+   "en": "and their livelihoods behind the fire line.",
+   "zh": "和生计都留在了火线之后"
+  },
+  {
+   "n": 55,
+   "page": 3,
+   "en": "And in this rural part of the province's interior,",
+   "zh": "在这个卑诗省内陆的乡村地区，"
+  },
+  {
+   "n": 56,
+   "page": 3,
+   "en": "filled with farm and ranch land, countless animals are still there.",
+   "zh": "遍布农场和牧场，无数动物仍在那里"
+  },
+  {
+   "n": 57,
+   "page": 3,
+   "en": "This here is just ranches, full of ranches and tons of animals, horses, everything.",
+   "zh": "这里全是牧场，遍地是牧场和成群的动物，马匹，什么都有"
+  },
+  {
+   "n": 58,
+   "page": 3,
+   "en": "And I just want everybody to get out.",
+   "zh": "我只希望所有人都能逃出去"
+  },
+  {
+   "n": 59,
+   "page": 3,
+   "en": "Premier David Eby urging all British Columbians under evacuation order",
+   "zh": "省长大卫·埃比敦促所有收到疏散令的卑诗省民"
+  },
+  {
+   "n": 60,
+   "page": 3,
+   "en": "to get out if they haven't already.",
+   "zh": "如果没有撤离，请立即撤离"
+  },
+  {
+   "n": 61,
+   "page": 3,
+   "en": "I know many families are facing an unimaginable day today.",
+   "zh": "我知道今天许多家庭都面临着难以想象的一天"
+  },
+  {
+   "n": 62,
+   "page": 3,
+   "en": "People have lost their homes and",
+   "zh": "人们失去了家园，"
+  },
+  {
+   "n": 63,
+   "page": 3,
+   "en": "many people have been displaced.",
+   "zh": "许多人流离失所"
+  },
+  {
+   "n": 64,
+   "page": 3,
+   "en": "Others are waiting for news about loved ones.",
+   "zh": "还有人在等待亲人的消息"
+  },
+  {
+   "n": 65,
+   "page": 3,
+   "en": "With the loss of homes, a certainty",
+   "zh": "随着家园被毁，这是一场确定的灾难，"
+  },
+  {
+   "n": 66,
+   "page": 3,
+   "en": "and any loss of life still a very real possibility.",
+   "zh": "而任何生命损失都仍是非常现实的可能性"
+  },
+  {
+   "n": 67,
+   "page": 3,
+   "en": "Sarah MacDonald, Global News.",
+   "zh": "环球新闻，莎拉·麦克唐纳报道"
+  },
+  {
+   "n": 68,
+   "page": 3,
+   "en": "For more on the wildfire situation tonight,",
+   "zh": "今晚关于野火局势的更多情况，"
+  },
+  {
+   "n": 69,
+   "page": 4,
+   "en": "let's go to Global's Taya Fast, who joins us from Penticton, B.C.,",
+   "zh": "让我们连线环球新闻的塔亚 ·法斯特，她在BC省彭蒂克顿，"
+  },
+  {
+   "n": 70,
+   "page": 4,
+   "en": "where many of the evacuees have gathered.",
+   "zh": "许多撤离者都聚集在那里"
+  },
+  {
+   "n": 71,
+   "page": 4,
+   "en": "And Taya, as we just saw in Sarah's report,",
+   "zh": "塔亚，正如我们刚刚在莎拉的报道中看到的，"
+  },
+  {
+   "n": 72,
+   "page": 4,
+   "en": "you had your own close call last night.",
+   "zh": "你昨晚自己也经历了惊险一刻"
+  },
+  {
+   "n": 73,
+   "page": 4,
+   "en": "Jeff, that's right.",
+   "zh": "杰夫，没错"
+  },
+  {
+   "n": 74,
+   "page": 4,
+   "en": "The fire moved so incredibly quickly towards us Friday evening.",
+   "zh": "周五傍晚，火势极其迅速地朝我们蔓延过来"
+  },
+  {
+   "n": 75,
+   "page": 4,
+   "en": "What started as a smaller-sized blaze",
+   "zh": "一开始还是一场规模较小的火灾，"
+  },
+  {
+   "n": 76,
+   "page": 4,
+   "en": "exploded only within hours to thousands of hectares",
+   "zh": "仅仅几小时内就爆发式地蔓延到数千公顷，"
+  },
+  {
+   "n": 77,
+   "page": 4,
+   "en": "and towards where we were standing.",
+   "zh": "并朝着我们所在的位置扑来"
+  },
+  {
+   "n": 78,
+   "page": 4,
+   "en": "And the entire hillside was consumed with smoke and large flames.",
+   "zh": "整个山坡都被浓烟和巨大的火焰吞没"
+  },
+  {
+   "n": 79,
+   "page": 4,
+   "en": "And the sky was glowing orange",
+   "zh": "天空泛着橙色的光芒，"
+  },
+  {
+   "n": 80,
+   "page": 4,
+   "en": "that within minutes we had to make the decision",
+   "zh": "几分钟内我们就不得不做出决定，"
+  },
+  {
+   "n": 81,
+   "page": 4,
+   "en": "to leave the area and get off the air.",
+   "zh": "撤离该地区并停止直播"
+  },
+  {
+   "n": 82,
+   "page": 4,
+   "en": "We've heard countless stories from people who have lost their homes.",
+   "zh": "我们听无数人讲述了他们失去家园的经历"
+  },
+  {
+   "n": 83,
+   "page": 4,
+   "en": "Initially, Electoral Area F, Folder, and West and North Summerland were impacted,",
+   "zh": "最初， F选区、福尔德以及西萨默兰和北萨默兰都受到了影响，"
+  },
+  {
+   "n": 84,
+   "page": 4,
+   "en": "but the situation changed quickly.",
+   "zh": "但情况很快发生了变化"
+  },
+  {
+   "n": 85,
+   "page": 4,
+   "en": "The entire community of Summerland was ordered to evacuate around 1230 Friday night,",
+   "zh": "周五晚上12点30分左右，萨默兰整个社区被命令撤离，"
+  },
+  {
+   "n": 86,
+   "page": 4,
+   "en": "and a local state of emergency was declared.",
+   "zh": "并宣布进入地方紧急状态"
+  },
+  {
+   "n": 87,
+   "page": 4,
+   "en": "We tried to leave northbound shortly after,",
+   "zh": "我们随后不久试图向北撤离，"
+  },
+  {
+   "n": 88,
+   "page": 4,
+   "en": "but were turned away because the fire had jumped the highway",
+   "zh": "但被拦了回来，因为大火已经越过了公路，"
+  },
+  {
+   "n": 89,
+   "page": 4,
+   "en": "and was burning on both sides.",
+   "zh": "并且在公路两侧燃烧"
+  },
+  {
+   "n": 90,
+   "page": 4,
+   "en": "Thousands of people made their way south towards Penticton,",
+   "zh": "成千上万的人向南前往彭蒂克顿，"
+  },
+  {
+   "n": 91,
+   "page": 4,
+   "en": "and now most, if not all, large parking lots in Penticton",
+   "zh": "现在彭蒂克顿的大部分（如果不是全部的话）大型停车场"
+  },
+  {
+   "n": 92,
+   "page": 4,
+   "en": "are full of campers, trailers, and vehicles.",
+   "zh": "都停满了露营车、拖车和各类车辆"
+  },
+  {
+   "n": 93,
+   "page": 4,
+   "en": "Those people that fled late in the night.",
+   "zh": "那些在深夜逃离的人们"
+  },
+  {
+   "n": 94,
+   "page": 5,
+   "en": "Any evacuees who need support,",
+   "zh": "任何需要帮助的撤离者，"
+  },
+  {
+   "n": 95,
+   "page": 5,
+   "en": "the recommendation is that you check in to ESS online",
+   "zh": "建议你们在线到ESS登记"
+  },
+  {
+   "n": 96,
+   "page": 5,
+   "en": "or visit one of the reception centers.",
+   "zh": "或前往其中一个接待中心"
+  },
+  {
+   "n": 97,
+   "page": 5,
+   "en": "And there's two, one in Penticton at the Penticton Trade and Convention Center.",
+   "zh": "有两个接待中心，一个在彭蒂克顿的彭蒂克顿贸易与会议中心"
+  },
+  {
+   "n": 98,
+   "page": 5,
+   "en": "There's also one in West Kelowna at the West Bank Lions Community Hall.",
+   "zh": "还有一个在西基洛纳的西岸狮子会社区大厅"
+  },
+  {
+   "n": 99,
+   "page": 5,
+   "en": "Now, the support for these evacuees has been overwhelming.",
+   "zh": "现在，对这些撤离者的支持非常踊跃"
+  },
+  {
+   "n": 100,
+   "page": 5,
+   "en": "We've seen dozens, if not more, volunteers going car to car in the parking lots.",
+   "zh": "我们看到几十名（甚至更多）志愿者在停车场里挨车询问"
+  },
+  {
+   "n": 101,
+   "page": 5,
+   "en": "The pile of donations up front of the Trade and Convention Center",
+   "zh": "贸易与会议中心前面的捐赠物资"
+  },
+  {
+   "n": 102,
+   "page": 5,
+   "en": "is just growing by the minute,",
+   "zh": "每分钟都在增加，"
+  },
+  {
+   "n": 103,
+   "page": 5,
+   "en": "and there's lots of food here and other necessities for evacuees to take.",
+   "zh": "这里有很多食物和其他必需品供撤离者取用"
+  },
+  {
+   "n": 104,
+   "page": 5,
+   "en": "Jeff?",
+   "zh": "杰夫？"
+  },
+  {
+   "n": 105,
+   "page": 5,
+   "en": "All right.",
+   "zh": "好的"
+  },
+  {
+   "n": 106,
+   "page": 5,
+   "en": "Teofast in Penticton, B.C., take care.",
+   "zh": "以上是BC省彭蒂克顿的塔亚·法斯特的报道，请注意安全"
+  },
+  {
+   "n": 107,
+   "page": 5,
+   "en": "The fires around Summerland and across B.C.",
+   "zh": "萨默兰及BC省各地的火灾"
+  },
+  {
+   "n": 108,
+   "page": 5,
+   "en": "are being fueled by hot and dry conditions.",
+   "zh": "正受到炎热干燥天气的助长"
+  },
+  {
+   "n": 109,
+   "page": 5,
+   "en": "Let's go now to Global News meteorologist Yvonne Schell.",
+   "zh": "现在让我们连线环球新闻气象学家伊冯娜·谢尔"
+  },
+  {
+   "n": 110,
+   "page": 5,
+   "en": "So, Yvonne, can we expect any relief?",
+   "zh": "那么，伊冯娜，我们能期待情况有所缓解吗？"
+  },
+  {
+   "n": 111,
+   "page": 5,
+   "en": "Thanks so much, Jeff.",
+   "zh": "非常感谢，杰夫"
+  },
+  {
+   "n": 112,
+   "page": 5,
+   "en": "Unfortunately, there's no reprieve in the forecast.",
+   "zh": "不幸的是，天气预报中没有任何缓解的迹象"
+  },
+  {
+   "n": 113,
+   "page": 5,
+   "en": "We continue with hot and dry conditions.",
+   "zh": "炎热干燥的天气状况将持续"
+  },
+  {
+   "n": 114,
+   "page": 5,
+   "en": "And the big concern, especially as we get in towards the peak temperatures,",
+   "zh": "而最大的担忧是，尤其是在临近最高气温的时候，"
+  },
+  {
+   "n": 115,
+   "page": 5,
+   "en": "afternoon and early evening is when we see the lowest relative humidity,",
+   "zh": "下午和傍晚时分，我们会看到最低的相对湿度，"
+  },
+  {
+   "n": 116,
+   "page": 5,
+   "en": "and that's also fueling the fires.",
+   "zh": "这也在助长火势"
+  },
+  {
+   "n": 117,
+   "page": 5,
+   "en": "Starting off with a few photos that have been captured.",
+   "zh": "先来看几张拍摄到的照片"
+  },
+  {
+   "n": 118,
+   "page": 5,
+   "en": "This one from Vancouver City Councilor Mike Klassen, taken in Summerland.",
+   "zh": "这张是温哥华市议员迈克·克拉森在萨默兰拍摄的"
+  },
+  {
+   "n": 119,
+   "page": 6,
+   "en": "Another shot from Summerland showing the explosive fires.",
+   "zh": "另一张来自萨默兰的照片显示了爆炸性的火势"
+  },
+  {
+   "n": 120,
+   "page": 6,
+   "en": "This one taken by Ted.",
+   "zh": "这张是泰德拍摄的"
+  },
+  {
+   "n": 121,
+   "page": 6,
+   "en": "And a shot from Peachland showing the fires.",
+   "zh": "这是从桃李兰传来的山火画面"
+  },
+  {
+   "n": 122,
+   "page": 6,
+   "en": "And this one was captured by Kim.",
+   "zh": "这张由金拍摄"
+  },
+  {
+   "n": 123,
+   "page": 6,
+   "en": "Here's a shot of what it looks like from NASA.",
+   "zh": "这是美国宇航局视角下的画面"
+  },
+  {
+   "n": 124,
+   "page": 6,
+   "en": "Above, we can see that thick smoke blanketing much of the southern interior.",
+   "zh": "上方可以看到浓烟笼罩着南部内陆大部分地区"
+  },
+  {
+   "n": 125,
+   "page": 6,
+   "en": "It'll be similar as we get in towards tomorrow.",
+   "zh": "明天情况也会类似"
+  },
+  {
+   "n": 126,
+   "page": 6,
+   "en": "We've got poor air quality and reduced visibility.",
+   "zh": "空气质量差，能见度降低"
+  },
+  {
+   "n": 127,
+   "page": 6,
+   "en": "Also, we're looking at windy conditions.",
+   "zh": "此外，还伴有大风天气"
+  },
+  {
+   "n": 128,
+   "page": 6,
+   "en": "Picking up 20 and up to 30 kilometers per hour from most areas near Summerland.",
+   "zh": "萨默兰附近大部分地区风速达20到30公里每小时"
+  },
+  {
+   "n": 129,
+   "page": 6,
+   "en": "Much of the southern interior will see the winds pick up once again tomorrow.",
+   "zh": "明天南部内陆大部分地区将再次刮起大风"
+  },
+  {
+   "n": 130,
+   "page": 6,
+   "en": "It'll be quite similar.",
+   "zh": "情况会非常相似"
+  },
+  {
+   "n": 131,
+   "page": 6,
+   "en": "So, no reprieve in the forecast.",
+   "zh": "所以，预报中没有缓解的迹象"
+  },
+  {
+   "n": 132,
+   "page": 6,
+   "en": "We're also seeing those temperatures soaring Sunday, Monday, and into early next week.",
+   "zh": "我们也看到周日、周一及下周初气温将飙升"
+  },
+  {
+   "n": 133,
+   "page": 6,
+   "en": "Upper 20s closer to 30 degrees.",
+   "zh": "接近30度，最高气温在20多度以上"
+  },
+  {
+   "n": 134,
+   "page": 6,
+   "en": "Wednesday, Thursday will be into the low 20s.",
+   "zh": "周三、周四气温将降至20度出头"
+  },
+  {
+   "n": 135,
+   "page": 6,
+   "en": "There's no break or significant moisture.",
+   "zh": "不会有间歇或明显降水"
+  },
+  {
+   "n": 136,
+   "page": 6,
+   "en": "And we're also seeing the air quality warning that still remains in effect.",
+   "zh": "而且空气质量警告仍然生效"
+  },
+  {
+   "n": 137,
+   "page": 6,
+   "en": "So, those with respiratory issues",
+   "zh": "所以，有呼吸系统疾病的人"
+  },
+  {
+   "n": 138,
+   "page": 6,
+   "en": "will want to try and limit the amount of time spent outdoors.",
+   "zh": "要尽量减少户外活动时间"
+  },
+  {
+   "n": 139,
+   "page": 6,
+   "en": "Latest fire danger rating for the southern interior sitting at high.",
+   "zh": "南部内陆最新火灾危险等级为高"
+  },
+  {
+   "n": 140,
+   "page": 6,
+   "en": "Many spots across the interior sitting at extreme.",
+   "zh": "内陆许多地区已达到极高"
+  },
+  {
+   "n": 141,
+   "page": 6,
+   "en": "Jeff, back to you.",
+   "zh": "杰夫，交回给你"
+  },
+  {
+   "n": 142,
+   "page": 6,
+   "en": "Global News meteorologist Yvonne Schell.",
+   "zh": "环球新闻气象学家伊冯娜·谢尔"
+  },
+  {
+   "n": 143,
+   "page": 6,
+   "en": "Thanks, Yvonne.",
+   "zh": "谢谢，伊冯娜"
+  },
+  {
+   "n": 144,
+   "page": 6,
+   "en": "And turning to other news now.",
+   "zh": "现在转向其他新闻"
+  },
+  {
+   "n": 145,
+   "page": 6,
+   "en": "U.S. President Donald Trump's former defense lawyer",
+   "zh": "美国总统唐纳德·特朗普的前辩护律师"
+  },
+  {
+   "n": 146,
+   "page": 7,
+   "en": "has just been confirmed as attorney general",
+   "zh": "刚刚被确认为司法部长"
+  },
+  {
+   "n": 147,
+   "page": 7,
+   "en": "after a close vote in the Senate overnight.",
+   "zh": "此前参议院连夜进行了投票，结果非常接近"
+  },
+  {
+   "n": 148,
+   "page": 7,
+   "en": "Todd Blanche's appointment puts a close Trump ally",
+   "zh": "托德·布兰奇的任命让特朗普的亲信"
+  },
+  {
+   "n": 149,
+   "page": 7,
+   "en": "at the helm of the Justice Department.",
+   "zh": "执掌了司法部"
+  },
+  {
+   "n": 150,
+   "page": 7,
+   "en": "As Candace Cole reports,",
+   "zh": "据坎迪斯·科尔报道，"
+  },
+  {
+   "n": 151,
+   "page": 7,
+   "en": "Democrats and some Republicans are voicing concerns.",
+   "zh": "民主党人和一些共和党人表达了担忧"
+  },
+  {
+   "n": 152,
+   "page": 7,
+   "en": "On this vote, the yeas are 50.",
+   "zh": "本次投票，赞成票为50票"
+  },
+  {
+   "n": 153,
+   "page": 7,
+   "en": "The nays are 49.",
+   "zh": "反对票为49票"
+  },
+  {
+   "n": 154,
+   "page": 7,
+   "en": "The nomination is confirmed.",
+   "zh": "提名已确认"
+  },
+  {
+   "n": 155,
+   "page": 7,
+   "en": "Early Saturday morning, in an overnight vote,",
+   "zh": "周六凌晨，在一次连夜投票中，"
+  },
+  {
+   "n": 156,
+   "page": 7,
+   "en": "the U.S. Senate confirmed Todd Blanche's nomination",
+   "zh": "美国参议院确认了托德·布兰奇的提名，"
+  },
+  {
+   "n": 157,
+   "page": 7,
+   "en": "for attorney general to lead the Department of Justice.",
+   "zh": "由其出任司法部长领导司法部"
+  },
+  {
+   "n": 158,
+   "page": 7,
+   "en": "Blanche, U.S. President Donald Trump's former personal attorney,",
+   "zh": "布兰奇，曾是美国总统特朗普的私人律师，"
+  },
+  {
+   "n": 159,
+   "page": 7,
+   "en": "had been serving as acting attorney general",
+   "zh": "自帕姆·邦迪四月份"
+  },
+  {
+   "n": 160,
+   "page": 7,
+   "en": "since Pam Bondi's ouster in April",
+   "zh": "因处理爱泼斯坦文件不当被罢免后，"
+  },
+  {
+   "n": 161,
+   "page": 7,
+   "en": "over her handling of the Epstein files.",
+   "zh": "一直担任代理司法部长"
+  },
+  {
+   "n": 162,
+   "page": 7,
+   "en": "For weeks, Blanche's confirmation was in limbo",
+   "zh": "数周以来，布兰奇的确认一直悬而未决，"
+  },
+  {
+   "n": 163,
+   "page": 7,
+   "en": "as multiple Republican senators,",
+   "zh": "因为多名共和党参议员，"
+  },
+  {
+   "n": 164,
+   "page": 7,
+   "en": "enough to tank the vote,",
+   "zh": "人数足以否决投票，"
+  },
+  {
+   "n": 165,
+   "page": 7,
+   "en": "voiced concern over Trump's anti-weaponization fund,",
+   "zh": "对特朗普的反武器化基金表示担忧，"
+  },
+  {
+   "n": 166,
+   "page": 7,
+   "en": "set up by the DOJ,",
+   "zh": "该基金由司法部设立，"
+  },
+  {
+   "n": 167,
+   "page": 7,
+   "en": "largely seen by both parties",
+   "zh": "两党普遍认为"
+  },
+  {
+   "n": 168,
+   "page": 7,
+   "en": "as a slush fund for January 6 rioters.",
+   "zh": "这是给1月6日骚乱者的贿赂基金"
+  },
+  {
+   "n": 169,
+   "page": 7,
+   "en": "Blanche had testified early on",
+   "zh": "布兰奇早些时候曾作证"
+  },
+  {
+   "n": 170,
+   "page": 7,
+   "en": "that the DOJ would not move forward",
+   "zh": "司法部不会继续"
+  },
+  {
+   "n": 171,
+   "page": 7,
+   "en": "with implementing the fund.",
+   "zh": "实施该基金"
+  },
+  {
+   "n": 172,
+   "page": 7,
+   "en": "However, it took Blanche formally terminating the fund Sunday",
+   "zh": "然而，直到布兰奇周日正式终止该基金，"
+  },
+  {
+   "n": 173,
+   "page": 7,
+   "en": "to get some skeptical Republicans on board.",
+   "zh": "才争取到一些持怀疑态度的共和党人支持"
+  },
+  {
+   "n": 174,
+   "page": 7,
+   "en": "I've never liked this 1776 fund.",
+   "zh": "我从来都不喜欢这个1776基金"
+  },
+  {
+   "n": 175,
+   "page": 8,
+   "en": "It made no sense to me,",
+   "zh": "这对我来说毫无意义，"
+  },
+  {
+   "n": 176,
+   "page": 8,
+   "en": "and I thought it was an insult to the police officers",
+   "zh": "我认为这是对1月6日"
+  },
+  {
+   "n": 177,
+   "page": 8,
+   "en": "and the people that defended us on January the 6th.",
+   "zh": "保护我们的警察和人民的侮辱"
+  },
+  {
+   "n": 178,
+   "page": 8,
+   "en": "It's done.",
+   "zh": "结束了"
+  },
+  {
+   "n": 179,
+   "page": 8,
+   "en": "It's been rescinded, and I am satisfied.",
+   "zh": "它已被撤销，我很满意"
+  },
+  {
+   "n": 180,
+   "page": 8,
+   "en": "Due to Senator Mitch McConnell still being out",
+   "zh": "由于参议员米奇·麦康奈尔仍在休养"
+  },
+  {
+   "n": 181,
+   "page": 8,
+   "en": "on medical leave,",
+   "zh": "正在休病假，"
+  },
+  {
+   "n": 182,
+   "page": 8,
+   "en": "Blanche could only afford to lose two Republican votes,",
+   "zh": "布兰奇只能承受失去两票共和党人的支持，"
+  },
+  {
+   "n": 183,
+   "page": 8,
+   "en": "which ended up being Senators Susan Collins",
+   "zh": "结果反对的是参议员苏珊·柯林斯"
+  },
+  {
+   "n": 184,
+   "page": 8,
+   "en": "and Lisa Murkowski.",
+   "zh": "和丽莎·穆尔科斯基"
+  },
+  {
+   "n": 185,
+   "page": 8,
+   "en": "At the 11th hour,",
+   "zh": "在最后一刻，"
+  },
+  {
+   "n": 186,
+   "page": 8,
+   "en": "Senator Bill Cassidy,",
+   "zh": "参议员比尔·卡西迪，"
+  },
+  {
+   "n": 187,
+   "page": 8,
+   "en": "who lost his Republican primary",
+   "zh": "他因与特朗普交恶"
+  },
+  {
+   "n": 188,
+   "page": 8,
+   "en": "due to falling out of favor with Trump,",
+   "zh": "而输掉了共和党初选，"
+  },
+  {
+   "n": 189,
+   "page": 8,
+   "en": "cast the deciding vote confirming Blanche.",
+   "zh": "投下了确认布兰奇任命的决定性一票"
+  },
+  {
+   "n": 190,
+   "page": 8,
+   "en": "Mr. Blanche is not perfect,",
+   "zh": "布兰奇先生并不完美，"
+  },
+  {
+   "n": 191,
+   "page": 8,
+   "en": "and he will tell you this,",
+   "zh": "他自己也会这么告诉你，"
+  },
+  {
+   "n": 192,
+   "page": 8,
+   "en": "but the choice is not between perfection",
+   "zh": "但选择不是在完美"
+  },
+  {
+   "n": 193,
+   "page": 8,
+   "en": "and Mr. Blanche.",
+   "zh": "和布兰奇先生之间做"
+  },
+  {
+   "n": 194,
+   "page": 8,
+   "en": "Following the vote,",
+   "zh": "投票结束后，"
+  },
+  {
+   "n": 195,
+   "page": 8,
+   "en": "Blanche posted on social media",
+   "zh": "布兰奇在社交媒体上发帖"
+  },
+  {
+   "n": 196,
+   "page": 8,
+   "en": "saying he is deeply honored and grateful to the Senate",
+   "zh": "称，他对参议院工作到很晚"
+  },
+  {
+   "n": 197,
+   "page": 8,
+   "en": "for staying late to complete the process.",
+   "zh": "来完成这一程序深表荣幸和感谢"
+  },
+  {
+   "n": 198,
+   "page": 8,
+   "en": "For many, Blanche's confirmation further calls into question",
+   "zh": "对许多人来说，布兰奇的确认进一步引发了对"
+  },
+  {
+   "n": 199,
+   "page": 8,
+   "en": "the independence of the DOJ",
+   "zh": "司法部是否独立、"
+  },
+  {
+   "n": 200,
+   "page": 8,
+   "en": "from doing Trump's bidding.",
+   "zh": "是否会听命于特朗普的质疑"
+  },
+  {
+   "n": 201,
+   "page": 8,
+   "en": "Candace Cole, Global News, Washington.",
+   "zh": "坎达丝·科尔，环球新闻，华盛顿报道"
+  },
+  {
+   "n": 202,
+   "page": 8,
+   "en": "In Ukraine, another round of Russian airstrikes",
+   "zh": "乌克兰方面，俄罗斯又一轮空袭"
+  },
+  {
+   "n": 203,
+   "page": 8,
+   "en": "targeted Kiev and its surrounding region overnight.",
+   "zh": "连夜瞄准了基辅及其周边地区"
+  },
+  {
+   "n": 204,
+   "page": 8,
+   "en": "Four people were killed,",
+   "zh": "在俄罗斯发射了150多架无人机"
+  },
+  {
+   "n": 205,
+   "page": 8,
+   "en": "including a three-year-old child,",
+   "zh": "和数枚弹道导弹后，"
+  },
+  {
+   "n": 206,
+   "page": 9,
+   "en": "after Russia launched more than 150 drones",
+   "zh": "造成四人死亡，"
+  },
+  {
+   "n": 207,
+   "page": 9,
+   "en": "and several ballistic missiles.",
+   "zh": "其中包括一名三岁儿童"
+  },
+  {
+   "n": 208,
+   "page": 9,
+   "en": "Ukraine's Air Force says most of the drones were downed,",
+   "zh": "乌克兰空军表示，大部分无人机被击落，"
+  },
+  {
+   "n": 209,
+   "page": 9,
+   "en": "but they were unable to intercept the missiles.",
+   "zh": "但他们无法拦截导弹"
+  },
+  {
+   "n": 210,
+   "page": 9,
+   "en": "Ukraine is facing a shortage of its air defense systems.",
+   "zh": "乌克兰正面临防空系统短缺的问题"
+  },
+  {
+   "n": 211,
+   "page": 9,
+   "en": "And today, Ukrainian President Volodymyr Zelenskyy said",
+   "zh": "今天，乌克兰总统弗拉基米尔·泽连斯基表示，"
+  },
+  {
+   "n": 212,
+   "page": 9,
+   "en": "the U.S. has agreed to monthly deliveries",
+   "zh": "美国已同意按月交付"
+  },
+  {
+   "n": 213,
+   "page": 9,
+   "en": "of those air defense munitions,",
+   "zh": "这些防空弹药，"
+  },
+  {
+   "n": 214,
+   "page": 9,
+   "en": "but he stressed that more help is needed.",
+   "zh": "但他强调需要更多帮助"
+  },
+  {
+   "n": 215,
+   "page": 9,
+   "en": "Turning to the growing diplomatic spat",
+   "zh": "来看一场愈演愈烈、发生在"
+  },
+  {
+   "n": 216,
+   "page": 9,
+   "en": "between Italy and Spain,",
+   "zh": "意大利和西班牙之间的外交争端，"
+  },
+  {
+   "n": 217,
+   "page": 9,
+   "en": "after thousands of migrants rushed",
+   "zh": "起因是上周数千名移民"
+  },
+  {
+   "n": 218,
+   "page": 9,
+   "en": "into the Spanish enclave of Suta last week.",
+   "zh": "涌入西班牙飞地休达"
+  },
+  {
+   "n": 219,
+   "page": 9,
+   "en": "Italy temporarily reimposed border controls with Spain,",
+   "zh": "意大利暂时重新对西班牙实施了边境管控，"
+  },
+  {
+   "n": 220,
+   "page": 9,
+   "en": "defying the EU's open border policy.",
+   "zh": "无视欧盟的开放边境政策"
+  },
+  {
+   "n": 221,
+   "page": 9,
+   "en": "And now Spain is firing back",
+   "zh": "现在，西班牙也以"
+  },
+  {
+   "n": 222,
+   "page": 9,
+   "en": "with travel restrictions of its own.",
+   "zh": "自己的旅行限制进行反击"
+  },
+  {
+   "n": 223,
+   "page": 9,
+   "en": "Eric Bay reports.",
+   "zh": "埃里克·贝报道"
+  },
+  {
+   "n": 224,
+   "page": 9,
+   "en": "A Spanish police officer checks a passenger's documents",
+   "zh": "在马德里机场，一名西班牙警察正在检查"
+  },
+  {
+   "n": 225,
+   "page": 9,
+   "en": "as they step off a flight arriving at the airport in Madrid.",
+   "zh": "从抵达航班下机乘客的证件"
+  },
+  {
+   "n": 226,
+   "page": 9,
+   "en": "The country introducing border controls",
+   "zh": "该国对意大利旅客"
+  },
+  {
+   "n": 227,
+   "page": 9,
+   "en": "against Italian travelers",
+   "zh": "重新引入边境管控，"
+  },
+  {
+   "n": 228,
+   "page": 9,
+   "en": "after Rome imposed its own sanctions",
+   "zh": "此前罗马方面对来自西班牙的游客"
+  },
+  {
+   "n": 229,
+   "page": 9,
+   "en": "on visitors from Spain.",
+   "zh": "实施了自身的制裁"
+  },
+  {
+   "n": 230,
+   "page": 9,
+   "en": "The measure is coming after an estimated 72,000 migrants",
+   "zh": "这项措施出台前，估计有7.2万名移民"
+  },
+  {
+   "n": 231,
+   "page": 9,
+   "en": "rushed from Morocco into the Spanish territory of Suta",
+   "zh": "于上月末从摩洛哥"
+  },
+  {
+   "n": 232,
+   "page": 9,
+   "en": "late last month.",
+   "zh": "冲入西班牙领土休达"
+  },
+  {
+   "n": 233,
+   "page": 9,
+   "en": "Some leaders criticized Spain's policies",
+   "zh": "一些领导人批评西班牙的政策，"
+  },
+  {
+   "n": 234,
+   "page": 9,
+   "en": "and suggested they'd played a role in the breach.",
+   "zh": "并暗示这些政策在此次入境事件中起了作用"
+  },
+  {
+   "n": 235,
+   "page": 10,
+   "en": "In response, Italy started enforcing border checks",
+   "zh": "作为回应，意大利开始对"
+  },
+  {
+   "n": 236,
+   "page": 10,
+   "en": "against people arriving from Spain by sea and air.",
+   "zh": "通过海路和空路从西班牙抵达的人员实施边境检查"
+  },
+  {
+   "n": 237,
+   "page": 10,
+   "en": "The checks interrupt the European travel zone",
+   "zh": "这些检查打断了"
+  },
+  {
+   "n": 238,
+   "page": 10,
+   "en": "known as Schengen,",
+   "zh": "被称为“申根”的欧洲旅行区，"
+  },
+  {
+   "n": 239,
+   "page": 10,
+   "en": "which normally allows citizens of most EU countries",
+   "zh": "该区域通常允许大多数欧盟国家公民"
+  },
+  {
+   "n": 240,
+   "page": 10,
+   "en": "to move around Europe freely.",
+   "zh": "在欧洲自由流动"
+  },
+  {
+   "n": 241,
+   "page": 10,
+   "en": "The union says member states",
+   "zh": "欧盟表示，成员国"
+  },
+  {
+   "n": 242,
+   "page": 10,
+   "en": "can temporarily introduce controls for serious threats,",
+   "zh": "可在面临严重威胁时临时实施管控，"
+  },
+  {
+   "n": 243,
+   "page": 10,
+   "en": "but should only do so as a last resort.",
+   "zh": "但这只应作为最后的手段"
+  },
+  {
+   "n": 244,
+   "page": 10,
+   "en": "In Italy, we are practically...",
+   "zh": "在意大利，我们实际上。.."
+  },
+  {
+   "n": 245,
+   "page": 10,
+   "en": "Everything that has happened strikes me as utter nonsense,",
+   "zh": "发生的一切在我看来都荒谬至极，"
+  },
+  {
+   "n": 246,
+   "page": 10,
+   "en": "says this Italian traveler.",
+   "zh": "这位意大利旅客说道"
+  },
+  {
+   "n": 247,
+   "page": 10,
+   "en": "We just keep going, hoping it will end.",
+   "zh": "我们只能继续前行，希望这一切早点结束"
+  },
+  {
+   "n": 248,
+   "page": 10,
+   "en": "The Spanish government had told Italy",
+   "zh": "西班牙政府曾要求意大利"
+  },
+  {
+   "n": 249,
+   "page": 10,
+   "en": "to lift the checks by Sunday.",
+   "zh": "在周日之前取消检查"
+  },
+  {
+   "n": 250,
+   "page": 10,
+   "en": "Italian Prime Minister Giorgia Maloney's office says",
+   "zh": "意大利总理乔治娅·梅洛尼的办公室表示，"
+  },
+  {
+   "n": 251,
+   "page": 10,
+   "en": "it has no intention of ending its measures",
+   "zh": "他们无意结束这些措施，"
+  },
+  {
+   "n": 252,
+   "page": 10,
+   "en": "until at least August 15th.",
+   "zh": "至少要到8月15日"
+  },
+  {
+   "n": 253,
+   "page": 10,
+   "en": "No, I don't like this situation.",
+   "zh": "不，我不喜欢这种情况"
+  },
+  {
+   "n": 254,
+   "page": 10,
+   "en": "It's a bit too chaotic, says this man.",
+   "zh": "这有点太混乱了，这位男士说道"
+  },
+  {
+   "n": 255,
+   "page": 10,
+   "en": "Spain's government says its controls will stay in place",
+   "zh": "西班牙政府表示，其管控措施将继续实施"
+  },
+  {
+   "n": 256,
+   "page": 10,
+   "en": "for at least a month.",
+   "zh": "至少一个月"
+  },
+  {
+   "n": 257,
+   "page": 10,
+   "en": "A dispute that's just a way to divert attention",
+   "zh": "这场争端只是一种转移注意力"
+  },
+  {
+   "n": 258,
+   "page": 10,
+   "en": "and dodge actual action,",
+   "zh": "和逃避实际行动的方式，"
+  },
+  {
+   "n": 259,
+   "page": 10,
+   "en": "according to this traveler.",
+   "zh": "据这位旅客称"
+  },
+  {
+   "n": 260,
+   "page": 10,
+   "en": "Eric Bae, Global News, Edmonton. Global News,",
+   "zh": "埃里克·裴，埃德蒙顿报道"
+  },
+  {
+   "n": 261,
+   "page": 10,
+   "en": "Dangerous drought coming up.",
+   "zh": "危险的干旱即将来临"
+  },
+  {
+   "n": 262,
+   "page": 10,
+   "en": "Why water levels in America's largest reservoir",
+   "zh": "为什么美国最大水库的水位"
+  },
+  {
+   "n": 263,
+   "page": 10,
+   "en": "have fallen to record lows.",
+   "zh": "会降至历史最低点"
+  },
+  {
+   "n": 264,
+   "page": 11,
+   "en": "Parts of Asia are in the grips of a record heat wave.",
+   "zh": "亚洲部分地区正遭受创纪录的热浪侵袭"
+  },
+  {
+   "n": 265,
+   "page": 11,
+   "en": "Temperatures in South Korea surpassed 40 degrees Celsius.",
+   "zh": "韩国的气温超过了40摄氏度"
+  },
+  {
+   "n": 266,
+   "page": 11,
+   "en": "The prolonged scorching conditions are being blamed",
+   "zh": "持续的酷热天气被认为是"
+  },
+  {
+   "n": 267,
+   "page": 11,
+   "en": "for more than 20 deaths there this year.",
+   "zh": "今年那里20多人死亡的原因"
+  },
+  {
+   "n": 268,
+   "page": 11,
+   "en": "In Japan, at least 14 people have died",
+   "zh": "在日本，今年夏天至少有14人"
+  },
+  {
+   "n": 269,
+   "page": 11,
+   "en": "from heat-related causes this summer.",
+   "zh": "死于高温相关的原因"
+  },
+  {
+   "n": 270,
+   "page": 11,
+   "en": "And three lions in a Tokyo zoo died,",
+   "zh": "东京一家动物园的三只狮子死亡，"
+  },
+  {
+   "n": 271,
+   "page": 11,
+   "en": "despite efforts to shelter them",
+   "zh": "尽管园方努力为它们提供庇护，"
+  },
+  {
+   "n": 272,
+   "page": 11,
+   "en": "from the blistering temperatures.",
+   "zh": "以躲避酷热"
+  },
+  {
+   "n": 273,
+   "page": 11,
+   "en": "This summer's record-breaking heat wave in Europe",
+   "zh": "今年夏天，欧洲破纪录的热浪"
+  },
+  {
+   "n": 274,
+   "page": 11,
+   "en": "is causing rivers there to shrink",
+   "zh": "正导致那里的河流干涸，"
+  },
+  {
+   "n": 275,
+   "page": 11,
+   "en": "and exposing secrets hidden below.",
+   "zh": "并暴露出隐藏在水下的秘密"
+  },
+  {
+   "n": 276,
+   "page": 11,
+   "en": "From sunken warships to an unexploded bomb,",
+   "zh": "从沉没的军舰到未爆炸的炸弹，"
+  },
+  {
+   "n": 277,
+   "page": 11,
+   "en": "relics are resurfacing,",
+   "zh": "遗迹重新浮出水面，"
+  },
+  {
+   "n": 278,
+   "page": 11,
+   "en": "offering a glimpse into the past",
+   "zh": "让人得以一窥过去，"
+  },
+  {
+   "n": 279,
+   "page": 11,
+   "en": "and a warning about the future.",
+   "zh": "并对未来提出警示"
+  },
+  {
+   "n": 280,
+   "page": 11,
+   "en": "Trias re-explains.",
+   "zh": "特丽亚斯回顾报道"
+  },
+  {
+   "n": 281,
+   "page": 11,
+   "en": "History is rising from the river",
+   "zh": "随着多瑙河水位下降，"
+  },
+  {
+   "n": 282,
+   "page": 11,
+   "en": "as the Danube's water levels drop.",
+   "zh": "历史正从河底浮现"
+  },
+  {
+   "n": 283,
+   "page": 11,
+   "en": "A German ship from the Second World War",
+   "zh": "一艘二战时期的德国船只"
+  },
+  {
+   "n": 284,
+   "page": 11,
+   "en": "has resurfaced in eastern Serbia,",
+   "zh": "在塞尔维亚东部重新浮出水面，"
+  },
+  {
+   "n": 285,
+   "page": 11,
+   "en": "left behind by the retreating Nazi army",
+   "zh": "它是撤退的纳粹军队留下的，"
+  },
+  {
+   "n": 286,
+   "page": 11,
+   "en": "and now exposed by a modern-day drought.",
+   "zh": "如今因现代干旱而暴露出来"
+  },
+  {
+   "n": 287,
+   "page": 11,
+   "en": "As you can see, ships can't pass anymore,",
+   "zh": "正如你所见，船只无法再通行了，"
+  },
+  {
+   "n": 288,
+   "page": 11,
+   "en": "says this Serbian man.",
+   "zh": "这位塞尔维亚男子说道"
+  },
+  {
+   "n": 289,
+   "page": 11,
+   "en": "The river is too low.",
+   "zh": "河水太浅了"
+  },
+  {
+   "n": 290,
+   "page": 11,
+   "en": "Traffic has slowed this summer,",
+   "zh": "今年夏天，交通变得缓慢，"
+  },
+  {
+   "n": 291,
+   "page": 11,
+   "en": "but in 1944, the port town near Romania was jam-packed.",
+   "zh": "但在1944年，罗马尼亚附近的这个港口城镇曾拥挤不堪"
+  },
+  {
+   "n": 292,
+   "page": 11,
+   "en": "The river and canal routes of central Europe...",
+   "zh": "中欧的河流和运河航道。.."
+  },
+  {
+   "n": 293,
+   "page": 11,
+   "en": "Around 200 German vessels were deliberately sunk in the region",
+   "zh": "当纳粹遭到苏联炮火攻击时，该地区约有200艘德国船只被故意凿沉"
+  },
+  {
+   "n": 294,
+   "page": 11,
+   "en": "as the Nazis came under Soviet fire.",
+   "zh": ""
+  },
+  {
+   "n": 295,
+   "page": 12,
+   "en": "Today, the rusting hulls have become both a curiosity",
+   "zh": "如今，这些锈迹斑斑的船体已变成一种奇观，"
+  },
+  {
+   "n": 296,
+   "page": 12,
+   "en": "and a consequence of the extreme heat.",
+   "zh": "也是极端高温的一个后果"
+  },
+  {
+   "n": 297,
+   "page": 12,
+   "en": "We started measuring river flows and levels,",
+   "zh": "我们开始测量河流流量和水位，"
+  },
+  {
+   "n": 298,
+   "page": 12,
+   "en": "say, about two centuries ago",
+   "zh": "大约是在两个世纪前，"
+  },
+  {
+   "n": 299,
+   "page": 12,
+   "en": "in different parts of Europe.",
+   "zh": "在欧洲的不同地区"
+  },
+  {
+   "n": 300,
+   "page": 12,
+   "en": "And, of course, in some areas a bit longer.",
+   "zh": "当然，在某些地区时间会更长一些"
+  },
+  {
+   "n": 301,
+   "page": 12,
+   "en": "This is unprecedented.",
+   "zh": "这是史无前例的"
+  },
+  {
+   "n": 302,
+   "page": 12,
+   "en": "The receding waters are revealing other wartime relics,",
+   "zh": "退去的河水揭示了其他战时遗迹，"
+  },
+  {
+   "n": 303,
+   "page": 12,
+   "en": "including an unexploded bomb in the Rhine.",
+   "zh": "包括莱茵河中一枚未爆炸的炸弹"
+  },
+  {
+   "n": 304,
+   "page": 12,
+   "en": "Prompting German police to evacuate",
+   "zh": "这促使德国警方于周四"
+  },
+  {
+   "n": 305,
+   "page": 12,
+   "en": "a stretch of the riverbank in Cologne on Thursday.",
+   "zh": "疏散了科隆一段河岸的居民"
+  },
+  {
+   "n": 306,
+   "page": 12,
+   "en": "And in Bulgaria, something thousands of years older,",
+   "zh": "而在保加利亚，发现了比那早数千年的东西，"
+  },
+  {
+   "n": 307,
+   "page": 12,
+   "en": "the remains of a woolly mammoth.",
+   "zh": "一具猛犸象的遗骸"
+  },
+  {
+   "n": 308,
+   "page": 12,
+   "en": "The animal was enormous,",
+   "zh": "这头动物非常巨大，"
+  },
+  {
+   "n": 309,
+   "page": 12,
+   "en": "says this museum curator,",
+   "zh": "这位博物馆馆长说道，"
+  },
+  {
+   "n": 310,
+   "page": 12,
+   "en": "standing nearly five meters tall.",
+   "zh": "站立时近五米高"
+  },
+  {
+   "n": 311,
+   "page": 12,
+   "en": "Its lower jaw, tusks,",
+   "zh": "它的下颌骨、象牙"
+  },
+  {
+   "n": 312,
+   "page": 12,
+   "en": "and other bone fragments",
+   "zh": "以及其他骨骼碎片"
+  },
+  {
+   "n": 313,
+   "page": 12,
+   "en": "are now visible in the drying riverbed.",
+   "zh": "现在在干涸的河床中清晰可见"
+  },
+  {
+   "n": 314,
+   "page": 12,
+   "en": "Perhaps the most eerie discovery in the Danube,",
+   "zh": "也许在多瑙河最令人毛骨悚然的发现，"
+  },
+  {
+   "n": 315,
+   "page": 12,
+   "en": "a so-called hunger stone from the 1800s,",
+   "zh": "是一块来自19世纪的所谓“饥饿石”,"
+  },
+  {
+   "n": 316,
+   "page": 12,
+   "en": "a marker placed at the low water level,",
+   "zh": "一个设在低水位线的标记，"
+  },
+  {
+   "n": 317,
+   "page": 12,
+   "en": "telling of drought, crop failure, and hardship.",
+   "zh": "诉说着干旱、作物歉收和艰难困苦"
+  },
+  {
+   "n": 318,
+   "page": 12,
+   "en": "Water issues are basically growing everywhere",
+   "zh": "水资源问题基本上在世界各地"
+  },
+  {
+   "n": 319,
+   "page": 12,
+   "en": "across the world.",
+   "zh": "都在加剧"
+  },
+  {
+   "n": 320,
+   "page": 12,
+   "en": "A past warning made more urgent",
+   "zh": "一个过去的警告，因当今"
+  },
+  {
+   "n": 321,
+   "page": 12,
+   "en": "by the present-day challenge of climate change.",
+   "zh": "气候变化的挑战而变得更加紧迫"
+  },
+  {
+   "n": 322,
+   "page": 12,
+   "en": "Teria Isri, Global News, Montreal. Global News,Teria Isri,",
+   "zh": "蒙特利尔报道"
+  },
+  {
+   "n": 323,
+   "page": 12,
+   "en": "And water levels in the largest reservoir in the U.S.",
+   "zh": "美国最大水库的水位"
+  },
+  {
+   "n": 324,
+   "page": 12,
+   "en": "have fallen to a record low.",
+   "zh": "已降至历史新低"
+  },
+  {
+   "n": 325,
+   "page": 13,
+   "en": "The lake, which stretches along the Utah-Arizona border,",
+   "zh": "这个位于犹他州和亚利桑那州交界处的湖泊"
+  },
+  {
+   "n": 326,
+   "page": 13,
+   "en": "supplies water to more than 20 million people.",
+   "zh": "为超过2000万人供水"
+  },
+  {
+   "n": 327,
+   "page": 13,
+   "en": "Prolonged drought conditions and low snowpack are contributing to a significant drop in water levels",
+   "zh": "持续的干旱条件和低积雪量导致今年科罗拉多河流域多个水库"
+  },
+  {
+   "n": 328,
+   "page": 13,
+   "en": "at several Colorado river basin reservoirs this year.",
+   "zh": "水位显著下降"
+  },
+  {
+   "n": 329,
+   "page": 13,
+   "en": "Help for the unhoused.",
+   "zh": "对无家可归者的援助"
+  },
+  {
+   "n": 330,
+   "page": 13,
+   "en": "Still ahead, a potentially precedent-setting court ruling expands supports for people living in tents.",
+   "zh": "接下来，一项可能开创先例的法庭裁决扩大了对住帐篷者的支持"
+  },
+  {
+   "n": 331,
+   "page": 13,
+   "en": "Nova Scotia's highest court has ruled that people living in tents should qualify for additional social assistance benefits.",
+   "zh": "新斯科舍省最高法庭裁定，居住在帐篷里的人应有资格获得额外的社会援助福利"
+  },
+  {
+   "n": 332,
+   "page": 13,
+   "en": "That case began when a Halifax man living in a tent was denied those benefits.",
+   "zh": "此案始于哈利法克斯一名住帐篷的男子被拒绝给予这些福利"
+  },
+  {
+   "n": 333,
+   "page": 13,
+   "en": "As Heidi Petrojic explains, the ruling could carry implications for unhoused people right across Canada.",
+   "zh": "正如Heidi Petrojic所解释的，这项裁决可能对全加拿大的无家可归者产生影响"
+  },
+  {
+   "n": 334,
+   "page": 13,
+   "en": "In 2023, many people were living in tents in Victoria Park, 2023",
+   "zh": "年，许多人住在维多利亚公园的帐篷里，"
+  },
+  {
+   "n": 335,
+   "page": 13,
+   "en": "right across the street from our office.",
+   "zh": "就在我们办公室的街对面"
+  },
+  {
+   "n": 336,
+   "page": 13,
+   "en": "And so lawyer Vince Calderhead would go talk to them,",
+   "zh": "于是律师Vince Calderhead会去和他们交谈，"
+  },
+  {
+   "n": 337,
+   "page": 13,
+   "en": "which is how he met Bradley Lowe",
+   "zh": "他就是这样认识了Bradley Lowe,"
+  },
+  {
+   "n": 338,
+   "page": 13,
+   "en": "and learned the provincial government had denied Lowe's request for extra social assistance money",
+   "zh": "并得知省政府拒绝了Lowe因住宿开销而申请额外社会援助金的请求，"
+  },
+  {
+   "n": 339,
+   "page": 13,
+   "en": "allotted for accommodation expenses because he lived in a tent.",
+   "zh": "原因是他住在帐篷里"
+  },
+  {
+   "n": 340,
+   "page": 13,
+   "en": "Calderhead took the case pro bono all the way to Nova Scotia's highest court. Calderhead",
+   "zh": "无偿代理此案，一路打到了新斯科舍省最高法庭"
+  },
+  {
+   "n": 341,
+   "page": 13,
+   "en": "The Court of Appeal overturned all the lower rulings and said, yeah,",
+   "zh": "上诉法庭推翻了所有下级裁决，并表示，是的，"
+  },
+  {
+   "n": 342,
+   "page": 13,
+   "en": "when you look at the word accommodation,",
+   "zh": "当你审视“住宿”这个词时，"
+  },
+  {
+   "n": 343,
+   "page": 13,
+   "en": "it's broad enough to include someone living in their tent.",
+   "zh": "它的含义足够广泛，可以包括住在自己帐篷里的人"
+  },
+  {
+   "n": 344,
+   "page": 13,
+   "en": "It means instead of receiving the base amount, roughly $400 a month,",
+   "zh": "这意味着，一个住帐篷的人不应只领取约每月400加元的基本金额，"
+  },
+  {
+   "n": 345,
+   "page": 13,
+   "en": "a person living in a tent should qualify for more than $900.",
+   "zh": "而应有资格获得超过900加元"
+  },
+  {
+   "n": 346,
+   "page": 14,
+   "en": "Money that allows someone some human dignity and a step in stone towards being able to live healthy, normal lives.",
+   "zh": "这笔钱能让人拥有些许人的尊严，是朝着能够过上健康、正常生活迈出的坚实一步"
+  },
+  {
+   "n": 347,
+   "page": 14,
+   "en": "More than 2,000 people in Halifax alone don't have a place to live.",
+   "zh": "仅在哈利法克斯，就有超过2000人没有住所"
+  },
+  {
+   "n": 348,
+   "page": 14,
+   "en": "But the province has to make a decision here",
+   "zh": "但省政府必须在此做出决定，"
+  },
+  {
+   "n": 349,
+   "page": 14,
+   "en": "whether to continue to fight it all the way to the Supreme Court",
+   "zh": "是继续抗争，一直打到最高法院，"
+  },
+  {
+   "n": 350,
+   "page": 14,
+   "en": "or to enact the rules as decided by the court or change legislation.",
+   "zh": "还是按照法庭的裁决执行规则，或者修改立法"
+  },
+  {
+   "n": 351,
+   "page": 14,
+   "en": "So we have a lot to unpack in terms of this decision.",
+   "zh": "所以，关于这项判决，我们有很多需要剖析的地方"
+  },
+  {
+   "n": 352,
+   "page": 14,
+   "en": "It may be, you know, looking at our current legislation and regulations,",
+   "zh": "你知道，这可能意味着要审视我们现行的立法和法规，"
+  },
+  {
+   "n": 353,
+   "page": 14,
+   "en": "whether we have to make changes.",
+   "zh": "看看我们是否必须做出修改"
+  },
+  {
+   "n": 354,
+   "page": 14,
+   "en": "The minister insists any changes would be designed to help homeless Nova Scotians get into stable housing.",
+   "zh": "部长坚称，任何改变都将旨在帮助无家可归的新斯科舍省人获得稳定住房"
+  },
+  {
+   "n": 355,
+   "page": 14,
+   "en": "If they somehow tried to rewrite the regulations to undermine this victory,",
+   "zh": "如果他们试图以某种方式重写法规来破坏这场胜利，"
+  },
+  {
+   "n": 356,
+   "page": 14,
+   "en": "that would be extremely cruel.",
+   "zh": "那将是极其残忍的"
+  },
+  {
+   "n": 357,
+   "page": 14,
+   "en": "Oh, good boy!",
+   "zh": "哦，好孩子！"
+  },
+  {
+   "n": 358,
+   "page": 14,
+   "en": "Andrew Goodsell lived in a tent for more than two years until he finally found a home this week. Andrew Goodsell",
+   "zh": "在帐篷里住了两年多，直到本周他才终于找到了一个家"
+  },
+  {
+   "n": 359,
+   "page": 14,
+   "en": "And he believes the province isn't doing enough quickly enough.",
+   "zh": "他认为省政府做得还不够，行动也不够快"
+  },
+  {
+   "n": 360,
+   "page": 14,
+   "en": "Let's talk about 35-plus years of no public housing.",
+   "zh": "让我们来谈谈这超过35年没有公共住房的情况"
+  },
+  {
+   "n": 361,
+   "page": 14,
+   "en": "People that are looking to reach their best need to have their basic needs met.",
+   "zh": "试图达到巅峰的人，需要先满足基本需求"
+  },
+  {
+   "n": 362,
+   "page": 14,
+   "en": "Lowe will never see the money.",
+   "zh": "洛将永远看不到那笔钱"
+  },
+  {
+   "n": 363,
+   "page": 14,
+   "en": "He died in his tent downtown two months after he was initially turned down for the extra support.",
+   "zh": "他在初次申请额外补助被拒两个月后，死在了市中心的帐篷里"
+  },
+  {
+   "n": 364,
+   "page": 14,
+   "en": "His mother continued with the case in his name in the hopes of helping others like him.",
+   "zh": "他的母亲以他的名义继续这场官司，希望能帮助其他像他一样的人"
+  },
+  {
+   "n": 365,
+   "page": 14,
+   "en": "Heidi Petrochik, Global News, Halifax.",
+   "zh": "海蒂·彼得罗奇克，环球新闻，哈利法克斯报道"
+  },
+  {
+   "n": 366,
+   "page": 14,
+   "en": "Up next, why a species of seahorse was just named after a B.C. professor.",
+   "zh": "接下来，为什么一种海马刚以一位不列颠哥伦比亚省教授的名字命名"
+  },
+  {
+   "n": 367,
+   "page": 15,
+   "en": "Welcome back.",
+   "zh": "欢迎回来"
+  },
+  {
+   "n": 368,
+   "page": 15,
+   "en": "A professor from British Columbia is making a name for herself.",
+   "zh": "一位来自不列颠哥伦比亚省的教授正声名鹊起"
+  },
+  {
+   "n": 369,
+   "page": 15,
+   "en": "Amanda Vincent has conducted decades of research and conservation efforts for marine life.",
+   "zh": "阿曼达·文森特在海洋生物研究和保护方面付出了数十年的努力"
+  },
+  {
+   "n": 370,
+   "page": 15,
+   "en": "And in recognition of those efforts,",
+   "zh": "为了表彰这些努力，"
+  },
+  {
+   "n": 371,
+   "page": 15,
+   "en": "a newly identified species of seahorse will now be named after her.",
+   "zh": "一个新发现的海马物种将以她的名字命名"
+  },
+  {
+   "n": 372,
+   "page": 15,
+   "en": "Kylie Stanton reports on the rare honour.",
+   "zh": "凯莉·斯坦顿报道这一罕见的荣誉"
+  },
+  {
+   "n": 373,
+   "page": 15,
+   "en": "From the beginning, the goal was simple.",
+   "zh": "从一开始，目标就很简单"
+  },
+  {
+   "n": 374,
+   "page": 15,
+   "en": "I really wanted to get involved in helping to save the world.",
+   "zh": "我真的想投身于拯救世界的事业"
+  },
+  {
+   "n": 375,
+   "page": 15,
+   "en": "But sometimes big ambitions start small.",
+   "zh": "但有时，宏大的抱负始于细微之处"
+  },
+  {
+   "n": 376,
+   "page": 15,
+   "en": "We're involved in pioneering a lot of breakthroughs because who doesn't love a seahorse?",
+   "zh": "我们参与开创了许多突破，因为谁不喜欢海马呢？"
+  },
+  {
+   "n": 377,
+   "page": 15,
+   "en": "For decades, Amanda Vincent has been working to secure the future of these creatures and their habitats.",
+   "zh": "几十年来，阿曼达·文森特一直致力于保护这些生物及其栖息地的未来"
+  },
+  {
+   "n": 378,
+   "page": 15,
+   "en": "As co-founder of UBC's Project Seahorse, she helps lead a global team in research,",
+   "zh": "作为UBC海马项目的联合创始人，她领导着一支全球团队进行研究、"
+  },
+  {
+   "n": 379,
+   "page": 15,
+   "en": "conservation and policy,",
+   "zh": "保护和政策制定，"
+  },
+  {
+   "n": 380,
+   "page": 15,
+   "en": "which includes ensuring seahorses aren't over-harvested for traditional medicine, aquarium displays or the souvenir trade.",
+   "zh": "包括确保海马不会因传统医药、水族观赏或纪念品贸易而被过度捕捞"
+  },
+  {
+   "n": 381,
+   "page": 15,
+   "en": "Fishing is necessary.",
+   "zh": "捕鱼是必要的"
+  },
+  {
+   "n": 382,
+   "page": 15,
+   "en": "Fishing is vital.",
+   "zh": "捕鱼至关重要"
+  },
+  {
+   "n": 383,
+   "page": 15,
+   "en": "But it's got to be done in sustainable, sensible ways.",
+   "zh": "但必须以可持续、合理的方式进行"
+  },
+  {
+   "n": 384,
+   "page": 15,
+   "en": "And this means we work at a lot of different political levels from local communities right out to United Nations conventions.",
+   "zh": "这意味着我们得在多个不同政治层面工作，从当地社区一直到联合国公约"
+  },
+  {
+   "n": 385,
+   "page": 15,
+   "en": "Now her life's work is being recognised in a way that runs deep.",
+   "zh": "现在，她一生的工作以一种深刻的方式得到了认可"
+  },
+  {
+   "n": 386,
+   "page": 15,
+   "en": "This is my beautiful seahorse.",
+   "zh": "这是我美丽的海马"
+  },
+  {
+   "n": 387,
+   "page": 15,
+   "en": "A newly identified species has been named Hippocampus Amanda Vincente in her honour.",
+   "zh": "一个新发现的物种被命名为“文森特海马”，以向她致敬"
+  },
+  {
+   "n": 388,
+   "page": 15,
+   "en": "I'm thrilled.",
+   "zh": "我激动不已"
+  },
+  {
+   "n": 389,
+   "page": 15,
+   "en": "It's pretty wonderful to wake up and open your email and discover just two days ago",
+   "zh": "醒来打开邮件，就在两天前发现"
+  },
+  {
+   "n": 390,
+   "page": 16,
+   "en": "that there is a creature on the other side of the world that is beautiful and wonderful and special and has your name on it.",
+   "zh": "世界的另一边有一种美丽、奇妙又特别的生物，并且以你的名字命名，这真是太美好了"
+  },
+  {
+   "n": 391,
+   "page": 16,
+   "en": "The seahorse measures roughly 16 centimetres.",
+   "zh": "这种海马长约16厘米"
+  },
+  {
+   "n": 392,
+   "page": 16,
+   "en": "It has a short snout,",
+   "zh": "它有一个短吻，"
+  },
+  {
+   "n": 393,
+   "page": 16,
+   "en": "a small crown on top of its head and spines running along its body.",
+   "zh": "头顶有一个小冠，身体上有一排排的棘刺"
+  },
+  {
+   "n": 394,
+   "page": 16,
+   "en": "Researchers believe it's primarily located in the Indian Ocean.",
+   "zh": "研究人员认为它主要生活在印度洋"
+  },
+  {
+   "n": 395,
+   "page": 16,
+   "en": "And that's really all we know at this stage because it has not been investigated in the wild.",
+   "zh": "目前我们了解的就这么多，因为它还没有在野外被研究过"
+  },
+  {
+   "n": 396,
+   "page": 16,
+   "en": "Cue the next mission.",
+   "zh": "这预示着下一个任务"
+  },
+  {
+   "n": 397,
+   "page": 16,
+   "en": "Which is to get in the field with my glorious seahorse and actually learn about its ecology and its vulnerabilities",
+   "zh": "那就是去野外，与我光荣的海马一起，真正了解它的生态和脆弱性，"
+  },
+  {
+   "n": 398,
+   "page": 16,
+   "en": "and conservation possibilities and try to make sure that all is well.",
+   "zh": "以及保护的可能性，并努力确保一切安好"
+  },
+  {
+   "n": 399,
+   "page": 16,
+   "en": "Seahorses are under tremendous pressure.",
+   "zh": "海马承受着巨大的压力"
+  },
+  {
+   "n": 400,
+   "page": 16,
+   "en": "Roughly a third of them are known to be threatened.",
+   "zh": "已知大约有三分之一的海马物种面临威胁"
+  },
+  {
+   "n": 401,
+   "page": 16,
+   "en": "But with every discovery brings more understanding and a chance to turn the tides.",
+   "zh": "但每一次发现都带来更多理解，以及扭转局势的机会"
+  },
+  {
+   "n": 402,
+   "page": 16,
+   "en": "We've got new approaches, new tools, new colleagues involved.",
+   "zh": "我们有新的方法、新的工具、新的同事加入"
+  },
+  {
+   "n": 403,
+   "page": 16,
+   "en": "So it's very exciting to see that we're changing the trajectory by the passion and the hard work of a lot of people.",
+   "zh": "所以，看到我们正通过众多人的热情和努力改变发展轨迹，这非常令人兴奋"
+  },
+  {
+   "n": 404,
+   "page": 16,
+   "en": "Kelly Stanton, Global News.",
+   "zh": "凯莉·斯坦顿，环球新闻"
+  },
+  {
+   "n": 405,
+   "page": 16,
+   "en": "And that is Global National for this Saturday night.",
+   "zh": "以上就是本周六晚的《环球新闻》"
+  },
+  {
+   "n": 406,
+   "page": 16,
+   "en": "I'm Jeff Sumpel.",
+   "zh": "我是杰夫·萨姆佩尔"
+  },
+  {
+   "n": 407,
+   "page": 16,
+   "en": "And tonight's Your Canada is this country's largest street festival.",
+   "zh": "今晚的《你的加拿大》介绍的是这个国家最大的街头节庆"
+  },
+  {
+   "n": 408,
+   "page": 16,
+   "en": "The Taste of the Danforth in Toronto's Greektown neighbourhood is making a comeback this weekend after a two-year hiatus.",
+   "zh": "多伦多希腊城社区的丹佛斯美食节在中断两年后，于本周末回归"
+  },
+  {
+   "n": 409,
+   "page": 16,
+   "en": "Around one and a half million people are expected to sample the three-day celebration of Greek heritage.",
+   "zh": "预计将有约150万人参与这个为期三天的希腊文化遗产庆祝活动"
+  },
+  {
+   "n": 410,
+   "page": 16,
+   "en": "Looking good.",
+   "zh": "看起来不错"
+  },
+  {
+   "n": 411,
+   "page": 17,
+   "en": "Thanks for watching.",
+   "zh": "感谢收看"
+  },
+  {
+   "n": 412,
+   "page": 17,
+   "en": "Hope to see you back here again tomorrow.",
+   "zh": "希望明天能再次见到你"
+  },
+  {
+   "n": 413,
+   "page": 17,
+   "en": "Have a great night.",
+   "zh": "祝你度过一个美好的夜晚"
+  }
+ ]
+}
