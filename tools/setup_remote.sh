@@ -25,7 +25,8 @@ case "$SLUG" in
   *) echo "错误：参数要写成 用户名/仓库名 的形式，例如 luz/english-study" >&2; exit 1 ;;
 esac
 
-KEY="$ROOT/.deploy_key"
+KEY="$ROOT/.deploy_key2"
+[ -f "$KEY" ] || KEY="$ROOT/.deploy_key"
 KNOWN="$ROOT/.gh_known_hosts"
 
 if [ ! -f "$KEY" ]; then

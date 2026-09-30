@@ -4,7 +4,6 @@
 .english-study/
 
 # 部署密钥与主机密钥（切勿提交）
-.deploy_key
-.deploy_key.pub
+.deploy_key*
 .gh_known_hosts
 .gh-meta.json
