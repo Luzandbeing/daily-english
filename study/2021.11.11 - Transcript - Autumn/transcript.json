@@ -1,0 +1,1360 @@
+{
+ "source": {
+  "path": "Transcript - %22Autumn%22.pdf",
+  "name": "Transcript - %22Autumn%22.pdf",
+  "stem": "Transcript - %22Autumn%22",
+  "pages": 5
+ },
+ "stats": {
+  "pages": 5,
+  "items": 223,
+  "mode": "prose",
+  "englishWords": 3228,
+  "itemsWithChinese": 0,
+  "bilingual": false,
+  "extractedAt": "2026-10-11T21:53:46+0800",
+  "extractor": "extract_pdf.py (PyMuPDF)",
+  "seconds": 0.4
+ },
+ "warnings": [],
+ "items": [
+  {
+   "n": 1,
+   "page": 1,
+   "en": "Welcome to the Listening Time podcast.",
+   "zh": ""
+  },
+  {
+   "n": 2,
+   "page": 1,
+   "en": "Hey everybody, this is Conner, and you're listening to the first bonus podcast episode.",
+   "zh": ""
+  },
+  {
+   "n": 3,
+   "page": 1,
+   "en": "So, if you don't know what the word \"bonus\" means, this just means something extra.",
+   "zh": ""
+  },
+  {
+   "n": 4,
+   "page": 1,
+   "en": "Right.",
+   "zh": ""
+  },
+  {
+   "n": 5,
+   "page": 1,
+   "en": "So, if you're listening to this episode right now, that means that you are one of the supporters on Patreon for the Listening Time podcast.",
+   "zh": ""
+  },
+  {
+   "n": 6,
+   "page": 1,
+   "en": "I want to thank you all.",
+   "zh": ""
+  },
+  {
+   "n": 7,
+   "page": 1,
+   "en": "It's really helpful for me that you guys have become supporters, and that you want to get this bonus material.",
+   "zh": ""
+  },
+  {
+   "n": 8,
+   "page": 1,
+   "en": "It really motivates me to work harder and to provide more content for you and for your listening practice.",
+   "zh": ""
+  },
+  {
+   "n": 9,
+   "page": 1,
+   "en": "So, thank you again.",
+   "zh": ""
+  },
+  {
+   "n": 10,
+   "page": 1,
+   "en": "The plan is to upload one of these bonus podcast episodes on the 15th of every month.",
+   "zh": ""
+  },
+  {
+   "n": 11,
+   "page": 1,
+   "en": "So, on the 15th, you'll get this extra podcast episode if you're a Patreon supporter of the Listening Time podcast.",
+   "zh": ""
+  },
+  {
+   "n": 12,
+   "page": 1,
+   "en": "So, make sure that you come back on the 15th of every month to the Patreon page, and you'll see a new podcast episode here.",
+   "zh": ""
+  },
+  {
+   "n": 13,
+   "page": 1,
+   "en": "This is a bonus podcast program for those who are Patreon supporters.",
+   "zh": ""
+  },
+  {
+   "n": 14,
+   "page": 1,
+   "en": "So, those people that have not become members or supporters, they don't have access to these episodes.",
+   "zh": ""
+  },
+  {
+   "n": 15,
+   "page": 1,
+   "en": "These are just for you, the ones that are supporting the show.",
+   "zh": ""
+  },
+  {
+   "n": 16,
+   "page": 1,
+   "en": "Thank you very much again.",
+   "zh": ""
+  },
+  {
+   "n": 17,
+   "page": 1,
+   "en": "So, on this first bonus podcast episode, we're going to talk about autumn or fall.",
+   "zh": ""
+  },
+  {
+   "n": 18,
+   "page": 1,
+   "en": "I've talked a little bit about this before, I think in the episode about seasons, but we're in fall right now, right in the middle of autumn, and I thought this would be a good topic to explore in more depth.",
+   "zh": ""
+  },
+  {
+   "n": 19,
+   "page": 1,
+   "en": "In English, when we say \"in more depth\", it just means in more detail.",
+   "zh": ""
+  },
+  {
+   "n": 20,
+   "page": 1,
+   "en": "We're going to go deeper into the topic.",
+   "zh": ""
+  },
+  {
+   "n": 21,
+   "page": 1,
+   "en": "So, I'll talk a little bit more about the season, and I'll talk about some of the traditions surrounding the autumn season in the US.",
+   "zh": ""
+  },
+  {
+   "n": 22,
+   "page": 1,
+   "en": "So, I hope this will be an interesting topic for you.",
+   "zh": ""
+  },
+  {
+   "n": 23,
+   "page": 1,
+   "en": "And I'm sure it will be good practice for your listening skills.",
+   "zh": ""
+  },
+  {
+   "n": 24,
+   "page": 1,
+   "en": "So of course, remember to share this podcast with anyone else who might find it useful.",
+   "zh": ""
+  },
+  {
+   "n": 25,
+   "page": 1,
+   "en": "And remember that you have access to the transcript.",
+   "zh": ""
+  },
+  {
+   "n": 26,
+   "page": 1,
+   "en": "I'll also put the link there.",
+   "zh": ""
+  },
+  {
+   "n": 27,
+   "page": 1,
+   "en": "I don't know exactly where it will be, but you should see it if you're on the Patreon page.",
+   "zh": ""
+  },
+  {
+   "n": 28,
+   "page": 1,
+   "en": "But I'll add the link to the transcript so you can have access to that as well.",
+   "zh": ""
+  },
+  {
+   "n": 29,
+   "page": 1,
+   "en": "Alright, let's get started.",
+   "zh": ""
+  },
+  {
+   "n": 30,
+   "page": 1,
+   "en": "Okay, so the first thing I want to talk about is the pronunciation of the word \"autumn\".",
+   "zh": ""
+  },
+  {
+   "n": 31,
+   "page": 1,
+   "en": "Notice that it's not \"oh\" or \"ow\", it's \"aw\".",
+   "zh": ""
+  },
+  {
+   "n": 32,
+   "page": 1,
+   "en": "The first syllable is \"au\"tumn, just like that.",
+   "zh": ""
+  },
+  {
+   "n": 33,
+   "page": 1,
+   "en": "I hear this word mispronounced all the time, so, I wanted to point that out.",
+   "zh": ""
+  },
+  {
+   "n": 34,
+   "page": 1,
+   "en": "In English, when we use the phrase \"point that out\" or \"point something out\", this just means that we want to draw your attention to that thing.",
+   "zh": ""
+  },
+  {
+   "n": 35,
+   "page": 1,
+   "en": "We want you to focus on that thing.",
+   "zh": ""
+  },
+  {
+   "n": 36,
+   "page": 1,
+   "en": "We want to point it out.",
+   "zh": ""
+  },
+  {
+   "n": 37,
+   "page": 1,
+   "en": "So, now you'll know how to pronounce this word in the future.",
+   "zh": ""
+  },
+  {
+   "n": 38,
+   "page": 1,
+   "en": "And like I mentioned in previous episodes, we don't always use the word \"autumn\".",
+   "zh": ""
+  },
+  {
+   "n": 39,
+   "page": 1,
+   "en": "We can also use the word \"fall\" for this season as well.",
+   "zh": ""
+  },
+  {
+   "n": 40,
+   "page": 1,
+   "en": "So, sometimes we say \"autumn\" and sometimes we say \"fall\".",
+   "zh": ""
+  },
+  {
+   "n": 41,
+   "page": 1,
+   "en": "Okay, so first let's just talk briefly about the weather, the weather in fall, and then we'll go on to some fall traditions after that.",
+   "zh": ""
+  },
+  {
+   "n": 42,
+   "page": 1,
+   "en": "So of course, this season is the season where it starts to get a little bit chilly.",
+   "zh": ""
+  },
+  {
+   "n": 43,
+   "page": 1,
+   "en": "Right, you remember that word from previous episodes.",
+   "zh": ""
+  },
+  {
+   "n": 44,
+   "page": 1,
+   "en": "\"Chilly\" just means a little bit cold.",
+   "zh": ""
+  },
+  {
+   "n": 45,
+   "page": 1,
+   "en": "So, the temperature drops during this season.",
+   "zh": ""
+  },
+  {
+   "n": 46,
+   "page": 1,
+   "en": "It's definitely colder than summer.",
+   "zh": ""
+  },
+  {
+   "n": 47,
+   "page": 1,
+   "en": "And the mornings and the evenings tend to be crisp.",
+   "zh": ""
+  },
+  {
+   "n": 48,
+   "page": 1,
+   "en": "If you remember this word from the episode about seasons, \"crisp\" is kind of another word for chilly.",
+   "zh": ""
+  },
+  {
+   "n": 49,
+   "page": 1,
+   "en": "It means a little bit cold.",
+   "zh": ""
+  },
+  {
+   "n": 50,
+   "page": 1,
+   "en": "The air feels a little bit cool.",
+   "zh": ""
+  },
+  {
+   "n": 51,
+   "page": 1,
+   "en": "So, we like to say \"a crisp morning\" for example.",
+   "zh": ""
+  },
+  {
+   "n": 52,
+   "page": 1,
+   "en": "This just means a morning that's a little bit chilly, a little bit cool.",
+   "zh": ""
+  },
+  {
+   "n": 53,
+   "page": 2,
+   "en": "So of course, the temperature drops during fall, and we have crisp mornings and evenings, and the temperature just gets a little bit chillier overall.",
+   "zh": ""
+  },
+  {
+   "n": 54,
+   "page": 2,
+   "en": "Another thing that happens during the fall is that the colors change.",
+   "zh": ""
+  },
+  {
+   "n": 55,
+   "page": 2,
+   "en": "What colors am I talking about?",
+   "zh": ""
+  },
+  {
+   "n": 56,
+   "page": 2,
+   "en": "I'm talking about the colors of the leaves, flowers, trees, things like that.",
+   "zh": ""
+  },
+  {
+   "n": 57,
+   "page": 2,
+   "en": "So, if you live in a region where there are distinct seasons...",
+   "zh": ""
+  },
+  {
+   "n": 58,
+   "page": 2,
+   "en": "\"distinct\" just means different, right, distinct seasons, different seasons... if you live in a region where there are distinct seasons, you probably see the colors change during September, October, around that time.",
+   "zh": ""
+  },
+  {
+   "n": 59,
+   "page": 2,
+   "en": "So for example, in the north of the US, the colors change from green to yellow, orange, red, and purple... those types of colors... brown, right.",
+   "zh": ""
+  },
+  {
+   "n": 60,
+   "page": 2,
+   "en": "So, during this time of year, you start to see the whole landscape change.",
+   "zh": ""
+  },
+  {
+   "n": 61,
+   "page": 2,
+   "en": "You don't see the green of summer anymore.",
+   "zh": ""
+  },
+  {
+   "n": 62,
+   "page": 2,
+   "en": "You start to see these autumn colors.",
+   "zh": ""
+  },
+  {
+   "n": 63,
+   "page": 2,
+   "en": "And most people in the US really love the changing of the colors during autumn.",
+   "zh": ""
+  },
+  {
+   "n": 64,
+   "page": 2,
+   "en": "A lot of people look forward to this.",
+   "zh": ""
+  },
+  {
+   "n": 65,
+   "page": 2,
+   "en": "In English, when we say \"look forward to\" something, this just means that we are excited about something that is going to happen in the future.",
+   "zh": ""
+  },
+  {
+   "n": 66,
+   "page": 2,
+   "en": "So, many Americans look forward to this changing of the colors, and they might even take some type of vacation or trip to a beautiful place to see these colors and see the autumn atmosphere.",
+   "zh": ""
+  },
+  {
+   "n": 67,
+   "page": 2,
+   "en": "So, a lot of people really like this aspect of fall.",
+   "zh": ""
+  },
+  {
+   "n": 68,
+   "page": 2,
+   "en": "Okay, let's move on and start talking about some traditions in the US that we have during this season.",
+   "zh": ""
+  },
+  {
+   "n": 69,
+   "page": 2,
+   "en": "So of course, everyone knows about Halloween, right, everyone loves to talk about this subject.",
+   "zh": ""
+  },
+  {
+   "n": 70,
+   "page": 2,
+   "en": "But I want to talk a little bit about pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 71,
+   "page": 2,
+   "en": "If you've never heard of a pumpkin patch, this is a place where you can go with your family and they have a lot of pumpkins growing.",
+   "zh": ""
+  },
+  {
+   "n": 72,
+   "page": 2,
+   "en": "Right.",
+   "zh": ""
+  },
+  {
+   "n": 73,
+   "page": 2,
+   "en": "Pumpkins are that fruit, I guess? that grows... it's orange.",
+   "zh": ""
+  },
+  {
+   "n": 74,
+   "page": 2,
+   "en": "Right.",
+   "zh": ""
+  },
+  {
+   "n": 75,
+   "page": 2,
+   "en": "This is the thing that you see during the Halloween season.",
+   "zh": ""
+  },
+  {
+   "n": 76,
+   "page": 2,
+   "en": "So, if you go to a pumpkin patch, it's like a big farm for pumpkins.",
+   "zh": ""
+  },
+  {
+   "n": 77,
+   "page": 2,
+   "en": "So, there are hundreds of pumpkins there.",
+   "zh": ""
+  },
+  {
+   "n": 78,
+   "page": 2,
+   "en": "And you can go and choose your own pumpkin and see which one you like the best, which one has the right size or shape for you, and you can buy that pumpkin.",
+   "zh": ""
+  },
+  {
+   "n": 79,
+   "page": 2,
+   "en": "This is a really fun thing to do with the family because, usually, the kids like to decide on which pumpkin looks the best, and so they have fun choosing a pumpkin.",
+   "zh": ""
+  },
+  {
+   "n": 80,
+   "page": 2,
+   "en": "It's kind of like when you choose a Christmas tree before Christmas, and the whole family examines the different options and tries to imagine which tree will look best in the house.",
+   "zh": ""
+  },
+  {
+   "n": 81,
+   "page": 2,
+   "en": "This is a little bit similar to pumpkin patches, where you choose your pumpkin for the fall season.",
+   "zh": ""
+  },
+  {
+   "n": 82,
+   "page": 2,
+   "en": "So, at these pumpkin patches, there aren't only pumpkins, there are also other things as well.",
+   "zh": ""
+  },
+  {
+   "n": 83,
+   "page": 2,
+   "en": "For example, you can take your kids on a hay ride.",
+   "zh": ""
+  },
+  {
+   "n": 84,
+   "page": 2,
+   "en": "So, the word \"hay\" refers to that yellow grass that you feed to farm animals, like horse(s), cattle, sheep, etc. By the way, the word \"cattle\" just means cows.",
+   "zh": ""
+  },
+  {
+   "n": 85,
+   "page": 2,
+   "en": "So, when we talk about cows, we sometimes use the word \"cattle\" instead.",
+   "zh": ""
+  },
+  {
+   "n": 86,
+   "page": 2,
+   "en": "The word \"cattle\" is always plural.",
+   "zh": ""
+  },
+  {
+   "n": 87,
+   "page": 2,
+   "en": "So, we don't say \"a cattle\".",
+   "zh": ""
+  },
+  {
+   "n": 88,
+   "page": 2,
+   "en": "We would say \"a cow\", but we can use the word \"cattle\" to talk about many cows.",
+   "zh": ""
+  },
+  {
+   "n": 89,
+   "page": 2,
+   "en": "So, hay is that yellow grass that you can feed to cattle, horses and other farm animals.",
+   "zh": ""
+  },
+  {
+   "n": 90,
+   "page": 2,
+   "en": "But at these pumpkin patches, there is an activity called the \"hay ride\", where they put this hay on the back of a wagon.",
+   "zh": ""
+  },
+  {
+   "n": 91,
+   "page": 2,
+   "en": "The word \"wagon\" refers to this kind of box-like vehicle with wheels... usually big wheels, and someone has to pull this wagon.",
+   "zh": ""
+  },
+  {
+   "n": 92,
+   "page": 2,
+   "en": "It doesn't have an engine, it can't go on its own.",
+   "zh": ""
+  },
+  {
+   "n": 93,
+   "page": 2,
+   "en": "It has to be pulled by something else.",
+   "zh": ""
+  },
+  {
+   "n": 94,
+   "page": 2,
+   "en": "So, the word \"pull\" is just the opposite of push, right.",
+   "zh": ""
+  },
+  {
+   "n": 95,
+   "page": 2,
+   "en": "So, you have to pull this wagon in order for it to move.",
+   "zh": ""
+  },
+  {
+   "n": 96,
+   "page": 2,
+   "en": "So, on this hay ride, there's usually a tractor or some type of truck that pulls this wagon full of hay, and usually, you and your kids are sitting on this hay and enjoying the ride around the pumpkin patch.",
+   "zh": ""
+  },
+  {
+   "n": 97,
+   "page": 3,
+   "en": "So, this is referred to as a \"hay ride\" in English.",
+   "zh": ""
+  },
+  {
+   "n": 98,
+   "page": 3,
+   "en": "So, that's one of the activities that you can find at pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 99,
+   "page": 3,
+   "en": "But my favorite activity is actually the corn maze.",
+   "zh": ""
+  },
+  {
+   "n": 100,
+   "page": 3,
+   "en": "So, the word \"maze\" refers to like a labyrinth... something, some structure where you have to find the exit, right.",
+   "zh": ""
+  },
+  {
+   "n": 101,
+   "page": 3,
+   "en": "It's very confusing because you don't know if you should turn left or right and there are dead ends.",
+   "zh": ""
+  },
+  {
+   "n": 102,
+   "page": 3,
+   "en": "A \"dead end\" just means that it's a place where you can't go through.",
+   "zh": ""
+  },
+  {
+   "n": 103,
+   "page": 3,
+   "en": "You turn right, for example, and there's just a solid wall.",
+   "zh": ""
+  },
+  {
+   "n": 104,
+   "page": 3,
+   "en": "You can't go through it.",
+   "zh": ""
+  },
+  {
+   "n": 105,
+   "page": 3,
+   "en": "This would be a dead end.",
+   "zh": ""
+  },
+  {
+   "n": 106,
+   "page": 3,
+   "en": "So, with these mazes, there are many dead ends and many left and right turns, and you have to find your way out of this maze.",
+   "zh": ""
+  },
+  {
+   "n": 107,
+   "page": 3,
+   "en": "You're trying to escape and find the exit.",
+   "zh": ""
+  },
+  {
+   "n": 108,
+   "page": 3,
+   "en": "So, these are \"corn mazes\" at pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 109,
+   "page": 3,
+   "en": "So, a corn maze is a maze with really tall walls of corn.",
+   "zh": ""
+  },
+  {
+   "n": 110,
+   "page": 3,
+   "en": "So, you can't see over these walls, and so it's very hard because you have to find the exit just by turning and going and trying to find the right passage, the right way to escape.",
+   "zh": ""
+  },
+  {
+   "n": 111,
+   "page": 3,
+   "en": "So, I've done these before at pumpkin patches even as an adult.",
+   "zh": ""
+  },
+  {
+   "n": 112,
+   "page": 3,
+   "en": "And I remember the last one I went to, I was like 20, 21 years old, but it still took me like 30 minutes to finish this maze.",
+   "zh": ""
+  },
+  {
+   "n": 113,
+   "page": 3,
+   "en": "It was actually very hard.",
+   "zh": ""
+  },
+  {
+   "n": 114,
+   "page": 3,
+   "en": "So, this is something really fun to do with your friends or your kids.",
+   "zh": ""
+  },
+  {
+   "n": 115,
+   "page": 3,
+   "en": "It's just another activity that you can find at pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 116,
+   "page": 3,
+   "en": "And there are other types of games and maybe some rides as well at pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 117,
+   "page": 3,
+   "en": "The word \"ride\" just refers to something where you sit on the machine and it moves you around.",
+   "zh": ""
+  },
+  {
+   "n": 118,
+   "page": 3,
+   "en": "Right.",
+   "zh": ""
+  },
+  {
+   "n": 119,
+   "page": 3,
+   "en": "When you go to Disneyland or places like that, they have what we call \"rides\".",
+   "zh": ""
+  },
+  {
+   "n": 120,
+   "page": 3,
+   "en": "So, there are sometimes rides and other attractions like that at pumpkin patches.",
+   "zh": ""
+  },
+  {
+   "n": 121,
+   "page": 3,
+   "en": "So, as you can see, pumpkin patches are a really fun place to take your family during the fall.",
+   "zh": ""
+  },
+  {
+   "n": 122,
+   "page": 3,
+   "en": "So, that's something that you don't really find in other countries, but you can find pumpkin patches all over the country in the US.",
+   "zh": ""
+  },
+  {
+   "n": 123,
+   "page": 3,
+   "en": "So, this is a really cool tradition that we have.",
+   "zh": ""
+  },
+  {
+   "n": 124,
+   "page": 3,
+   "en": "Another tradition in the fall is that food items on menus tend to change.",
+   "zh": ""
+  },
+  {
+   "n": 125,
+   "page": 3,
+   "en": "People start eating different types of dishes during this season, and there are certain flavors that we associate with autumn.",
+   "zh": ""
+  },
+  {
+   "n": 126,
+   "page": 3,
+   "en": "So, maybe the most famous flavor of autumn is pumpkin... so, these things that I talked about, these big orange fruits.",
+   "zh": ""
+  },
+  {
+   "n": 127,
+   "page": 3,
+   "en": "I'm calling them a fruit...",
+   "zh": ""
+  },
+  {
+   "n": 128,
+   "page": 3,
+   "en": "I think that's what they are.",
+   "zh": ""
+  },
+  {
+   "n": 129,
+   "page": 3,
+   "en": "So, we actually eat parts of the pumpkin like the seeds and the inside of the pumpkin.",
+   "zh": ""
+  },
+  {
+   "n": 130,
+   "page": 3,
+   "en": "So, for example, the most famous drink that you see all over America during the fall is the pumpkin spice latte.",
+   "zh": ""
+  },
+  {
+   "n": 131,
+   "page": 3,
+   "en": "So, you'll see this advertised at cafes like Starbucks.",
+   "zh": ""
+  },
+  {
+   "n": 132,
+   "page": 3,
+   "en": "This is a latte, a coffee that has a pumpkin flavor to it.",
+   "zh": ""
+  },
+  {
+   "n": 133,
+   "page": 3,
+   "en": "I've actually never tried this before, but I was talking about it with my wife just this week, and I said \"we need to try this\" because I've always seen it advertised during September, October, November, and I've never tasted it before.",
+   "zh": ""
+  },
+  {
+   "n": 134,
+   "page": 3,
+   "en": "So, I think this week, I might try and taste this pumpkin spice latte and see what all the hype is about.",
+   "zh": ""
+  },
+  {
+   "n": 135,
+   "page": 3,
+   "en": "In English, we use the word \"hype\" to talk about excitement.",
+   "zh": ""
+  },
+  {
+   "n": 136,
+   "page": 3,
+   "en": "If I say \"there's a lot of hype about the new iPhone\", this just means that there's a lot of excitement.",
+   "zh": ""
+  },
+  {
+   "n": 137,
+   "page": 3,
+   "en": "Everyone is talking about it.",
+   "zh": ""
+  },
+  {
+   "n": 138,
+   "page": 3,
+   "en": "Everyone is saying how good it is or how exciting it will be.",
+   "zh": ""
+  },
+  {
+   "n": 139,
+   "page": 3,
+   "en": "This is \"hype\".",
+   "zh": ""
+  },
+  {
+   "n": 140,
+   "page": 3,
+   "en": "So, I want to see what all the hype is about.",
+   "zh": ""
+  },
+  {
+   "n": 141,
+   "page": 3,
+   "en": "So, I think I'm going to go try this drink this week.",
+   "zh": ""
+  },
+  {
+   "n": 142,
+   "page": 3,
+   "en": "So, that's one example of a pumpkin-flavored drink.",
+   "zh": ""
+  },
+  {
+   "n": 143,
+   "page": 3,
+   "en": "We also have pumpkin pie, for example.",
+   "zh": ""
+  },
+  {
+   "n": 144,
+   "page": 3,
+   "en": "This is a big dessert during this time period.",
+   "zh": ""
+  },
+  {
+   "n": 145,
+   "page": 3,
+   "en": "Some people really like pumpkin pie, and for some people, the taste is very strange, right, to have so much pumpkin concentrated in one piece of food, and it might be too strong for some people.",
+   "zh": ""
+  },
+  {
+   "n": 146,
+   "page": 3,
+   "en": "I'm kind of in the middle, right.",
+   "zh": ""
+  },
+  {
+   "n": 147,
+   "page": 3,
+   "en": "I don't love pumpkin pie, but I don't hate it either.",
+   "zh": ""
+  },
+  {
+   "n": 148,
+   "page": 4,
+   "en": "I can eat it maybe once or twice a year without having any problems.",
+   "zh": ""
+  },
+  {
+   "n": 149,
+   "page": 4,
+   "en": "But more than that, I think, would be too much for me.",
+   "zh": ""
+  },
+  {
+   "n": 150,
+   "page": 4,
+   "en": "So, pumpkin pie is a big fall dish, and other pies also become popular during this season.",
+   "zh": ""
+  },
+  {
+   "n": 151,
+   "page": 4,
+   "en": "People start baking pecan pie.",
+   "zh": ""
+  },
+  {
+   "n": 152,
+   "page": 4,
+   "en": "Pecan is a type of nut.",
+   "zh": ""
+  },
+  {
+   "n": 153,
+   "page": 4,
+   "en": "So, this type of nuts is common during the fall season.",
+   "zh": ""
+  },
+  {
+   "n": 154,
+   "page": 4,
+   "en": "So, people make pecan pies and apple pies.",
+   "zh": ""
+  },
+  {
+   "n": 155,
+   "page": 4,
+   "en": "I feel like apples are typical fruit during this season as well.",
+   "zh": ""
+  },
+  {
+   "n": 156,
+   "page": 4,
+   "en": "I think people always eat apples during the whole year, but I especially see apple-flavored desserts or drinks during the autumn.",
+   "zh": ""
+  },
+  {
+   "n": 157,
+   "page": 4,
+   "en": "And so, for example, a lot of people drink apple cider around this time.",
+   "zh": ""
+  },
+  {
+   "n": 158,
+   "page": 4,
+   "en": "If you don't know what apple cider is, this is a warm drink.",
+   "zh": ""
+  },
+  {
+   "n": 159,
+   "page": 4,
+   "en": "Right.",
+   "zh": ""
+  },
+  {
+   "n": 160,
+   "page": 4,
+   "en": "\"Warm\" just means hot.",
+   "zh": ""
+  },
+  {
+   "n": 161,
+   "page": 4,
+   "en": "So, this is a warm drink, and it's very sweet.",
+   "zh": ""
+  },
+  {
+   "n": 162,
+   "page": 4,
+   "en": "And it's flavored with apple and cinnamon, and so it has a very sweet flavor.",
+   "zh": ""
+  },
+  {
+   "n": 163,
+   "page": 4,
+   "en": "And it's really good for cold weather.",
+   "zh": ""
+  },
+  {
+   "n": 164,
+   "page": 4,
+   "en": "It tastes really good when it's cold outside and you have a warm cup of apple cider.",
+   "zh": ""
+  },
+  {
+   "n": 165,
+   "page": 4,
+   "en": "This is one of my favorite beverages.",
+   "zh": ""
+  },
+  {
+   "n": 166,
+   "page": 4,
+   "en": "So, I really like drinking this during the fall and winter.",
+   "zh": ""
+  },
+  {
+   "n": 167,
+   "page": 4,
+   "en": "So, that's another very common item that you'll find on menus in cafes and places like that during the season.",
+   "zh": ""
+  },
+  {
+   "n": 168,
+   "page": 4,
+   "en": "And then of course, turkey.",
+   "zh": ""
+  },
+  {
+   "n": 169,
+   "page": 4,
+   "en": "Why?",
+   "zh": ""
+  },
+  {
+   "n": 170,
+   "page": 4,
+   "en": "Because: Thanksgiving.",
+   "zh": ""
+  },
+  {
+   "n": 171,
+   "page": 4,
+   "en": "So, I'm sure you've heard about Thanksgiving before.",
+   "zh": ""
+  },
+  {
+   "n": 172,
+   "page": 4,
+   "en": "This is a big holiday during the fall season in the US.",
+   "zh": ""
+  },
+  {
+   "n": 173,
+   "page": 4,
+   "en": "During Thanksgiving, students usually have a four-day vacation.",
+   "zh": ""
+  },
+  {
+   "n": 174,
+   "page": 4,
+   "en": "So, you have Thursday off and Friday off, and then you have the weekend after that.",
+   "zh": ""
+  },
+  {
+   "n": 175,
+   "page": 4,
+   "en": "In English, when you say that you have a \"day off\", this just means that you don't have to go to school or to work on that day.",
+   "zh": ""
+  },
+  {
+   "n": 176,
+   "page": 4,
+   "en": "So for example, I could say \"I have two days off next week\".",
+   "zh": ""
+  },
+  {
+   "n": 177,
+   "page": 4,
+   "en": "This just means that I'm not going to go to work or school two of the days next week.",
+   "zh": ""
+  },
+  {
+   "n": 178,
+   "page": 4,
+   "en": "So, maybe I'm not going to go on Monday or Tuesday, and I can say \"I have two days off\".",
+   "zh": ""
+  },
+  {
+   "n": 179,
+   "page": 4,
+   "en": "So, during Thanksgiving, people usually have two days off of school: Thursday and Friday.",
+   "zh": ""
+  },
+  {
+   "n": 180,
+   "page": 4,
+   "en": "And Thursday is the Thanksgiving holiday, and then people can rest the next three days.",
+   "zh": ""
+  },
+  {
+   "n": 181,
+   "page": 4,
+   "en": "So, on Thanksgiving, people get together with their families.",
+   "zh": ""
+  },
+  {
+   "n": 182,
+   "page": 4,
+   "en": "We use the phrasal verb \"get together\" in English to mean that you gather with other people.",
+   "zh": ""
+  },
+  {
+   "n": 183,
+   "page": 4,
+   "en": "You guys go to the same house or the same place to spend time together.",
+   "zh": ""
+  },
+  {
+   "n": 184,
+   "page": 4,
+   "en": "We say that you \"get together\".",
+   "zh": ""
+  },
+  {
+   "n": 185,
+   "page": 4,
+   "en": "So on Thanksgiving, you get together with your family and you have a really big meal.",
+   "zh": ""
+  },
+  {
+   "n": 186,
+   "page": 4,
+   "en": "The word \"meal\" just refers to an event where you eat food.",
+   "zh": ""
+  },
+  {
+   "n": 187,
+   "page": 4,
+   "en": "So, breakfast is a meal, lunch is a meal, dinner is a meal, etc. So, on Thanksgiving, people have a big meal with their family.",
+   "zh": ""
+  },
+  {
+   "n": 188,
+   "page": 4,
+   "en": "I would say that this is probably the biggest meal of the year.",
+   "zh": ""
+  },
+  {
+   "n": 189,
+   "page": 4,
+   "en": "Thanksgiving is the most important food day of the year.",
+   "zh": ""
+  },
+  {
+   "n": 190,
+   "page": 4,
+   "en": "And so you might be asking \"Why do you celebrate Thanksgiving in the US?\"",
+   "zh": ""
+  },
+  {
+   "n": 191,
+   "page": 4,
+   "en": "Well, the story goes that the colonists from England, when they arrived in the US in the 1600s, they faced very harsh conditions.",
+   "zh": ""
+  },
+  {
+   "n": 192,
+   "page": 4,
+   "en": "Harsh just means difficult, extreme conditions.",
+   "zh": ""
+  },
+  {
+   "n": 193,
+   "page": 4,
+   "en": "So, they faced very harsh conditions and things weren't easy, especially with the Native Americans who were living in the US at the time.",
+   "zh": ""
+  },
+  {
+   "n": 194,
+   "page": 4,
+   "en": "And of course, there were a lot of issues with land and food and things like that.",
+   "zh": ""
+  },
+  {
+   "n": 195,
+   "page": 4,
+   "en": "But the story goes that the colonists shared this big meal with the Native Americans in the year 1621, and this was known as the first Thanksgiving.",
+   "zh": ""
+  },
+  {
+   "n": 196,
+   "page": 4,
+   "en": "So, I don't know how true that is or not.",
+   "zh": ""
+  },
+  {
+   "n": 197,
+   "page": 4,
+   "en": "That's what we're taught in school, and so that's the story that we usually tell about Thanksgiving, and so that's why I'm telling it here now.",
+   "zh": ""
+  },
+  {
+   "n": 198,
+   "page": 4,
+   "en": "And one tradition that families have nowadays on Thanksgiving is that everyone will say one thing that they're thankful for.",
+   "zh": ""
+  },
+  {
+   "n": 199,
+   "page": 4,
+   "en": "So, each person at the table will take a turn and say one thing that they're thankful for, so that they can give thanks, right.",
+   "zh": ""
+  },
+  {
+   "n": 200,
+   "page": 4,
+   "en": "The holiday is called Thanksgiving, so we want to give thanks for the blessings in our lives.",
+   "zh": ""
+  },
+  {
+   "n": 201,
+   "page": 5,
+   "en": "In English, the word \"blessing\" just means some good thing in your life.",
+   "zh": ""
+  },
+  {
+   "n": 202,
+   "page": 5,
+   "en": "So, this is one tradition that we have during the Thanksgiving holiday.",
+   "zh": ""
+  },
+  {
+   "n": 203,
+   "page": 5,
+   "en": "And then lastly, I just wanted to mention Black Friday.",
+   "zh": ""
+  },
+  {
+   "n": 204,
+   "page": 5,
+   "en": "This is another fall tradition.",
+   "zh": ""
+  },
+  {
+   "n": 205,
+   "page": 5,
+   "en": "The day after Thanksgiving is considered Black Friday.",
+   "zh": ""
+  },
+  {
+   "n": 206,
+   "page": 5,
+   "en": "And this is the day where all the stores in the country or almost all the stores have deals and discounts and offered cheap products during this time.",
+   "zh": ""
+  },
+  {
+   "n": 207,
+   "page": 5,
+   "en": "So, we use the word \"deal\" and the word \"discount\" to just talk about when a store lowers its prices so that the items are cheaper.",
+   "zh": ""
+  },
+  {
+   "n": 208,
+   "page": 5,
+   "en": "So, a lot of people like to go shopping on Black Friday, because there are many deals, many discounts and you can buy a lot of cheap items.",
+   "zh": ""
+  },
+  {
+   "n": 209,
+   "page": 5,
+   "en": "So, that comes on the day after Thanksgiving.",
+   "zh": ""
+  },
+  {
+   "n": 210,
+   "page": 5,
+   "en": "And one other thing is that after Thanksgiving is when you start to hear Christmas music in the US.",
+   "zh": ""
+  },
+  {
+   "n": 211,
+   "page": 5,
+   "en": "You hear Christmas music everywhere, starting on the day after Thanksgiving, all the way through to the new year.",
+   "zh": ""
+  },
+  {
+   "n": 212,
+   "page": 5,
+   "en": "So, during that month, month and a few days, you hear Christmas music everywhere because in the US, Thanksgiving marks the beginning of what we call the holiday season.",
+   "zh": ""
+  },
+  {
+   "n": 213,
+   "page": 5,
+   "en": "So, first you have Thanksgiving, and then Christmas, and then New Years.",
+   "zh": ""
+  },
+  {
+   "n": 214,
+   "page": 5,
+   "en": "So during that whole time, you hear Christmas music in the US.",
+   "zh": ""
+  },
+  {
+   "n": 215,
+   "page": 5,
+   "en": "Alright, I think that's enough for this episode.",
+   "zh": ""
+  },
+  {
+   "n": 216,
+   "page": 5,
+   "en": "I hope you enjoyed it, and I hope it was good practice for your listening skills.",
+   "zh": ""
+  },
+  {
+   "n": 217,
+   "page": 5,
+   "en": "Thank you again for becoming a patron here on Patreon and for supporting this show.",
+   "zh": ""
+  },
+  {
+   "n": 218,
+   "page": 5,
+   "en": "I'm sure this extra bonus episode every month will be very useful for you, and it will give you even more practice.",
+   "zh": ""
+  },
+  {
+   "n": 219,
+   "page": 5,
+   "en": "And of course, you'll also have access to one Listening Practice Seminar every month, so I'm sure that will also be very useful for you as well.",
+   "zh": ""
+  },
+  {
+   "n": 220,
+   "page": 5,
+   "en": "Remember to access the transcript if you need it.",
+   "zh": ""
+  },
+  {
+   "n": 221,
+   "page": 5,
+   "en": "I'll include the link for that.",
+   "zh": ""
+  },
+  {
+   "n": 222,
+   "page": 5,
+   "en": "And so if you need the transcript, you can click there and find it there.",
+   "zh": ""
+  },
+  {
+   "n": 223,
+   "page": 5,
+   "en": "Thank you again for listening to this episode, and I hope you'll come back for the next episode of the Listening Time podcast.",
+   "zh": ""
+  }
+ ]
+}

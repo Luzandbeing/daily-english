@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>英语听力播客 · Autumn（秋天）精读 · 英语学习</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --fg:#191b1f; --muted:#6b7280; --line:#e4e7ec;
+    --accent:#4d6bfe; --accent-soft:#eef1ff; --ok:#15803d; --ok-soft:#e8f7ee;
+    --warn:#b45309; --warn-soft:#fef3e2; --bad:#b91c1c; --bad-soft:#fdecec;
+    --serif:"Iowan Old Style",Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+           "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    --radius:12px; --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.1);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#15171c; --card:#1d2027; --fg:#e8eaed; --muted:#9aa3af; --line:#2c313b;
+      --accent:#8ba2ff; --accent-soft:#242a3f; --ok:#6ee7a0; --ok-soft:#1b2f24;
+      --warn:#f5c173; --warn-soft:#332717; --bad:#f8a3a3; --bad-soft:#3a1f1f;
+      --shadow:none;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);
+       font-size:16px;line-height:1.65;-webkit-text-size-adjust:100%}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;
+       background:var(--accent-soft);border-radius:6px;padding:.1em .35em}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+
+  header.top{padding:28px 0 16px;border-bottom:1px solid var(--line);margin-bottom:22px}
+  h1{margin:0 0 6px;font-size:26px;line-height:1.3}
+  .sub{color:var(--muted);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .badge{background:var(--card);border:1px solid var(--line);border-radius:999px;
+         padding:3px 11px;font-size:12.5px;color:var(--muted)}
+  .badge strong{color:var(--fg);font-weight:600}
+  .badge.lv{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
+
+  nav.tabs{display:flex;gap:4px;flex-wrap:wrap;position:sticky;top:0;z-index:20;
+           background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);
+           padding:10px 0;margin-bottom:14px;border-bottom:1px solid var(--line)}
+  nav.tabs button{appearance:none;border:1px solid transparent;background:transparent;color:var(--muted);
+       font:inherit;font-size:14.5px;padding:6px 13px;border-radius:999px;cursor:pointer}
+  nav.tabs button:hover{background:var(--card);color:var(--fg)}
+  nav.tabs button[aria-selected="true"]{background:var(--accent);color:#fff;font-weight:600}
+  nav.tabs .count{opacity:.7;font-size:12px;margin-left:5px}
+
+  section[hidden]{display:none}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+        padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+  h2{font-size:19px;margin:26px 0 12px}
+  h2:first-child{margin-top:4px}
+  h3{font-size:16.5px;margin:0 0 8px}
+  .muted{color:var(--muted)}
+  .small{font-size:13.5px}
+  .grid{display:grid;gap:12px}
+  .grid.stats{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+  .stat b{display:block;font-size:22px;line-height:1.2}
+  .stat span{color:var(--muted);font-size:13px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+  .chip{background:var(--accent-soft);color:var(--accent);border-radius:999px;
+        padding:2px 10px;font-size:13px}
+  ol.plan{margin:6px 0 0;padding-left:22px}
+  ol.plan li{margin:5px 0}
+
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+           background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+           padding:10px 14px;margin-bottom:14px;position:sticky;top:52px;z-index:15}
+  .toolbar label{font-size:13.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  select,input[type=search],input[type=text],textarea{
+      font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);
+      border-radius:8px;padding:5px 9px}
+  textarea{width:100%;min-height:64px;resize:vertical}
+  .btn{appearance:none;font:inherit;font-size:13.5px;cursor:pointer;background:var(--card);
+       color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:5px 11px}
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  .btn.primary:hover{opacity:.9;color:#fff}
+  .btn.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+
+  /* sentences */
+  .sent{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+        padding:12px 16px;margin-bottom:10px;scroll-margin-top:120px}
+  .sent:target{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .sent .row1{display:flex;gap:12px;align-items:baseline}
+  .sent .no{flex:0 0 38px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;
+            padding-top:4px;text-align:right}
+  .sent .body{flex:1;min-width:0}
+  .en{font-family:var(--serif);font-size:17.5px;line-height:1.6}
+  .zh{color:var(--muted);font-size:14.5px;margin-top:4px}
+  .zh.hide{display:none}
+  .sent .acts{flex:0 0 auto;display:flex;gap:4px;opacity:.35;transition:opacity .15s}
+  .sent:hover .acts,.sent .acts:focus-within{opacity:1}
+  .icon{appearance:none;background:transparent;border:none;cursor:pointer;font-size:15px;
+        padding:4px 5px;border-radius:6px;color:var(--muted);line-height:1}
+  .icon:hover{background:var(--accent-soft);color:var(--accent)}
+  .icon.on{color:var(--warn)}
+  .pg{color:var(--muted);font-size:11.5px;flex:0 0 34px;text-align:right;padding-top:6px}
+  mark.v{background:transparent;color:inherit;border-bottom:2px solid var(--accent);cursor:help;font-weight:600}
+  mark.v.tagged{background:var(--accent-soft);border-radius:4px;padding:0 2px}
+
+  /* starred sentences */
+  .md-preview{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+      padding:14px 16px;margin:12px 0 0;white-space:pre-wrap;word-break:break-word;
+      font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.7;
+      max-height:440px;overflow:auto}
+  .md-preview::before{content:"Markdown 预览（可直接全选复制）";display:block;margin-bottom:8px;
+      color:var(--muted);font-family:var(--sans);font-size:12.5px}
+
+  /* vocab */
+  .vgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  .vcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+         padding:14px 16px;position:relative;min-height:150px}
+  .vcard.mastered{opacity:.55}
+  .vcard .term{font-family:var(--serif);font-size:20px;font-weight:600;display:flex;
+               align-items:center;gap:8px;flex-wrap:wrap}
+  .vcard .pos{font-size:12.5px;color:var(--muted);font-style:italic}
+  .vcard .ipa{color:var(--muted);font-size:13.5px;margin:2px 0 8px}
+  .vcard .zh{color:var(--fg);font-size:15px;margin-bottom:6px}
+  .vcard .note{font-size:13px;color:var(--muted)}
+  .vcard .ex{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px;font-size:13.5px}
+  .vcard .ex .e{font-family:var(--serif)}
+  .vcard .ex .z{color:var(--muted)}
+  .vcard .tools{position:absolute;top:10px;right:10px;display:flex;gap:4px}
+  .lvl{font-size:11.5px;border-radius:5px;padding:1px 6px;background:var(--accent-soft);color:var(--accent)}
+  .lvl.hi{background:var(--warn-soft);color:var(--warn)}
+  .lvl.core{background:var(--ok-soft);color:var(--ok)}
+  .ref{font-size:12.5px;color:var(--muted)}
+  .ref a{color:var(--muted);text-decoration:underline dotted}
+  .progress{height:8px;background:var(--line);border-radius:999px;overflow:hidden;margin:6px 0 0}
+  .progress i{display:block;height:100%;background:var(--ok)}
+
+  /* lists */
+  table{width:100%;border-collapse:collapse;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  .ph{font-family:var(--serif);font-size:16.5px;font-weight:600}
+
+  /* grammar */
+  details.g{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+            margin-bottom:10px;overflow:hidden}
+  details.g>summary{cursor:pointer;padding:13px 18px;font-weight:600;font-size:16px;list-style:none;
+        display:flex;gap:10px;align-items:center}
+  details.g>summary::-webkit-details-marker{display:none}
+  details.g>summary::before{content:"▸";color:var(--accent);transition:transform .15s}
+  details.g[open]>summary::before{transform:rotate(90deg)}
+  details.g .inner{padding:0 18px 16px;border-top:1px solid var(--line)}
+  .struct{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
+          padding:10px 14px;margin:12px 0;font-family:var(--serif);font-size:16px}
+  .caution{background:var(--warn-soft);border-radius:8px;padding:9px 13px;font-size:13.5px;
+           color:var(--warn);margin-top:10px}
+
+  /* exercises */
+  .ex{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+      padding:14px 18px;margin-bottom:12px}
+  .ex .q{font-family:var(--serif);font-size:16.5px;margin-bottom:10px}
+  .ex .q .idx{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-right:6px}
+  .opts{display:flex;flex-direction:column;gap:7px}
+  .opt{text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:9px;
+       padding:8px 12px;font:inherit;font-size:15px;cursor:pointer;color:var(--fg)}
+  .opt:hover{border-color:var(--accent)}
+  .opt.right{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:600}
+  .opt.wrong{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .fb{margin-top:9px;font-size:14px;display:none}
+  .fb.show{display:block}
+  .fb.ok{color:var(--ok)} .fb.no{color:var(--bad)}
+  .ans{display:none;margin-top:9px;background:var(--ok-soft);border-radius:8px;padding:9px 13px;font-size:14px}
+  .ans.show{display:block}
+  footer{color:var(--muted);font-size:13px;text-align:center;margin-top:36px;
+         border-top:1px solid var(--line);padding-top:16px}
+  .empty{color:var(--muted);font-size:14px;padding:10px 2px}
+  @media print{
+    nav.tabs,.toolbar,.acts,.tools{display:none!important}
+    body{background:#fff}
+    .zh.hide{display:block!important}
+    section[hidden]{display:block!important}
+    .sent,.card,.vcard{break-inside:avoid;box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 id="title">英语学习页</h1>
+    <div class="sub" id="subtitle"></div>
+    <div class="badges" id="badges"></div>
+  </header>
+
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+
+  <main>
+    <section id="tab-overview" role="tabpanel">
+      <div class="card" id="summary-card"></div>
+      <div class="grid stats" id="stat-grid"></div>
+      <div class="card" id="plan-card"></div>
+    </section>
+
+    <section id="tab-sentences" role="tabpanel" hidden>
+      <div class="toolbar">
+        <button class="btn on" id="toggle-zh">中文翻译：显示</button>
+        <label>语速
+          <select id="rate">
+            <option value="0.7">0.7×</option>
+            <option value="0.85" selected>0.85×</option>
+            <option value="1">1.0×</option>
+          </select>
+        </label>
+        <button class="btn" id="star-toggle" title="只看我收藏的重点句">★ 收藏句 <span id="star-count">0</span></button>
+        <label>范围
+          <select id="sent-filter">
+            <option value="all">全部句子</option>
+            <option value="star">只看收藏</option>
+            <option value="vocab">只看含生词的句子</option>
+          </select>
+        </label>
+        <span class="small muted" id="sent-count"></span>
+      </div>
+      <div id="sentences"></div>
+    </section>
+
+    <section id="tab-starred" role="tabpanel" hidden>
+      <div class="toolbar">
+        <span class="small muted" id="starred-count"></span>
+        <button class="btn primary" id="star-export">导出 Markdown</button>
+        <button class="btn" id="star-clear">清空收藏</button>
+      </div>
+      <div id="starred"></div>
+      <pre class="md-preview" id="star-preview" hidden></pre>
+    </section>
+
+    <section id="tab-vocab" role="tabpanel" hidden>
+      <div class="toolbar">
+        <label>显示
+          <select id="vocab-filter">
+            <option value="all">全部</option>
+            <option value="todo">未掌握</option>
+            <option value="done">已掌握</option>
+          </select>
+        </label>
+        <input type="search" id="vocab-search" placeholder="筛选单词…">
+        <span class="small muted" id="vocab-count"></span>
+      </div>
+      <div class="vgrid" id="vocab"></div>
+    </section>
+
+    <section id="tab-phrases" role="tabpanel" hidden><div id="phrases"></div></section>
+    <section id="tab-grammar" role="tabpanel" hidden><div id="grammar"></div></section>
+    <section id="tab-patterns" role="tabpanel" hidden><div id="patterns"></div></section>
+    <section id="tab-exercises" role="tabpanel" hidden>
+      <div class="toolbar">
+        <button class="btn" id="show-all">显示全部答案</button>
+        <button class="btn" id="reset-ex">重做</button>
+        <span class="small muted" id="ex-count"></span>
+      </div>
+      <div id="exercises"></div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+</div>
+
+<noscript><p style="padding:20px">这个学习页需要 JavaScript 才能渲染（数据已内嵌在文件里）。</p></noscript>
+
+<script id="study-data" type="application/json">{"meta":{"title":"英语听力播客 · Autumn（秋天）精读","subtitle":"Listening Time Podcast · Bonus Episode: Autumn（主播 Conner）· 全文 223 句 / 3228 词","level":"B1","summary":"这是一期面向英语学习者的\"讲解型播客\"逐字稿，主题是美国的秋天（autumn / fall）。主播 Conner 先用大半段介绍节目形式和 Patreon 会员福利，然后进入正题：先纠正 autumn 的发音（是 \"aw\"，不是 \"oh\"），再讲秋天的天气——气温下降（the temperature drops）、早晚清爽（crisp）、有点凉（chilly）；接着讲树叶变色和美国人赏秋的传统（take a trip to see the colors）。后半段是重头戏——美国的秋季传统：去南瓜农场（pumpkin patch）挑南瓜、坐干草车（hay ride）、走玉米迷宫（corn maze）；菜单上的秋季食物——南瓜拿铁（pumpkin spice latte）、南瓜派、山核桃派、苹果酒（apple cider）；以及感恩节（Thanksgiving）的由来、\"说出你要感谢的一件事\"的传统、之后的黑色星期五（Black Friday）打折季，最后是圣诞音乐与\"节日季\"（holiday season）的开始。\n\n本期最大的学习价值是\"用英语解释英语\"：主播几乎每遇到一个生词都会停下来解释，比如 \"Chilly just means a little bit cold\"、\"The word 'hype' is used to talk about excitement\"。这类句型本身就是最值得模仿的口语表达。\n\n说明：这份 PDF 只有英文原文（没有中文对照），所以页面隐藏了中文开关并标注\"纯英文原文\"；中文讲解都在生词卡、语法点和练习里。","topics":["季节与天气","美国节日文化","食物与饮品","词汇讲解与释义","口语与听力训练"],"learningFocus":["天气词汇三兄弟：chilly / crisp / cool（都是\"有点冷\"，但语感不同）","释义句型：In English, when we say…, it just means… / The word X refers to…","农场与游乐词汇：pumpkin patch, hay ride, wagon, tractor, corn maze, dead end","食物与饮品：pumpkin spice latte, pecan pie, apple cider, cinnamon, beverage","节日与购物：Thanksgiving, day off, get together, Black Friday, deal, discount","短语动词的宾语位置：point it out（不说 point out it），以及 pull/push 这类反义动词"],"studyPlan":["第 1 步（10 分钟）：通读「逐句精读」第 17–68 句，这是天气与树叶变色的主体段落，先不看中文（本来也没有），用上下文猜词。","第 2 步（12 分钟）：过「生词」卡片并跟读例句；重点记主播亲口解释过的词（chilly, crisp, distinct, hype, harsh）。","第 3 步（10 分钟）：读「语法点」，把\"用英语解释英语\"的释义句型和短语动词的宾语位置练熟。","第 4 步（10 分钟）：用「句型模板」自己介绍一个中国传统节日（模仿 Black Friday / Thanksgiving 的讲法）。","第 5 步（12 分钟）：做「练习」，翻译题先自己写；写完后对照原文句子，看自己漏了哪个搭配。","第 6 步（10 分钟）：回到第 83–120 句（南瓜农场与玉米迷宫），用 0.85× 跟读，注意主播的停顿与重音。"],"estimatedMinutes":65},"vocab":[{"term":"bonus","ipa":"/ˈbəʊnəs/","pos":"n./adj.","zh":"额外的好处；附加的（节目、内容）","level":"B1","note":"本期是 \"bonus podcast episode\"（会员专属加更）。主播自己解释：bonus just means something extra。常见搭配：a bonus episode / a bonus point（附加分）。","examples":[{"en":"So, if you don't know what the word \"bonus\" means, this just means something extra.","ref":3}]},{"term":"mispronounce","ipa":"/ˌmɪsprəˈnaʊns/","pos":"v.","zh":"读错（音），发错音","level":"B2","note":"mis-（错误）+ pronounce（发音）。名词 mispronunciation。主播说他常听到这个词被读错：I hear this word mispronounced all the time。","examples":[{"en":"I hear this word mispronounced all the time, so, I wanted to point that out.","ref":33}]},{"term":"tradition","ipa":"/trəˈdɪʃn/","pos":"n.","zh":"传统，习俗","level":"B1","note":"形容词 traditional，副词 traditionally。本期反复出现：traditions surrounding the autumn season、another tradition in the fall。","examples":[{"en":"So, I'll talk a little bit more about the season, and I'll talk about some of the traditions surrounding the autumn season in the US.","ref":21},{"en":"So, this is a really cool tradition that we have.","ref":123}]},{"term":"chilly","ipa":"/ˈtʃɪli/","pos":"adj.","zh":"有点冷的，凉飕飕的","level":"B1","note":"程度比 cold 轻。主播直接给了定义：Chilly just means a little bit cold. 注意与 chili（辣椒）拼写只差一个字母。","examples":[{"en":"So of course, this season is the season where it starts to get a little bit chilly.","ref":42},{"en":"\"Chilly\" just means a little bit cold.","ref":44}]},{"term":"crisp","ipa":"/krɪsp/","pos":"adj.","zh":"（空气、天气）清爽微凉的；酥脆的","level":"B2","note":"同一个词两个常用义：a crisp morning（清爽的早晨）／crisp chips（酥脆的薯片）。主播说 crisp 是 chilly 的另一种说法：a little bit cold。","examples":[{"en":"And the mornings and the evenings tend to be crisp.","ref":47},{"en":"So, we like to say \"a crisp morning\" for example.","ref":51}]},{"term":"distinct","ipa":"/dɪˈstɪŋkt/","pos":"adj.","zh":"明显不同的；清晰的","level":"B2","note":"主播的解释最直白：\"distinct\" just means different。distinct seasons 四季分明的季节。名词 distinction，副词 distinctly。","examples":[{"en":"if you live in a region where there are distinct seasons, you probably see the colors change during September, October, around that time.","ref":58}]},{"term":"landscape","ipa":"/ˈlændskeɪp/","pos":"n.","zh":"（陆上）风景，景色；局面","level":"B2","note":"the whole landscape change 整片景色改变。引申义：the political landscape（政治格局）。","examples":[{"en":"So, during this time of year, you start to see the whole landscape change.","ref":60}]},{"term":"atmosphere","ipa":"/ˈætməsfɪə(r)/","pos":"n.","zh":"气氛，氛围；大气层","level":"B2","note":"本义是\"大气层\"，日常多用引申义\"氛围\"：the autumn atmosphere（秋天的氛围）。形容词 atmospheric。","examples":[{"en":"they might even take some type of vacation or trip to a beautiful place to see these colors and see the autumn atmosphere.","ref":66}]},{"term":"aspect","ipa":"/ˈæspekt/","pos":"n.","zh":"方面，层面","level":"B2","note":"＝ one part of a situation。常用搭配：a lot of people like this aspect of fall（很多人喜欢秋天的这一点）。","examples":[{"en":"So, a lot of people really like this aspect of fall.","ref":67}]},{"term":"pumpkin patch","ipa":"/ˈpʌmpkɪn pætʃ/","pos":"n.","zh":"南瓜农场／南瓜地（秋天供人挑选南瓜的地方）","level":"B1","note":"patch 本义是\"小块地、菜地\"，所以 pumpkin patch 就是\"种南瓜的那片地\"。主播解释：a place where you can go with your family and they have a lot of pumpkins growing。","examples":[{"en":"If you've never heard of a pumpkin patch, this is a place where you can go with your family and they have a lot of pumpkins growing.","ref":71}]},{"term":"hay","ipa":"/heɪ/","pos":"n.","zh":"干草","level":"B1","note":"不可数名词。注意与 straw（麦秸）的区别：hay 是喂牲口的草料，straw 多用于铺垫或编织。","examples":[{"en":"So, the word \"hay\" refers to that yellow grass that you feed to farm animals, like horse(s), cattle, sheep, etc.","ref":84}]},{"term":"cattle","ipa":"/ˈkætl/","pos":"n.","zh":"牛（集体名词）","level":"B2","note":"主播专门强调：The word \"cattle\" is always plural. 所以不能说 a cattle，要说 a cow（一头牛）／cattle（一群牛）。","examples":[{"en":"So, when we talk about cows, we sometimes use the word \"cattle\" instead.","ref":85},{"en":"The word \"cattle\" is always plural.","ref":86}]},{"term":"wagon","ipa":"/ˈwæɡən/","pos":"n.","zh":"四轮（马）车，货车车厢","level":"B2","note":"主播解释：a box-like vehicle with wheels… someone has to pull this wagon（没有发动机，得靠别的东西拉）。hay ride 就是坐在装满干草的 wagon 上。","examples":[{"en":"The word \"wagon\" refers to this kind of box-like vehicle with wheels... usually big wheels, and someone has to pull this wagon.","ref":91}]},{"term":"pull","ipa":"/pʊl/","pos":"v.","zh":"拉，拖（push 的反义词）","level":"B1","note":"pull 与 push（推）是一对反义动词。本期还用到了 pull 的引申义：pull it off（成功做到）。","examples":[{"en":"So, the word \"pull\" is just the opposite of push, right.","ref":94},{"en":"So, you have to pull this wagon in order for it to move.","ref":95}]},{"term":"tractor","ipa":"/ˈtræktə(r)/","pos":"n.","zh":"拖拉机","level":"B1","note":"干草车通常由 tractor（或卡车）牵引：there's usually a tractor or some type of truck that pulls this wagon。","examples":[{"en":"So, on this hay ride, there's usually a tractor or some type of truck that pulls this wagon full of hay","ref":96}]},{"term":"labyrinth","ipa":"/ˈlæbərɪnθ/","pos":"n.","zh":"迷宫；错综复杂的事物","level":"C1","note":"与 maze 近义，但 labyrinth 更强调\"进去难出来\"的复杂结构。主播用 it refers to like a labyrinth 来解释 maze。形容词 labyrinthine。","examples":[{"en":"So, the word \"maze\" refers to like a labyrinth... something, some structure where you have to find the exit, right.","ref":100}]},{"term":"dead end","ipa":"/ˌded ˈend/","pos":"n.","zh":"死路，走不通的一头；僵局","level":"B2","note":"字面是\"路的尽头\"，引申指\"没有出路的境地\"：The talks reached a dead end.（谈判陷入僵局。）","examples":[{"en":"A \"dead end\" just means that it's a place where you can't go through.","ref":102},{"en":"there are many dead ends and many left and right turns, and you have to find your way out of this maze.","ref":106}]},{"term":"escape","ipa":"/ɪˈskeɪp/","pos":"v./n.","zh":"逃出，逃脱","level":"B1","note":"You're trying to escape and find the exit. 名词也是 escape：a narrow escape（死里逃生）。不要与 escape 拼成 excape。","examples":[{"en":"You're trying to escape and find the exit.","ref":107}]},{"term":"ride","ipa":"/raɪd/","pos":"n./v.","zh":"（游乐）设施；乘坐、骑","level":"B1","note":"主播解释：something where you sit on the machine and it moves you around。迪士尼里的\"项目\"也叫 rides；give sb a ride 则是\"载某人一程\"。","examples":[{"en":"The word \"ride\" just refers to something where you sit on the machine and it moves you around.","ref":117}]},{"term":"attraction","ipa":"/əˈtrækʃn/","pos":"n.","zh":"（旅游、游乐）景点，吸引人的项目","level":"B2","note":"tourist attraction 旅游景点。动词 attract，形容词 attractive。","examples":[{"en":"So, there are sometimes rides and other attractions like that at pumpkin patches.","ref":120}]},{"term":"flavor","ipa":"/ˈfleɪvə(r)/","pos":"n.","zh":"（食物的）味道，口味","level":"B1","note":"英式拼写 flavour，美式 flavor（本文是美式）。动词义\"给……调味\"：flavored with apple and cinnamon（用苹果和肉桂调味）。","examples":[{"en":"there are certain flavors that we associate with autumn.","ref":125},{"en":"And it's flavored with apple and cinnamon, and so it has a very sweet flavor.","ref":162}]},{"term":"latte","ipa":"/ˈlɑːteɪ/","pos":"n.","zh":"拿铁（咖啡）","level":"B1","note":"源自意大利语 caffè latte（牛奶咖啡）。主播解释：a latte, a coffee that has a pumpkin flavor to it。pumpkin spice latte 是美国的秋季国民饮品。","examples":[{"en":"So, for example, the most famous drink that you see all over America during the fall is the pumpkin spice latte.","ref":130}]},{"term":"hype","ipa":"/haɪp/","pos":"n./v.","zh":"（媒体、大众的）炒作，热议；大力宣传","level":"B2","note":"主播解释：we use the word \"hype\" to talk about excitement。固定说法：see what all the hype is about（看看为什么大家这么追捧）。动词 hype sth up 大力吹捧。","examples":[{"en":"In English, we use the word \"hype\" to talk about excitement.","ref":135},{"en":"So, I think this week, I might try and taste this pumpkin spice latte and see what all the hype is about.","ref":134}]},{"term":"dessert","ipa":"/dɪˈzɜːt/","pos":"n.","zh":"甜点，餐后甜品","level":"B1","note":"注意与 desert（沙漠，/ˈdezət/）拼写相近、重音不同：dessert 重音在后。pumpkin pie is a big dessert（南瓜派是重要甜点）。","examples":[{"en":"This is a big dessert during this time period.","ref":144}]},{"term":"pecan","ipa":"/pɪˈkæn/","pos":"n.","zh":"山核桃（一种坚果）","level":"B2","note":"美国南方常见，读音各地不同（/pɪˈkæn/、/ˈpiːkæn/ 都可以）。感恩节经典甜点是 pecan pie。","examples":[{"en":"People start baking pecan pie.","ref":151},{"en":"Pecan is a type of nut.","ref":152}]},{"term":"nut","ipa":"/nʌt/","pos":"n.","zh":"坚果；螺母","level":"B1","note":"a type of nut（一种坚果）；坚果统称 nuts。注意 peanut 是豆科植物，但日常也归入 nuts 一起说。","examples":[{"en":"Pecan is a type of nut.","ref":152}]},{"term":"cider","ipa":"/ˈsaɪdə(r)/","pos":"n.","zh":"（苹果）果汁；苹果酒","level":"B2","note":"美式 apple cider 多指未过滤的苹果汁（可热饮）；英式的 cider 通常指含酒精的苹果酒。主播说它是 warm drink（热饮），很甜。","examples":[{"en":"If you don't know what apple cider is, this is a warm drink.","ref":158}]},{"term":"cinnamon","ipa":"/ˈsɪnəmən/","pos":"n.","zh":"肉桂（香料）","level":"B2","note":"烘焙与热饮常用香料，与苹果、南瓜是秋季经典搭配。注意拼写里的 -mon，不要写成 cinnamin。","examples":[{"en":"And it's flavored with apple and cinnamon, and so it has a very sweet flavor.","ref":162}]},{"term":"beverage","ipa":"/ˈbevərɪdʒ/","pos":"n.","zh":"饮料（较正式的说法）","level":"B2","note":"菜单、酒店里常见（food and beverages 餐饮）。日常口语更常说 drink。","examples":[{"en":"This is one of my favorite beverages.","ref":165}]},{"term":"turkey","ipa":"/ˈtɜːki/","pos":"n.","zh":"火鸡；火鸡肉","level":"B1","note":"美国感恩节的招牌主菜。注意大写 Turkey 指国家\"土耳其\"。主播用两个短句点题：And then of course, turkey. Why? Because: Thanksgiving.","examples":[{"en":"And then of course, turkey.","ref":168}]},{"term":"vacation","ipa":"/vəˈkeɪʃn/","pos":"n.","zh":"假期，休假","level":"B1","note":"美式 vacation ≈ 英式 holiday。on vacation 在度假；a four-day vacation 四天假期。注意本文中 holiday 指\"节日\"（Thanksgiving is a big holiday），不是\"假期\"。","examples":[{"en":"During Thanksgiving, students usually have a four-day vacation.","ref":173}]},{"term":"meal","ipa":"/miːl/","pos":"n.","zh":"一餐，一顿饭","level":"B1","note":"主播解释：an event where you eat food。breakfast / lunch / dinner 都是 meals。have a big meal 吃一顿大餐。","examples":[{"en":"The word \"meal\" just refers to an event where you eat food.","ref":186},{"en":"I would say that this is probably the biggest meal of the year.","ref":188}]},{"term":"harsh","ipa":"/hɑːʃ/","pos":"adj.","zh":"严酷的，恶劣的；刺耳的、苛刻的","level":"B2","note":"主播解释：Harsh just means difficult, extreme conditions。可说 harsh winter / harsh criticism。副词 harshly。","examples":[{"en":"Harsh just means difficult, extreme conditions.","ref":192},{"en":"they faced very harsh conditions.","ref":191}]},{"term":"colonist","ipa":"/ˈkɒlənɪst/","pos":"n.","zh":"殖民者，移民定居者","level":"C1","note":"来自 colony（殖民地）。文中讲感恩节由来：the colonists from England arrived in the US in the 1600s（17 世纪来到美洲的英格兰移民）。","examples":[{"en":"Well, the story goes that the colonists from England, when they arrived in the US in the 1600s, they faced very harsh conditions.","ref":191}]},{"term":"thankful","ipa":"/ˈθæŋkfl/","pos":"adj.","zh":"感激的，庆幸的","level":"B1","note":"be thankful for sth 对……心怀感激。名词 thanks / gratitude，动词 thank。感恩节的传统就是每人说一件自己感激的事。","examples":[{"en":"one tradition that families have nowadays on Thanksgiving is that everyone will say one thing that they're thankful for.","ref":198}]},{"term":"blessing","ipa":"/ˈblesɪŋ/","pos":"n.","zh":"幸事，福气；（宗教）祝福","level":"B2","note":"主播解释：the word \"blessing\" just means some good thing in your life。give thanks for the blessings in our lives（感谢生活中的福气）。","examples":[{"en":"In English, the word \"blessing\" just means some good thing in your life.","ref":201}]},{"term":"deal","ipa":"/diːl/","pos":"n.","zh":"（买卖）划算的交易，特价","level":"B2","note":"本期与 discount 一起出现，都指商家降价：have deals and discounts。另有常用短语 a great deal of（大量）和动词 deal with（处理）。","examples":[{"en":"And this is the day where all the stores in the country or almost all the stores have deals and discounts","ref":206}]},{"term":"discount","ipa":"/ˈdɪskaʊnt/","pos":"n./v.","zh":"折扣；打折出售","level":"B1","note":"at a discount 打折；give sb a discount 给某人打折。主播把它和 deal 一起解释成\"商店降价\"：a store lowers its prices so that the items are cheaper。","examples":[{"en":"So, we use the word \"deal\" and the word \"discount\" to just talk about when a store lowers its prices so that the items are cheaper.","ref":207}]},{"term":"patron","ipa":"/ˈpeɪtrən/","pos":"n.","zh":"（艺术、节目的）赞助人；老顾客","level":"C1","note":"文中指播客的付费会员（Patreon 平台上的 patron）。动词 patronize；注意其\"资助\"义与\"光顾\"义都可出现。","examples":[{"en":"Thank you again for becoming a patron here on Patreon and for supporting this show.","ref":217}]},{"term":"seminar","ipa":"/ˈsemɪnɑː(r)/","pos":"n.","zh":"研讨会，专题讲座","level":"B2","note":"大学与培训场景高频词：attend a seminar。文中指会员每月可参加一次的 Listening Practice Seminar。","examples":[{"en":"you'll also have access to one Listening Practice Seminar every month","ref":219}]}],"phrases":[{"term":"in more depth","pos":"prep. phrase","zh":"更深入地，更详细地","note":"＝ in more detail。主播自己解释了它：We're going to go deeper into the topic. 也说 explore sth in depth。","example":{"en":"I thought this would be a good topic to explore in more depth.","zh":"我觉得这是个值得更深入探讨的话题。"},"ref":18},{"term":"point out / point sth out","pos":"phrasal v.","zh":"指出，说明（让人注意到）","note":"主播的解释：we want to draw your attention to that thing。宾语是代词时必须放中间：point it out ✓ / point out it ✗。","example":{"en":"In English, when we use the phrase \"point that out\" or \"point something out\", this just means that we want to draw your attention to that thing.","zh":"英语里说 point that out／point something out，意思就是想让对方注意到那件事。"},"ref":34},{"term":"look forward to sth","pos":"v. phrase","zh":"期待，盼望（某事发生）","note":"to 是介词，后面跟名词或动名词：look forward to seeing you。主播的解释：we are excited about something that is going to happen in the future。","example":{"en":"In English, when we say \"look forward to\" something, this just means that we are excited about something that is going to happen in the future.","zh":"英语里的 look forward to 就是\"对将要发生的事感到兴奋\"。"},"ref":65},{"term":"take a trip / take a vacation","pos":"v. phrase","zh":"去旅行／去度假","note":"take 与 trip/vacation 搭配表示\"去一趟\"；take a day off 则是\"请一天假\"。","example":{"en":"they might even take some type of vacation or trip to a beautiful place to see these colors","zh":"他们甚至可能专门去一个漂亮的地方度假旅行，就为了看这些颜色。"},"ref":66},{"term":"hay ride","pos":"n. phrase","zh":"干草车（坐在装满干草的车上兜一圈）","note":"秋季南瓜农场的经典项目。ride 在这里是名词\"乘坐体验\"。","example":{"en":"So, this is referred to as a \"hay ride\" in English.","zh":"这在英语里就叫 hay ride（干草车）。"},"ref":97},{"term":"corn maze","pos":"n. phrase","zh":"玉米迷宫","note":"用高大玉米秆围成的迷宫：a maze with really tall walls of corn。主播说他最喜欢这个项目。","example":{"en":"So, a corn maze is a maze with really tall walls of corn.","zh":"玉米迷宫就是用很高的玉米墙围成的迷宫。"},"ref":109},{"term":"find one's way out (of sth)","pos":"v. phrase","zh":"找到出路，走出（迷宫、困境）","note":"同族表达：lose one's way（迷路）、find one's way to（辗转到达）。","example":{"en":"you have to find your way out of this maze.","zh":"你得自己从这个迷宫里找到出路。"},"ref":106},{"term":"be referred to as","pos":"v. phrase","zh":"被称为，被称作","note":"＝ be called / be known as，但更正式。动词 refer to 还有\"指的是、提到\"的意思。","example":{"en":"So, this is referred to as a \"hay ride\" in English.","zh":"这在英语里被称为 hay ride。"},"ref":97},{"term":"see what all the hype is about","pos":"v. phrase","zh":"看看（这东西）到底为什么这么受追捧","note":"口语高频说法：hype 指媒体的热炒。同类：see what the fuss is about。","example":{"en":"I might try and taste this pumpkin spice latte and see what all the hype is about.","zh":"我可能会尝尝这款南瓜拿铁，看看它到底为什么这么火。"},"ref":134},{"term":"once or twice a year","pos":"adverbial phrase","zh":"一年一两次","note":"频率表达：once a week（每周一次）、twice a month（每月两次）、every other day（每隔一天）。","example":{"en":"I can eat it maybe once or twice a year without having any problems.","zh":"我大概一年吃一两次还没问题。"},"ref":148},{"term":"get together (with sb)","pos":"phrasal v.","zh":"聚在一起，聚会","note":"主播的解释：you gather with other people… go to the same place to spend time together。名词形式 get-together 指\"聚会\"。","example":{"en":"So, on Thanksgiving, people get together with their families.","zh":"所以在感恩节，人们会和家人聚在一起。"},"ref":181},{"term":"a day off / have two days off","pos":"n. phrase","zh":"休息日，放假","note":"主播的解释：you don't have to go to school or to work on that day。注意是 a day off（不是 a day off work 也可以说）。","example":{"en":"In English, when you say that you have a \"day off\", this just means that you don't have to go to school or to work on that day.","zh":"英语里说 have a day off，就是指那天不用上学或上班。"},"ref":175},{"term":"take a turn (doing sth)","pos":"v. phrase","zh":"轮流（做某事），轮到某人","note":"take turns 轮流：We take turns driving.（我们轮流开车。）in turn 则表示\"依次、反过来\"。","example":{"en":"So, each person at the table will take a turn and say one thing that they're thankful for","zh":"餐桌上的每个人会轮流说一件自己感激的事。"},"ref":199},{"term":"give thanks for sth","pos":"v. phrase","zh":"为……感恩","note":"Thanksgiving 这个节日名就来自 give thanks。give thanks for the blessings in our lives。","example":{"en":"The holiday is called Thanksgiving, so we want to give thanks for the blessings in our lives.","zh":"这个节日叫感恩节，所以我们要感谢生活中的福气。"},"ref":200},{"term":"the story goes that…","pos":"sentence pattern","zh":"据说……，传说……","note":"用来转述传说或来源不明的说法，比 It is said that… 更口语。主播用它讲感恩节由来，并补了一句 I don't know how true that is。","example":{"en":"But the story goes that the colonists shared this big meal with the Native Americans in the year 1621, and this was known as the first Thanksgiving.","zh":"但据传 1621 年殖民者与印第安人共享了这顿大餐，这被称为第一个感恩节。"},"ref":195},{"term":"be associated with","pos":"v. phrase","zh":"与……联系在一起，让人联想到","note":"名词 association。文中指某些口味让人联想到秋天：flavors that we associate with autumn。","example":{"en":"there are certain flavors that we associate with autumn.","zh":"有些口味会让我们联想到秋天。"},"ref":125},{"term":"all the way through to","pos":"prep. phrase","zh":"一直到（某个时间点）","note":"强调时间跨度不断：from November all the way through to the new year。","example":{"en":"You hear Christmas music everywhere, starting on the day after Thanksgiving, all the way through to the new year.","zh":"从感恩节第二天开始，一直到新年，到处都能听到圣诞音乐。"},"ref":211}],"grammar":[{"title":"用英语解释英语：三种释义句型","structure":"X just means Y. / The word X refers to Y. / In English, when we say X, it just means Y.","explain":"这是本期最值得整体模仿的语言现象：主播每遇到一个可能陌生的词，就立刻用简单英语解释一遍。掌握这三句式，你就能用英语向别人解释中文概念，也是口语考试里\"paraphrase（换句话说明）\"能力的核心。","examples":[{"en":"\"Chilly\" just means a little bit cold.","ref":44},{"en":"The word \"wagon\" refers to this kind of box-like vehicle with wheels...","ref":91},{"en":"In English, we use the word \"hype\" to talk about excitement.","ref":135},{"en":"In English, the word \"blessing\" just means some good thing in your life.","ref":201}],"caution":"注意三种句型的语域差别：just means 最口语，refers to 偏书面，is defined as 最学术。另外 “In English, when we say X…” 这种起手式非常适合口语展开话题。"},{"title":"短语动词的宾语位置：point it out","structure":"动词 + 副词小品词：宾语是名词可放中间或后面；宾语是代词必须放中间","explain":"point out、pick up、turn on 这类\"动词 + 副词\"的短语动词，代词宾语必须夹在中间。主播在解释 point that out 时用的正好是这个结构。","examples":[{"en":"so, I wanted to point that out.","ref":33},{"en":"this just means that we want to draw your attention to that thing.","ref":34},{"en":"We want to point it out.","ref":36}],"caution":"point out it ✗ / point it out ✓；point out the mistake ✓ / point the mistake out ✓（名词两种位置都可以）。"},{"title":"被动语态：be referred to as / be known as / be considered","structure":"be + 过去分词（+ as / with）","explain":"介绍名称、定义与习俗时，英语大量使用被动：\"这被称为……\"、\"这天被认为是……\"、\"它用……调味\"。施事通常是泛指的\"人们\"，所以直接省略。","examples":[{"en":"So, this is referred to as a \"hay ride\" in English.","ref":97},{"en":"this was known as the first Thanksgiving.","ref":195},{"en":"The day after Thanksgiving is considered Black Friday.","ref":205},{"en":"And it's flavored with apple and cinnamon","ref":162}],"caution":"三个固定搭配要连介词一起记：be referred to as、be known as、be considered（不加 as 也可以：is considered Black Friday）。"},{"title":"关系从句：where / that / which 补充说明","structure":"地点名词 + where…；物 + that/which…","explain":"本期几乎每介绍一个概念都会跟一个关系从句。区分 where（先行词是地点）与 that/which（先行词是物），是听懂长句的关键。","examples":[{"en":"if you live in a region where there are distinct seasons","ref":58},{"en":"This is the thing that you see during the Halloween season.","ref":75},{"en":"This is a little bit similar to pumpkin patches, where you choose your pumpkin for the fall season.","ref":81},{"en":"there are certain flavors that we associate with autumn.","ref":125}],"caution":"先行词是地点但从句缺主语时仍用 that/which：the place that I like（不是 where I like）。判断依据是\"从句里缺什么成分\"。"},{"title":"现在完成时谈\"到目前为止的经历\"","structure":"have/has + 过去分词（常与 before、ever、never、always 连用）","explain":"主播大量用现在完成时讲自己的经历：以前讲过这个话题、从没试过这款饮品、一直看到它打广告。重点是\"到现在为止\"，不强调具体时间。","examples":[{"en":"I've talked a little bit about this before, I think in the episode about seasons","ref":18},{"en":"I've actually never tried this before","ref":133},{"en":"because I've always seen it advertised during September, October, November","ref":133},{"en":"So, I've done these before at pumpkin patches even as an adult.","ref":111}],"caution":"有明确过去时间状语时不能用现在完成时：I tried it last week ✓ / I have tried it last week ✗。"},{"title":"表目的：in order for sb/sth to do 与 so that 从句","structure":"in order (for sb/sth) to do；so that + 从句","explain":"同一个目的可以用名词性结构（不定式）或从句（so that）表达。主播讲 wagon 不能自己动、以及感恩节轮流发言时各用了一次。","examples":[{"en":"So, you have to pull this wagon in order for it to move.","ref":95},{"en":"so that they can give thanks, right.","ref":199},{"en":"we use the word \"deal\" and the word \"discount\" to just talk about when a store lowers its prices so that the items are cheaper.","ref":207}],"caution":"in order to 后接与主句主语一致的动作；主语不一致时要用 in order for sb to do（如第 95 句 for it to move）。"},{"title":"动词 + 宾语 + to do：motivate / want / ask","structure":"动词 + sb + to do sth","explain":"英语里\"让某人做某事\"常靠这类结构：motivate sb to do（激励）、want sb to do（想要）、ask sb to do（请求）。本期开头主播感谢听众支持时就用了 motivate me to work harder。","examples":[{"en":"It really motivates me to work harder and to provide more content for you","ref":8},{"en":"this just means that we want to draw your attention to that thing.","ref":34},{"en":"I'll talk a little bit more about the season","ref":21}],"caution":"注意区分：want sb to do（想要）／make sb do（强迫，不加 to）／let sb do（允许，不加 to）／hope that sb does（不能接 sb to do）。"},{"title":"比较与程度：-er than / a little bit / the biggest","structure":"比较级 + than；a little bit + 形容词；the + 最高级 + of/in","explain":"描述季节变化时，程度词非常重要：a little bit chilly（有点凉）、colder than summer（比夏天冷）、the biggest meal of the year（一年中最大的一餐）。","examples":[{"en":"It's definitely colder than summer.","ref":46},{"en":"This just means a morning that's a little bit chilly, a little bit cool.","ref":52},{"en":"I would say that this is probably the biggest meal of the year.","ref":188},{"en":"But more than that, I think, would be too much for me.","ref":149}],"caution":"a little bit 修饰形容词表示\"有点儿\"，比 very 弱；too much 表示\"过量、受不了\"，语气比 a lot 负面。"},{"title":"情态动词：推测（might）与必要（have to / should）","structure":"might + do（可能）；have to + do（必须）；should + do（应该）","explain":"听播客时抓住情态动词就能分辨\"这是事实还是猜测\"。主播说南瓜派 might be too strong（可能对某些人来说太冲）、在迷宫里 you have to find the exit（必须找到出口）、you should turn left or right（该左还是该右）。","examples":[{"en":"and it might be too strong for some people.","ref":145},{"en":"It's very confusing because you don't know if you should turn left or right and there are dead ends.","ref":101},{"en":"you have to find the exit just by turning and going","ref":110}],"caution":"might 的可能性低于 may 的书面用法，但口语里两者差不多；must 表推测时语气很强（\"一定\"），而 have to 表义务。"},{"title":"动名词与不定式作主语、宾语","structure":"v-ing / to do 作主语或宾语","explain":"主播在讲\"挑南瓜\"时说 the kids like to decide on which pumpkin looks the best，讲\"吃南瓜派\"时说 without having any problems——不定式与动名词常常可以互换，但介词后只能用动名词。","examples":[{"en":"the kids like to decide on which pumpkin looks the best, and so they have fun choosing a pumpkin.","ref":79},{"en":"I can eat it maybe once or twice a year without having any problems.","ref":148},{"en":"So, this is something really fun to do with your friends or your kids.","ref":114}],"caution":"介词后面必须用动名词：without having ✓ / without have ✗；enjoy、finish、practice 等动词后也接动名词。"},{"title":"顺序与时间连接词：播客的\"路标\"","structure":"first / then / after that / lastly / nowadays / around this time","explain":"听力理解最怕\"不知道讲到哪了\"。抓住这些路标词，就能跟上主播的结构：先说天气，再说传统，最后说黑色星期五。","examples":[{"en":"Okay, so first let's just talk briefly about the weather, the weather in fall, and then we'll go on to some fall traditions after that.","ref":41},{"en":"Okay, let's move on and start talking about some traditions in the US that we have during this season.","ref":68},{"en":"And then lastly, I just wanted to mention Black Friday.","ref":203},{"en":"one tradition that families have nowadays on Thanksgiving","ref":198}],"caution":"听到 let's move on、that's enough for this episode、lastly 就知道话题要换或节目要收尾，可以据此判断有没有漏听。"}],"patterns":[{"en":"So, the first thing I want to talk about is the pronunciation of the word \"autumn\".","zh":"所以，我首先要讲的是 autumn 这个词的发音。","usage":"播客/演讲的开场路标：the first thing I want to talk about is…。听完这句就能预判接下来讲什么。","rewrite":"Let's start with how to pronounce the word \"autumn\".","ref":30},{"en":"But I want to talk a little bit about pumpkin patches.","zh":"但我想稍微讲讲南瓜农场。","usage":"换话题的过渡句：I want to talk a little bit about X。a little bit 让语气显得随意、不压迫。","rewrite":"Now let me say a few words about pumpkin patches.","ref":70},{"en":"If you've never heard of a pumpkin patch, this is a place where you can go with your family and they have a lot of pumpkins growing.","zh":"如果你从没听说过 pumpkin patch，那就是一个可以带家人去、种着很多南瓜的地方。","usage":"假设听众不懂再解释：If you've never heard of X, this is…。写作与口语中都能用，比直接下定义更照顾读者。","rewrite":"A pumpkin patch — in case you haven't come across the term — is a farm where families go to pick pumpkins.","ref":71},{"en":"It's kind of like when you choose a Christmas tree before Christmas, and the whole family examines the different options and tries to imagine which tree will look best in the house.","zh":"这有点像圣诞节前挑圣诞树，全家人比较各种选择，想象哪棵放在家里最好看。","usage":"类比解释法：It's kind of like when…。用听众熟悉的事去解释陌生的事，kind of 起缓和作用。","rewrite":"Think of it as choosing a Christmas tree — everyone compares the options together.","ref":80},{"en":"So, that's something that you don't really find in other countries, but you can find pumpkin patches all over the country in the US.","zh":"这是你在别的国家不太会见到的东西，但在美国各地都能找到南瓜农场。","usage":"文化对比句式：that's something that you don't really find in other countries, but…。介绍本国特色时特别好用。","rewrite":"Pumpkin patches are pretty much an American thing, though they're everywhere here.","ref":122},{"en":"I would say that this is probably the biggest meal of the year.","zh":"我会说这大概是一年中最大的一顿饭。","usage":"表达个人判断的稳妥说法：I would say that… probably…。比直接断言更留有余地，口语与写作都常用。","rewrite":"I'd say it's the biggest meal of the year, without a doubt.","ref":188},{"en":"And so you might be asking \"Why do you celebrate Thanksgiving in the US?\"","zh":"你可能会问：\"美国为什么要庆祝感恩节？\"","usage":"自问自答引出下文：you might be asking…，然后自己回答。演讲、播客里用来推进话题的经典手法。","rewrite":"You may wonder why Americans celebrate Thanksgiving.","ref":190},{"en":"That's what we're taught in school, and so that's the story that we usually tell about Thanksgiving.","zh":"这是我们在学校被教的内容，也是我们通常讲的感恩节故事。","usage":"交代信息来源并保持距离：That's what we're taught…。配合前面 I don't know how true that is，既讲了故事又不把传说当事实。","rewrite":"That's the version we learn at school and repeat every year.","ref":197}],"exercises":[{"type":"choice","question":"\"this season is the season where it starts to get a little bit chilly\"（第 42 句）中 chilly 的意思是：","options":["有点冷、凉飕飕的","非常热","干燥的","潮湿的"],"answer":"A","explain":"主播自己解释了：Chilly just means a little bit cold。程度比 cold 轻。注意别和 chili（辣椒）混淆。"},{"type":"choice","question":"\"we like to say 'a crisp morning'\"（第 51 句）中 crisp 形容早晨时最接近的意思是：","options":["清爽微凉的","潮湿闷热的","阴沉多雾的","狂风大作的"],"answer":"A","explain":"crisp 形容天气时指\"空气清爽、有点凉\"，主播说它相当于 chilly、a little bit cold。crisp 形容食物时则是\"酥脆的\"。"},{"type":"fill","question":"So of course, the temperature ______ (drop) during this season.（第 45 句，用正确形式填空）","answer":["drops"],"explain":"主语 the temperature 是第三人称单数，且描述秋季的一般规律，用一般现在时 drops。"},{"type":"choice","question":"关于 \"cattle\" 这个词（第 86 句），下面哪个说法正确？","options":["它是集体名词，永远当复数用，不能说 a cattle","它是单数名词，可以说 a cattle","它只能指一头牛","它是不可数名词，不能作主语"],"answer":"A","explain":"主播专门强调：The word \"cattle\" is always plural. 想说\"一头牛\"要用 a cow，想说\"很多牛\"可以用 cattle。"},{"type":"fill","question":"I hear this word mispronounced all the time, so I wanted to point ______ out.（第 33 句，填入指代 this word 的代词）","answer":["it"],"explain":"point out 是\"动词 + 副词\"的短语动词，宾语是代词时必须放中间：point it out。point out it 是错的。"},{"type":"choice","question":"\"In English, we use the word 'hype' to talk about excitement.\"（第 135 句）中 hype 的意思是：","options":["（媒体、大众的）炒作、热议","厌烦","谎言","折扣"],"answer":"A","explain":"hype 指围绕某事物的热烈讨论与期待。文中主播说要尝尝南瓜拿铁，see what all the hype is about（看看它到底为什么这么火）。"},{"type":"fill","question":"So, this ______ (refer) to as a \"hay ride\" in English.（第 97 句，用被动语态填空）","answer":["is referred"],"explain":"be referred to as = 被称为。这是介绍名称时的固定被动结构，后面必须跟 as。"},{"type":"choice","question":"\"A 'dead end' just means that it's a place where you can't go through.\"（第 102 句）在迷宫里，dead end 指的是：","options":["走不通的死路","出口","十字路口","最窄的通道"],"answer":"A","explain":"dead end 字面是\"路的尽头\"，指前方封死、无法通过的地方；引申义是\"僵局\"，如 The talks reached a dead end。"},{"type":"fill","question":"I've actually ______ (never / try) this before.（第 133 句，用现在完成时填空）","answer":["never tried"],"explain":"谈\"到目前为止的经历\"用现在完成时：have never tried。注意不能写成 I never tried this before 作为标准书面表达。"},{"type":"fill","question":"each person at the table will take a turn and say one thing that they're thankful for, ______ that they can give thanks.（第 199 句，填一个词）","answer":["so"],"explain":"so that + 从句表示目的（\"以便……\"）。这里完整形式是 so that they can give thanks。"},{"type":"fill","question":"And it's flavored ______ apple and cinnamon, and so it has a very sweet flavor.（第 162 句）","answer":["with"],"explain":"be flavored with sth 用……调味，介词固定为 with。同类：be filled with、be covered with。"},{"type":"choice","question":"Thanksgiving 期间学生放四天假，第 175 句说 \"you have a day off\"，这里的 day off 指：","options":["不用上班或上学的休息日","加班日","开学日","旅行日"],"answer":"A","explain":"主播的解释：you don't have to go to school or to work on that day。复数形式是 two days off。"},{"type":"choice","question":"\"they faced very harsh conditions\"（第 191 句）中 harsh 的意思是：","options":["严酷的、恶劣的","舒适的","短暂的","公平的"],"answer":"A","explain":"主播的解释：Harsh just means difficult, extreme conditions。也可形容话语苛刻：harsh criticism。"},{"type":"translate","question":"翻译成英文：这个季节气温下降，我们会有清爽的早晨和傍晚。（提示：the temperature drops / crisp mornings and evenings）","answer":["The temperature drops during this season, and we have crisp mornings and evenings."],"explain":"参考原文第 45、47、53 句。注意\"气温下降\"用 the temperature drops；\"清爽的早晨和傍晚\"用 crisp mornings and evenings。"},{"type":"translate","question":"翻译成英文：感恩节那天人们和家人聚在一起，吃一顿特别丰盛的饭。（提示：get together with / have a big meal）","answer":["On Thanksgiving, people get together with their families and have a really big meal."],"explain":"参考原文第 181、185 句。get together with sb 表示\"和某人聚会\"；have a big meal 是\"吃一顿大餐\"。"},{"type":"translate","question":"翻译成英文：从感恩节第二天开始，一直到新年，你到处都能听到圣诞音乐。（提示：starting on… / all the way through to）","answer":["Starting on the day after Thanksgiving, all the way through to the new year, you hear Christmas music everywhere."],"explain":"参考原文第 211 句。starting on + 时间点表示\"从……开始\"；all the way through to 强调一直持续到某个时间。"}],"translations":{"1":"欢迎收听《听力时间》播客。","2":"大家好，我是 Conner，你正在收听的是第一期会员加更节目。","3":"如果你不知道 bonus 这个词是什么意思，它就是“额外的东西”。","4":"对。","5":"如果你现在正在听这一期，那就说明你是《听力时间》播客在 Patreon 上的支持者之一。","6":"我想谢谢大家。","7":"你们成为支持者、愿意获取这些加更内容，对我帮助很大。","8":"这真的激励我更努力，为你们、也为你们的听力练习提供更多内容。","9":"所以，再次感谢。","10":"计划是每月 15 号上传一期这样的会员加更节目。","11":"所以每月 15 号，只要你支持《听力时间》播客，就能听到这期额外节目。","12":"所以记得每月 15 号回到 Patreon 页面，你会在那里看到一期新节目。","13":"这是一个专为 Patreon 支持者准备的加更节目。","14":"那些还没有成为会员或支持者的人，是听不到这些节目的。","15":"这些内容只给你们——支持这档节目的人。","16":"再次非常感谢。","17":"在这第一期加更节目里，我们要聊的是秋天（autumn 或 fall）。","18":"我以前稍微提过这个话题，好像是在讲季节的那一期，但现在正是秋天、正处在秋季当中，我觉得这是个值得更深入探讨的话题。","19":"英语里说 in more depth，就是“更详细地”的意思。","20":"我们要把这个话题讲得更深入一些。","21":"所以我会再讲讲这个季节，也会讲讲美国秋天的一些传统。","22":"希望这个话题对你有意思。","23":"我相信这对你的听力也是很好的练习。","24":"当然，记得把这档播客分享给可能觉得有用的其他人。","25":"另外记得，你是可以看到逐字稿的。","26":"我也会把链接放在那里。","27":"我不确定链接具体在哪个位置，但你在 Patreon 页面上应该能看到。","28":"我会把逐字稿的链接加上，方便你查看。","29":"好，我们开始吧。","30":"好，我首先要讲的是 autumn 这个词的发音。","31":"注意它不是读“oh”也不是“ow”，而是“aw”。","32":"第一个音节就是“au”tumn，就是这样。","33":"我总听到这个词被读错，所以想特别把它指出来。","34":"英语里说 point that out 或 point something out，意思就是想让你注意到那件事。","35":"我们想让你把注意力放在那件事上。","36":"我们想把它指出来。","37":"这样以后你就知道这个词该怎么读了。","38":"就像我在前几期提到的，我们不总是用 autumn 这个词。","39":"这个季节也可以用 fall 这个词。","40":"所以有时候我们说 autumn，有时候说 fall。","41":"好，我们先简单聊聊天气，秋天的天气，然后再讲一些秋季传统。","42":"当然，这个季节就是天气开始有点凉的时候。","43":"对，这个词你在前几期听过。","44":"chilly 就是“有点冷”的意思。","45":"这个季节气温会下降。","46":"肯定比夏天冷。","47":"早晨和傍晚往往很清爽。","48":"如果你还记得讲季节那期里的这个词，crisp 可以说是 chilly 的另一种说法。","49":"它的意思是“有点冷”。","50":"空气感觉有点凉。","51":"比如我们爱说 a crisp morning（清爽的早晨）。","52":"意思就是有点凉、有点清爽的早晨。","53":"所以秋天当然气温会下降，早晨和傍晚都很清爽，整体上天气就是越来越凉。","54":"秋天还会发生的另一件事，就是颜色会变。","55":"我说的是什么颜色呢？","56":"我说的是树叶、花朵、树木之类的颜色。","57":"如果你住的地方四季分明……","58":"distinct 就是“不同”的意思，四季分明就是季节各不相同……如果你住在四季分明的地方，你大概会在九月、十月前后看到颜色变化。","59":"比如在美国北部，颜色会从绿色变成黄色、橙色、红色、紫色……这类颜色……还有棕色，对吧。","60":"所以每年这个时候，你会开始看到整片景色都在变化。","61":"你再也看不到夏天的那种绿了。","62":"你开始看到这些秋天的色彩。","63":"大多数美国人都很喜欢秋天树叶变色。","64":"很多人都在期待这件事。","65":"英语里说 look forward to something，意思就是对将来要发生的事感到兴奋、期待。","66":"所以很多美国人期待树叶变色，甚至会专门去漂亮的地方度假旅行，就为了看这些颜色、感受秋天的氛围。","67":"很多人非常喜欢秋天的这一点。","68":"好，我们接着讲美国在这个季节有的一些传统。","69":"当然，人人都知道万圣节，对吧，大家都爱聊这个话题。","70":"但我想稍微讲讲南瓜农场。","71":"如果你从没听说过 pumpkin patch，那就是一个可以带家人去、种着很多南瓜的地方。","72":"对。","73":"南瓜算是那种水果吧？长出来的……是橙色的。","74":"对。","75":"就是你在万圣节期间会看到的那种东西。","76":"所以，如果你去南瓜农场，它就像一个大南瓜种植园。","77":"那里有几百个南瓜。","78":"你可以去挑自己的南瓜，看看最喜欢哪一个、哪一个大小或形状适合你，然后把它买下来。","79":"这是很适合全家一起做的事，因为孩子们通常喜欢自己决定哪个南瓜最好看，挑南瓜对他们来说是件乐事。","80":"这有点像圣诞节前挑圣诞树：全家人把各种选择比较一番，想象哪棵摆在屋里最好看。","81":"这跟南瓜农场有点类似，你在那里为秋天挑一个自己的南瓜。","82":"在这些南瓜农场里不只有南瓜，还有别的项目。","83":"比如你可以带孩子去坐干草车。","84":"hay 指的是喂农场动物（马、牛、羊等）的那种黄色干草。顺便说一下，cattle 就是“牛”的意思。","85":"说到牛的时候，我们有时会用 cattle 这个词。","86":"cattle 这个词永远是复数。","87":"所以我们不说 a cattle。","88":"我们会说 a cow（一头牛），但可以用 cattle 来表示很多头牛。","89":"所以 hay 就是那种可以喂牛、马和其他农场动物的黄色干草。","90":"但在这些南瓜农场里有个项目叫 hay ride（干草车），他们把这些干草铺在货车车厢上。","91":"wagon 指那种带轮子的箱式车……通常轮子很大，得靠什么东西来拉。","92":"它没有发动机，自己动不了。","93":"必须由别的东西来拉它。","94":"pull 这个词正好是 push（推）的反义词，对吧。","95":"所以你得拉这辆车，它才能动。","96":"坐干草车的时候，通常由拖拉机或某种卡车拉着这辆装满干草的车，你和孩子一般就坐在干草上，绕着南瓜农场兜一圈。","97":"这在英语里就叫 hay ride（干草车）。","98":"这是南瓜农场里能玩到的项目之一。","99":"不过我最喜欢的项目其实是玉米迷宫。","100":"maze 这个词指的是类似迷宫的东西……某种你得自己找到出口的结构，对吧。","101":"它非常让人迷惑，因为你不知道该往左还是往右，而且里面还有死路。","102":"dead end 就是“走不通的地方”。","103":"比如你往右一拐，前面就是一堵实墙。","104":"你过不去。","105":"这就是死路。","106":"这种迷宫里有很多死路、很多左拐右拐，你得自己找到出来的路。","107":"你会努力逃出去、找到出口。","108":"这就是南瓜农场里的“玉米迷宫”。","109":"玉米迷宫就是用很高的玉米秆墙围成的迷宫。","110":"你翻不过这些墙，所以很难，只能靠不断转弯、不断尝试，找到正确的通道、正确的出路。","111":"我成年以后也在南瓜农场玩过这个。","112":"我记得上一次去的时候，我大概二十、二十一岁，走完这个迷宫还是花了三十分钟左右。","113":"其实非常难。","114":"这是很适合和朋友或孩子一起玩的项目。","115":"这只是南瓜农场里能玩到的又一个项目。","116":"南瓜农场里还有别的游戏，可能还有一些游乐设施。","117":"ride 这个词指的是你坐在上面、由机器带着你移动的东西。","118":"对。","119":"你去迪士尼乐园之类的地方，那里就有我们所说的 rides（游乐项目）。","120":"所以南瓜农场里有时也有这类游乐项目和其他景点。","121":"所以你看，南瓜农场是秋天带家人去玩的好地方。","122":"这是你在别的国家不太会见到的东西，但在美国全国各地都能找到南瓜农场。","123":"这是我们一个很棒的传统。","124":"秋季的另一个传统是菜单上的食物会发生变化。","125":"人们在这个季节开始吃不同种类的菜，有些口味会让我们联想到秋天。","126":"秋天最有名的口味大概就是南瓜……就是我刚才说的那种大个的橙色“水果”。","127":"我管它叫水果……","128":"我觉得它们应该算吧。","129":"我们其实会吃南瓜的某些部分，比如南瓜子和里面的瓜肉。","130":"比如，秋天全美最有名的饮品就是南瓜拿铁。","131":"你会在星巴克这类咖啡店的广告里看到它。","132":"这是一种拿铁，带南瓜味的咖啡。","133":"其实我从没尝过，但这周我刚和妻子聊起它，我说“我们得试试”，因为我总在九月、十月、十一月看到它的广告，却一直没尝过。","134":"所以这周我可能会去尝尝这款南瓜拿铁，看看它到底为什么这么受追捧。","135":"英语里我们用 hype 这个词来表示“兴奋、热议”。","136":"如果我说 there's a lot of hype about the new iPhone，意思就是大家对新 iPhone 议论得很热。","137":"人人都在谈论它。","138":"人人都在说它有多好、多让人期待。","139":"这就是 hype。","140":"所以我想看看它到底为什么这么火。","141":"所以这周我打算去尝尝这款饮品。","142":"这是南瓜味饮品的一个例子。","143":"比如我们还有南瓜派。","144":"这是这段时间里很重要的一款甜点。","145":"有些人很喜欢南瓜派，但对另一些人来说味道很奇怪——毕竟一块点心里浓缩了那么多南瓜，有些人可能觉得味道太冲。","146":"我算是中间派。","147":"我不算喜欢南瓜派，但也不讨厌。","148":"我一年大概吃一两次，完全没问题。","149":"但再多的话，我想我就受不了了。","150":"南瓜派是秋季的重要菜式，其他口味的派在这个季节也很受欢迎。","151":"人们开始烤山核桃派。","152":"山核桃是一种坚果。","153":"这种坚果在秋天很常见。","154":"所以人们会做山核桃派和苹果派。","155":"我觉得苹果也是这个季节的典型水果。","156":"我觉得人们一年到头都在吃苹果，但苹果味的甜点和饮品我在秋天特别常见到。","157":"比如很多人会在这段时间喝热苹果饮（apple cider）。","158":"如果你不知道 apple cider 是什么，它是一种热饮。","159":"对。","160":"warm 就是“热”的意思。","161":"这是一种热饮，而且很甜。","162":"它用苹果和肉桂调味，所以味道很甜。","163":"它非常适合冷天喝。","164":"外面很冷的时候，手里有一杯热苹果饮，味道真的很好。","165":"这是我最喜欢的饮品之一。","166":"所以秋天和冬天我特别喜欢喝它。","167":"这是这个季节在咖啡馆这类地方的菜单上很常见的又一个单品。","168":"当然，还有火鸡。","169":"为什么？","170":"因为：感恩节。","171":"我相信你以前听说过感恩节。","172":"这是美国秋季的一个重要节日。","173":"感恩节期间，学生通常放四天假。","174":"也就是周四放假、周五放假，接下来又是周末。","175":"英语里说 have a day off，意思就是那天不用上学或上班。","176":"比如我可以说 I have two days off next week（我下周有两天假）。","177":"意思就是下周有两天我不去上班或上学。","178":"可能周一或周二我不去，那我就可以说 I have two days off。","179":"感恩节期间，人们通常有两天不上学、不上班：周四和周五。","180":"周四是感恩节当天，之后人们还能再休息三天。","181":"在感恩节，人们会和家人聚在一起。","182":"英语里我们用短语动词 get together 表示“和别的人聚在一起”。","183":"大家去同一所房子或同一个地方一起待着。","184":"我们就说你们 get together。","185":"所以感恩节你会和家人聚在一起，吃一顿特别丰盛的饭。","186":"meal 这个词指的就是“吃东西的那一顿”。","187":"早餐是一餐，午餐是一餐，晚餐也是一餐，等等。所以在感恩节，人们会和家人吃一顿大餐。","188":"我会说这大概是一年中最大的一顿饭。","189":"感恩节是一年中最重要的“吃东西的日子”。","190":"你可能会问：“美国为什么要庆祝感恩节？”","191":"据说，来自英格兰的殖民者在 17 世纪到达美洲时，面对的是极其严酷的环境。","192":"harsh 就是“艰难、极端的条件”。","193":"他们面对的处境非常艰难，日子并不好过，尤其是和当时生活在那里的美洲原住民之间的相处。","194":"当然，在土地、食物等方面也有很多问题。","195":"但据传 1621 年殖民者与美洲原住民共享了这顿大餐，这被称为第一个感恩节。","196":"我也不知道这有几分真实。","197":"这是我们在学校被教的内容，也是我们通常讲的感恩节故事，所以我现在也这么讲。","198":"如今家庭在感恩节的一个传统是：每个人都要说一件自己感激的事。","199":"餐桌上的每个人会轮流说一件自己感激的事，以此表达感谢。","200":"这个节日叫感恩节，所以我们要感谢生活中的种种福气。","201":"英语里 blessing 这个词就是“生活中好的事情”。","202":"这就是我们感恩节期间的一个传统。","203":"最后，我还想提一下黑色星期五。","204":"这是另一个秋季传统。","205":"感恩节的第二天被认为是黑色星期五。","206":"这一天全国所有的商店（或几乎所有商店）都会推出优惠和折扣，商品在这段时间很便宜。","207":"我们用 deal 和 discount 这两个词来表示商店降价、让商品更便宜。","208":"很多人喜欢在黑色星期五购物，因为优惠和折扣很多，能买到很多便宜东西。","209":"它就在感恩节的第二天。","210":"还有一点：感恩节之后，你在美国就开始听到圣诞音乐了。","211":"从感恩节第二天开始一直到新年，你到处都能听到圣诞音乐。","212":"在那一个月零几天里，到处都能听到圣诞音乐，因为在美国，感恩节标志着我们所说的“节日季”的开始。","213":"先过感恩节，然后是圣诞节，再然后是新年。","214":"所以那整段时间，你在美国都能听到圣诞音乐。","215":"好，我觉得这一期讲到这里就够了。","216":"希望你喜欢，也希望这对你的听力是很好的练习。","217":"再次感谢你在 Patreon 上成为赞助者、支持这档节目。","218":"我相信每月这期额外的加更节目对你会很有用，也能给你更多练习。","219":"当然，你每月还能参加一次听力练习讲座，我相信那对你也很有用。","220":"如果需要，记得去看逐字稿。","221":"我会把链接附上。","222":"所以如果你需要逐字稿，可以点那里找到它。","223":"再次感谢收听本期，希望你下次继续收听《听力时间》播客。"}}</script>
+<script id="transcript-data" type="application/json">{"source":{"path":"Transcript - %22Autumn%22.pdf","name":"Transcript - %22Autumn%22.pdf","stem":"Transcript - %22Autumn%22","pages":5},"stats":{"pages":5,"items":223,"mode":"prose","englishWords":3228,"itemsWithChinese":0,"bilingual":false,"extractedAt":"2026-10-11T21:53:46+0800","extractor":"extract_pdf.py (PyMuPDF)","seconds":0.4},"warnings":[],"items":[{"n":1,"page":1,"en":"Welcome to the Listening Time podcast.","zh":""},{"n":2,"page":1,"en":"Hey everybody, this is Conner, and you're listening to the first bonus podcast episode.","zh":""},{"n":3,"page":1,"en":"So, if you don't know what the word \"bonus\" means, this just means something extra.","zh":""},{"n":4,"page":1,"en":"Right.","zh":""},{"n":5,"page":1,"en":"So, if you're listening to this episode right now, that means that you are one of the supporters on Patreon for the Listening Time podcast.","zh":""},{"n":6,"page":1,"en":"I want to thank you all.","zh":""},{"n":7,"page":1,"en":"It's really helpful for me that you guys have become supporters, and that you want to get this bonus material.","zh":""},{"n":8,"page":1,"en":"It really motivates me to work harder and to provide more content for you and for your listening practice.","zh":""},{"n":9,"page":1,"en":"So, thank you again.","zh":""},{"n":10,"page":1,"en":"The plan is to upload one of these bonus podcast episodes on the 15th of every month.","zh":""},{"n":11,"page":1,"en":"So, on the 15th, you'll get this extra podcast episode if you're a Patreon supporter of the Listening Time podcast.","zh":""},{"n":12,"page":1,"en":"So, make sure that you come back on the 15th of every month to the Patreon page, and you'll see a new podcast episode here.","zh":""},{"n":13,"page":1,"en":"This is a bonus podcast program for those who are Patreon supporters.","zh":""},{"n":14,"page":1,"en":"So, those people that have not become members or supporters, they don't have access to these episodes.","zh":""},{"n":15,"page":1,"en":"These are just for you, the ones that are supporting the show.","zh":""},{"n":16,"page":1,"en":"Thank you very much again.","zh":""},{"n":17,"page":1,"en":"So, on this first bonus podcast episode, we're going to talk about autumn or fall.","zh":""},{"n":18,"page":1,"en":"I've talked a little bit about this before, I think in the episode about seasons, but we're in fall right now, right in the middle of autumn, and I thought this would be a good topic to explore in more depth.","zh":""},{"n":19,"page":1,"en":"In English, when we say \"in more depth\", it just means in more detail.","zh":""},{"n":20,"page":1,"en":"We're going to go deeper into the topic.","zh":""},{"n":21,"page":1,"en":"So, I'll talk a little bit more about the season, and I'll talk about some of the traditions surrounding the autumn season in the US.","zh":""},{"n":22,"page":1,"en":"So, I hope this will be an interesting topic for you.","zh":""},{"n":23,"page":1,"en":"And I'm sure it will be good practice for your listening skills.","zh":""},{"n":24,"page":1,"en":"So of course, remember to share this podcast with anyone else who might find it useful.","zh":""},{"n":25,"page":1,"en":"And remember that you have access to the transcript.","zh":""},{"n":26,"page":1,"en":"I'll also put the link there.","zh":""},{"n":27,"page":1,"en":"I don't know exactly where it will be, but you should see it if you're on the Patreon page.","zh":""},{"n":28,"page":1,"en":"But I'll add the link to the transcript so you can have access to that as well.","zh":""},{"n":29,"page":1,"en":"Alright, let's get started.","zh":""},{"n":30,"page":1,"en":"Okay, so the first thing I want to talk about is the pronunciation of the word \"autumn\".","zh":""},{"n":31,"page":1,"en":"Notice that it's not \"oh\" or \"ow\", it's \"aw\".","zh":""},{"n":32,"page":1,"en":"The first syllable is \"au\"tumn, just like that.","zh":""},{"n":33,"page":1,"en":"I hear this word mispronounced all the time, so, I wanted to point that out.","zh":""},{"n":34,"page":1,"en":"In English, when we use the phrase \"point that out\" or \"point something out\", this just means that we want to draw your attention to that thing.","zh":""},{"n":35,"page":1,"en":"We want you to focus on that thing.","zh":""},{"n":36,"page":1,"en":"We want to point it out.","zh":""},{"n":37,"page":1,"en":"So, now you'll know how to pronounce this word in the future.","zh":""},{"n":38,"page":1,"en":"And like I mentioned in previous episodes, we don't always use the word \"autumn\".","zh":""},{"n":39,"page":1,"en":"We can also use the word \"fall\" for this season as well.","zh":""},{"n":40,"page":1,"en":"So, sometimes we say \"autumn\" and sometimes we say \"fall\".","zh":""},{"n":41,"page":1,"en":"Okay, so first let's just talk briefly about the weather, the weather in fall, and then we'll go on to some fall traditions after that.","zh":""},{"n":42,"page":1,"en":"So of course, this season is the season where it starts to get a little bit chilly.","zh":""},{"n":43,"page":1,"en":"Right, you remember that word from previous episodes.","zh":""},{"n":44,"page":1,"en":"\"Chilly\" just means a little bit cold.","zh":""},{"n":45,"page":1,"en":"So, the temperature drops during this season.","zh":""},{"n":46,"page":1,"en":"It's definitely colder than summer.","zh":""},{"n":47,"page":1,"en":"And the mornings and the evenings tend to be crisp.","zh":""},{"n":48,"page":1,"en":"If you remember this word from the episode about seasons, \"crisp\" is kind of another word for chilly.","zh":""},{"n":49,"page":1,"en":"It means a little bit cold.","zh":""},{"n":50,"page":1,"en":"The air feels a little bit cool.","zh":""},{"n":51,"page":1,"en":"So, we like to say \"a crisp morning\" for example.","zh":""},{"n":52,"page":1,"en":"This just means a morning that's a little bit chilly, a little bit cool.","zh":""},{"n":53,"page":2,"en":"So of course, the temperature drops during fall, and we have crisp mornings and evenings, and the temperature just gets a little bit chillier overall.","zh":""},{"n":54,"page":2,"en":"Another thing that happens during the fall is that the colors change.","zh":""},{"n":55,"page":2,"en":"What colors am I talking about?","zh":""},{"n":56,"page":2,"en":"I'm talking about the colors of the leaves, flowers, trees, things like that.","zh":""},{"n":57,"page":2,"en":"So, if you live in a region where there are distinct seasons...","zh":""},{"n":58,"page":2,"en":"\"distinct\" just means different, right, distinct seasons, different seasons... if you live in a region where there are distinct seasons, you probably see the colors change during September, October, around that time.","zh":""},{"n":59,"page":2,"en":"So for example, in the north of the US, the colors change from green to yellow, orange, red, and purple... those types of colors... brown, right.","zh":""},{"n":60,"page":2,"en":"So, during this time of year, you start to see the whole landscape change.","zh":""},{"n":61,"page":2,"en":"You don't see the green of summer anymore.","zh":""},{"n":62,"page":2,"en":"You start to see these autumn colors.","zh":""},{"n":63,"page":2,"en":"And most people in the US really love the changing of the colors during autumn.","zh":""},{"n":64,"page":2,"en":"A lot of people look forward to this.","zh":""},{"n":65,"page":2,"en":"In English, when we say \"look forward to\" something, this just means that we are excited about something that is going to happen in the future.","zh":""},{"n":66,"page":2,"en":"So, many Americans look forward to this changing of the colors, and they might even take some type of vacation or trip to a beautiful place to see these colors and see the autumn atmosphere.","zh":""},{"n":67,"page":2,"en":"So, a lot of people really like this aspect of fall.","zh":""},{"n":68,"page":2,"en":"Okay, let's move on and start talking about some traditions in the US that we have during this season.","zh":""},{"n":69,"page":2,"en":"So of course, everyone knows about Halloween, right, everyone loves to talk about this subject.","zh":""},{"n":70,"page":2,"en":"But I want to talk a little bit about pumpkin patches.","zh":""},{"n":71,"page":2,"en":"If you've never heard of a pumpkin patch, this is a place where you can go with your family and they have a lot of pumpkins growing.","zh":""},{"n":72,"page":2,"en":"Right.","zh":""},{"n":73,"page":2,"en":"Pumpkins are that fruit, I guess? that grows... it's orange.","zh":""},{"n":74,"page":2,"en":"Right.","zh":""},{"n":75,"page":2,"en":"This is the thing that you see during the Halloween season.","zh":""},{"n":76,"page":2,"en":"So, if you go to a pumpkin patch, it's like a big farm for pumpkins.","zh":""},{"n":77,"page":2,"en":"So, there are hundreds of pumpkins there.","zh":""},{"n":78,"page":2,"en":"And you can go and choose your own pumpkin and see which one you like the best, which one has the right size or shape for you, and you can buy that pumpkin.","zh":""},{"n":79,"page":2,"en":"This is a really fun thing to do with the family because, usually, the kids like to decide on which pumpkin looks the best, and so they have fun choosing a pumpkin.","zh":""},{"n":80,"page":2,"en":"It's kind of like when you choose a Christmas tree before Christmas, and the whole family examines the different options and tries to imagine which tree will look best in the house.","zh":""},{"n":81,"page":2,"en":"This is a little bit similar to pumpkin patches, where you choose your pumpkin for the fall season.","zh":""},{"n":82,"page":2,"en":"So, at these pumpkin patches, there aren't only pumpkins, there are also other things as well.","zh":""},{"n":83,"page":2,"en":"For example, you can take your kids on a hay ride.","zh":""},{"n":84,"page":2,"en":"So, the word \"hay\" refers to that yellow grass that you feed to farm animals, like horse(s), cattle, sheep, etc. By the way, the word \"cattle\" just means cows.","zh":""},{"n":85,"page":2,"en":"So, when we talk about cows, we sometimes use the word \"cattle\" instead.","zh":""},{"n":86,"page":2,"en":"The word \"cattle\" is always plural.","zh":""},{"n":87,"page":2,"en":"So, we don't say \"a cattle\".","zh":""},{"n":88,"page":2,"en":"We would say \"a cow\", but we can use the word \"cattle\" to talk about many cows.","zh":""},{"n":89,"page":2,"en":"So, hay is that yellow grass that you can feed to cattle, horses and other farm animals.","zh":""},{"n":90,"page":2,"en":"But at these pumpkin patches, there is an activity called the \"hay ride\", where they put this hay on the back of a wagon.","zh":""},{"n":91,"page":2,"en":"The word \"wagon\" refers to this kind of box-like vehicle with wheels... usually big wheels, and someone has to pull this wagon.","zh":""},{"n":92,"page":2,"en":"It doesn't have an engine, it can't go on its own.","zh":""},{"n":93,"page":2,"en":"It has to be pulled by something else.","zh":""},{"n":94,"page":2,"en":"So, the word \"pull\" is just the opposite of push, right.","zh":""},{"n":95,"page":2,"en":"So, you have to pull this wagon in order for it to move.","zh":""},{"n":96,"page":2,"en":"So, on this hay ride, there's usually a tractor or some type of truck that pulls this wagon full of hay, and usually, you and your kids are sitting on this hay and enjoying the ride around the pumpkin patch.","zh":""},{"n":97,"page":3,"en":"So, this is referred to as a \"hay ride\" in English.","zh":""},{"n":98,"page":3,"en":"So, that's one of the activities that you can find at pumpkin patches.","zh":""},{"n":99,"page":3,"en":"But my favorite activity is actually the corn maze.","zh":""},{"n":100,"page":3,"en":"So, the word \"maze\" refers to like a labyrinth... something, some structure where you have to find the exit, right.","zh":""},{"n":101,"page":3,"en":"It's very confusing because you don't know if you should turn left or right and there are dead ends.","zh":""},{"n":102,"page":3,"en":"A \"dead end\" just means that it's a place where you can't go through.","zh":""},{"n":103,"page":3,"en":"You turn right, for example, and there's just a solid wall.","zh":""},{"n":104,"page":3,"en":"You can't go through it.","zh":""},{"n":105,"page":3,"en":"This would be a dead end.","zh":""},{"n":106,"page":3,"en":"So, with these mazes, there are many dead ends and many left and right turns, and you have to find your way out of this maze.","zh":""},{"n":107,"page":3,"en":"You're trying to escape and find the exit.","zh":""},{"n":108,"page":3,"en":"So, these are \"corn mazes\" at pumpkin patches.","zh":""},{"n":109,"page":3,"en":"So, a corn maze is a maze with really tall walls of corn.","zh":""},{"n":110,"page":3,"en":"So, you can't see over these walls, and so it's very hard because you have to find the exit just by turning and going and trying to find the right passage, the right way to escape.","zh":""},{"n":111,"page":3,"en":"So, I've done these before at pumpkin patches even as an adult.","zh":""},{"n":112,"page":3,"en":"And I remember the last one I went to, I was like 20, 21 years old, but it still took me like 30 minutes to finish this maze.","zh":""},{"n":113,"page":3,"en":"It was actually very hard.","zh":""},{"n":114,"page":3,"en":"So, this is something really fun to do with your friends or your kids.","zh":""},{"n":115,"page":3,"en":"It's just another activity that you can find at pumpkin patches.","zh":""},{"n":116,"page":3,"en":"And there are other types of games and maybe some rides as well at pumpkin patches.","zh":""},{"n":117,"page":3,"en":"The word \"ride\" just refers to something where you sit on the machine and it moves you around.","zh":""},{"n":118,"page":3,"en":"Right.","zh":""},{"n":119,"page":3,"en":"When you go to Disneyland or places like that, they have what we call \"rides\".","zh":""},{"n":120,"page":3,"en":"So, there are sometimes rides and other attractions like that at pumpkin patches.","zh":""},{"n":121,"page":3,"en":"So, as you can see, pumpkin patches are a really fun place to take your family during the fall.","zh":""},{"n":122,"page":3,"en":"So, that's something that you don't really find in other countries, but you can find pumpkin patches all over the country in the US.","zh":""},{"n":123,"page":3,"en":"So, this is a really cool tradition that we have.","zh":""},{"n":124,"page":3,"en":"Another tradition in the fall is that food items on menus tend to change.","zh":""},{"n":125,"page":3,"en":"People start eating different types of dishes during this season, and there are certain flavors that we associate with autumn.","zh":""},{"n":126,"page":3,"en":"So, maybe the most famous flavor of autumn is pumpkin... so, these things that I talked about, these big orange fruits.","zh":""},{"n":127,"page":3,"en":"I'm calling them a fruit...","zh":""},{"n":128,"page":3,"en":"I think that's what they are.","zh":""},{"n":129,"page":3,"en":"So, we actually eat parts of the pumpkin like the seeds and the inside of the pumpkin.","zh":""},{"n":130,"page":3,"en":"So, for example, the most famous drink that you see all over America during the fall is the pumpkin spice latte.","zh":""},{"n":131,"page":3,"en":"So, you'll see this advertised at cafes like Starbucks.","zh":""},{"n":132,"page":3,"en":"This is a latte, a coffee that has a pumpkin flavor to it.","zh":""},{"n":133,"page":3,"en":"I've actually never tried this before, but I was talking about it with my wife just this week, and I said \"we need to try this\" because I've always seen it advertised during September, October, November, and I've never tasted it before.","zh":""},{"n":134,"page":3,"en":"So, I think this week, I might try and taste this pumpkin spice latte and see what all the hype is about.","zh":""},{"n":135,"page":3,"en":"In English, we use the word \"hype\" to talk about excitement.","zh":""},{"n":136,"page":3,"en":"If I say \"there's a lot of hype about the new iPhone\", this just means that there's a lot of excitement.","zh":""},{"n":137,"page":3,"en":"Everyone is talking about it.","zh":""},{"n":138,"page":3,"en":"Everyone is saying how good it is or how exciting it will be.","zh":""},{"n":139,"page":3,"en":"This is \"hype\".","zh":""},{"n":140,"page":3,"en":"So, I want to see what all the hype is about.","zh":""},{"n":141,"page":3,"en":"So, I think I'm going to go try this drink this week.","zh":""},{"n":142,"page":3,"en":"So, that's one example of a pumpkin-flavored drink.","zh":""},{"n":143,"page":3,"en":"We also have pumpkin pie, for example.","zh":""},{"n":144,"page":3,"en":"This is a big dessert during this time period.","zh":""},{"n":145,"page":3,"en":"Some people really like pumpkin pie, and for some people, the taste is very strange, right, to have so much pumpkin concentrated in one piece of food, and it might be too strong for some people.","zh":""},{"n":146,"page":3,"en":"I'm kind of in the middle, right.","zh":""},{"n":147,"page":3,"en":"I don't love pumpkin pie, but I don't hate it either.","zh":""},{"n":148,"page":4,"en":"I can eat it maybe once or twice a year without having any problems.","zh":""},{"n":149,"page":4,"en":"But more than that, I think, would be too much for me.","zh":""},{"n":150,"page":4,"en":"So, pumpkin pie is a big fall dish, and other pies also become popular during this season.","zh":""},{"n":151,"page":4,"en":"People start baking pecan pie.","zh":""},{"n":152,"page":4,"en":"Pecan is a type of nut.","zh":""},{"n":153,"page":4,"en":"So, this type of nuts is common during the fall season.","zh":""},{"n":154,"page":4,"en":"So, people make pecan pies and apple pies.","zh":""},{"n":155,"page":4,"en":"I feel like apples are typical fruit during this season as well.","zh":""},{"n":156,"page":4,"en":"I think people always eat apples during the whole year, but I especially see apple-flavored desserts or drinks during the autumn.","zh":""},{"n":157,"page":4,"en":"And so, for example, a lot of people drink apple cider around this time.","zh":""},{"n":158,"page":4,"en":"If you don't know what apple cider is, this is a warm drink.","zh":""},{"n":159,"page":4,"en":"Right.","zh":""},{"n":160,"page":4,"en":"\"Warm\" just means hot.","zh":""},{"n":161,"page":4,"en":"So, this is a warm drink, and it's very sweet.","zh":""},{"n":162,"page":4,"en":"And it's flavored with apple and cinnamon, and so it has a very sweet flavor.","zh":""},{"n":163,"page":4,"en":"And it's really good for cold weather.","zh":""},{"n":164,"page":4,"en":"It tastes really good when it's cold outside and you have a warm cup of apple cider.","zh":""},{"n":165,"page":4,"en":"This is one of my favorite beverages.","zh":""},{"n":166,"page":4,"en":"So, I really like drinking this during the fall and winter.","zh":""},{"n":167,"page":4,"en":"So, that's another very common item that you'll find on menus in cafes and places like that during the season.","zh":""},{"n":168,"page":4,"en":"And then of course, turkey.","zh":""},{"n":169,"page":4,"en":"Why?","zh":""},{"n":170,"page":4,"en":"Because: Thanksgiving.","zh":""},{"n":171,"page":4,"en":"So, I'm sure you've heard about Thanksgiving before.","zh":""},{"n":172,"page":4,"en":"This is a big holiday during the fall season in the US.","zh":""},{"n":173,"page":4,"en":"During Thanksgiving, students usually have a four-day vacation.","zh":""},{"n":174,"page":4,"en":"So, you have Thursday off and Friday off, and then you have the weekend after that.","zh":""},{"n":175,"page":4,"en":"In English, when you say that you have a \"day off\", this just means that you don't have to go to school or to work on that day.","zh":""},{"n":176,"page":4,"en":"So for example, I could say \"I have two days off next week\".","zh":""},{"n":177,"page":4,"en":"This just means that I'm not going to go to work or school two of the days next week.","zh":""},{"n":178,"page":4,"en":"So, maybe I'm not going to go on Monday or Tuesday, and I can say \"I have two days off\".","zh":""},{"n":179,"page":4,"en":"So, during Thanksgiving, people usually have two days off of school: Thursday and Friday.","zh":""},{"n":180,"page":4,"en":"And Thursday is the Thanksgiving holiday, and then people can rest the next three days.","zh":""},{"n":181,"page":4,"en":"So, on Thanksgiving, people get together with their families.","zh":""},{"n":182,"page":4,"en":"We use the phrasal verb \"get together\" in English to mean that you gather with other people.","zh":""},{"n":183,"page":4,"en":"You guys go to the same house or the same place to spend time together.","zh":""},{"n":184,"page":4,"en":"We say that you \"get together\".","zh":""},{"n":185,"page":4,"en":"So on Thanksgiving, you get together with your family and you have a really big meal.","zh":""},{"n":186,"page":4,"en":"The word \"meal\" just refers to an event where you eat food.","zh":""},{"n":187,"page":4,"en":"So, breakfast is a meal, lunch is a meal, dinner is a meal, etc. So, on Thanksgiving, people have a big meal with their family.","zh":""},{"n":188,"page":4,"en":"I would say that this is probably the biggest meal of the year.","zh":""},{"n":189,"page":4,"en":"Thanksgiving is the most important food day of the year.","zh":""},{"n":190,"page":4,"en":"And so you might be asking \"Why do you celebrate Thanksgiving in the US?\"","zh":""},{"n":191,"page":4,"en":"Well, the story goes that the colonists from England, when they arrived in the US in the 1600s, they faced very harsh conditions.","zh":""},{"n":192,"page":4,"en":"Harsh just means difficult, extreme conditions.","zh":""},{"n":193,"page":4,"en":"So, they faced very harsh conditions and things weren't easy, especially with the Native Americans who were living in the US at the time.","zh":""},{"n":194,"page":4,"en":"And of course, there were a lot of issues with land and food and things like that.","zh":""},{"n":195,"page":4,"en":"But the story goes that the colonists shared this big meal with the Native Americans in the year 1621, and this was known as the first Thanksgiving.","zh":""},{"n":196,"page":4,"en":"So, I don't know how true that is or not.","zh":""},{"n":197,"page":4,"en":"That's what we're taught in school, and so that's the story that we usually tell about Thanksgiving, and so that's why I'm telling it here now.","zh":""},{"n":198,"page":4,"en":"And one tradition that families have nowadays on Thanksgiving is that everyone will say one thing that they're thankful for.","zh":""},{"n":199,"page":4,"en":"So, each person at the table will take a turn and say one thing that they're thankful for, so that they can give thanks, right.","zh":""},{"n":200,"page":4,"en":"The holiday is called Thanksgiving, so we want to give thanks for the blessings in our lives.","zh":""},{"n":201,"page":5,"en":"In English, the word \"blessing\" just means some good thing in your life.","zh":""},{"n":202,"page":5,"en":"So, this is one tradition that we have during the Thanksgiving holiday.","zh":""},{"n":203,"page":5,"en":"And then lastly, I just wanted to mention Black Friday.","zh":""},{"n":204,"page":5,"en":"This is another fall tradition.","zh":""},{"n":205,"page":5,"en":"The day after Thanksgiving is considered Black Friday.","zh":""},{"n":206,"page":5,"en":"And this is the day where all the stores in the country or almost all the stores have deals and discounts and offered cheap products during this time.","zh":""},{"n":207,"page":5,"en":"So, we use the word \"deal\" and the word \"discount\" to just talk about when a store lowers its prices so that the items are cheaper.","zh":""},{"n":208,"page":5,"en":"So, a lot of people like to go shopping on Black Friday, because there are many deals, many discounts and you can buy a lot of cheap items.","zh":""},{"n":209,"page":5,"en":"So, that comes on the day after Thanksgiving.","zh":""},{"n":210,"page":5,"en":"And one other thing is that after Thanksgiving is when you start to hear Christmas music in the US.","zh":""},{"n":211,"page":5,"en":"You hear Christmas music everywhere, starting on the day after Thanksgiving, all the way through to the new year.","zh":""},{"n":212,"page":5,"en":"So, during that month, month and a few days, you hear Christmas music everywhere because in the US, Thanksgiving marks the beginning of what we call the holiday season.","zh":""},{"n":213,"page":5,"en":"So, first you have Thanksgiving, and then Christmas, and then New Years.","zh":""},{"n":214,"page":5,"en":"So during that whole time, you hear Christmas music in the US.","zh":""},{"n":215,"page":5,"en":"Alright, I think that's enough for this episode.","zh":""},{"n":216,"page":5,"en":"I hope you enjoyed it, and I hope it was good practice for your listening skills.","zh":""},{"n":217,"page":5,"en":"Thank you again for becoming a patron here on Patreon and for supporting this show.","zh":""},{"n":218,"page":5,"en":"I'm sure this extra bonus episode every month will be very useful for you, and it will give you even more practice.","zh":""},{"n":219,"page":5,"en":"And of course, you'll also have access to one Listening Practice Seminar every month, so I'm sure that will also be very useful for you as well.","zh":""},{"n":220,"page":5,"en":"Remember to access the transcript if you need it.","zh":""},{"n":221,"page":5,"en":"I'll include the link for that.","zh":""},{"n":222,"page":5,"en":"And so if you need the transcript, you can click there and find it there.","zh":""},{"n":223,"page":5,"en":"Thank you again for listening to this episode, and I hope you'll come back for the next episode of the Listening Time podcast.","zh":""}]}</script>
+<script>
+(function(){
+  "use strict";
+  var study = JSON.parse(document.getElementById("study-data").textContent || "{}");
+  var transcript = JSON.parse(document.getElementById("transcript-data").textContent || "{}");
+  var meta = study.meta || {};
+  var vocab = study.vocab || [];
+  var phrases = study.phrases || [];
+  var grammar = study.grammar || [];
+  var patterns = study.patterns || [];
+  var exercises = study.exercises || [];
+  var items = transcript.items || [];
+  // an English-only source can still get a bilingual page: study.json may carry a
+  // hand-written "translations" map keyed by sentence number
+  var translations = study.translations || {};
+  items.forEach(function(it){
+    var extra = translations[it.n];
+    if (!it.zh && typeof extra === "string" && extra.trim()) it.zh = extra;
+  });
+  var hasChinese = items.some(function(it){ return !!(it.zh && it.zh.length); });
+  var stem = (transcript.source && (transcript.source.stem || transcript.source.name)) || "study";
+  var STORE = "englishStudy:" + stem;
+
+  /* ---------- state ---------- */
+  var state = { mastered: {}, starred: {}, zh: true, rate: 0.85 };
+  try {
+    var saved = JSON.parse(localStorage.getItem(STORE) || "{}");
+    if (saved.mastered) state.mastered = saved.mastered;
+    if (saved.starred) state.starred = saved.starred;
+    if (typeof saved.zh === "boolean") state.zh = saved.zh;
+    if (saved.rate) state.rate = saved.rate;
+  } catch (e) { /* private mode: keep in-memory state */ }
+  function persist(){
+    try { localStorage.setItem(STORE, JSON.stringify(
+      { mastered: state.mastered, starred: state.starred, zh: state.zh, rate: state.rate })); } catch (e) {}
+  }
+
+  /* ---------- helpers ---------- */
+  function el(tag, cls, text){
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+  function esc(s){ return String(s == null ? "" : s); }
+  function talk(text){
+    if (!("speechSynthesis" in window) || !text) return;
+    try {
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(String(text));
+      u.lang = "en-US"; u.rate = state.rate;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+  function speakBtn(text, label){
+    var b = el("button", "icon", label || "🔊");
+    b.title = "朗读";
+    b.addEventListener("click", function(){ talk(text); });
+    return b;
+  }
+  function refLink(n){
+    var a = el("a", "ref", "#" + n);
+    a.href = "#s" + n;
+    a.textContent = "第 " + n + " 句";
+    return a;
+  }
+  function refs(list){
+    var wrap = el("span", "ref");
+    wrap.appendChild(document.createTextNode(" 例句："));
+    (list || []).forEach(function(ref, i){
+      if (i) wrap.appendChild(document.createTextNode("、"));
+      var a = el("a", null, "#" + ref);
+      a.href = "#s" + ref;
+      wrap.appendChild(a);
+    });
+    return wrap;
+  }
+  function levelClass(level){
+    var s = String(level || "").toLowerCase();
+    if (s.indexOf("c1") >= 0 || s.indexOf("c2") >= 0 || s.indexOf("难") >= 0) return "lvl hi";
+    if (s.indexOf("a1") >= 0 || s.indexOf("a2") >= 0) return "lvl core";
+    return "lvl";
+  }
+
+  /* ---------- header ---------- */
+  var stats = transcript.stats || {};
+  document.title = (meta.title || stem) + " · 英语学习";
+  document.getElementById("title").textContent = meta.title || stem;
+  document.getElementById("subtitle").textContent =
+    (meta.subtitle || transcript.source && transcript.source.name || "") +
+    (meta.estimatedMinutes ? " · 建议 " + meta.estimatedMinutes + " 分钟" : "");
+  var badges = document.getElementById("badges");
+  function addBadge(html){ var b = el("div", "badge"); b.innerHTML = html; badges.appendChild(b); }
+  if (meta.level) addBadge('<span class="lv">' + esc(meta.level) + "</span>");
+  addBadge("句子 <strong>" + items.length + "</strong>");
+  if (vocab.length) addBadge("生词 <strong>" + vocab.length + "</strong>");
+  if (grammar.length) addBadge("语法 <strong>" + grammar.length + "</strong>");
+  if (patterns.length) addBadge("句型 <strong>" + patterns.length + "</strong>");
+  if (stats.englishWords) addBadge("英文 <strong>" + stats.englishWords + "</strong> 词");
+  if (!hasChinese) addBadge("纯英文原文");
+  (meta.topics || []).forEach(function(t){ var c = el("span", "chip", t); badges.appendChild(c); });
+
+  /* ---------- overview ---------- */
+  var sc = document.getElementById("summary-card");
+  if (meta.summary) {
+    sc.appendChild(el("h3", null, "内容概览"));
+    sc.appendChild(el("p", null, meta.summary));
+  }
+  if (meta.learningFocus && meta.learningFocus.length) {
+    sc.appendChild(el("h3", null, "本篇学习重点"));
+    var ul = el("ul");
+    meta.learningFocus.forEach(function(x){ ul.appendChild(el("li", null, x)); });
+    sc.appendChild(ul);
+  }
+  if (!sc.childNodes.length) sc.appendChild(el("p", "empty", "（study.json 里没有 meta.summary）"));
+
+  var sg = document.getElementById("stat-grid");
+  [["句子总数", items.length], ["生词", vocab.length], ["短语搭配", phrases.length],
+   ["语法点", grammar.length], ["练习", exercises.length]].forEach(function(pair){
+    var d = el("div", "stat");
+    d.appendChild(el("b", null, String(pair[1])));
+    d.appendChild(el("span", null, pair[0]));
+    sg.appendChild(d);
+  });
+
+  var pc = document.getElementById("plan-card");
+  if (meta.studyPlan && meta.studyPlan.length) {
+    pc.appendChild(el("h3", null, "建议学习路径"));
+    var ol = el("ol", "plan");
+    meta.studyPlan.forEach(function(step){ ol.appendChild(el("li", null, step)); });
+    pc.appendChild(ol);
+  } else { pc.hidden = true; }
+
+  /* ---------- vocab highlight index ---------- */
+  var vindex = [];
+  vocab.forEach(function(v){
+    var term = String(v.term || "").trim();
+    if (term.length < 3) return;
+    var variants = [term].concat(v.forms || []);
+    variants.forEach(function(t){
+      var key = String(t).trim();
+      if (key.length < 3) return;
+      vindex.push({ re: new RegExp("\\b" + key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i"), v: v });
+    });
+  });
+  vindex.sort(function(a, b){ return b.re.source.length - a.re.source.length; });
+
+  function highlight(text, withClass){
+    var frag = document.createDocumentFragment();
+    var rest = text, guard = 0;
+    while (rest && guard++ < 60) {
+      var best = null, bestEntry = null, bestIdx = -1;
+      for (var i = 0; i < vindex.length; i++) {
+        var m = vindex[i].re.exec(rest);
+        if (m && (bestIdx === -1 || m.index < bestIdx)) {
+          best = m; bestEntry = vindex[i].v; bestIdx = m.index;
+        }
+        if (bestIdx === 0) break;
+      }
+      if (!best) break;
+      if (best.index > 0) frag.appendChild(document.createTextNode(rest.slice(0, best.index)));
+      var mark = el("mark", withClass ? "v tagged" : "v", best[0]);
+      mark.title = ((bestEntry && bestEntry.zh) || "") +
+                   (bestEntry && bestEntry.pos ? "  " + bestEntry.pos : "");
+      frag.appendChild(mark);
+      rest = rest.slice(best.index + best[0].length);
+    }
+    if (rest) frag.appendChild(document.createTextNode(rest));
+    return frag;
+  }
+
+  /* ---------- starred sentences (重点句收藏) ---------- */
+  function starredItems(){
+    return items.filter(function(it){ return !!state.starred[it.n]; });
+  }
+  function starToggleSync(){
+    var btn = document.getElementById("star-toggle");
+    if (!btn) return;
+    btn.classList.toggle("on", document.getElementById("sent-filter").value === "star");
+  }
+  function syncStarUI(){
+    var list = starredItems();
+    var label = document.getElementById("star-count");
+    if (label) label.textContent = String(list.length);
+    var badge = document.getElementById("badge-starred");
+    if (badge) badge.textContent = String(list.length);
+    var head = document.getElementById("starred-count");
+    if (head) head.textContent = list.length
+      ? "已收藏 " + list.length + " 句（全篇 " + items.length + " 句）" : "";
+    var preview = document.getElementById("star-preview");
+    if (preview && !preview.hidden) {
+      preview.textContent = list.length
+        ? starredMarkdown()
+        : "还没有收藏任何句子。先去「逐句精读」点句子右侧的 ☆，再回来导出。";
+    }
+    starToggleSync();
+    if (document.getElementById("sent-filter").value === "star") renderSentences();
+    var panel = document.getElementById("tab-starred");
+    if (panel && !panel.hidden) renderStarred();
+  }
+  function toggleStar(n, btn){
+    if (state.starred[n]) {
+      delete state.starred[n];
+      if (btn) {
+        btn.textContent = "☆"; btn.classList.remove("on");
+        btn.title = "收藏这句，之后可在「收藏句」里集中复习";
+      }
+    } else {
+      state.starred[n] = 1;
+      if (btn) { btn.textContent = "★"; btn.classList.add("on"); btn.title = "取消收藏"; }
+    }
+    persist();
+    syncStarUI();
+  }
+  var starWrap = document.getElementById("starred");
+  function renderStarred(){
+    var list = starredItems();
+    starWrap.textContent = "";
+    if (!list.length) {
+      starWrap.appendChild(el("p", "empty",
+        "还没有收藏句子。切到「逐句精读」，点句子右侧的 ☆ 就能把重点句收进来，之后在这里集中复习或导出。"));
+      return;
+    }
+    list.forEach(function(it){
+      var box = el("div", "sent");
+      box.id = "star-s" + it.n;
+      var r1 = el("div", "row1");
+      r1.appendChild(el("div", "no", String(it.n)));
+      var body = el("div", "body");
+      var en = el("div", "en");
+      en.appendChild(highlight(it.en || "", true));
+      body.appendChild(en);
+      if (it.zh) body.appendChild(el("div", "zh", it.zh));
+      r1.appendChild(body);
+      var acts = el("div", "acts");
+      acts.appendChild(speakBtn(it.en));
+      var jump = el("button", "icon", "↗");
+      jump.title = "在「逐句精读」中定位这句";
+      jump.addEventListener("click", function(){ location.hash = "s" + it.n; });
+      acts.appendChild(jump);
+      var off = el("button", "icon on", "★");
+      off.title = "取消收藏";
+      off.addEventListener("click", function(){ toggleStar(it.n, off); });
+      acts.appendChild(off);
+      r1.appendChild(acts);
+      r1.appendChild(el("div", "pg", "p" + (it.page || "")));
+      box.appendChild(r1);
+      starWrap.appendChild(box);
+    });
+  }
+  function starredMarkdown(){
+    var list = starredItems();
+    var source = (transcript.source && transcript.source.name) || "";
+    var lines = ["# " + (meta.title || stem) + " · 收藏句子", "",
+                 "- 来源：" + source,
+                 "- 收藏句数：" + list.length + " / " + items.length,
+                 "", "---", ""];
+    list.forEach(function(it){
+      lines.push("### " + it.n + ". " + (it.en || ""));
+      if (it.zh) lines.push("", "> " + it.zh);
+      if (it.page) lines.push("", "（原文第 " + it.page + " 页）");
+      lines.push("");
+    });
+    return lines.join("\n");
+  }
+  var exportBtn = document.getElementById("star-export");
+  if (exportBtn) exportBtn.addEventListener("click", function(){
+    var list = starredItems();
+    var preview = document.getElementById("star-preview");
+    preview.hidden = false;
+    if (!list.length) {
+      preview.textContent = "还没有收藏任何句子。先去「逐句精读」点句子右侧的 ☆，再回来导出。";
+      return;
+    }
+    var md = starredMarkdown();
+    preview.textContent = md;
+    try {
+      var range = document.createRange();
+      range.selectNodeContents(preview);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    } catch (e) {}
+    try {
+      var blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
+      var link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = (meta.title || stem) + "-收藏句.md";
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(function(){ URL.revokeObjectURL(link.href); link.remove(); }, 1500);
+    } catch (e) {}
+  });
+  var clearBtn = document.getElementById("star-clear");
+  if (clearBtn) clearBtn.addEventListener("click", function(){
+    var count = starredItems().length;
+    if (!count) return;
+    if (!window.confirm("确定清空全部 " + count + " 句收藏？此操作不可撤销。")) return;
+    state.starred = {};
+    persist();
+    var preview = document.getElementById("star-preview");
+    if (preview) { preview.hidden = true; preview.textContent = ""; }
+    syncStarUI();
+  });
+
+  /* ---------- sentences ---------- */
+  var sentWrap = document.getElementById("sentences");
+  var sentCount = document.getElementById("sent-count");
+  function renderSentences(){
+    var filter = document.getElementById("sent-filter").value;
+    sentWrap.textContent = "";
+    var shown = 0;
+    items.forEach(function(it){
+      var hasVocab = vindex.some(function(e){ return e.re.test(it.en || ""); });
+      if (filter === "star" && !state.starred[it.n]) return;
+      if (filter === "vocab" && !hasVocab) return;
+      shown++;
+      var box = el("div", "sent");
+      box.id = "s" + it.n;
+      var r1 = el("div", "row1");
+      r1.appendChild(el("div", "no", String(it.n)));
+      var body = el("div", "body");
+      var en = el("div", "en");
+      en.appendChild(highlight(it.en || "", true));
+      body.appendChild(en);
+      if (it.zh) body.appendChild(el("div", "zh" + (state.zh ? "" : " hide"), it.zh));
+      r1.appendChild(body);
+      var acts = el("div", "acts");
+      acts.appendChild(speakBtn(it.en));
+      var star = el("button", "icon" + (state.starred[it.n] ? " on" : ""), state.starred[it.n] ? "★" : "☆");
+      star.title = state.starred[it.n] ? "取消收藏" : "收藏这句，之后可在「收藏句」里集中复习";
+      star.addEventListener("click", function(){ toggleStar(it.n, star); });
+      acts.appendChild(star);
+      r1.appendChild(acts);
+      r1.appendChild(el("div", "pg", "p" + (it.page || "")));
+      box.appendChild(r1);
+      sentWrap.appendChild(box);
+    });
+    sentCount.textContent = shown + " / " + items.length + " 句";
+    if (!shown) {
+      sentWrap.appendChild(el("p", "empty", filter === "star"
+        ? "还没有收藏任何句子：点句中右侧的 ☆ 或工具栏的「★ 收藏句」开始标记重点句。"
+        : "没有符合筛选条件的句子。"));
+    }
+  }
+  var zhBtn = document.getElementById("toggle-zh");
+  if (!hasChinese) zhBtn.hidden = true;   // English-only source: nothing to toggle
+  function syncZh(){
+    zhBtn.textContent = "中文翻译：" + (state.zh ? "显示" : "隐藏");
+    zhBtn.classList.toggle("on", state.zh);
+    Array.prototype.forEach.call(document.querySelectorAll("#sentences .zh"), function(z){
+      z.classList.toggle("hide", !state.zh);
+    });
+  }
+  zhBtn.addEventListener("click", function(){ state.zh = !state.zh; syncZh(); persist(); });
+  var rateSel = document.getElementById("rate");
+  rateSel.value = String(state.rate);
+  rateSel.addEventListener("change", function(){ state.rate = parseFloat(rateSel.value); persist(); });
+  document.getElementById("sent-filter").addEventListener("change", function(){
+    renderSentences();
+    starToggleSync();
+  });
+  var starToggle = document.getElementById("star-toggle");
+  if (starToggle) starToggle.addEventListener("click", function(){
+    var sel = document.getElementById("sent-filter");
+    sel.value = sel.value === "star" ? "all" : "star";
+    renderSentences();
+    starToggleSync();
+  });
+
+  /* ---------- vocab ---------- */
+  var vwrap = document.getElementById("vocab");
+  var vcount = document.getElementById("vocab-count");
+  function renderVocab(){
+    var filter = document.getElementById("vocab-filter").value;
+    var q = document.getElementById("vocab-search").value.trim().toLowerCase();
+    vwrap.textContent = "";
+    var done = 0, shown = 0;
+    vocab.forEach(function(v){
+      var isDone = !!state.mastered[v.term];
+      if (isDone) done++;
+      if (filter === "todo" && isDone) return;
+      if (filter === "done" && !isDone) return;
+      if (q && (String(v.term).toLowerCase().indexOf(q) < 0 &&
+                String(v.zh || "").indexOf(q) < 0)) return;
+      shown++;
+      var card = el("div", "vcard" + (isDone ? " mastered" : ""));
+      var tools = el("div", "tools");
+      tools.appendChild(speakBtn(v.term));
+      var mk = el("button", "icon" + (isDone ? " on" : ""), isDone ? "✓" : "○");
+      mk.title = "标记为已掌握";
+      mk.addEventListener("click", function(){
+        if (state.mastered[v.term]) delete state.mastered[v.term];
+        else state.mastered[v.term] = 1;
+        persist(); renderVocab();
+      });
+      tools.appendChild(mk);
+      card.appendChild(tools);
+      var term = el("div", "term");
+      term.appendChild(document.createTextNode(v.term || ""));
+      if (v.level) term.appendChild(el("span", levelClass(v.level), v.level));
+      card.appendChild(term);
+      if (v.ipa) card.appendChild(el("div", "ipa", v.ipa));
+      var line = el("div", "zh");
+      line.appendChild(el("span", "pos", v.pos ? v.pos + " " : ""));
+      line.appendChild(document.createTextNode(v.zh || ""));
+      card.appendChild(line);
+      if (v.note) card.appendChild(el("div", "note", v.note));
+      if (v.examples && v.examples.length) {
+        var ex = el("div", "ex");
+        v.examples.slice(0, 1).forEach(function(e){
+          ex.appendChild(el("div", "e", e.en || ""));
+          if (e.zh) ex.appendChild(el("div", "z", e.zh));
+          if (e.ref) ex.appendChild(refLink(e.ref));
+        });
+        card.appendChild(ex);
+      }
+      vwrap.appendChild(card);
+    });
+    var pct = vocab.length ? Math.round(done / vocab.length * 100) : 0;
+    vcount.textContent = "已掌握 " + done + " / " + vocab.length + "（" + pct + "%）" +
+                         (shown !== vocab.length ? "，显示 " + shown : "");
+    if (!shown) vwrap.appendChild(el("p", "empty", "没有符合条件的生词。"));
+  }
+  document.getElementById("vocab-filter").addEventListener("change", renderVocab);
+  document.getElementById("vocab-search").addEventListener("input", renderVocab);
+
+  /* ---------- phrases ---------- */
+  var pw = document.getElementById("phrases");
+  if (phrases.length) {
+    var table = el("table");
+    var thead = el("thead");
+    var hr = el("tr");
+    ["搭配 / 短语", "释义", "用法提示", "出处"].forEach(function(h){ hr.appendChild(el("th", null, h)); });
+    thead.appendChild(hr); table.appendChild(thead);
+    var tb = el("tbody");
+    phrases.forEach(function(p){
+      var tr = el("tr");
+      var c1 = el("td");
+      c1.appendChild(el("div", "ph", p.term || ""));
+      if (p.pos) c1.appendChild(el("div", "small muted", p.pos));
+      tr.appendChild(c1);
+      tr.appendChild(el("td", null, p.zh || ""));
+      tr.appendChild(el("td", "small muted", p.note || ""));
+      var c4 = el("td", "small");
+      if (p.example && p.example.en) c4.appendChild(el("div", "e", p.example.en));
+      if (p.example && p.example.zh) c4.appendChild(el("div", "muted", p.example.zh));
+      if (p.ref) c4.appendChild(refLink(p.ref));
+      tr.appendChild(c4);
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb); pw.appendChild(table);
+  } else { pw.appendChild(el("p", "empty", "没有短语数据。")); }
+
+  /* ---------- grammar ---------- */
+  var gw = document.getElementById("grammar");
+  if (grammar.length) {
+    grammar.forEach(function(g, i){
+      var d = el("details", "g");
+      if (i === 0) d.open = true;
+      var s = el("summary");
+      s.appendChild(document.createTextNode(g.title || ("语法点 " + (i + 1))));
+      d.appendChild(s);
+      var inner = el("div", "inner");
+      if (g.structure) inner.appendChild(el("div", "struct", g.structure));
+      if (g.explain) inner.appendChild(el("p", null, g.explain));
+      (g.examples || []).forEach(function(e){
+        var box = el("div", "sent");
+        var en = el("div", "en"); en.appendChild(highlight(e.en || ""));
+        box.appendChild(en);
+        if (e.zh) box.appendChild(el("div", "zh", e.zh));
+        var meta2 = el("div", "small");
+        if (e.ref) meta2.appendChild(refLink(e.ref));
+        if (e.note) meta2.appendChild(el("span", "muted", "  " + e.note));
+        box.appendChild(meta2);
+        inner.appendChild(box);
+      });
+      if (g.caution) inner.appendChild(el("div", "caution", "注意：" + g.caution));
+      d.appendChild(inner);
+      gw.appendChild(d);
+    });
+  } else { gw.appendChild(el("p", "empty", "没有语法数据。")); }
+
+  /* ---------- patterns ---------- */
+  var patw = document.getElementById("patterns");
+  if (patterns.length) {
+    patterns.forEach(function(p){
+      var c = el("div", "card");
+      var en = el("div", "en");
+      en.style.fontSize = "17px";
+      en.appendChild(highlight(p.en || ""));
+      c.appendChild(en);
+      if (p.zh) c.appendChild(el("div", "zh", p.zh));
+      if (p.usage) c.appendChild(el("div", "small muted", "用法：" + p.usage));
+      if (p.rewrite) c.appendChild(el("div", "small", "换个说法：" + p.rewrite));
+      var m = el("div", "small");
+      if (p.ref) m.appendChild(refLink(p.ref));
+      c.appendChild(m);
+      patw.appendChild(c);
+    });
+  } else { patw.appendChild(el("p", "empty", "没有句型数据。")); }
+
+  /* ---------- exercises ---------- */
+  var ew = document.getElementById("exercises");
+  function norm(s){
+    return String(s == null ? "" : s).toLowerCase().replace(/[\s,.!?;:'"’“”]/g, "");
+  }
+  function accepted(ex){
+    if (Array.isArray(ex.answer)) return ex.answer;
+    return [ex.answer];
+  }
+  function trial(ex){
+    var ok = false;
+    accepted(ex).forEach(function(a){ if (norm(a) && norm(a) === norm(ex.__input || "")) ok = true; });
+    return ok;
+  }
+  if (exercises.length) {
+    exercises.forEach(function(ex, i){
+      var box = el("div", "ex");
+      var q = el("div", "q");
+      q.appendChild(el("span", "idx", "#" + (i + 1)));
+      q.appendChild(document.createTextNode(ex.question || ""));
+      box.appendChild(q);
+      var fb = el("div", "fb");
+      function feedback(ok, text){
+        fb.className = "fb show " + (ok ? "ok" : "no");
+        fb.textContent = text || "";
+      }
+      function showAnswer(){
+        fb.className = "fb show";
+        fb.textContent = "参考答案：" + accepted(ex).join(" / ") + (ex.explain ? "　—　" + ex.explain : "");
+      }
+      if (ex.type === "choice") {
+        var opts = el("div", "opts");
+        var buttons = [];
+        (ex.options || []).forEach(function(opt, oi){
+          var b = el("button", "opt", String.fromCharCode(65 + oi) + ". " + opt);
+          b.addEventListener("click", function(){
+            buttons.forEach(function(x){ x.classList.remove("right", "wrong"); });
+            var correct = String(ex.answer).toUpperCase().charCodeAt(0) - 65;
+            if (isNaN(correct)) correct = Number(ex.answer);
+            if (oi === correct) { b.classList.add("right"); feedback(true, "✓ 正确。" + (ex.explain || "")); }
+            else {
+              b.classList.add("wrong");
+              if (buttons[correct]) buttons[correct].classList.add("right");
+              feedback(false, "✗ 再想想，正确答案已标出。" + (ex.explain || ""));
+            }
+          });
+          buttons.push(b); opts.appendChild(b);
+        });
+        box.appendChild(opts);
+      } else if (ex.type === "translate") {
+        var ta = el("textarea");
+        ta.placeholder = "写出你的翻译（可留空，直接看参考答案）";
+        box.appendChild(ta);
+        var row = el("div"); row.style.marginTop = "8px";
+        var chk = el("button", "btn primary", "对照参考答案");
+        chk.addEventListener("click", showAnswer);
+        row.appendChild(chk); box.appendChild(row);
+      } else {
+        var inp = el("input");
+        inp.type = "text";
+        inp.className = "text";
+        inp.placeholder = "填入答案";
+        inp.style.minWidth = "240px";
+        box.appendChild(inp);
+        var row2 = el("div"); row2.style.marginTop = "8px";
+        var chk2 = el("button", "btn primary", "检查");
+        chk2.addEventListener("click", function(){
+          ex.__input = inp.value;
+          var ok = trial(ex);
+          inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
+          if (ok) feedback(true, "✓ 正确。" + (ex.explain || ""));
+          else { feedback(false, "✗ 再试一次（点「显示全部答案」看参考答案）。"); }
+        });
+        row2.appendChild(chk2); box.appendChild(row2);
+      }
+      box.appendChild(fb);
+      var ans = el("div", "ans");
+      ans.textContent = "参考答案：" + accepted(ex).join(" / ") + (ex.explain ? "　—　" + ex.explain : "");
+      box.appendChild(ans);
+      box._show = function(){ ans.classList.add("show"); };
+      box._reset = function(){
+        ans.classList.remove("show"); fb.className = "fb"; fb.textContent = "";
+        var t = box.querySelector("textarea"); if (t) t.value = "";
+        var n = box.querySelector("input[type=text]"); if (n) { n.value = ""; n.style.borderColor = ""; }
+        Array.prototype.forEach.call(box.querySelectorAll(".opt"), function(o){ o.classList.remove("right", "wrong"); });
+      };
+      ew.appendChild(box);
+    });
+    document.getElementById("ex-count").textContent = exercises.length + " 题";
+    document.getElementById("show-all").addEventListener("click", function(){
+      Array.prototype.forEach.call(ew.children, function(box){ if (box._show) box._show(); });
+    });
+    document.getElementById("reset-ex").addEventListener("click", function(){
+      Array.prototype.forEach.call(ew.children, function(box){ if (box._reset) box._reset(); });
+    });
+  } else {
+    ew.appendChild(el("p", "empty", "没有练习题数据。"));
+    document.querySelector('.toolbar #show-all').disabled = true;
+  }
+
+  /* ---------- tabs ---------- */
+  var tabDefs = [
+    ["overview", "概览", null],
+    ["sentences", "逐句精读", items.length],
+    ["starred", "收藏句", "dynamic"],
+    ["vocab", "生词", vocab.length],
+    ["phrases", "短语搭配", phrases.length],
+    ["grammar", "语法点", grammar.length],
+    ["patterns", "句型模板", patterns.length],
+    ["exercises", "练习", exercises.length]
+  ].filter(function(t){ return t[2] === null || t[2] === "dynamic" || t[2] > 0; });
+  var tabs = document.getElementById("tabs");
+  function showTab(name, doScroll){
+    Array.prototype.forEach.call(tabs.children, function(x){
+      x.setAttribute("aria-selected", String(x.getAttribute("data-tab") === name));
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("main > section"), function(s){
+      s.hidden = s.id !== "tab-" + name;
+    });
+    // the starred list is state-derived: refresh it whenever it becomes visible
+    if (name === "starred") renderStarred();
+    if (doScroll !== false) window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  tabDefs.forEach(function(t){
+    var b = el("button", null, t[1]);
+    b.setAttribute("role", "tab");
+    b.setAttribute("data-tab", t[0]);
+    b.setAttribute("aria-selected", "false");
+    if (t[2] === "dynamic") {
+      var dynamicBadge = el("span", "count", "0");
+      dynamicBadge.id = "badge-starred";
+      b.appendChild(dynamicBadge);
+    } else if (t[2] !== null) {
+      b.appendChild(el("span", "count", String(t[2])));
+    }
+    b.addEventListener("click", function(){
+      showTab(t[0]);
+      if (location.hash !== "#" + t[0]) history.replaceState(null, "", "#" + t[0]);
+    });
+    tabs.appendChild(b);
+  });
+  /* deep links: #sentences / #vocab … select a tab, #s123 jumps to a sentence */
+  var hash = (location.hash || "").replace(/^#/, "");
+  var jump = /^s(\d+)$/.exec(hash);
+  if (jump) {
+    showTab("sentences", false);
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  } else if (tabDefs.some(function(t){ return t[0] === hash; })) {
+    showTab(hash, false);
+  } else {
+    showTab(tabDefs[0] ? tabDefs[0][0] : "overview", false);
+  }
+  window.addEventListener("hashchange", function(){
+    var next = (location.hash || "").replace(/^#/, "");
+    var hit = /^s(\d+)$/.exec(next);
+    if (hit) { showTab("sentences", false); var t = document.getElementById(next); if (t) t.scrollIntoView(); }
+    else if (tabDefs.some(function(t){ return t[0] === next; })) showTab(next, false);
+  });
+
+  /* ---------- footer ---------- */
+  document.getElementById("footer").textContent =
+    "由 english-study-from-pdf skill 生成 · 源文件：" +
+    ((transcript.source && transcript.source.name) || "") +
+    (stats.extractedAt ? " · 提取时间 " + stats.extractedAt : "");
+
+  renderSentences();
+  syncZh();
+  renderVocab();
+  renderStarred();
+  syncStarUI();
+})();
+</script>
+</body>
+</html>
